@@ -29,4 +29,3 @@ while (pageNum < config.numberOfPage) and (not pageQueue.empty()) :
     pageNum = pageNum + 1
     for matchesLink in matchesLinks:
         pageQueue.put(matchesLink)
-
