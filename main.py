@@ -2,14 +2,8 @@
 
 import lib
 import config
-import sys
 import time
 import queue
-
-# page = lib.getWebpage(config.seed)
-# links = lib.getLinkAndTitleFromPage(page)
-# matchesLinks = lib.getMatches(links)
-# print(matchesLinks)
 
 pageNum = 0
 
