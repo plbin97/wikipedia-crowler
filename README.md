@@ -1,2 +1,2 @@
 # wikipedia-crowler
-For class project
+Assignment for IS 392
