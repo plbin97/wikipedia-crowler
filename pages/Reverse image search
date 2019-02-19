@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Reverse image search - Wikipedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Reverse_image_search","wgTitle":"Reverse image search","wgCurRevisionId":883916270,"wgRevisionId":883916270,"wgArticleId":23458925,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles containing Chinese-language text","Applications of computer vision","Image search"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Reverse_image_search","wgRelevantArticleId":23458925,"wgRequestId":"XGqhpwpAADkAABbvti8AAAAO","wgCSPNonce":false,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgMFIsPageContentModelEditable":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgWMESchemaEditAttemptStepOversample":false,"wgPoweredByHHVM":true,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgWikibaseItemId":"Q17078324","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":true,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true,"oresWikiId":"enwiki","oresBaseUrl":"http://ores.discovery.wmnet:8081/","oresApiVersion":3});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.toc.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.3d.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.tokens@0tffind",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.startup","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"];mw.loader.load(RLPAGEMODULES);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.3d.styles%7Cext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.toc.styles%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.charinsert-styles&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.33.0-wmf.17"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/9/9a/GoogleImageSearch.png"/>
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Reverse_image_search"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Reverse_image_search&amp;action=edit"/>
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Reverse_image_search&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Reverse_image_search"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 9]><script src="/w/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Reverse_image_search rootpage-Reverse_image_search skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div><div class="mw-indicators mw-body-content">
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="en">Reverse image search</h1>			<div id="bodyContent" class="mw-body-content">
+				<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>				<div id="contentSub"></div>
+				<div id="jump-to-nav"></div>				<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+				<a class="mw-jump-link" href="#p-search">Jump to search</a>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:GoogleImageSearch.png" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/GoogleImageSearch.png/220px-GoogleImageSearch.png" decoding="async" width="220" height="247" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/GoogleImageSearch.png/330px-GoogleImageSearch.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9a/GoogleImageSearch.png/440px-GoogleImageSearch.png 2x" data-file-width="821" data-file-height="921" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:GoogleImageSearch.png" class="internal" title="Enlarge"></a></div>Reverse image search using <a href="/wiki/Google_Images" title="Google Images">Google Images</a>.</div></div></div>
+<p><b>Reverse image search</b> is a <a href="/wiki/Content-based_image_retrieval" title="Content-based image retrieval">content-based image retrieval</a> (CBIR) <a href="/wiki/Query_string" title="Query string">query</a> technique that involves providing the CBIR system with a sample image that it will then base its search upon; in terms of <a href="/wiki/Information_retrieval" title="Information retrieval">information retrieval</a>, the sample image is what formulates a search query. In particular, reverse image search is characterized by a lack of search terms. This effectively removes the need for a user to guess at keywords or terms that may or may not return a correct result. Reverse image search also allows users to discover content that is related to a specific sample image,<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup>  popularity of an image, and discover manipulated versions and derivative works.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">&#91;2&#93;</a></sup><sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup>
+</p>
+<div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Uses"><span class="tocnumber">1</span> <span class="toctext">Uses</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Algorithms"><span class="tocnumber">2</span> <span class="toctext">Algorithms</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Application_in_popular_search_systems"><span class="tocnumber">3</span> <span class="toctext">Application in popular search systems</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Google_Images"><span class="tocnumber">3.1</span> <span class="toctext">Google Images</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#TinEye"><span class="tocnumber">3.2</span> <span class="toctext">TinEye</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#eBay"><span class="tocnumber">3.3</span> <span class="toctext">eBay</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#SK_Planet"><span class="tocnumber">3.4</span> <span class="toctext">SK Planet</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Pixsy"><span class="tocnumber">3.5</span> <span class="toctext">Pixsy</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Alibaba"><span class="tocnumber">3.6</span> <span class="toctext">Alibaba</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Pinterest"><span class="tocnumber">3.7</span> <span class="toctext">Pinterest</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#Research_systems"><span class="tocnumber">4</span> <span class="toctext">Research systems</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Production_reverse_image_search_systems"><span class="tocnumber">5</span> <span class="toctext">Production reverse image search systems</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Uses">Uses</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Reverse_image_search&amp;action=edit&amp;section=1" title="Edit section: Uses">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Reverse image search may be used to:<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">&#91;4&#93;</a></sup><sup id="cite_ref-5" class="reference"><a href="#cite_note-5">&#91;5&#93;</a></sup>
+</p>
+<ul><li>Locate the source of an image</li>
+<li>Find higher resolution versions</li>
+<li>Discover webpages where the image appears</li>
+<li>Track down the content creator</li>
+<li>Get information about an image</li></ul>
+<h2><span class="mw-headline" id="Algorithms">Algorithms</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Reverse_image_search&amp;action=edit&amp;section=2" title="Edit section: Algorithms">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Commonly used reverse image search algorithms include:<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">&#91;6&#93;</a></sup>
+</p>
+<ul><li><a href="/wiki/Scale-invariant_feature_transform" title="Scale-invariant feature transform">Scale-invariant feature transform</a> - to extract local features of an image <sup id="cite_ref-7" class="reference"><a href="#cite_note-7">&#91;7&#93;</a></sup></li>
+<li><a href="/wiki/Maximally_stable_extremal_regions" title="Maximally stable extremal regions">Maximally stable extremal regions</a></li>
+<li><a href="/wiki/Bag-of-words_model_in_computer_vision" title="Bag-of-words model in computer vision">Vocabulary Tree</a></li></ul>
+<h2><span class="mw-headline" id="Application_in_popular_search_systems">Application in popular search systems</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Reverse_image_search&amp;action=edit&amp;section=3" title="Edit section: Application in popular search systems">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Google_Images">Google Images</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Reverse_image_search&amp;action=edit&amp;section=4" title="Edit section: Google Images">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Google's <a href="/wiki/Google_Images#Search_by_image" title="Google Images">Search by image</a> is a feature that utilizes reverse image search and allows users to search for related images just by uploading an image or image URL. Google accomplishes this by analyzing the submitted picture and constructing a mathematical model of it using advanced algorithms.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">&#91;8&#93;</a></sup> It is then compared with billions of other images in Google's databases before returning matching and similar results. It should be noted that when available, Google also uses <a href="/wiki/Metadata" title="Metadata">metadata</a> about the image such as description.
+</p>
+<h3><span class="mw-headline" id="TinEye">TinEye</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Reverse_image_search&amp;action=edit&amp;section=5" title="Edit section: TinEye">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/wiki/TinEye" title="TinEye">TinEye</a> is a search engine specializing in reverse image search. Upon submitting an image, TinEye creates a "unique and compact digital signature or fingerprint" of said image and matches it with other indexed images.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9">&#91;9&#93;</a></sup> This procedure is able to match even heavily edited versions of the submitted image, but will not usually return similar images in the results.<sup id="cite_ref-10" class="reference"><a href="#cite_note-10">&#91;10&#93;</a></sup>
+</p>
+<h3><span class="mw-headline" id="eBay">eBay</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Reverse_image_search&amp;action=edit&amp;section=6" title="Edit section: eBay">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/wiki/EBay" title="EBay">eBay</a> ShopBot uses reverse image search to find products by a user uploaded photo. eBay uses a ResNet-50 network for category recognition, <a href="/w/index.php?title=Image_hash&amp;action=edit&amp;redlink=1" class="new" title="Image hash (page does not exist)">image hashes</a> are stored in <a href="/wiki/Bigtable" title="Bigtable">Google Bigtable</a>; <a href="/wiki/Apache_Spark" title="Apache Spark">Apache Spark</a> jobs are run in <a href="/wiki/Google_Cloud_Dataproc" title="Google Cloud Dataproc">Google Cloud Dataproc</a> for image hash extraction; and the image ranking service is deployed by <a href="/wiki/Kubernetes" title="Kubernetes">Kubernetes</a>. <sup id="cite_ref-11" class="reference"><a href="#cite_note-11">&#91;11&#93;</a></sup>
+</p>
+<h3><span class="mw-headline" id="SK_Planet">SK Planet</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Reverse_image_search&amp;action=edit&amp;section=7" title="Edit section: SK Planet">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/wiki/SK_Planet" title="SK Planet">SK Planet</a> uses reverse image search to find related fashion items on its e-commerce website. It developed the vision encoder network based on the <a href="/wiki/TensorFlow" title="TensorFlow">TensorFlow</a> <i>inception-v3</i>,  with speed of convergence and generalization for production usage. A <a href="/wiki/Recurrent_neural_network" title="Recurrent neural network">recurrent neural network</a> is used for multi-class classification, and fashion-product region-of interest detection is based on <i>Faster R-CNN</i>. SK Planet's reverse image search system is built in under 100 man-months.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">&#91;12&#93;</a></sup>
+</p>
+<h3><span class="mw-headline" id="Pixsy">Pixsy</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Reverse_image_search&amp;action=edit&amp;section=8" title="Edit section: Pixsy">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a rel="nofollow" class="external text" href="https://www.pixsy.com">Pixsy</a> reverse image search technology detects image matches<sup id="cite_ref-13" class="reference"><a href="#cite_note-13">&#91;13&#93;</a></sup> on the public internet for images uploaded to the Pixsy platform<sup id="cite_ref-14" class="reference"><a href="#cite_note-14">&#91;14&#93;</a></sup>. New matches are automatically detected and alerts send to the user. For unauthorised use, Pixsy offers a compensation recovery service<sup id="cite_ref-15" class="reference"><a href="#cite_note-15">&#91;15&#93;</a></sup><sup id="cite_ref-16" class="reference"><a href="#cite_note-16">&#91;16&#93;</a></sup> for commercial use of the image owners work. Pixsy partners with over 25 law firms and attorneys around the world to bring resolution for copyright infringement.
+</p>
+<h3><span class="mw-headline" id="Alibaba">Alibaba</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Reverse_image_search&amp;action=edit&amp;section=9" title="Edit section: Alibaba">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Alibaba released the <i>Pailitao</i> application in 2014. Pailitao (<a href="/wiki/Chinese_language" title="Chinese language">Chinese</a>&#58; <span lang="zh">拍立淘</span>, literally means shopping through the camera) allows users to search for items on Alibaba's E-commercial platform by taking a photo of the query object. The Pailitao application uses a deep CNN model with branches for joint detection and feature learning to discover the detection mask and exact discriminative feature without background disturbance. <a href="/w/index.php?title=GoogLeNet&amp;action=edit&amp;redlink=1" class="new" title="GoogLeNet (page does not exist)">GoogLeNet</a> V1 is employed as the base model for category prediction and feature learning.<sup id="cite_ref-17" class="reference"><a href="#cite_note-17">&#91;17&#93;</a></sup><sup id="cite_ref-18" class="reference"><a href="#cite_note-18">&#91;18&#93;</a></sup>
+</p>
+<h3><span class="mw-headline" id="Pinterest">Pinterest</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Reverse_image_search&amp;action=edit&amp;section=10" title="Edit section: Pinterest">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Pinterest acquired startup company <i>VisualGraph</i> in 2014 and introduced visual search on its platform.<sup id="cite_ref-19" class="reference"><a href="#cite_note-19">&#91;19&#93;</a></sup> In 2015, Pinterest published a paper at the <a href="/wiki/Association_for_Computing_Machinery" title="Association for Computing Machinery">ACM</a> <a href="/wiki/SIGKDD" title="SIGKDD">Conference on Knowledge Discovery and Data Mining</a> conference and disclosed the architecture of the system. The pipeline uses <a href="/wiki/Apache_Hadoop" title="Apache Hadoop">Apache Hadoop</a>, the open-source <i>Caffe</i> <a href="/wiki/Convolutional_neural_network" title="Convolutional neural network">convolutional neural network</a> framework, <i><a href="/wiki/Cascading_(software)" title="Cascading (software)">Cascading</a></i> for batch processing, <i>PinLater</i> for messaging, and <a href="/wiki/Apache_HBase" title="Apache HBase">Apache HBase</a> for storage. Image characteristics, including local features, deep features, salient color signatures and salient pixels are <a href="/wiki/Feature_extraction" title="Feature extraction">extracted</a> from user uploads. The system runs on <a href="/wiki/Amazon_EC2" class="mw-redirect" title="Amazon EC2">Amazon EC2</a>, and only requires a cluster of 5 GPU instances to handle daily image uploads onto Pinterest. By using reverse image search, Pinterest is able to extract visual features from fashion objects (e.g. shoes, dress, glasses, bag, watch, pants, shorts, bikini, earrings) and offer product recommendations that look similar.<sup id="cite_ref-20" class="reference"><a href="#cite_note-20">&#91;20&#93;</a></sup><sup id="cite_ref-21" class="reference"><a href="#cite_note-21">&#91;21&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Research_systems">Research systems</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Reverse_image_search&amp;action=edit&amp;section=11" title="Edit section: Research systems">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p><a href="/wiki/Microsoft_Research_Asia" title="Microsoft Research Asia">Microsoft Research Asia</a>'s Beijing Lab published a paper in the <a href="/wiki/Proceedings_of_the_IEEE" title="Proceedings of the IEEE">Proceedings of the IEEE</a> on the Arista-SS (Similar Search) and the Arista-DS (Duplicate Search) systems. Arista-DS only performs duplicate search algorithms such as <a href="/wiki/Principal_component_analysis" title="Principal component analysis">principal component analysis</a> on global image features to lower computational and memory costs. Arista-DS is able to perform duplicate search on 2 billion images with 10 servers but with the trade-off of not detecting near duplicates.<sup id="cite_ref-22" class="reference"><a href="#cite_note-22">&#91;22&#93;</a></sup><sup id="cite_ref-23" class="reference"><a href="#cite_note-23">&#91;23&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Production_reverse_image_search_systems">Production reverse image search systems</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Reverse_image_search&amp;action=edit&amp;section=12" title="Edit section: Production reverse image search systems">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div role="note" class="hatnote navigation-not-searchable">See also: <a href="/wiki/List_of_CBIR_engines" title="List of CBIR engines">List of CBIR engines</a></div>
+<ul><li><a href="/wiki/Google_Images" title="Google Images">Google Images</a></li>
+<li><a href="/wiki/Bing_(search_engine)" title="Bing (search engine)">Bing</a></li>
+<li><a href="/wiki/Yandex_Search" title="Yandex Search">Yandex Images</a></li>
+<li><a rel="nofollow" class="external text" href="https://copylio.de/">COPYLIO</a></li>
+<li><a rel="nofollow" class="external text" href="https://lapixa.de/">LAPIXA</a></li>
+<li><a rel="nofollow" class="external text" href="http://searchbyimages.com">Searchbyimages </a> powered by <a href="/wiki/Google" title="Google">Google</a></li>
+<li><a rel="nofollow" class="external text" href="https://play.google.com/store/apps/details?id=contentarcadeapps.searchbyimage">Reverse image Search for Android phones</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.picmatch.ca">picMatch</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.reverse-image-search.com/">Reverse Image Search with Google, Bing and Yandex</a></li>
+<li><a rel="nofollow" class="external text" href="https://infringement.report/">Infringement.Report</a></li>
+<li><a rel="nofollow" class="external text" href="https://www.pixsy.com/">Pixsy</a></li>
+<li><a rel="nofollow" class="external text" href="https://rezf.co/">Resolution Foundry</a></li>
+<li><a rel="nofollow" class="external text" href="http://imagewiki.org">ImageWiki</a></li>
+<li>Other systems: <a rel="nofollow" class="external text" href="http://reverse-image.com/">Dotegy Reverse Image Search</a>, <a rel="nofollow" class="external text" href="http://images.yandex.ru/">Yandex Images</a>, <a rel="nofollow" class="external text" href="https://smallseotools.com/reverse-image-search/">Reverse Image Search</a></li>
+<li>Anime-related: <a rel="nofollow" class="external text" href="http://www.iqdb.org/">Multi-Service image search</a>, <a rel="nofollow" class="external text" href="https://saucenao.com/">SauceNAO Image Search</a>, <a rel="nofollow" class="external text" href="https://whatanime.ga/">WAIT: What Anime Is This?</a></li></ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Reverse_image_search&amp;action=edit&amp;section=13" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/Content-based_image_retrieval" title="Content-based image retrieval">Content-based image retrieval</a></li>
+<li><a href="/wiki/Visual_search_engine" title="Visual search engine">Visual search engine</a></li>
+<li><a href="/wiki/FindFace" title="FindFace">FindFace</a></li></ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Reverse_image_search&amp;action=edit&amp;section=14" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<div class="mw-references-wrap mw-references-columns"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://support.google.com/images/answer/1325808?hl=en">"How to search by image"</a>. <a href="/wiki/Google" title="Google">Google</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2 November</span> 2013</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=How+to+search+by+image&amp;rft.pub=Google&amp;rft_id=https%3A%2F%2Fsupport.google.com%2Fimages%2Fanswer%2F1325808%3Fhl%3Den&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AReverse+image+search" class="Z3988"></span><style data-mw-deduplicate="TemplateStyles:r879151008">.mw-parser-output cite.citation{font-style:inherit}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration{color:#555}.mw-parser-output .cs1-subscription span,.mw-parser-output .cs1-registration span{border-bottom:1px dotted;cursor:help}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output code.cs1-code{color:inherit;background:inherit;border:inherit;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;font-size:100%}.mw-parser-output .cs1-visible-error{font-size:100%}.mw-parser-output .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration,.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-parser-output .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2em}</style></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://blog.photoshelter.com/2013/04/find-your-images-online-using-reverse-image-search-on-google/">"Find Your Images Online Using Reverse Image Search on Google"</a>. <i>PhotoShelter Blog</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=PhotoShelter+Blog&amp;rft.atitle=Find+Your+Images+Online+Using+Reverse+Image+Search+on+Google&amp;rft_id=http%3A%2F%2Fblog.photoshelter.com%2F2013%2F04%2Ffind-your-images-online-using-reverse-image-search-on-google%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AReverse+image+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://blogs.scientificamerican.com/compound-eye/2011/08/16/googles-reverse-image-search/">"Video searching with Frompo"</a>. Frompo.com<span class="reference-accessdate">. Retrieved <span class="nowrap">2 November</span> 2013</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Video+searching+with+Frompo&amp;rft.pub=Frompo.com&amp;rft_id=http%3A%2F%2Fblogs.scientificamerican.com%2Fcompound-eye%2F2011%2F08%2F16%2Fgoogles-reverse-image-search%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AReverse+image+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://makingamark.blogspot.com/2011/10/how-to-do-reverse-image-search.html">"MAKING  A  MARK"</a>. <i>makingamark.blogspot.com</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=makingamark.blogspot.com&amp;rft.atitle=MAKING++A++MARK&amp;rft_id=http%3A%2F%2Fmakingamark.blogspot.com%2F2011%2F10%2Fhow-to-do-reverse-image-search.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AReverse+image+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://www.tineye.com/faq#why">"FAQ - TinEye - Why use TinEye?"</a>. <i><a href="/wiki/TinEye" title="TinEye">TinEye</a></i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=TinEye&amp;rft.atitle=FAQ+-+TinEye+-+Why+use+TinEye%3F&amp;rft_id=https%3A%2F%2Fwww.tineye.com%2Ffaq%23why&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AReverse+image+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://research.microsoft.com/pubs/80803/CVPR%5F2009%5Fbundle.pdf">Bundling Features for Large Scale Partial-DuplicateWeb Image Search</a> <a href="/wiki/Microsoft" title="Microsoft">Microsoft</a>.</span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.computer.org/csdl/proceedings/wism/2009/3817/00/3817a366-abs.html">A New Web Image Searching Engine by Using SIFT Algorithm</a> computer.org</span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.quora.com/How-does-Googles-reverse-image-search-work">"How does Google's reverse image search work? - Quora"</a>. <i>quora.com</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=quora.com&amp;rft.atitle=How+does+Google%27s+reverse+image+search+work%3F+-+Quora&amp;rft_id=http%3A%2F%2Fwww.quora.com%2FHow-does-Googles-reverse-image-search-work&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AReverse+image+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.tineye.com/faq#how">"FAQ - TinEye - How does TinEye work?"</a>. <i>TinEye</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=TinEye&amp;rft.atitle=FAQ+-+TinEye+-+How+does+TinEye+work%3F&amp;rft_id=http%3A%2F%2Fwww.tineye.com%2Ffaq%23how&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AReverse+image+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.tineye.com/faq#similar">"FAQ - TinEye - Can TinEye find similar images??"</a>. <i>TinEye</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=TinEye&amp;rft.atitle=FAQ+-+TinEye+-+Can+TinEye+find+similar+images%3F%3F&amp;rft_id=http%3A%2F%2Fwww.tineye.com%2Ffaq%23similar&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AReverse+image+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://dl.acm.org/citation.cfm?id=3098162">"Visual Search at eBay"</a>. <i>acm.org</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=acm.org&amp;rft.atitle=Visual+Search+at+eBay&amp;rft_id=https%3A%2F%2Fdl.acm.org%2Fcitation.cfm%3Fid%3D3098162&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AReverse+image+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://arxiv.org/abs/1609.07859">Visual Fashion-Product Search at SK Planet</a></span>
+</li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><cite class="citation news"><a rel="nofollow" class="external text" href="http://www.pixsy.com/find/">"Find stolen images - Pixsy"</a>. <i>Pixsy</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2017-10-20</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Pixsy&amp;rft.atitle=Find+stolen+images+-+Pixsy&amp;rft_id=http%3A%2F%2Fwww.pixsy.com%2Ffind%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AReverse+image+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><cite class="citation news"><a rel="nofollow" class="external text" href="https://theabundantartist.com/pixsy-review-find-fight-image-theft/">"Pixsy.com review: Find &amp; Fight Image Theft - Online Marketing for Artists -"</a>. <i>Online Marketing for Artists</i>. 2015-07-02<span class="reference-accessdate">. Retrieved <span class="nowrap">2017-10-20</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Online+Marketing+for+Artists&amp;rft.atitle=Pixsy.com+review%3A+Find+%26+Fight+Image+Theft+-+Online+Marketing+for+Artists+-&amp;rft.date=2015-07-02&amp;rft_id=https%3A%2F%2Ftheabundantartist.com%2Fpixsy-review-find-fight-image-theft%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AReverse+image+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external free" href="https://plus.google.com/+SteveSchlackman">https://plus.google.com/+SteveSchlackman</a> (2014-10-18). <a rel="nofollow" class="external text" href="https://artlawjournal.com/pixsy-infringement-tool/">"Pixsy: Find and Get Paid for Image Theft"</a>. <i>artlawjournal.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2017-10-20</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=artlawjournal.com&amp;rft.atitle=Pixsy%3A+Find+and+Get+Paid+for+Image+Theft&amp;rft.date=2014-10-18&amp;rft.au=https%3A%2F%2Fplus.google.com%2F%2BSteveSchlackman&amp;rft_id=https%3A%2F%2Fartlawjournal.com%2Fpixsy-infringement-tool%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AReverse+image+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><cite class="citation news"><a rel="nofollow" class="external text" href="http://www.pixsy.com/resolve/">"Resolve image theft - Pixsy"</a>. <i>Pixsy</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2017-10-20</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Pixsy&amp;rft.atitle=Resolve+image+theft+-+Pixsy&amp;rft_id=http%3A%2F%2Fwww.pixsy.com%2Fresolve%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AReverse+image+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://dl.acm.org/citation.cfm?id=3219820">"Visual Search at Alibaba"</a>. <i>acm.org</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=acm.org&amp;rft.atitle=Visual+Search+at+Alibaba&amp;rft_id=https%3A%2F%2Fdl.acm.org%2Fcitation.cfm%3Fid%3D3219820&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AReverse+image+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://medium.com/coinmonks/shopping-with-your-camera-visual-image-search-meets-e-commerce-at-alibaba-8551925746d0">"Shopping With Your Camera: Visual Image Search Meets E-Commerce at Alibaba"</a>. <i>Alibaba Tech</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Alibaba+Tech&amp;rft.atitle=Shopping+With+Your+Camera%3A+Visual+Image+Search+Meets+E-Commerce+at+Alibaba&amp;rft_id=https%3A%2F%2Fmedium.com%2Fcoinmonks%2Fshopping-with-your-camera-visual-image-search-meets-e-commerce-at-alibaba-8551925746d0&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AReverse+image+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><cite class="citation web">Josh Constine. <a rel="nofollow" class="external text" href="https://techcrunch.com/2014/01/06/pinterest-visualgraph/">"Pinterest Acquires Image Recognition And Visual Search Startup VisualGraph"</a>. <i>TechCrunch</i>. AOL.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=TechCrunch&amp;rft.atitle=Pinterest+Acquires+Image+Recognition+And+Visual+Search+Startup+VisualGraph&amp;rft.au=Josh+Constine&amp;rft_id=https%3A%2F%2Ftechcrunch.com%2F2014%2F01%2F06%2Fpinterest-visualgraph%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AReverse+image+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://dl.acm.org/citation.cfm?id=2788621">"Visual Search at Pinterest"</a>. <i>acm.org</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=acm.org&amp;rft.atitle=Visual+Search+at+Pinterest&amp;rft_id=http%3A%2F%2Fdl.acm.org%2Fcitation.cfm%3Fid%3D2788621&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AReverse+image+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://engineering.pinterest.com/blog/building-scalable-machine-vision-pipeline">"Building a scalable machine vision pipeline"</a>. <i>Pinterest Engineering</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Pinterest+Engineering&amp;rft.atitle=Building+a+scalable+machine+vision+pipeline&amp;rft_id=https%3A%2F%2Fengineering.pinterest.com%2Fblog%2Fbuilding-scalable-machine-vision-pipeline&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AReverse+image+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://research.microsoft.com/en-us/people/xjwang/ieeep_arista.pdf">Duplicate-Search-Based Image Annotation Using Web-Scale Data</a> Microsoft.</span>
+</li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://sites.google.com/site/xjwangpage/projects/arista">"Arista - Dr. Xin-Jing Wang's Homepage"</a>. <i>Google</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Google&amp;rft.atitle=Arista+-+Dr.+Xin-Jing+Wang%27s+Homepage&amp;rft_id=https%3A%2F%2Fsites.google.com%2Fsite%2Fxjwangpage%2Fprojects%2Farista&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AReverse+image+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+</ol></div></div>
+
+<!-- 
+NewPP limit report
+Parsed by mw1348
+Cached time: 20190218121313
+Cache expiry: 2073600
+Dynamic content: false
+CPU time usage: 0.244 seconds
+Real time usage: 0.291 seconds
+Preprocessor visited node count: 749/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 22530/2097152 bytes
+Template argument size: 84/2097152 bytes
+Highest expansion depth: 7/40
+Expensive parser function count: 0/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 53921/5000000 bytes
+Number of Wikibase entities loaded: 0/400
+Lua time usage: 0.141/10.000 seconds
+Lua memory usage: 3.36 MB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  238.271      1 -total
+ 79.89%  190.365      1 Template:Reflist
+ 60.42%  143.968     16 Template:Cite_web
+ 12.32%   29.351      1 Template:Zh
+  6.92%   16.499      3 Template:Cite_news
+  5.84%   13.925      1 Template:See_also
+  1.58%    3.768      1 Template:Main_other
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:23458925-0!canonical and timestamp 20190218121313 and revision id 883916270
+ -->
+</div><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Reverse_image_search&amp;oldid=883916270">https://en.wikipedia.org/w/index.php?title=Reverse_image_search&amp;oldid=883916270</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Applications_of_computer_vision" title="Category:Applications of computer vision">Applications of computer vision</a></li><li><a href="/wiki/Category:Image_search" title="Category:Image search">Image search</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_containing_Chinese-language_text" title="Category:Articles containing Chinese-language text">Articles containing Chinese-language text</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Reverse+image+search" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Reverse+image+search" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="/wiki/Reverse_image_search" title="View the content page [c]" accesskey="c">Article</a></span></li><li id="ca-talk"><span><a href="/wiki/Talk:Reverse_image_search" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+						<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+						<ul class="menu">
+													</ul>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="/wiki/Reverse_image_search">Read</a></span></li><li id="ca-edit" class="collapsible"><span><a href="/w/index.php?title=Reverse_image_search&amp;action=edit" title="Edit this page [e]" accesskey="e">Edit</a></span></li><li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Reverse_image_search&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+						<h3 id="p-cactions-label"><span>More</span></h3>
+						<ul class="menu">
+													</ul>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-interaction" aria-labelledby="p-interaction-label">
+			<h3 id="p-interaction-label">Interaction</h3>
+			<div class="body">
+								<ul>
+					<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Reverse_image_search" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Reverse_image_search" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Reverse_image_search&amp;oldid=883916270" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Reverse_image_search&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q17078324" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Reverse_image_search&amp;id=883916270" title="Information on how to cite this page">Cite this page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-coll-print_export" aria-labelledby="p-coll-print_export-label">
+			<h3 id="p-coll-print_export-label">Print/export</h3>
+			<div class="body">
+								<ul>
+					<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Reverse+image+search">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:ElectronPdf&amp;page=Reverse+image+search&amp;action=show-download-screen">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Reverse_image_search&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label">
+			<h3 id="p-lang-label">Languages</h3>
+			<div class="body">
+								<ul>
+									</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-add wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q17078324#sitelinks-wikipedia" title="Add interlanguage links" class="wbc-editpage">Add links</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> This page was last edited on 18 February 2019, at 12:13<span class="anonymous-show">&#160;(UTC)</span>.</li>
+								<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+								<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+								<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+								<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+								<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+								<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+								<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Reverse_image_search&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+						<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>					</li>
+										<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.244","walltime":"0.291","ppvisitednodes":{"value":749,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":22530,"limit":2097152},"templateargumentsize":{"value":84,"limit":2097152},"expansiondepth":{"value":7,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":53921,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  238.271      1 -total"," 79.89%  190.365      1 Template:Reflist"," 60.42%  143.968     16 Template:Cite_web"," 12.32%   29.351      1 Template:Zh","  6.92%   16.499      3 Template:Cite_news","  5.84%   13.925      1 Template:See_also","  1.58%    3.768      1 Template:Main_other"]},"scribunto":{"limitreport-timeusage":{"value":"0.141","limit":"10.000"},"limitreport-memusage":{"value":3525402,"limit":52428800}},"cachereport":{"origin":"mw1348","timestamp":"20190218121313","ttl":2073600,"transientcontent":false}}});mw.config.set({"wgBackendResponseTime":110,"wgHostname":"mw1262"});});</script>
+	</body>
+</html>

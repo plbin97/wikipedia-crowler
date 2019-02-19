@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Search game - Wikipedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Search_game","wgTitle":"Search game","wgCurRevisionId":813551980,"wgRevisionId":813551980,"wgArticleId":22585834,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Non-cooperative games","Search algorithms"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Search_game","wgRelevantArticleId":22585834,"wgRequestId":"XGoQiwpAAEEAAFEpI@QAAABS","wgCSPNonce":false,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgMFIsPageContentModelEditable":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgWMESchemaEditAttemptStepOversample":false,"wgPoweredByHHVM":true,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgWikibaseItemId":"Q7441678","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":true,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true,"oresWikiId":"enwiki","oresBaseUrl":"http://ores.discovery.wmnet:8081/","oresApiVersion":3});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.3d.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.tokens@0tffind",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.startup","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"];mw.loader.load(RLPAGEMODULES);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.3d.styles%7Cext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.charinsert-styles&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.33.0-wmf.17"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Search_game"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Search_game&amp;action=edit"/>
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Search_game&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Search_game"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 9]><script src="/w/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Search_game rootpage-Search_game skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div><div class="mw-indicators mw-body-content">
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="en">Search game</h1>			<div id="bodyContent" class="mw-body-content">
+				<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>				<div id="contentSub"></div>
+				<div id="jump-to-nav"></div>				<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+				<a class="mw-jump-link" href="#p-search">Jump to search</a>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p>A <b>search game</b> is a two-person <a href="/wiki/Zero-sum_game" title="Zero-sum game">zero-sum game</a> which takes place in a <a href="/wiki/Set_(mathematics)" title="Set (mathematics)">set</a> called the search space. The searcher can choose any continuous trajectory subject to a maximal velocity constraint. It is always assumed that neither the searcher nor the hider has any knowledge about the movement of the other player until their distance apart is less than or equal to the discovery radius and at this very moment capture occurs. As mathematical models, search games can be applied to areas such as hide-and-seek games that children play or representations of some tactical military situations. The area of search games was introduced in the last chapter of <a href="/wiki/Rufus_Isaacs_(game_theorist)" title="Rufus Isaacs (game theorist)">Rufus Isaacs</a>' classic book "Differential Games"<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup> and has been developed further by <a href="/wiki/Shmuel_Gal" title="Shmuel Gal">Shmuel Gal</a><sup id="cite_ref-Gal_2-0" class="reference"><a href="#cite_note-Gal-2">&#91;2&#93;</a></sup><sup id="cite_ref-Alpern&amp;Gal_3-0" class="reference"><a href="#cite_note-Alpern&amp;Gal-3">&#91;3&#93;</a></sup> and <a href="/wiki/Steve_Alpern" title="Steve Alpern">Steve Alpern</a>.<sup id="cite_ref-Alpern&amp;Gal_3-1" class="reference"><a href="#cite_note-Alpern&amp;Gal-3">&#91;3&#93;</a></sup> The <a href="/wiki/Princess_and_monster_game" class="mw-redirect" title="Princess and monster game">princess and monster game</a> deals with a moving target.
+</p>
+<h2><span class="mw-headline" id="Strategy">Strategy</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Search_game&amp;action=edit&amp;section=1" title="Edit section: Strategy">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>A natural strategy to search for a stationary target in a graph is to find a minimal closed curve L that covers all the arcs of the graph. (L is called a <a href="/wiki/Chinese_postman" class="mw-redirect" title="Chinese postman">Chinese postman</a> tour). Then, traverse L with probability 1/2 for each direction. This strategy seems to work well if the graph is <a href="/wiki/Eulerian_path" title="Eulerian path">Eulerian</a>. In general, this random Chinese postman tour is indeed an optimal search strategy if and only if the graph consists of a set of Eulerian graphs connected in a tree-like structure.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">&#91;4&#93;</a></sup> A misleadingly simple example of a graph not in this family consists of two nodes connected by three arcs. The random Chinese postman tour (equivalent to traversing the three arcs in a random order) is not optimal, and the optimal way to search these three arcs is complicated.<sup id="cite_ref-Gal_2-1" class="reference"><a href="#cite_note-Gal-2">&#91;2&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Unbounded_domains">Unbounded domains</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Search_game&amp;action=edit&amp;section=2" title="Edit section: Unbounded domains">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In general, the reasonable framework for searching an unbounded domain, as in the case of an <a href="/wiki/Online_algorithm" title="Online algorithm">online algorithm</a>, is to use a normalized <a href="/wiki/Loss_function" title="Loss function">cost function</a> (called the <a href="/wiki/Competitive_analysis_(online_algorithm)" title="Competitive analysis (online algorithm)">competitive ratio</a> in Computer Science literature). The <a href="/wiki/Minimax" title="Minimax">minimax</a> trajectory for problems of these types is always a geometric sequence (or exponential function for continuous problems). This result yields an easy method to find the minimax trajectory by minimizing over a single parameter (the generator of this sequence) instead of searching over the whole trajectory space. This tool has been used for the <a href="/wiki/Linear_search_problem" title="Linear search problem">linear search problem</a>, i.e., finding a target on the infinite line, which has attracted much attention over several decades and has been analyzed as a search game.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">&#91;5&#93;</a></sup> It has also been used to find a minimax trajectory for searching a set of concurrent rays. Optimal searching in the plane is performed by using exponential spirals.<sup id="cite_ref-Gal_2-2" class="reference"><a href="#cite_note-Gal-2">&#91;2&#93;</a></sup><sup id="cite_ref-Alpern&amp;Gal_3-2" class="reference"><a href="#cite_note-Alpern&amp;Gal-3">&#91;3&#93;</a></sup><sup id="cite_ref-6" class="reference"><a href="#cite_note-6">&#91;6&#93;</a></sup> 
+Searching a set of concurrent rays was later re-discovered in Computer Science literature as the 'cow-path problem'.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">&#91;7&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Search_game&amp;action=edit&amp;section=3" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">Rufus Isaacs, <i>Differential Games</i>, John Wiley and Sons, (1965),</span>
+</li>
+<li id="cite_note-Gal-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-Gal_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Gal_2-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-Gal_2-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text">S. Gal, <i>Search Games</i>, Academic Press, New York (1980)</span>
+</li>
+<li id="cite_note-Alpern&amp;Gal-3"><span class="mw-cite-backlink">^ <a href="#cite_ref-Alpern&amp;Gal_3-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Alpern&amp;Gal_3-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-Alpern&amp;Gal_3-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text">S. Alpern and S. Gal, <i>The Theory of Search Games and Rendezvous</i>, Springer (2003).</span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text">S. Gal, On the optimality of a simple strategy for searching graphs, Int. J. Game Theory (2000).</span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">A. Beck and D.J. Newman. Yet More on the linear search problem. Israel J. Math. (1970).</span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text">M. Chrobak, A princess swimming in the fog looking for a monster cow, ACM Sigact news, 35(2), 74–78 (2004).</span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text">MY Kao, JH Reif and SR Tate, Searching in an unknown environment: an optimal randomized algorithm for the cow-path problem, SODA 1993.</span>
+</li>
+</ol></div>
+<div role="navigation" class="navbox" aria-labelledby="Topics_in_game_theory" style="padding:3px"><table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:Game_theory" title="Template:Game theory"><abbr title="View this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Game_theory" title="Template talk:Game theory"><abbr title="Discuss this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Game_theory&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a></li></ul></div><div id="Topics_in_game_theory" style="font-size:114%;margin:0 4em">Topics in <a href="/wiki/Game_theory" title="Game theory">game theory</a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">Definitions</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Cooperative_game_theory" title="Cooperative game theory">Cooperative game</a></li>
+<li><a href="/wiki/Determinacy" title="Determinacy">Determinacy</a></li>
+<li><a href="/wiki/Escalation_of_commitment" title="Escalation of commitment">Escalation of commitment</a></li>
+<li><a href="/wiki/Extensive-form_game" title="Extensive-form game">Extensive-form game</a></li>
+<li><a href="/wiki/First-player_and_second-player_win" title="First-player and second-player win">First-player and second-player win</a></li>
+<li><a href="/wiki/Game_complexity" title="Game complexity">Game complexity</a></li>
+<li><a href="/wiki/Graphical_game_theory" title="Graphical game theory">Graphical game</a></li>
+<li><a href="/wiki/Hierarchy_of_beliefs" title="Hierarchy of beliefs">Hierarchy of beliefs</a></li>
+<li><a href="/wiki/Information_set_(game_theory)" title="Information set (game theory)">Information set</a></li>
+<li><a href="/wiki/Normal-form_game" title="Normal-form game">Normal-form game</a></li>
+<li><a href="/wiki/Preference_(economics)" title="Preference (economics)">Preference</a></li>
+<li><a href="/wiki/Sequential_game" title="Sequential game">Sequential game</a></li>
+<li><a href="/wiki/Simultaneous_game" title="Simultaneous game">Simultaneous game</a></li>
+<li><a href="/wiki/Simultaneous_action_selection" title="Simultaneous action selection">Simultaneous action selection</a></li>
+<li><a href="/wiki/Solved_game" title="Solved game">Solved game</a></li>
+<li><a href="/wiki/Succinct_game" title="Succinct game">Succinct game</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Economic_equilibrium" title="Economic equilibrium">Equilibrium</a><br /><a href="/wiki/Solution_concept" title="Solution concept">concepts</a></th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Nash_equilibrium" title="Nash equilibrium">Nash equilibrium</a></li>
+<li><a href="/wiki/Subgame_perfect_equilibrium" title="Subgame perfect equilibrium">Subgame perfection</a></li>
+<li><a href="/wiki/Mertens-stable_equilibrium" title="Mertens-stable equilibrium">Mertens-stable equilibrium</a></li>
+<li><a href="/wiki/Bayesian_Nash_equilibrium" class="mw-redirect" title="Bayesian Nash equilibrium">Bayesian Nash equilibrium</a></li>
+<li><a href="/wiki/Perfect_Bayesian_equilibrium" title="Perfect Bayesian equilibrium">Perfect Bayesian equilibrium</a></li>
+<li><a href="/wiki/Trembling_hand_perfect_equilibrium" title="Trembling hand perfect equilibrium">Trembling hand</a></li>
+<li><a href="/wiki/Proper_equilibrium" title="Proper equilibrium">Proper equilibrium</a></li>
+<li><a href="/wiki/Epsilon-equilibrium" title="Epsilon-equilibrium">Epsilon-equilibrium</a></li>
+<li><a href="/wiki/Correlated_equilibrium" title="Correlated equilibrium">Correlated equilibrium</a></li>
+<li><a href="/wiki/Sequential_equilibrium" title="Sequential equilibrium">Sequential equilibrium</a></li>
+<li><a href="/wiki/Quasi-perfect_equilibrium" title="Quasi-perfect equilibrium">Quasi-perfect equilibrium</a></li>
+<li><a href="/wiki/Evolutionarily_stable_strategy" title="Evolutionarily stable strategy">Evolutionarily stable strategy</a></li>
+<li><a href="/wiki/Risk_dominance" title="Risk dominance">Risk dominance</a></li>
+<li><a href="/wiki/Core_(game_theory)" title="Core (game theory)"> Core</a></li>
+<li><a href="/wiki/Shapley_value" title="Shapley value">Shapley value</a></li>
+<li><a href="/wiki/Pareto_efficiency" title="Pareto efficiency">Pareto efficiency</a></li>
+<li><a href="/wiki/Potential_game#Bounded_Rational_Models" title="Potential game">Gibbs equilibrium</a></li>
+<li><a href="/wiki/Quantal_response_equilibrium" title="Quantal response equilibrium">Quantal response equilibrium</a></li>
+<li><a href="/wiki/Self-confirming_equilibrium" title="Self-confirming equilibrium">Self-confirming equilibrium</a></li>
+<li><a href="/wiki/Strong_Nash_equilibrium" title="Strong Nash equilibrium">Strong Nash equilibrium</a></li>
+<li><a href="/wiki/Markov_perfect_equilibrium" title="Markov perfect equilibrium">Markov perfect equilibrium</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Strategy_(game_theory)" title="Strategy (game theory)">Strategies</a></th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Strategic_dominance" title="Strategic dominance">Dominant strategies</a></li>
+<li><a href="/wiki/Strategy_(game_theory)" title="Strategy (game theory)">Pure strategy</a></li>
+<li><a href="/wiki/Strategy_(game_theory)#Mixed_strategy" title="Strategy (game theory)">Mixed strategy</a></li>
+<li><a href="/wiki/Strategy-stealing_argument" title="Strategy-stealing argument">Strategy-stealing argument</a></li>
+<li><a href="/wiki/Tit_for_tat" title="Tit for tat">Tit for tat</a></li>
+<li><a href="/wiki/Grim_trigger" title="Grim trigger">Grim trigger</a></li>
+<li><a href="/wiki/Collusion" title="Collusion">Collusion</a></li>
+<li><a href="/wiki/Backward_induction" title="Backward induction">Backward induction</a></li>
+<li><a href="/wiki/Forward_induction" class="mw-redirect" title="Forward induction">Forward induction</a></li>
+<li><a href="/wiki/Markov_strategy" title="Markov strategy">Markov strategy</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Classes<br />of games</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Symmetric_game" title="Symmetric game">Symmetric game</a></li>
+<li><a href="/wiki/Perfect_information" title="Perfect information">Perfect information</a></li>
+<li><a href="/wiki/Repeated_game" title="Repeated game">Repeated game</a></li>
+<li><a href="/wiki/Signaling_game" title="Signaling game">Signaling game</a></li>
+<li><a href="/wiki/Screening_game" title="Screening game">Screening game</a></li>
+<li><a href="/wiki/Cheap_talk" title="Cheap talk">Cheap talk</a></li>
+<li><a href="/wiki/Zero-sum_game" title="Zero-sum game">Zero-sum game</a></li>
+<li><a href="/wiki/Mechanism_design" title="Mechanism design">Mechanism design</a></li>
+<li><a href="/wiki/Bargaining_problem" title="Bargaining problem">Bargaining problem</a></li>
+<li><a href="/wiki/Stochastic_game" title="Stochastic game">Stochastic game</a></li>
+<li><a href="/wiki/N-player_game" title="N-player game"><i>n</i>-player game</a></li>
+<li><a href="/wiki/Poisson_games" title="Poisson games">Large Poisson game</a></li>
+<li><a href="/wiki/Nontransitive_game" title="Nontransitive game">Nontransitive game</a></li>
+<li><a href="/wiki/Global_game" title="Global game">Global game</a></li>
+<li><a href="/wiki/Strictly_determined_game" title="Strictly determined game">Strictly determined game</a></li>
+<li><a href="/wiki/Potential_game" title="Potential game">Potential game</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/List_of_games_in_game_theory" title="List of games in game theory">Games</a></th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Chess" title="Chess">Chess</a></li>
+<li><a href="/wiki/Infinite_chess" title="Infinite chess">Infinite chess</a></li>
+<li><a href="/wiki/Draughts" title="Draughts">Checkers</a></li>
+<li><a href="/wiki/Tic-tac-toe" title="Tic-tac-toe">Tic-tac-toe</a></li>
+<li><a href="/wiki/Prisoner%27s_dilemma" title="Prisoner&#39;s dilemma">Prisoner's dilemma</a></li>
+<li><a href="/wiki/Optional_prisoner%27s_dilemma" title="Optional prisoner&#39;s dilemma">Optional prisoner's dilemma</a></li>
+<li><a href="/wiki/Traveler%27s_dilemma" title="Traveler&#39;s dilemma">Traveler's dilemma</a></li>
+<li><a href="/wiki/Coordination_game" title="Coordination game">Coordination game</a></li>
+<li><a href="/wiki/Chicken_(game)" title="Chicken (game)">Chicken</a></li>
+<li><a href="/wiki/Centipede_game" title="Centipede game">Centipede game</a></li>
+<li><a href="/wiki/Volunteer%27s_dilemma" title="Volunteer&#39;s dilemma">Volunteer's dilemma</a></li>
+<li><a href="/wiki/Dollar_auction" title="Dollar auction">Dollar auction</a></li>
+<li><a href="/wiki/Battle_of_the_sexes_(game_theory)" title="Battle of the sexes (game theory)">Battle of the sexes</a></li>
+<li><a href="/wiki/Stag_hunt" title="Stag hunt">Stag hunt</a></li>
+<li><a href="/wiki/Matching_pennies" title="Matching pennies">Matching pennies</a></li>
+<li><a href="/wiki/Ultimatum_game" title="Ultimatum game">Ultimatum game</a></li>
+<li><a href="/wiki/Rock%E2%80%93paper%E2%80%93scissors" title="Rock–paper–scissors">Rock–paper–scissors</a></li>
+<li><a href="/wiki/Pirate_game" title="Pirate game">Pirate game</a></li>
+<li><a href="/wiki/Dictator_game" title="Dictator game">Dictator game</a></li>
+<li><a href="/wiki/Public_goods_game" title="Public goods game">Public goods game</a></li>
+<li><a href="/wiki/Blotto_game" title="Blotto game">Blotto game</a></li>
+<li><a href="/wiki/War_of_attrition_(game)" title="War of attrition (game)">War of attrition</a></li>
+<li><a href="/wiki/El_Farol_Bar_problem" title="El Farol Bar problem">El Farol Bar problem</a></li>
+<li><a href="/wiki/Fair_division" title="Fair division">Fair division</a></li>
+<li><a href="/wiki/Fair_cake-cutting" title="Fair cake-cutting">Fair cake-cutting</a></li>
+<li><a href="/wiki/Cournot_competition" title="Cournot competition">Cournot game</a></li>
+<li><a href="/wiki/Deadlock_(game_theory)" title="Deadlock (game theory)">Deadlock</a></li>
+<li><a href="/wiki/Unscrupulous_diner%27s_dilemma" title="Unscrupulous diner&#39;s dilemma">Diner's dilemma</a></li>
+<li><a href="/wiki/Guess_2/3_of_the_average" title="Guess 2/3 of the average">Guess 2/3 of the average</a></li>
+<li><a href="/wiki/Kuhn_poker" title="Kuhn poker">Kuhn poker</a></li>
+<li><a href="/wiki/Bargaining_problem" title="Bargaining problem">Nash bargaining game</a></li>
+<li><a href="/wiki/Prisoners_and_hats_puzzle" class="mw-redirect" title="Prisoners and hats puzzle">Prisoners and hats puzzle</a></li>
+<li><a href="/wiki/Dictator_game#Trust_game" title="Dictator game">Trust game</a></li>
+<li><a href="/wiki/Princess_and_Monster_game" title="Princess and Monster game">Princess and Monster game</a></li>
+<li><a href="/wiki/Rendezvous_problem" title="Rendezvous problem">Rendezvous problem</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Theorems</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Arrow%27s_impossibility_theorem" title="Arrow&#39;s impossibility theorem">Arrow's impossibility theorem</a></li>
+<li><a href="/wiki/Aumann%27s_agreement_theorem" title="Aumann&#39;s agreement theorem">Aumann's agreement theorem</a></li>
+<li><a href="/wiki/Folk_theorem_(game_theory)" title="Folk theorem (game theory)">Folk theorem</a></li>
+<li><a href="/wiki/Minimax" title="Minimax">Minimax theorem</a></li>
+<li><a href="/wiki/Nash_equilibrium" title="Nash equilibrium">Nash's theorem</a></li>
+<li><a href="/wiki/Purification_theorem" title="Purification theorem">Purification theorem</a></li>
+<li><a href="/wiki/Revelation_principle" title="Revelation principle">Revelation principle</a></li>
+<li><a href="/wiki/Zermelo%27s_theorem_(game_theory)" title="Zermelo&#39;s theorem (game theory)">Zermelo's theorem</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Key<br />figures</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Albert_W._Tucker" title="Albert W. Tucker">Albert W. Tucker</a></li>
+<li><a href="/wiki/Amos_Tversky" title="Amos Tversky">Amos Tversky</a></li>
+<li><a href="/wiki/Ariel_Rubinstein" title="Ariel Rubinstein">Ariel Rubinstein</a></li>
+<li><a href="/wiki/Claude_Shannon" title="Claude Shannon">Claude Shannon</a></li>
+<li><a href="/wiki/Daniel_Kahneman" title="Daniel Kahneman">Daniel Kahneman</a></li>
+<li><a href="/wiki/David_K._Levine" title="David K. Levine">David K. Levine</a></li>
+<li><a href="/wiki/David_M._Kreps" title="David M. Kreps">David M. Kreps</a></li>
+<li><a href="/wiki/Donald_B._Gillies" title="Donald B. Gillies">Donald B. Gillies</a></li>
+<li><a href="/wiki/Drew_Fudenberg" title="Drew Fudenberg">Drew Fudenberg</a></li>
+<li><a href="/wiki/Eric_Maskin" title="Eric Maskin">Eric Maskin</a></li>
+<li><a href="/wiki/Harold_W._Kuhn" title="Harold W. Kuhn">Harold W. Kuhn</a></li>
+<li><a href="/wiki/Herbert_A._Simon" title="Herbert A. Simon">Herbert Simon</a></li>
+<li><a href="/wiki/Herv%C3%A9_Moulin" title="Hervé Moulin">Hervé Moulin</a></li>
+<li><a href="/wiki/Jean_Tirole" title="Jean Tirole">Jean Tirole</a></li>
+<li><a href="/wiki/Jean-Fran%C3%A7ois_Mertens" title="Jean-François Mertens">Jean-François Mertens</a></li>
+<li><a href="/wiki/Jennifer_Tour_Chayes" title="Jennifer Tour Chayes">Jennifer Tour Chayes</a></li>
+<li><a href="/wiki/John_Harsanyi" title="John Harsanyi">John Harsanyi</a></li>
+<li><a href="/wiki/John_Maynard_Smith" title="John Maynard Smith">John Maynard Smith</a></li>
+<li><a href="/wiki/Antoine_Augustin_Cournot" title="Antoine Augustin Cournot">Antoine Augustin Cournot</a></li>
+<li><a href="/wiki/John_Forbes_Nash_Jr." title="John Forbes Nash Jr.">John Nash</a></li>
+<li><a href="/wiki/John_von_Neumann" title="John von Neumann">John von Neumann</a></li>
+<li><a href="/wiki/Kenneth_Arrow" title="Kenneth Arrow">Kenneth Arrow</a></li>
+<li><a href="/wiki/Kenneth_Binmore" title="Kenneth Binmore">Kenneth Binmore</a></li>
+<li><a href="/wiki/Leonid_Hurwicz" title="Leonid Hurwicz">Leonid Hurwicz</a></li>
+<li><a href="/wiki/Lloyd_Shapley" title="Lloyd Shapley">Lloyd Shapley</a></li>
+<li><a href="/wiki/Melvin_Dresher" title="Melvin Dresher">Melvin Dresher</a></li>
+<li><a href="/wiki/Merrill_M._Flood" title="Merrill M. Flood">Merrill M. Flood</a></li>
+<li><a href="/wiki/Olga_Bondareva" title="Olga Bondareva">Olga Bondareva</a></li>
+<li><a href="/wiki/Oskar_Morgenstern" title="Oskar Morgenstern">Oskar Morgenstern</a></li>
+<li><a href="/wiki/Paul_Milgrom" title="Paul Milgrom">Paul Milgrom</a></li>
+<li><a href="/wiki/Peyton_Young" title="Peyton Young">Peyton Young</a></li>
+<li><a href="/wiki/Reinhard_Selten" title="Reinhard Selten">Reinhard Selten</a></li>
+<li><a href="/wiki/Robert_Axelrod" title="Robert Axelrod">Robert Axelrod</a></li>
+<li><a href="/wiki/Robert_Aumann" title="Robert Aumann">Robert Aumann</a></li>
+<li><a href="/wiki/Robert_B._Wilson" title="Robert B. Wilson">Robert B. Wilson</a></li>
+<li><a href="/wiki/Roger_Myerson" title="Roger Myerson">Roger Myerson</a></li>
+<li><a href="/wiki/Samuel_Bowles_(economist)" title="Samuel Bowles (economist)"> Samuel Bowles</a></li>
+<li><a href="/wiki/Suzanne_Scotchmer" title="Suzanne Scotchmer">Suzanne Scotchmer</a></li>
+<li><a href="/wiki/Thomas_Schelling" title="Thomas Schelling">Thomas Schelling</a></li>
+<li><a href="/wiki/William_Vickrey" title="William Vickrey">William Vickrey</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">See also</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/All-pay_auction" title="All-pay auction">All-pay auction</a></li>
+<li><a href="/wiki/Alpha%E2%80%93beta_pruning" title="Alpha–beta pruning">Alpha–beta pruning</a></li>
+<li><a href="/wiki/Bertrand_paradox_(economics)" title="Bertrand paradox (economics)">Bertrand paradox</a></li>
+<li><a href="/wiki/Bounded_rationality" title="Bounded rationality">Bounded rationality</a></li>
+<li><a href="/wiki/Combinatorial_game_theory" title="Combinatorial game theory">Combinatorial game theory</a></li>
+<li><a href="/wiki/Confrontation_analysis" title="Confrontation analysis">Confrontation analysis</a></li>
+<li><a href="/wiki/Coopetition" title="Coopetition">Coopetition</a></li>
+<li><a href="/wiki/First-move_advantage_in_chess" title="First-move advantage in chess">First-move advantage in chess</a></li>
+<li><a href="/wiki/Game_mechanics" title="Game mechanics">Game mechanics</a></li>
+<li><a href="/wiki/Glossary_of_game_theory" title="Glossary of game theory">Glossary of game theory</a></li>
+<li><a href="/wiki/List_of_game_theorists" title="List of game theorists">List of game theorists</a></li>
+<li><a href="/wiki/List_of_games_in_game_theory" title="List of games in game theory">List of games in game theory</a></li>
+<li><a href="/wiki/No-win_situation" title="No-win situation">No-win situation</a></li>
+<li><a href="/wiki/Solving_chess" title="Solving chess">Solving chess</a></li>
+<li><a href="/wiki/Topological_game" title="Topological game">Topological game</a></li>
+<li><a href="/wiki/Tragedy_of_the_commons" title="Tragedy of the commons">Tragedy of the commons</a></li>
+<li><a href="/wiki/Tyranny_of_small_decisions" title="Tyranny of small decisions">Tyranny of small decisions</a></li></ul>
+</div></td></tr></tbody></table></div>
+
+<!-- 
+NewPP limit report
+Parsed by mw1268
+Cached time: 20190209213812
+Cache expiry: 2073600
+Dynamic content: false
+CPU time usage: 0.068 seconds
+Real time usage: 0.088 seconds
+Preprocessor visited node count: 206/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 23253/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 4/40
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 3048/5000000 bytes
+Number of Wikibase entities loaded: 0/400
+Lua time usage: 0.009/10.000 seconds
+Lua memory usage: 776 KB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   28.149      1 Template:Game_theory
+100.00%   28.149      1 -total
+ 88.26%   24.845      1 Template:Navbox
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:22585834-0!canonical and timestamp 20190209213812 and revision id 813551980
+ -->
+</div><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Search_game&amp;oldid=813551980">https://en.wikipedia.org/w/index.php?title=Search_game&amp;oldid=813551980</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Non-cooperative_games" title="Category:Non-cooperative games">Non-cooperative games</a></li><li><a href="/wiki/Category:Search_algorithms" title="Category:Search algorithms">Search algorithms</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Search+game" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Search+game" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="/wiki/Search_game" title="View the content page [c]" accesskey="c">Article</a></span></li><li id="ca-talk"><span><a href="/wiki/Talk:Search_game" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+						<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+						<ul class="menu">
+													</ul>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="/wiki/Search_game">Read</a></span></li><li id="ca-edit" class="collapsible"><span><a href="/w/index.php?title=Search_game&amp;action=edit" title="Edit this page [e]" accesskey="e">Edit</a></span></li><li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Search_game&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+						<h3 id="p-cactions-label"><span>More</span></h3>
+						<ul class="menu">
+													</ul>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-interaction" aria-labelledby="p-interaction-label">
+			<h3 id="p-interaction-label">Interaction</h3>
+			<div class="body">
+								<ul>
+					<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Search_game" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Search_game" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Search_game&amp;oldid=813551980" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Search_game&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q7441678" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Search_game&amp;id=813551980" title="Information on how to cite this page">Cite this page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-coll-print_export" aria-labelledby="p-coll-print_export-label">
+			<h3 id="p-coll-print_export-label">Print/export</h3>
+			<div class="body">
+								<ul>
+					<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Search+game">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:ElectronPdf&amp;page=Search+game&amp;action=show-download-screen">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Search_game&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label">
+			<h3 id="p-lang-label">Languages</h3>
+			<div class="body">
+								<ul>
+									</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-add wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q7441678#sitelinks-wikipedia" title="Add interlanguage links" class="wbc-editpage">Add links</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> This page was last edited on 4 December 2017, at 01:18<span class="anonymous-show">&#160;(UTC)</span>.</li>
+								<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+								<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+								<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+								<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+								<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+								<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+								<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Search_game&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+						<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>					</li>
+										<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.068","walltime":"0.088","ppvisitednodes":{"value":206,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":23253,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":4,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":3048,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   28.149      1 Template:Game_theory","100.00%   28.149      1 -total"," 88.26%   24.845      1 Template:Navbox"]},"scribunto":{"limitreport-timeusage":{"value":"0.009","limit":"10.000"},"limitreport-memusage":{"value":794486,"limit":52428800}},"cachereport":{"origin":"mw1268","timestamp":"20190209213812","ttl":2073600,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Search game","url":"https:\/\/en.wikipedia.org\/wiki\/Search_game","sameAs":"http:\/\/www.wikidata.org\/entity\/Q7441678","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q7441678","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2009-04-27T08:10:22Z","dateModified":"2017-12-04T01:18:32Z"}</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":115,"wgHostname":"mw1270"});});</script>
+	</body>
+</html>

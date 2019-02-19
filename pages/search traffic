@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Internet traffic - Wikipedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Internet_traffic","wgTitle":"Internet traffic","wgCurRevisionId":883424859,"wgRevisionId":883424859,"wgArticleId":856845,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from February 2015","Computer network analysis"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Internet_traffic","wgRelevantArticleId":856845,"wgRequestId":"XGt-oQpAICAAAAhSapEAAACN","wgCSPNonce":false,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Online_traffic","wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgMFIsPageContentModelEditable":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgWMESchemaEditAttemptStepOversample":false,"wgPoweredByHHVM":true,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgInternalRedirectTargetUrl":"/wiki/Internet_traffic","wgWikibaseItemId":"Q3536440","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":true,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true,"oresWikiId":"enwiki","oresBaseUrl":"http://ores.discovery.wmnet:8081/","oresApiVersion":3});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.toc.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.3d.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.tokens@0tffind",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});RLPAGEMODULES=["mediawiki.action.view.redirect","ext.cite.ux-enhancements","site","mediawiki.page.startup","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"];mw.loader.load(RLPAGEMODULES);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.3d.styles%7Cext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.toc.styles%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.charinsert-styles&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.33.0-wmf.17"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Internet_traffic"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Internet_traffic&amp;action=edit"/>
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Internet_traffic&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Internet_traffic"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 9]><script src="/w/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Internet_traffic rootpage-Internet_traffic skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div><div class="mw-indicators mw-body-content">
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="en">Internet traffic</h1>			<div id="bodyContent" class="mw-body-content">
+				<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>				<div id="contentSub"><span class="mw-redirectedfrom">&#160;&#160;(Redirected from <a href="/w/index.php?title=Online_traffic&amp;redirect=no" class="mw-redirect" title="Online traffic">Online traffic</a>)</span></div>
+				<div id="jump-to-nav"></div>				<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+				<a class="mw-jump-link" href="#p-search">Jump to search</a>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p><b>Internet traffic</b> is the flow of <a href="/wiki/Data" title="Data">data</a> across the <a href="/wiki/Internet" title="Internet">Internet</a>.
+</p><p>Because of the distributed nature of the Internet, there is no single point of measurement for total Internet traffic. Internet traffic data from public peering points can give an indication of Internet volume and growth, but these figures exclude traffic that remains within a single service provider's network as well as traffic that crosses private peering points.
+</p><p>The phrase "Internet traffic" is sometimes used to describe <a href="/wiki/Web_traffic" title="Web traffic">web traffic</a>, the amount of data sent and received by visitors of a particular web site.
+</p>
+<div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Traffic_sources"><span class="tocnumber">1</span> <span class="toctext">Traffic sources</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Traffic_management"><span class="tocnumber">2</span> <span class="toctext">Traffic management</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Tax_on_internet_use"><span class="tocnumber">3</span> <span class="toctext">Tax on internet use</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Traffic_classification"><span class="tocnumber">4</span> <span class="toctext">Traffic classification</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Bayesian_analysis_techniques"><span class="tocnumber">4.1</span> <span class="toctext">Bayesian analysis techniques</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Survey"><span class="tocnumber">4.2</span> <span class="toctext">Survey</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Global_Internet_traffic"><span class="tocnumber">5</span> <span class="toctext">Global Internet traffic</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Internet_backbone_traffic_in_the_United_States"><span class="tocnumber">6</span> <span class="toctext">Internet backbone traffic in the United States</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#References"><span class="tocnumber">8</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Further_reading"><span class="tocnumber">9</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#External_links"><span class="tocnumber">10</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Traffic_sources">Traffic sources</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Internet_traffic&amp;action=edit&amp;section=1" title="Edit section: Traffic sources">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p><a href="/wiki/File_sharing" title="File sharing">File sharing</a> constitutes a large fraction of Internet traffic.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup> The prevalent technology for file sharing is the <a href="/wiki/BitTorrent" title="BitTorrent">BitTorrent</a> protocol, which is a <a href="/wiki/Peer-to-peer" title="Peer-to-peer">peer-to-peer</a> (P2P) system mediated through indexing sites that provide resource directories. The traffic patterns of P2P systems are often described as problematic and causing congestion.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">&#91;2&#93;</a></sup> According to a Sandvine Research in 2013, Bit Torrent’s share of Internet traffic decreased by 20% to 7.4% overall, reduced from 31% in 2008.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Traffic_management">Traffic management</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Internet_traffic&amp;action=edit&amp;section=2" title="Edit section: Traffic management">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:Internet_Connectivity_Distribution_%26_Core.svg" class="image"><img alt="Internet Connectivity Distribution &amp; Core.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/36/Internet_Connectivity_Distribution_%26_Core.svg/220px-Internet_Connectivity_Distribution_%26_Core.svg.png" decoding="async" width="220" height="128" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/36/Internet_Connectivity_Distribution_%26_Core.svg/330px-Internet_Connectivity_Distribution_%26_Core.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/36/Internet_Connectivity_Distribution_%26_Core.svg/440px-Internet_Connectivity_Distribution_%26_Core.svg.png 2x" data-file-width="2400" data-file-height="1400" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Internet_Connectivity_Distribution_%26_Core.svg" class="internal" title="Enlarge"></a></div></div></div></div>
+<p>The Internet does not employ any formally centralized facilities for traffic management. Its progenitor networks, especially the <a href="/wiki/ARPANET" title="ARPANET">ARPANET</a> established early <a href="/wiki/Internet_backbone" title="Internet backbone">backbone</a> infrastructure which carried traffic between major interchange centers for traffic, resulting in a tiered, hierarchical system of <a href="/wiki/Internet_service_providers" class="mw-redirect" title="Internet service providers">internet service providers</a> (ISPs) within which the <a href="/wiki/Tier_1_network" title="Tier 1 network">tier 1 networks</a> provided traffic exchange through settlement-free peering and routing of traffic to lower-level tiers of ISPs.  The dynamic growth of the worldwide network resulted in ever-increasing interconnections at all peering levels of the Internet, so that a robust system developed that could mediate link failures, bottlenecks, and other congestion at many levels.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (February 2015)">citation needed</span></a></i>&#93;</sup>
+</p><p>Economic traffic management (ETM) is the term that is sometimes used to point out the opportunities for <a href="/wiki/Seeding_(computing)" title="Seeding (computing)">seeding</a> as a practice that caters contribution within peer-to-peer file sharing and the distribution of content in the digital world in general.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">&#91;4&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Tax_on_internet_use">Tax on internet use</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Internet_traffic&amp;action=edit&amp;section=3" title="Edit section: Tax on internet use">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>A planned <a href="/wiki/Tax" title="Tax">tax</a> on Internet use in <a href="/wiki/Hungary" title="Hungary">Hungary</a> introduced a 150-<a href="/wiki/Forint" class="mw-redirect" title="Forint">forint</a> (US$0.62, €0.47) tax per <a href="/wiki/Gigabyte" title="Gigabyte">gigabyte</a> of data traffic, in a move intended to reduce Internet traffic and also assist companies to offset corporate income tax against the new levy.<sup id="cite_ref-uk.reuters.com_5-0" class="reference"><a href="#cite_note-uk.reuters.com-5">&#91;5&#93;</a></sup>  Hungary achieved 1.15 billion gigabytes in 2013 and another 18 million gigabytes accumulated by mobile devices. This would have resulted in extra revenue of 175 billion forints under the new tax based on the consultancy firm eNet.<sup id="cite_ref-uk.reuters.com_5-1" class="reference"><a href="#cite_note-uk.reuters.com-5">&#91;5&#93;</a></sup>
+</p><p>According to Yahoo News, economy minister <a href="/wiki/Mih%C3%A1ly_Varga" title="Mihály Varga">Mihály Varga</a> defended the move saying "the tax was fair as it reflected a shift by consumers to the Internet away from phone lines" and that "150 forints on each transferred gigabyte of data – was needed to plug holes in the 2015 budget of one of the EU’s most indebted nations".<sup id="cite_ref-ReferenceA_6-0" class="reference"><a href="#cite_note-ReferenceA-6">&#91;6&#93;</a></sup>
+</p><p>Some people argue that the new plan on Internet tax would prove disadvantageous to the country’s <a href="/wiki/Economic_development" title="Economic development">economic development</a>, limit access to information and hinder the freedom of expression.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">&#91;7&#93;</a></sup> Approximately 36,000 people have signed up to take part in an event on Facebook to be held outside the Economy Ministry to protest against the possible tax.<sup id="cite_ref-ReferenceA_6-1" class="reference"><a href="#cite_note-ReferenceA-6">&#91;6&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Traffic_classification">Traffic classification</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Internet_traffic&amp;action=edit&amp;section=4" title="Edit section: Traffic classification">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p><a href="/wiki/Traffic_classification" title="Traffic classification">Traffic classification</a> describes the methods of classifying traffic by observing features passively in the traffic, and in line to particular classification goals. There might be some that only have a vulgar classification goal. For example, whether it is bulk transfer, peer to peer <a href="/wiki/File_sharing" title="File sharing">file sharing</a> or transaction-orientated. Some others will set a finer-grained classification goal, for instance the exact number of application represented by the traffic. Traffic features included port number, application payload, temporal, packet size and the characteristic of the traffic. There are a vast range of methods to allocate Internet traffic including exact traffic, for instance <a href="/wiki/Port_(computer_networking)" title="Port (computer networking)">port (computer networking)</a> number, payload, heuristic or statistical machine learning.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">&#91;8&#93;</a></sup>
+</p><p>Accurate network traffic classification is elementary to quite a few Internet activities, from security monitoring to accounting and from quality of service to providing operators with useful forecasts for long-term provisioning. Yet, classification schemes are extremely complex to operate accurately due to the shortage of available knowledge to the network. For example, the packet header related information is always insufficient to allow for an precise methodology. Consequently, the accuracy of any traditional method are between 50%-70%.
+</p>
+<h3><span class="mw-headline" id="Bayesian_analysis_techniques">Bayesian analysis techniques</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Internet_traffic&amp;action=edit&amp;section=5" title="Edit section: Bayesian analysis techniques">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Work<sup id="cite_ref-9" class="reference"><a href="#cite_note-9">&#91;9&#93;</a></sup> involving supervised <a href="/wiki/Machine_learning" title="Machine learning">machine learning</a> to classify network traffic. Data are hand-classified (based upon flow content) to one of a number of categories. A combination of data set (hand-assigned) category and descripttions of the classified flows (such as flow length, port numbers, time between consecutive flows) are used to train the classifier. To give a better insight of the technique itself, initial assumptions are made as well as applying two other techniques in reality. One is to improve the quality and separation of the input of information leading to an increase in accuracy of the <a href="/wiki/Naive_Bayes_classifier" title="Naive Bayes classifier">Naive Bayes classifier</a> technique.
+</p><p>The basis of categorizing work is to classify the type of Internet traffic; this is done by putting common groups of applications into different categories, e.g., "normal" versus "malicious", or more complex definitions, e.g., the identification of specific applications or specific <a href="/wiki/Transmission_Control_Protocol" title="Transmission Control Protocol">Transmission Control Protocol</a> (TCP) implementations.<sup id="cite_ref-10" class="reference"><a href="#cite_note-10">&#91;10&#93;</a></sup> Adapted from Logg et al.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11">&#91;11&#93;</a></sup>
+</p>
+<h3><span class="mw-headline" id="Survey">Survey</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Internet_traffic&amp;action=edit&amp;section=6" title="Edit section: Survey">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Traffic classification is a major component of automated intrusion detection systems.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">&#91;12&#93;</a></sup><sup id="cite_ref-13" class="reference"><a href="#cite_note-13">&#91;13&#93;</a></sup><sup id="cite_ref-14" class="reference"><a href="#cite_note-14">&#91;14&#93;</a></sup> They are used to identify patterns as well as indication of network resources for priority customers, or identify customer use of network resources that in some way contravenes the operator’s terms of service.
+Generally deployed <a href="/wiki/Internet_Protocol" title="Internet Protocol">Internet Protocol</a> (IP) traffic classification techniques are based approximately on direct inspection of each packet’s contents at some point on the network. Source address, port and destination address are included in successive IP packet's with similar if not the same 5-tuple of protocol type. ort are considered to belong to a flow whose controlling application we wish to determine. Simple classification infers the controlling application’s identity by assuming that most applications consistently use well known TCP or UDP port numbers. Even though, many candidates are increasingly using unpredictable port numbers. As a result, more sophisticated classification techniques infer application type by looking for application-specific data within the TCP or <a href="/wiki/User_Datagram_Protocol" title="User Datagram Protocol">User Datagram Protocol</a> (UDP) payloads.<sup id="cite_ref-15" class="reference"><a href="#cite_note-15">&#91;15&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Global_Internet_traffic">Global Internet traffic</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Internet_traffic&amp;action=edit&amp;section=7" title="Edit section: Global Internet traffic">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Aggregating from multiple sources and applying usage and bitrate assumptions, <a href="/wiki/Cisco_Systems" title="Cisco Systems">Cisco Systems</a>, a major network systems company, has published the following historical <a href="/wiki/Internet_Protocol" title="Internet Protocol">Internet Protocol</a> (IP) and Internet traffic figures:<sup id="cite_ref-CSCO_16-0" class="reference"><a href="#cite_note-CSCO-16">&#91;16&#93;</a></sup>
+</p>
+<table class="wikitable">
+<caption><b>Global Internet traffic by year</b>
+</caption>
+<tbody><tr>
+<th>&#160;<br />Year
+</th>
+<th>IP Traffic<br />(<a href="/wiki/Petabytes" class="mw-redirect" title="Petabytes">PB</a>/month)
+</th>
+<th>Fixed Internet traffic<br />(<a href="/wiki/Petabytes" class="mw-redirect" title="Petabytes">PB</a>/month)
+</th>
+<th>Mobile Internet traffic<br />(<a href="/wiki/Petabytes" class="mw-redirect" title="Petabytes">PB</a>/month)
+</th></tr>
+<tr>
+<td>1990
+</td>
+<td align="right">0.001
+</td>
+<td align="right">0.001
+</td>
+<td align="center">n/a
+</td></tr>
+<tr>
+<td>1991
+</td>
+<td align="right">0.002
+</td>
+<td align="right">0.002
+</td>
+<td align="center">n/a
+</td></tr>
+<tr>
+<td>1992
+</td>
+<td align="right">0.005
+</td>
+<td align="right">0.004
+</td>
+<td align="center">n/a
+</td></tr>
+<tr>
+<td>1993
+</td>
+<td align="right">0.01&#160;&#160;
+</td>
+<td align="right">0.01&#160;&#160;
+</td>
+<td align="center">n/a
+</td></tr>
+<tr>
+<td>1994
+</td>
+<td align="right">0.02&#160;&#160;
+</td>
+<td align="right">0.02&#160;&#160;
+</td>
+<td align="center">n/a
+</td></tr>
+<tr>
+<td>1995
+</td>
+<td align="right">0.18&#160;&#160;
+</td>
+<td align="right">0.17&#160;&#160;
+</td>
+<td align="center">n/a
+</td></tr>
+<tr>
+<td>1996
+</td>
+<td align="right">1.9&#160;&#160;&#160;&#160;
+</td>
+<td align="right">1.8&#160;&#160;&#160;&#160;
+</td>
+<td align="center">n/a
+</td></tr>
+<tr>
+<td>1997
+</td>
+<td align="right">5.4&#160;&#160;&#160;&#160;
+</td>
+<td align="right">5.0&#160;&#160;&#160;&#160;
+</td>
+<td align="center">n/a
+</td></tr>
+<tr>
+<td>1998
+</td>
+<td align="right">12&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">11&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="center">n/a
+</td></tr>
+<tr>
+<td>1999
+</td>
+<td align="right">28&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">26&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="center">n/a
+</td></tr>
+<tr>
+<td>2000
+</td>
+<td align="right">84&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">75&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="center">n/a
+</td></tr>
+<tr>
+<td>2001
+</td>
+<td align="right">197&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">175&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="center">n/a
+</td></tr>
+<tr>
+<td>2002
+</td>
+<td align="right">405&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">356&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="center">n/a
+</td></tr>
+<tr>
+<td>2003
+</td>
+<td align="right">784&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">681&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="center">n/a
+</td></tr>
+<tr>
+<td>2004
+</td>
+<td align="right">1,477&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">1,267&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="center">n/a
+</td></tr>
+<tr>
+<td>2005
+</td>
+<td align="right">2,426&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">2,055&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">0.9&#160;&#160;&#160;
+</td></tr>
+<tr>
+<td>2006
+</td>
+<td align="right">3,992&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">3,339&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">4&#160;&#160;&#160;&#160;&#160;&#160;
+</td></tr>
+<tr>
+<td>2007
+</td>
+<td align="right">6,430&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">5,219&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">15&#160;&#160;&#160;&#160;&#160;&#160;
+</td></tr>
+<tr>
+<td>2008 <sup id="cite_ref-17" class="reference"><a href="#cite_note-17">&#91;17&#93;</a></sup>
+</td>
+<td align="right">10,174&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">8,140&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">33&#160;&#160;&#160;&#160;&#160;&#160;
+</td></tr>
+<tr>
+<td>2009 <sup id="cite_ref-18" class="reference"><a href="#cite_note-18">&#91;18&#93;</a></sup>
+</td>
+<td align="right">14,686&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">10,942&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">91&#160;&#160;&#160;&#160;&#160;&#160;
+</td></tr>
+<tr>
+<td>2010 <sup id="cite_ref-19" class="reference"><a href="#cite_note-19">&#91;19&#93;</a></sup>
+</td>
+<td align="right">20,151&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">14,955&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">237&#160;&#160;&#160;&#160;&#160;&#160;
+</td></tr>
+<tr>
+<td>2011 <sup id="cite_ref-20" class="reference"><a href="#cite_note-20">&#91;20&#93;</a></sup>
+</td>
+<td align="right">30,734&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">23,288&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">597&#160;&#160;&#160;&#160;&#160;&#160;
+</td></tr>
+<tr>
+<td>2012 <sup id="cite_ref-21" class="reference"><a href="#cite_note-21">&#91;21&#93;</a></sup><sup id="cite_ref-22" class="reference"><a href="#cite_note-22">&#91;22&#93;</a></sup>
+</td>
+<td align="right">43,570&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">31,339&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">885&#160;&#160;&#160;&#160;&#160;&#160;
+</td></tr>
+<tr>
+<td>2013  <sup id="cite_ref-23" class="reference"><a href="#cite_note-23">&#91;23&#93;</a></sup>
+</td>
+<td align="right">51,168&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">34,952&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">1,480&#160;&#160;&#160;&#160;&#160;&#160;
+</td></tr>
+<tr>
+<td>2014 <sup id="cite_ref-24" class="reference"><a href="#cite_note-24">&#91;24&#93;</a></sup>
+</td>
+<td align="right">59,848&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">39,909&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">2,514&#160;&#160;&#160;&#160;&#160;&#160;
+</td></tr>
+<tr>
+<td>2015 <sup id="cite_ref-25" class="reference"><a href="#cite_note-25">&#91;25&#93;</a></sup>
+</td>
+<td align="right">72,521&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">49,494&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">3,685&#160;&#160;&#160;&#160;&#160;&#160;
+</td></tr>
+<tr>
+<td>2016 <sup id="cite_ref-Cisco2017_26-0" class="reference"><a href="#cite_note-Cisco2017-26">&#91;26&#93;</a></sup>
+</td>
+<td align="right">96,054&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">65,942&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">7,201&#160;&#160;&#160;&#160;&#160;&#160;
+</td></tr>
+<tr>
+<td>2017 <sup id="cite_ref-Cisco2018_27-0" class="reference"><a href="#cite_note-Cisco2018-27">&#91;27&#93;</a></sup>
+</td>
+<td align="right">122,000&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">85,000&#160;&#160;&#160;&#160;&#160;&#160;
+</td>
+<td align="right">12,000&#160;&#160;&#160;&#160;&#160;&#160;
+</td></tr></tbody></table>
+<p>"Fixed Internet traffic" refers perhaps to traffic from residential and commercial subscribers to ISPs, cable companies, and other service providers. "Mobile Internet traffic" refers perhaps to backhaul traffic from cellphone towers and providers. The overall "Internet traffic" figures, which can be 30% higher than the sum of the other two, perhaps factors in traffic in the core of the national backbone, whereas the other figures seem to be derived principally from the network periphery.
+</p><p>Cisco also publishes 5-year projections.
+</p>
+<table class="wikitable">
+<caption><b>Predicted global Internet traffic by year</b><sup id="cite_ref-Cisco2018_27-1" class="reference"><a href="#cite_note-Cisco2018-27">&#91;27&#93;</a></sup>
+</caption>
+<tbody><tr>
+<th>&#160;<br />Year
+</th>
+<th>Fixed Internet traffic<br />(<a href="/wiki/Exabytes" class="mw-redirect" title="Exabytes">EB</a>/month)
+</th>
+<th>Mobile Internet traffic<br />(<a href="/wiki/Exabytes" class="mw-redirect" title="Exabytes">EB</a>/month)
+</th></tr>
+<tr>
+<td>2018
+</td>
+<td align="right">107
+</td>
+<td align="right">19
+</td></tr>
+<tr>
+<td>2019
+</td>
+<td align="right">137
+</td>
+<td align="right">29
+</td></tr>
+<tr>
+<td>2020
+</td>
+<td align="right">174
+</td>
+<td align="right">41
+</td></tr>
+<tr>
+<td>2021
+</td>
+<td align="right">219
+</td>
+<td align="right">57
+</td></tr>
+<tr>
+<td>2022
+</td>
+<td align="right">273
+</td>
+<td align="right">77
+</td></tr></tbody></table>
+<h2><span class="mw-headline" id="Internet_backbone_traffic_in_the_United_States">Internet backbone traffic in the United States</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Internet_traffic&amp;action=edit&amp;section=8" title="Edit section: Internet backbone traffic in the United States">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The following data for the Internet backbone in the US comes from the Minnesota Internet Traffic Studies (MINTS):<sup id="cite_ref-MINTS_28-0" class="reference"><a href="#cite_note-MINTS-28">&#91;28&#93;</a></sup>
+</p>
+<table class="wikitable">
+<caption><b>US Internet backbone traffic by year</b>
+</caption>
+<tbody><tr>
+<th>Year
+</th>
+<th>Data (<a href="/wiki/Terabytes" class="mw-redirect" title="Terabytes">TB</a>/month)
+</th></tr>
+<tr>
+<td>1990
+</td>
+<td align="center">1
+</td></tr>
+<tr>
+<td>1991
+</td>
+<td align="center">2
+</td></tr>
+<tr>
+<td>1992
+</td>
+<td align="center">4
+</td></tr>
+<tr>
+<td>1993
+</td>
+<td align="center">8
+</td></tr>
+<tr>
+<td>1994
+</td>
+<td align="center">16
+</td></tr>
+<tr>
+<td>1995
+</td>
+<td align="center">n/a
+</td></tr>
+<tr>
+<td>1996
+</td>
+<td align="center">1,500
+</td></tr>
+<tr>
+<td>1997
+</td>
+<td align="center">2,500&#8211;4,000
+</td></tr>
+<tr>
+<td>1998
+</td>
+<td align="center">5,000&#8211;8,000
+</td></tr>
+<tr>
+<td>1999
+</td>
+<td align="center">10,000&#8211;16,000
+</td></tr>
+<tr>
+<td>2000
+</td>
+<td align="center">20,000&#8211;35,000
+</td></tr>
+<tr>
+<td>2001
+</td>
+<td align="center">40,000&#8211;70,000
+</td></tr>
+<tr>
+<td>2002
+</td>
+<td align="center">80,000&#8211;140,000
+</td></tr>
+<tr>
+<td>2003
+</td>
+<td align="center">n/a
+</td></tr>
+<tr>
+<td>2004
+</td>
+<td align="center">n/a
+</td></tr>
+<tr>
+<td>2005
+</td>
+<td align="center">n/a
+</td></tr>
+<tr>
+<td>2006
+</td>
+<td align="center">450,000&#8211;800,000
+</td></tr>
+<tr>
+<td>2007
+</td>
+<td align="center">750,000&#8211;1,250,000
+</td></tr>
+<tr>
+<td>2008
+</td>
+<td align="center">1,200,000&#8211;1,800,000
+</td></tr>
+<tr>
+<td>2009
+</td>
+<td align="center">1,900,000&#8211;2,400,000
+</td></tr>
+<tr>
+<td>2010
+</td>
+<td align="center">2,600,000&#8211;3,100,000
+</td></tr>
+<tr>
+<td>2011
+</td>
+<td align="center">3,400,000&#8211;4,100,000
+</td></tr></tbody></table>
+<p>The Cisco data can be seven times higher than the Minnesota Internet Traffic Studies (MINTS) data not only because the Cisco figures are estimates for the global—not just the domestic US—Internet, but also because Cisco counts "general IP traffic (thus including closed networks that are not truly part of the Internet, but use IP, the Internet Protocol, such as the IPTV services of various telecom firms)".<sup id="cite_ref-29" class="reference"><a href="#cite_note-29">&#91;29&#93;</a></sup>  The MINTS estimate of US national backbone traffic for 2004, which may be interpolated as 200 petabytes/month, is a plausible three-fold multiple of the traffic of the US's largest backbone carrier, <a href="/wiki/Level_3_Communications" title="Level 3 Communications">Level(3) Inc.</a>, which claims an average traffic level of 60 petabytes/month.<sup id="cite_ref-30" class="reference"><a href="#cite_note-30">&#91;30&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Internet_traffic&amp;action=edit&amp;section=9" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/ETOMIC" class="mw-redirect" title="ETOMIC">ETOMIC</a></li>
+<li><a href="/wiki/Internet_rush_hour" title="Internet rush hour">Internet rush hour</a></li>
+<li><a href="/wiki/Web_traffic" title="Web traffic">Web traffic</a></li>
+<li><a href="/wiki/Zettabyte_Era" title="Zettabyte Era">Zettabyte Era</a></li></ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Internet_traffic&amp;action=edit&amp;section=10" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<div class="mw-references-wrap mw-references-columns"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.statista.com/statistics/267182/forecast-for-global-internet-traffic-through-file-sharing/">"Data volume of global file sharing traffic from 2013 until 2018"</a>. <i>Statista</i>. 2014<span class="reference-accessdate">. Retrieved <span class="nowrap">18 October</span> 2014</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Statista&amp;rft.atitle=Data+volume+of+global+file+sharing+traffic+from+2013+until+2018&amp;rft.date=2014&amp;rft_id=http%3A%2F%2Fwww.statista.com%2Fstatistics%2F267182%2Fforecast-for-global-internet-traffic-through-file-sharing%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInternet+traffic" class="Z3988"></span><style data-mw-deduplicate="TemplateStyles:r879151008">.mw-parser-output cite.citation{font-style:inherit}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration{color:#555}.mw-parser-output .cs1-subscription span,.mw-parser-output .cs1-registration span{border-bottom:1px dotted;cursor:help}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output code.cs1-code{color:inherit;background:inherit;border:inherit;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;font-size:100%}.mw-parser-output .cs1-visible-error{font-size:100%}.mw-parser-output .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration,.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-parser-output .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2em}</style></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><cite class="citation web">Milton Kazmeyer. <a rel="nofollow" class="external text" href="http://smallbusiness.chron.com/causes-internet-traffic-47796.html">"What are the causes of Internet traffic?"</a>. <i>Demand Media</i><span class="reference-accessdate">. Retrieved <span class="nowrap">18 October</span> 2014</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Demand+Media&amp;rft.atitle=What+are+the+causes+of+Internet+traffic%3F&amp;rft.au=Milton+Kazmeyer&amp;rft_id=http%3A%2F%2Fsmallbusiness.chron.com%2Fcauses-internet-traffic-47796.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInternet+traffic" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite class="citation web">Paul Resenikoff (12 November 2013). <a rel="nofollow" class="external text" href="http://www.digitalmusicnews.com/permalink/2013/11/12/illegalfilesharing">"File-Sharing Now Accounts for Less Than 10% of US Internet Traffic…"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">18 October</span> 2014</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=File-Sharing+Now+Accounts+for+Less+Than+10%25+of+US+Internet+Traffic%E2%80%A6&amp;rft.date=2013-11-12&amp;rft.au=Paul+Resenikoff&amp;rft_id=http%3A%2F%2Fwww.digitalmusicnews.com%2Fpermalink%2F2013%2F11%2F12%2Fillegalfilesharing&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInternet+traffic" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text">Despotovic, Z., Hossfeld, T., Kellerer, W., Lehrieder, F., Oechsner, S., Michel, M. (2011). <i>Mitigating Unfairness In Locality-Aware Peer-To-Peer Networks.</i> International Journal of Network Management</span>
+</li>
+<li id="cite_note-uk.reuters.com-5"><span class="mw-cite-backlink">^ <a href="#cite_ref-uk.reuters.com_5-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-uk.reuters.com_5-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation web">Marton Dunai (2014). <a rel="nofollow" class="external text" href="http://uk.reuters.com/article/2014/10/22/uk-hungary-internet-tax-idUKKCN0IB0RI20141022">"Hungary plans new tax on Internet traffic, public calls for rally"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Hungary+plans+new+tax+on+Internet+traffic%2C+public+calls+for+rally&amp;rft.date=2014&amp;rft.au=Marton+Dunai&amp;rft_id=http%3A%2F%2Fuk.reuters.com%2Farticle%2F2014%2F10%2F22%2Fuk-hungary-internet-tax-idUKKCN0IB0RI20141022&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInternet+traffic" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-ReferenceA-6"><span class="mw-cite-backlink">^ <a href="#cite_ref-ReferenceA_6-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-ReferenceA_6-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://news.yahoo.com/anger-mounts-hungary-over-internet-tax-192127874.html">"Anger mounts in Hungary over internet tax"</a>. <i>Yahoo News</i>. 25 October 2014<span class="reference-accessdate">. Retrieved <span class="nowrap">18 October</span> 2014</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Yahoo+News&amp;rft.atitle=Anger+mounts+in+Hungary+over+internet+tax&amp;rft.date=2014-10-25&amp;rft_id=https%3A%2F%2Fnews.yahoo.com%2Fanger-mounts-hungary-over-internet-tax-192127874.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInternet+traffic" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><cite class="citation web">Margit Feher (2014). <a rel="nofollow" class="external text" href="https://blogs.wsj.com/emergingeurope/2014/10/22/public-outrage-mounts-against-hungarys-plan-to-tax-internet-use/">"Public outrage mounts against hunger's plan to tax internet use"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">18 October</span> 2014</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Public+outrage+mounts+against+hunger%27s+plan+to+tax+internet+use&amp;rft.date=2014&amp;rft.au=Margit+Feher&amp;rft_id=https%3A%2F%2Fblogs.wsj.com%2Femergingeurope%2F2014%2F10%2F22%2Fpublic-outrage-mounts-against-hungarys-plan-to-tax-internet-use%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInternet+traffic" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.caida.org/research/traffic-analysis/classification-overview/">"Internet traffic classification"</a>. <i>National Science Foundation</i>. 2013<span class="reference-accessdate">. Retrieved <span class="nowrap">18 October</span> 2014</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=National+Science+Foundation&amp;rft.atitle=Internet+traffic+classification&amp;rft.date=2013&amp;rft_id=http%3A%2F%2Fwww.caida.org%2Fresearch%2Ftraffic-analysis%2Fclassification-overview%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInternet+traffic" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><cite class="citation web">Denis Zuev (2013). <a rel="nofollow" class="external text" href="http://www.cl.cam.ac.uk/~awm22/publications/moore2005internet.pdf">"Internet traffic classification using bayesian analysis technique"</a> <span class="cs1-format">(PDF)</span><span class="reference-accessdate">. Retrieved <span class="nowrap">18 October</span> 2014</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Internet+traffic+classification+using+bayesian+analysis+technique&amp;rft.date=2013&amp;rft.au=Denis+Zuev&amp;rft_id=http%3A%2F%2Fwww.cl.cam.ac.uk%2F~awm22%2Fpublications%2Fmoore2005internet.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInternet+traffic" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><cite class="citation journal">J.Padhye; S.Floyd (June 2001). "Identifying the TCP Behavior of Web Servers". <i>In Proceedings of SIGCOMM 2011, San Diego, CA</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=In+Proceedings+of+SIGCOMM+2011%2C+San+Diego%2C+CA&amp;rft.atitle=Identifying+the+TCP+Behavior+of+Web+Servers&amp;rft.date=2001-06&amp;rft.au=J.Padhye&amp;rft.au=S.Floyd&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInternet+traffic" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><cite class="citation web">C.Logg; L.Cottrell (2003). <a rel="nofollow" class="external text" href="http://www.slac.stanford.edu/comp/net/slac-netflow/html/SLAC-netflow.html.">"SLAC National Accelerator Laboratory"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">21 October</span> 2014</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=SLAC+National+Accelerator+Laboratory&amp;rft.date=2003&amp;rft.au=C.Logg&amp;rft.au=L.Cottrell&amp;rft_id=http%3A%2F%2Fwww.slac.stanford.edu%2Fcomp%2Fnet%2Fslac-netflow%2Fhtml%2FSLAC-netflow.html.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInternet+traffic" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.snort.org.orgas">"of August 14, 2007 (accessed 21 October)"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">16 April</span> 2017</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=of+August+14%2C+2007+%28accessed+21+October%29&amp;rft_id=http%3A%2F%2Fwww.snort.org.orgas&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInternet+traffic" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text">Bro intrusion detection system – Bro overview, <a rel="nofollow" class="external free" href="http://bro-ids.org">http://bro-ids.org</a>, as of August 14, 2007.</span>
+</li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text">V. Paxson, ‘Bro: A system for detecting network intruders in real-time,’ Computer Networks, no.31 (23-24), pp. 2435-2463, 1999</span>
+</li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text">S. Sen., O. Spats check, and D. Wang, ‘Accurate, scalable in network identification of P2P traffic using application signatures,’ in WWW2004, New York, NY, USA, May 2004.</span>
+</li>
+<li id="cite_note-CSCO-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-CSCO_16-0">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.cisco.com/go/vni">"Visual Networking Index"</a>, Cisco Systems</span>
+</li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text">Cisco, "<a rel="nofollow" class="external text" href="https://www.cisco.com/web/BR/assets/docs/whitepaper_VNI_06_09.pdf">Cisco Visual Networking Index: Forecast and Methodology, 2008–2013</a>" (PDF), 9 June 2009. Retrieved 13 June 2016</span>
+</li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text">Cisco, "<a rel="nofollow" class="external text" href="http://large.stanford.edu/courses/2010/ph240/abdul-kafi1/docs/white_paper_c11-481360.pdf">Cisco Visual Networking Index: Forecast and Methodology, 2009–2014</a>" (PDF), 2 June 2010. Retrieved 13 June 2016</span>
+</li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text">Cisco, "<a rel="nofollow" class="external text" href="http://www.cisco.com/c/en/us/solutions/collateral/service-provider/visual-networking-index-vni/complete-white-paper-c11-481360.html">Cisco Visual Networking Index: Forecast and Methodology, 2010–2015</a>" (PDF), 1 June 2011. Retrieved 13 June 2016</span>
+</li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text">Cisco, "<a rel="nofollow" class="external text" href="http://www.davidellis.ca/wp-content/uploads/2012/08/cisco-vni-2011-2016-forecast.pdf">Cisco Visual Networking Index: Forecast and Methodology, 2011–2016</a>" (PDF), 30 May 2012. Retrieved 13 June 2016</span>
+</li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text">Cisco, "<a rel="nofollow" class="external text" href="http://boletines.prisadigital.com/Cisco_Visual_Networking.pdf">Cisco Visual Networking Index: Global Mobile Data Traffic Forecast Update, 2012–2017</a>" (PDF), 2 Feb 2013. Retrieved 13 June 2016</span>
+</li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text">Cisco, "<a rel="nofollow" class="external text" href="https://web.archive.org/web/20140327074533/http://www.cisco.com/c/en/us/solutions/collateral/service-provider/ip-ngn-ip-next-generation-network/white_paper_c11-481360.pdf">Cisco Visual Networking Index: Forecast and Methodology, 2012–2017</a>" (PDF), 29 May 2013. Retrieved from archive.org, 28 Aug 2016</span>
+</li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text">Cisco, "<a rel="nofollow" class="external text" href="https://web.archive.org/web/20141006123358/http://www.cisco.com/c/en/us/solutions/collateral/service-provider/ip-ngn-ip-next-generation-network/white_paper_c11-481360.pdf">Cisco Visual Networking Index: Forecast and Methodology, 2013–2018</a>" (PDF), 10 Jun 2014. Retrieved from archive.org, 28 Aug 2016</span>
+</li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-24">^</a></b></span> <span class="reference-text">Cisco, "<a rel="nofollow" class="external text" href="https://web.archive.org/web/20150811104530/http://www.cisco.com/c/en/us/solutions/collateral/service-provider/ip-ngn-ip-next-generation-network/white_paper_c11-481360.pdf">Cisco Visual Networking Index: Forecast and Methodology, 2014–2019</a>" (PDF), 27 May 2015. Retrieved from archive.org, 28 Aug 2016</span>
+</li>
+<li id="cite_note-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-25">^</a></b></span> <span class="reference-text">Cisco, "<a rel="nofollow" class="external text" href="http://www.cisco.com/c/en/us/solutions/collateral/service-provider/visual-networking-index-vni/complete-white-paper-c11-481360.pdf">Cisco Visual Networking Index:Forecast and Methodology, 2015–2020</a>" (PDF) 6 June 2016. Retrieved 13 June 2016</span>
+</li>
+<li id="cite_note-Cisco2017-26"><span class="mw-cite-backlink"><b><a href="#cite_ref-Cisco2017_26-0">^</a></b></span> <span class="reference-text">Cisco, "<a rel="nofollow" class="external text" href="https://www.cisco.com/c/en/us/solutions/collateral/service-provider/visual-networking-index-vni/complete-white-paper-c11-481360.pdf">Cisco Visual Networking Index:Forecast and Methodology, 2016–2021</a>" (PDF) 6 June 2017. Retrieved 14 August 2017</span>
+</li>
+<li id="cite_note-Cisco2018-27"><span class="mw-cite-backlink">^ <a href="#cite_ref-Cisco2018_27-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Cisco2018_27-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Cisco, "<a rel="nofollow" class="external text" href="https://www.cisco.com/c/en/us/solutions/collateral/service-provider/visual-networking-index-vni/white-paper-c11-741490.pdf">Cisco Visual Networking Index:Forecast and Trends, 2017–2022</a>" (PDF) 28 November 2018. Retrieved 9 January 2019</span>
+</li>
+<li id="cite_note-MINTS-28"><span class="mw-cite-backlink"><b><a href="#cite_ref-MINTS_28-0">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.dtc.umn.edu/mints/home.php">Minnesota Internet Traffic Studies (MINTS)</a>, University of Minnesota</span>
+</li>
+<li id="cite_note-29"><span class="mw-cite-backlink"><b><a href="#cite_ref-29">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.dtc.umn.edu/mints/">"MINTS - Minnesota Internet Traffic Studies"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">16 April</span> 2017</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=MINTS+-+Minnesota+Internet+Traffic+Studies&amp;rft_id=http%3A%2F%2Fwww.dtc.umn.edu%2Fmints%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInternet+traffic" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-30"><span class="mw-cite-backlink"><b><a href="#cite_ref-30">^</a></b></span> <span class="reference-text">2004 Annual Report, Level(3), April 2005, p.1</span>
+</li>
+</ol></div></div>
+<h2><span class="mw-headline" id="Further_reading">Further reading</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Internet_traffic&amp;action=edit&amp;section=11" title="Edit section: Further reading">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><cite class="citation journal">Williamson, Carey (2001). "Internet Traffic Measurement". <i>IEEE Internet Computing</i>. <b>5</b> (6): 70–74. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1109%2F4236.968834">10.1109/4236.968834</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=IEEE+Internet+Computing&amp;rft.atitle=Internet+Traffic+Measurement&amp;rft.volume=5&amp;rft.issue=6&amp;rft.pages=70-74&amp;rft.date=2001&amp;rft_id=info%3Adoi%2F10.1109%2F4236.968834&amp;rft.aulast=Williamson&amp;rft.aufirst=Carey&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInternet+traffic" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></li></ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Internet_traffic&amp;action=edit&amp;section=12" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a rel="nofollow" class="external text" href="http://firstmonday.org/htbin/cgiwrap/bin/ojs/index.php/fm/article/view/620/541">"The Size and Growth Rate of the Internet"</a>, K.G. Coffman and Andrew Odlyzki, <i><a href="/wiki/First_Monday_(journal)" title="First Monday (journal)">First Monday</a></i>, Volume 3, Number 5, October 1998</li>
+<li><a rel="nofollow" class="external text" href="http://www.internettrafficreport.com/">Internet Traffic Report</a> from AnalogX</li>
+<li><a rel="nofollow" class="external text" href="http://www.internetpulse.net/">Internet Health Report</a> from Keynote Systems</li>
+<li><a rel="nofollow" class="external text" href="http://www.caida.org/home/">Cooperative Association for Internet Data Analysis</a> (CAIDA), based at the <a href="/wiki/University_of_California,_San_Diego" title="University of California, San Diego">University of California, San Diego</a> <a href="/wiki/San_Diego_Supercomputer_Center" title="San Diego Supercomputer Center">Supercomputer Center</a></li></ul>
+
+<!-- 
+NewPP limit report
+Parsed by mw1270
+Cached time: 20190215092940
+Cache expiry: 2073600
+Dynamic content: false
+CPU time usage: 0.316 seconds
+Real time usage: 0.386 seconds
+Preprocessor visited node count: 912/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 19720/2097152 bytes
+Template argument size: 574/2097152 bytes
+Highest expansion depth: 11/40
+Expensive parser function count: 2/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 45197/5000000 bytes
+Number of Wikibase entities loaded: 1/400
+Lua time usage: 0.145/10.000 seconds
+Lua memory usage: 3.66 MB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  303.674      1 -total
+ 53.59%  162.728      1 Template:Reflist
+ 39.73%  120.651     11 Template:Cite_web
+ 24.94%   75.736      1 Template:Citation_needed
+ 18.74%   56.919      1 Template:Fix
+ 12.08%   36.675      2 Template:Cite_journal
+ 11.94%   36.266      2 Template:Category_handler
+  5.47%   16.622      1 Template:Delink
+  2.50%    7.598      1 Template:Course_assignment
+  1.23%    3.748      1 Template:Fix/category
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:856845-0!canonical and timestamp 20190215092940 and revision id 883424859
+ -->
+</div><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Internet_traffic&amp;oldid=883424859">https://en.wikipedia.org/w/index.php?title=Internet_traffic&amp;oldid=883424859</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Computer_network_analysis" title="Category:Computer network analysis">Computer network analysis</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_February_2015" title="Category:Articles with unsourced statements from February 2015">Articles with unsourced statements from February 2015</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Internet+traffic" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Internet+traffic" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="/wiki/Internet_traffic" title="View the content page [c]" accesskey="c">Article</a></span></li><li id="ca-talk"><span><a href="/wiki/Talk:Internet_traffic" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+						<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+						<ul class="menu">
+													</ul>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="/wiki/Internet_traffic">Read</a></span></li><li id="ca-edit" class="collapsible"><span><a href="/w/index.php?title=Internet_traffic&amp;action=edit" title="Edit this page [e]" accesskey="e">Edit</a></span></li><li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Internet_traffic&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+						<h3 id="p-cactions-label"><span>More</span></h3>
+						<ul class="menu">
+													</ul>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-interaction" aria-labelledby="p-interaction-label">
+			<h3 id="p-interaction-label">Interaction</h3>
+			<div class="body">
+								<ul>
+					<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Internet_traffic" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Internet_traffic" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Internet_traffic&amp;oldid=883424859" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Internet_traffic&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q3536440" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Internet_traffic&amp;id=883424859" title="Information on how to cite this page">Cite this page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-coll-print_export" aria-labelledby="p-coll-print_export-label">
+			<h3 id="p-coll-print_export-label">Print/export</h3>
+			<div class="body">
+								<ul>
+					<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Internet+traffic">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:ElectronPdf&amp;page=Internet+traffic&amp;action=show-download-screen">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Internet_traffic&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label">
+			<h3 id="p-lang-label">Languages</h3>
+			<div class="body">
+								<ul>
+					<li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D8%AD%D8%B1%D9%83%D8%A9_%D8%A7%D9%84%D8%A5%D9%86%D8%AA%D8%B1%D9%86%D8%AA" title="حركة الإنترنت – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target">العربية</a></li><li class="interlanguage-link interwiki-eo"><a href="https://eo.wikipedia.org/wiki/Reta_trafiko" title="Reta trafiko – Esperanto" lang="eo" hreflang="eo" class="interlanguage-link-target">Esperanto</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Trafic_Internet" title="Trafic Internet – French" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li><li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/Tr%C3%A1fico_en_Internet" title="Tráfico en Internet – Galician" lang="gl" hreflang="gl" class="interlanguage-link-target">Galego</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%EB%84%B7_%ED%8A%B8%EB%9E%98%ED%94%BD" title="인터넷 트래픽 – Korean" lang="ko" hreflang="ko" class="interlanguage-link-target">한국어</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Ruch_internetowy" title="Ruch internetowy – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target">Polski</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B9_%D1%82%D1%80%D0%B0%D1%84%D0%B8%D0%BA" title="Сетевой трафик – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target">Русский</a></li><li class="interlanguage-link interwiki-sl"><a href="https://sl.wikipedia.org/wiki/Internetni_promet_(statistika)" title="Internetni promet (statistika) – Slovenian" lang="sl" hreflang="sl" class="interlanguage-link-target">Slovenščina</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%86%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82_%D1%82%D1%80%D0%B0%D1%84%D1%96%D0%BA" title="Інтернет трафік – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target">Українська</a></li>				</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q3536440#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> This page was last edited on 15 February 2019, at 09:29<span class="anonymous-show">&#160;(UTC)</span>.</li>
+								<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+								<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+								<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+								<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+								<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+								<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+								<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Internet_traffic&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+						<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>					</li>
+										<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.316","walltime":"0.386","ppvisitednodes":{"value":912,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":19720,"limit":2097152},"templateargumentsize":{"value":574,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":45197,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  303.674      1 -total"," 53.59%  162.728      1 Template:Reflist"," 39.73%  120.651     11 Template:Cite_web"," 24.94%   75.736      1 Template:Citation_needed"," 18.74%   56.919      1 Template:Fix"," 12.08%   36.675      2 Template:Cite_journal"," 11.94%   36.266      2 Template:Category_handler","  5.47%   16.622      1 Template:Delink","  2.50%    7.598      1 Template:Course_assignment","  1.23%    3.748      1 Template:Fix/category"]},"scribunto":{"limitreport-timeusage":{"value":"0.145","limit":"10.000"},"limitreport-memusage":{"value":3834941,"limit":52428800}},"cachereport":{"origin":"mw1270","timestamp":"20190215092940","ttl":2073600,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Internet traffic","url":"https:\/\/en.wikipedia.org\/wiki\/Internet_traffic","sameAs":"http:\/\/www.wikidata.org\/entity\/Q3536440","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q3536440","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-07-25T18:08:44Z","dateModified":"2019-02-15T09:29:40Z","headline":"flow of data across the Internet"}</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":109,"wgHostname":"mw1330"});});</script>
+	</body>
+</html>

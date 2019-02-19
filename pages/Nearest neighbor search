@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Nearest neighbor search - Wikipedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Nearest_neighbor_search","wgTitle":"Nearest neighbor search","wgCurRevisionId":882694234,"wgRevisionId":882694234,"wgArticleId":7309022,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1: long volume value","Commons category link is on Wikidata","Approximation algorithms","Classification algorithms","Data mining","Discrete geometry","Geometric algorithms","Machine learning","Mathematical optimization","Search algorithms"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Nearest_neighbor_search","wgRelevantArticleId":7309022,"wgRequestId":"XGYGpwpAAEMAAAvgXF4AAABU","wgCSPNonce":false,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgMFIsPageContentModelEditable":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgWMESchemaEditAttemptStepOversample":false,"wgPoweredByHHVM":true,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgWikibaseItemId":"Q608751","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":true,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true,"oresWikiId":"enwiki","oresBaseUrl":"http://ores.discovery.wmnet:8081/","oresApiVersion":3});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.math.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.toc.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.3d.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.tokens@0tffind",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});RLPAGEMODULES=["ext.cite.ux-enhancements","ext.math.scripts","site","mediawiki.page.startup","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"];mw.loader.load(RLPAGEMODULES);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.3d.styles%7Cext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.toc.styles%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.charinsert-styles&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.33.0-wmf.17"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Nearest_neighbor_search"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit"/>
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Nearest_neighbor_search"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 9]><script src="/w/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Nearest_neighbor_search rootpage-Nearest_neighbor_search skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div><div class="mw-indicators mw-body-content">
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="en">Nearest neighbor search</h1>			<div id="bodyContent" class="mw-body-content">
+				<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>				<div id="contentSub"></div>
+				<div id="jump-to-nav"></div>				<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+				<a class="mw-jump-link" href="#p-search">Jump to search</a>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p><b>Nearest neighbor search</b> (<b>NNS</b>), as a form of proximity search,  is the <a href="/wiki/Optimization_problem" title="Optimization problem">optimization problem</a> of finding the point in a given set that is closest (or most similar) to a given point. Closeness is typically expressed in terms of a dissimilarity function: the less similar the objects, the larger the function values. Formally, the nearest-neighbor (NN) search problem is defined as follows: given a set <i>S</i> of points in a space <i>M</i> and a query point <i>q</i>&#160;∈&#160;<i>M</i>, find the closest point in <i>S</i> to <i>q</i>. <a href="/wiki/Donald_Knuth" title="Donald Knuth">Donald Knuth</a> in vol. 3 of <i><a href="/wiki/The_Art_of_Computer_Programming" title="The Art of Computer Programming">The Art of Computer Programming</a></i> (1973) called it the <b>post-office problem</b>, referring to an application of assigning to a residence the nearest post office. A direct generalization of this problem is a <i>k</i>-NN search, where we need to find the <i>k</i> closest points.
+</p><p>Most commonly <i>M</i> is a  <a href="/wiki/Metric_space" title="Metric space">metric space</a> and dissimilarity is expressed as a <a href="/wiki/Distance_metric" class="mw-redirect" title="Distance metric">distance metric</a>, which is symmetric and satisfies the <a href="/wiki/Triangle_inequality" title="Triangle inequality">triangle inequality</a>. Even more common, <i>M</i> is taken to be the <i>d</i>-dimensional <a href="/wiki/Vector_space" title="Vector space">vector space</a> where dissimilarity is measured using the <a href="/wiki/Euclidean_distance" title="Euclidean distance">Euclidean distance</a>, <a href="/wiki/Taxicab_geometry" title="Taxicab geometry">Manhattan distance</a> or other <a href="/wiki/Statistical_distance" title="Statistical distance">distance metric</a>. However, the dissimilarity function can be arbitrary. One example are asymmetric <a href="/wiki/Bregman_divergence" title="Bregman divergence">Bregman divergences</a>, for which the triangle inequality does not hold.<sup id="cite_ref-Cayton2008_1-0" class="reference"><a href="#cite_note-Cayton2008-1">&#91;1&#93;</a></sup>
+</p>
+<div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Applications"><span class="tocnumber">1</span> <span class="toctext">Applications</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Methods"><span class="tocnumber">2</span> <span class="toctext">Methods</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Exact_methods"><span class="tocnumber">2.1</span> <span class="toctext">Exact methods</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="#Linear_search"><span class="tocnumber">2.1.1</span> <span class="toctext">Linear search</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="#Space_partitioning"><span class="tocnumber">2.1.2</span> <span class="toctext">Space partitioning</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-6"><a href="#Approximation_methods"><span class="tocnumber">2.2</span> <span class="toctext">Approximation methods</span></a>
+<ul>
+<li class="toclevel-3 tocsection-7"><a href="#Greedy_search_in_proximity_neighborhood_graphs"><span class="tocnumber">2.2.1</span> <span class="toctext">Greedy search in proximity neighborhood graphs</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="#Locality_sensitive_hashing"><span class="tocnumber">2.2.2</span> <span class="toctext">Locality sensitive hashing</span></a></li>
+<li class="toclevel-3 tocsection-9"><a href="#Nearest_neighbor_search_in_spaces_with_small_intrinsic_dimension"><span class="tocnumber">2.2.3</span> <span class="toctext">Nearest neighbor search in spaces with small intrinsic dimension</span></a></li>
+<li class="toclevel-3 tocsection-10"><a href="#Projected_radial_search"><span class="tocnumber">2.2.4</span> <span class="toctext">Projected radial search</span></a></li>
+<li class="toclevel-3 tocsection-11"><a href="#Vector_approximation_files"><span class="tocnumber">2.2.5</span> <span class="toctext">Vector approximation files</span></a></li>
+<li class="toclevel-3 tocsection-12"><a href="#Compression/clustering_based_search"><span class="tocnumber">2.2.6</span> <span class="toctext">Compression/clustering based search</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="#Variants"><span class="tocnumber">3</span> <span class="toctext">Variants</span></a>
+<ul>
+<li class="toclevel-2 tocsection-14"><a href="#k-nearest_neighbors"><span class="tocnumber">3.1</span> <span class="toctext"><span> <i>k</i>-nearest neighbors </span></span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Approximate_nearest_neighbor"><span class="tocnumber">3.2</span> <span class="toctext">Approximate nearest neighbor</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Nearest_neighbor_distance_ratio"><span class="tocnumber">3.3</span> <span class="toctext">Nearest neighbor distance ratio</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#Fixed-radius_near_neighbors"><span class="tocnumber">3.4</span> <span class="toctext">Fixed-radius near neighbors</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#All_nearest_neighbors"><span class="tocnumber">3.5</span> <span class="toctext">All nearest neighbors</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-19"><a href="#See_also"><span class="tocnumber">4</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="#Open_source_implementations"><span class="tocnumber">5</span> <span class="toctext">Open source implementations</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a>
+<ul>
+<li class="toclevel-2 tocsection-22"><a href="#Citations"><span class="tocnumber">6.1</span> <span class="toctext">Citations</span></a></li>
+<li class="toclevel-2 tocsection-23"><a href="#Sources"><span class="tocnumber">6.2</span> <span class="toctext">Sources</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-24"><a href="#Further_reading"><span class="tocnumber">7</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-25"><a href="#External_links"><span class="tocnumber">8</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Applications">Applications</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit&amp;section=1" title="Edit section: Applications">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The nearest neighbor search problem arises in numerous fields of application, including:
+</p>
+<ul><li><a href="/wiki/Pattern_recognition" title="Pattern recognition">Pattern recognition</a> – in particular for <a href="/wiki/Optical_character_recognition" title="Optical character recognition">optical character recognition</a></li>
+<li><a href="/wiki/Statistical_classification" title="Statistical classification">Statistical classification</a> – see <a href="/wiki/K-nearest_neighbor_algorithm" class="mw-redirect" title="K-nearest neighbor algorithm">k-nearest neighbor algorithm</a></li>
+<li><a href="/wiki/Computer_vision" title="Computer vision">Computer vision</a></li>
+<li><a href="/wiki/Computational_geometry" title="Computational geometry">Computational geometry</a> – see <a href="/wiki/Closest_pair_of_points_problem" title="Closest pair of points problem">Closest pair of points problem</a></li>
+<li><a href="/wiki/Database" title="Database">Databases</a> – e.g. <a href="/wiki/Content-based_image_retrieval" title="Content-based image retrieval">content-based image retrieval</a></li>
+<li><a href="/wiki/Coding_theory" title="Coding theory">Coding theory</a> – see <a href="/wiki/Decoding_methods" title="Decoding methods">maximum likelihood decoding</a></li>
+<li><a href="/wiki/Data_compression" title="Data compression">Data compression</a> – see <a href="/wiki/MPEG-2" title="MPEG-2">MPEG-2</a> standard</li>
+<li><a href="/wiki/Robotic" class="mw-redirect" title="Robotic">Robotic</a> sensing<sup id="cite_ref-panSearch_2-0" class="reference"><a href="#cite_note-panSearch-2">&#91;2&#93;</a></sup></li>
+<li><a href="/wiki/Recommender_system" title="Recommender system">Recommendation systems</a>, e.g. see <a href="/wiki/Collaborative_filtering" title="Collaborative filtering">Collaborative filtering</a></li>
+<li><a href="/wiki/Internet_marketing" class="mw-redirect" title="Internet marketing">Internet marketing</a> – see <a href="/wiki/Contextual_advertising" title="Contextual advertising">contextual advertising</a> and <a href="/wiki/Behavioral_targeting" class="mw-redirect" title="Behavioral targeting">behavioral targeting</a></li>
+<li><a href="/wiki/DNA_sequencing" title="DNA sequencing">DNA sequencing</a></li>
+<li><a href="/wiki/Spell_checking" class="mw-redirect" title="Spell checking">Spell checking</a> – suggesting correct spelling</li>
+<li><a href="/wiki/Plagiarism_detection" title="Plagiarism detection">Plagiarism detection</a></li>
+<li><a href="/w/index.php?title=Contact_searching_algorithms_in_FEA&amp;action=edit&amp;redlink=1" class="new" title="Contact searching algorithms in FEA (page does not exist)">Contact searching algorithms in FEA</a></li>
+<li><a href="/wiki/Similarity_score" title="Similarity score">Similarity scores</a> for predicting career paths of professional athletes.</li>
+<li><a href="/wiki/Cluster_analysis" title="Cluster analysis">Cluster analysis</a> – assignment of a set of observations into subsets (called clusters) so that observations in the same cluster are similar in some sense, usually based on <a href="/wiki/Euclidean_distance" title="Euclidean distance">Euclidean distance</a></li>
+<li><a href="/wiki/Chemical_similarity" title="Chemical similarity">Chemical similarity</a></li>
+<li><a href="/wiki/Motion_planning#Sampling-based_algorithms" title="Motion planning">Sampling-based motion planning</a></li>
+<li><a href="/wiki/Intermodal_freight_transport" title="Intermodal freight transport">Intermodal freight transport</a><sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup></li></ul>
+<h2><span class="mw-headline" id="Methods">Methods</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit&amp;section=2" title="Edit section: Methods">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Various solutions to the NNS problem have been proposed.  The quality and usefulness of the algorithms are determined by the time complexity of queries as well as the space complexity of any search data structures that must be maintained. The informal observation usually referred to as the <a href="/wiki/Curse_of_dimensionality" title="Curse of dimensionality">curse of dimensionality</a> states that there is no general-purpose exact solution for NNS in high-dimensional Euclidean space using polynomial preprocessing and polylogarithmic search time.
+</p>
+<h3><span class="mw-headline" id="Exact_methods">Exact methods</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit&amp;section=3" title="Edit section: Exact methods">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<h4><span class="mw-headline" id="Linear_search">Linear search</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit&amp;section=4" title="Edit section: Linear search">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>The simplest solution to the NNS problem is to compute the distance from the query point to every other point in the database, keeping track of the "best so far".  This algorithm, sometimes referred to as the naive approach, has a <a href="/wiki/Running_time" class="mw-redirect" title="Running time">running time</a> of <i>O</i>(<i>dN</i>) where <i>N</i> is the <a href="/wiki/Cardinality" title="Cardinality">cardinality</a> of <i>S</i> and <i>d</i> is the dimensionality of <i>M</i>.  There are no search data structures to maintain, so linear search has no space complexity beyond the storage of the database. Naive search can, on average, outperform space partitioning approaches on higher dimensional spaces.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">&#91;4&#93;</a></sup>
+</p>
+<h4><span class="mw-headline" id="Space_partitioning">Space partitioning</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit&amp;section=5" title="Edit section: Space partitioning">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Since the 1970s, <a href="/wiki/Branch_and_bound" title="Branch and bound">branch and bound</a> methodology has been applied to the problem. In the case of Euclidean space this approach is known as <a href="/wiki/Spatial_index" class="mw-redirect" title="Spatial index">spatial index</a> or spatial access methods. Several <a href="/wiki/Space_partitioning" title="Space partitioning">space-partitioning</a> methods have been developed for solving the NNS problem.  Perhaps the simplest is the <a href="/wiki/K-d_tree" title="K-d tree">k-d tree</a>, which iteratively bisects the search space into two regions containing half of the points of the parent region.  Queries are performed via traversal of the tree from the root to a leaf by evaluating the query point at each split. Depending on the distance specified in the query, neighboring branches that might contain hits may also need to be evaluated. For constant dimension query time, average complexity is <i>O</i>(log&#160;<i>N</i>) <sup id="cite_ref-5" class="reference"><a href="#cite_note-5">&#91;5&#93;</a></sup> in the case of randomly distributed points, worst case complexity is <i>O</i>(<i>kN</i>^(1-1/<i>k</i>))<sup id="cite_ref-Lee1977_6-0" class="reference"><a href="#cite_note-Lee1977-6">&#91;6&#93;</a></sup>
+Alternatively the <a href="/wiki/R-tree" title="R-tree">R-tree</a> data structure was designed to support nearest neighbor search in dynamic context, as it has efficient algorithms for insertions and deletions such as the <a href="/wiki/R*_tree" title="R* tree">R* tree</a>.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">&#91;7&#93;</a></sup> R-trees can yield nearest neighbors not only for Euclidean distance, but can also be used with other distances.
+</p><p>In case of general metric space branch and bound approach is known under the name of <a href="/wiki/Metric_trees" class="mw-redirect" title="Metric trees">metric trees</a>. Particular examples include <a href="/wiki/Vp-tree" class="mw-redirect" title="Vp-tree">vp-tree</a> and <a href="/wiki/BK-tree" title="BK-tree">BK-tree</a>.
+</p><p>Using a set of points taken from a 3-dimensional space and put into a <a href="/wiki/Binary_space_partitioning" title="Binary space partitioning">BSP tree</a>, and given a query point taken from the same space, a possible solution to the problem of finding the nearest point-cloud point to the query point is given in the following description of an algorithm.  (Strictly speaking, no such point may exist, because it may not be unique.  But in practice, usually we only care about finding any one of the subset of all point-cloud points that exist at the shortest distance to a given query point.)  The idea is, for each branching of the tree, guess that the closest point in the cloud resides in the half-space containing the query point.  This may not be the case, but it is a good heuristic.  After having recursively gone through all the trouble of solving the problem for the guessed half-space, now compare the distance returned by this result with the shortest distance from the query point to the partitioning plane.  This latter distance is that between the query point and the closest possible point that could exist in the half-space not searched.  If this distance is greater than that returned in the earlier result, then clearly there is no need to search the other half-space.  If there is such a need, then you must go through the trouble of solving the problem for the other half space, and then compare its result to the former result, and then return the proper result.  The performance of this algorithm is nearer to logarithmic time than linear time when the query point is near the cloud, because as the distance between the query point and the closest point-cloud point nears zero, the algorithm needs only perform a look-up using the query point as a key to get the correct result.
+</p>
+<h3><span class="mw-headline" id="Approximation_methods">Approximation methods</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit&amp;section=6" title="Edit section: Approximation methods">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>An approximate nearest neighbor search algorithm is allowed to return points, whose distance from the query is at most <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle c}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>c</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle c}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/86a67b81c2de995bd608d5b2df50cd8cd7d92455" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:1.007ex; height:1.676ex;" alt="c"/></span> times the distance from the query to its nearest points. The appeal of this approach is that, in many cases, an approximate nearest neighbor is almost as good as the exact one. In particular, if the distance measure accurately captures the notion of user quality, then small differences in the distance should not matter.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">&#91;8&#93;</a></sup>
+</p>
+<h4><span class="mw-headline" id="Greedy_search_in_proximity_neighborhood_graphs">Greedy search in proximity neighborhood graphs</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit&amp;section=7" title="Edit section: Greedy search in proximity neighborhood graphs">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Proximity graph methods (such as HNSW<sup id="cite_ref-:0_9-0" class="reference"><a href="#cite_note-:0-9">&#91;9&#93;</a></sup>) are considered the current state-of-the-art for the approximate nearest neighbors search.<sup id="cite_ref-:0_9-1" class="reference"><a href="#cite_note-:0-9">&#91;9&#93;</a></sup><sup id="cite_ref-10" class="reference"><a href="#cite_note-10">&#91;10&#93;</a></sup><sup id="cite_ref-11" class="reference"><a href="#cite_note-11">&#91;11&#93;</a></sup>
+</p><p>The methods are based on greedy traversing in proximity neighborhood graphs <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle G(V,E)}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>G</mi>
+        <mo stretchy="false">(</mo>
+        <mi>V</mi>
+        <mo>,</mo>
+        <mi>E</mi>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle G(V,E)}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7dc43221ee885a10b87c89373b12b8c1110e7ca5" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:8.233ex; height:2.843ex;" alt="G(V,E)"/></span>in which every point <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle x_{i}\in S}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>x</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>i</mi>
+          </mrow>
+        </msub>
+        <mo>&#x2208;<!-- ∈ --></mo>
+        <mi>S</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle x_{i}\in S}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/26e802dd2146256b829c980d9a808a93dbdcb211" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:6.469ex; height:2.509ex;" alt="x_{i}\in S"/></span> is uniquely associated with vertex <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle v_{i}\in V}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>v</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>i</mi>
+          </mrow>
+        </msub>
+        <mo>&#x2208;<!-- ∈ --></mo>
+        <mi>V</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle v_{i}\in V}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/314467aba70c6bd74cacc52d232baacce36f80ad" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:6.555ex; height:2.509ex;" alt="v_{i}\in V"/></span>. The search for the nearest neighbors to a query <i>q</i> in the set <i>S</i> takes the form of searching for the vertex in the graph <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle G(V,E)}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>G</mi>
+        <mo stretchy="false">(</mo>
+        <mi>V</mi>
+        <mo>,</mo>
+        <mi>E</mi>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle G(V,E)}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7dc43221ee885a10b87c89373b12b8c1110e7ca5" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:8.233ex; height:2.843ex;" alt="G(V,E)"/></span>.
+The basic algorithm - greedy search, works as follows: search starts from an enter-point vertex <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle v_{i}\in V}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>v</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>i</mi>
+          </mrow>
+        </msub>
+        <mo>&#x2208;<!-- ∈ --></mo>
+        <mi>V</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle v_{i}\in V}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/314467aba70c6bd74cacc52d232baacce36f80ad" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:6.555ex; height:2.509ex;" alt="v_{i}\in V"/></span> by computing the distances from the query q to each vertex of its the neighborhood <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \{v_{j}:(v_{i},v_{j})\in E\}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mo fence="false" stretchy="false">{</mo>
+        <msub>
+          <mi>v</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>j</mi>
+          </mrow>
+        </msub>
+        <mo>:</mo>
+        <mo stretchy="false">(</mo>
+        <msub>
+          <mi>v</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>i</mi>
+          </mrow>
+        </msub>
+        <mo>,</mo>
+        <msub>
+          <mi>v</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>j</mi>
+          </mrow>
+        </msub>
+        <mo stretchy="false">)</mo>
+        <mo>&#x2208;<!-- ∈ --></mo>
+        <mi>E</mi>
+        <mo fence="false" stretchy="false">}</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \{v_{j}:(v_{i},v_{j})\in E\}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0beb8b8bb1f283d8cef4789d8c4a39aa12693334" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -1.005ex; width:17.724ex; height:3.009ex;" alt="\{v_{j}:(v_{i},v_{j})\in E\}"/></span>, and then finds a vertex with the minimal distance value. If the distance value between the query and the selected vertex is smaller than the one between the query and the current element, then the algorithm moves to the selected vertex, and it becomes new enter-point. The algorithm stops when it reaches a local minimum: a vertex whose neighborhood does not contain a vertex that is closer to the query than the vertex itself.
+</p><p>The idea of proximity neighborhood graphs was exploited in multiple publications, including the seminal paper by Arya and Mount,<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">&#91;12&#93;</a></sup> in the VoroNet system for the plane,<sup id="cite_ref-voroNet_13-0" class="reference"><a href="#cite_note-voroNet-13">&#91;13&#93;</a></sup> in the RayNet system for the <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \mathbb {E} ^{n}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msup>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi mathvariant="double-struck">E</mi>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>n</mi>
+          </mrow>
+        </msup>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \mathbb {E} ^{n}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7e8fa8586d428ff5706c6d0a00a7939950fad89b" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:2.769ex; height:2.343ex;" alt="\mathbb {E} ^{n}"/></span>,<sup id="cite_ref-rayNet_14-0" class="reference"><a href="#cite_note-rayNet-14">&#91;14&#93;</a></sup> in the Metrized Small World<sup id="cite_ref-msw2014_15-0" class="reference"><a href="#cite_note-msw2014-15">&#91;15&#93;</a></sup>  and HNSW<sup id="cite_ref-:0_9-2" class="reference"><a href="#cite_note-:0-9">&#91;9&#93;</a></sup> algorithms for the general case of spaces with a distance function. These works were preceded by a pioneering paper by Toussaint, where he introduced a concept of a <i>relative neighborhood</i> graph.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16">&#91;16&#93;</a></sup>
+</p>
+<h4><span class="mw-headline" id="Locality_sensitive_hashing">Locality sensitive hashing</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit&amp;section=8" title="Edit section: Locality sensitive hashing">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p><a href="/wiki/Locality_sensitive_hashing" class="mw-redirect" title="Locality sensitive hashing">Locality sensitive hashing</a> (LSH) is a technique for grouping points in space into 'buckets' based on some distance metric operating on the points. Points that are close to each other under the chosen metric are mapped to the same bucket with high probability.<sup id="cite_ref-17" class="reference"><a href="#cite_note-17">&#91;17&#93;</a></sup>
+</p>
+<h4><span class="mw-headline" id="Nearest_neighbor_search_in_spaces_with_small_intrinsic_dimension">Nearest neighbor search in spaces with small intrinsic dimension</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit&amp;section=9" title="Edit section: Nearest neighbor search in spaces with small intrinsic dimension">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>The <a href="/wiki/Cover_tree" title="Cover tree">cover tree</a> has a theoretical bound that is based on the dataset's <a href="/w/index.php?title=Doubling_constant&amp;action=edit&amp;redlink=1" class="new" title="Doubling constant (page does not exist)">doubling constant</a>. The bound on search time is <i>O</i>(<i>c</i><sup>12</sup>&#160;log&#160;<i>n</i>) where <i>c</i>  is the <a href="/wiki/Expansivity_constant" class="mw-redirect" title="Expansivity constant">expansion constant</a> of the dataset.
+</p>
+<h4><span class="mw-headline" id="Projected_radial_search">Projected radial search</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit&amp;section=10" title="Edit section: Projected radial search">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>In the special case where the data is a dense 3D map of geometric points, the projection geometry of the sensing technique can be used to dramatically simplify the search problem.
+This approach requires that the 3D data is organized by a projection to a two dimensional grid and assumes that the data is spatially smooth across neighboring grid cells with the exception of object boundaries.
+These assumptions are valid when dealing with 3D sensor data in applications such as surveying, robotics and stereo vision but may not hold for unorganized data in general.
+In practice this technique has an average search time of <i>O</i>(<i>1</i>)  or <i>O</i>(<i>K</i>)  for the <i>k</i>-nearest neighbor problem when applied to real world stereo vision data.
+<sup id="cite_ref-panSearch_2-1" class="reference"><a href="#cite_note-panSearch-2">&#91;2&#93;</a></sup>
+</p>
+<h4><span class="mw-headline" id="Vector_approximation_files">Vector approximation files</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit&amp;section=11" title="Edit section: Vector approximation files">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>In high dimensional spaces, tree indexing structures become useless because an increasing percentage of the nodes need to be examined anyway. To speed up linear search, a compressed version of the feature vectors stored in RAM is used to prefilter the datasets in a first run. The final candidates are determined in a second stage using the uncompressed data from the disk for distance calculation.<sup id="cite_ref-18" class="reference"><a href="#cite_note-18">&#91;18&#93;</a></sup>
+</p>
+<h4><span id="Compression.2Fclustering_based_search"></span><span class="mw-headline" id="Compression/clustering_based_search">Compression/clustering based search</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit&amp;section=12" title="Edit section: Compression/clustering based search">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>The VA-file approach is a special case of a compression based search, where each feature component is compressed uniformly and independently. The optimal compression technique in multidimensional spaces is <a href="/wiki/Vector_Quantization" class="mw-redirect" title="Vector Quantization">Vector Quantization</a> (VQ), implemented through clustering. The database is clustered and the most "promising" clusters are retrieved. Huge gains over VA-File, tree-based indexes and sequential scan have been observed.<sup id="cite_ref-19" class="reference"><a href="#cite_note-19">&#91;19&#93;</a></sup><sup id="cite_ref-20" class="reference"><a href="#cite_note-20">&#91;20&#93;</a></sup> Also note the parallels between clustering and LSH.
+</p>
+<h2><span class="mw-headline" id="Variants">Variants</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit&amp;section=13" title="Edit section: Variants">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>There are numerous variants of the NNS problem and the two most well-known are the <a href="/wiki/K-nearest_neighbor_algorithm" class="mw-redirect" title="K-nearest neighbor algorithm"><i>k</i>-nearest neighbor search</a> and the <a href="/wiki/%CE%95-approximate_nearest_neighbor_search" class="mw-redirect" title="Ε-approximate nearest neighbor search">ε-approximate nearest neighbor search</a>.
+</p>
+<h3><span class="mw-headline" id="k-nearest_neighbors"><span id="K-nearest_neighbor"> <i>k</i>-nearest neighbors </span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit&amp;section=14" title="Edit section: k-nearest neighbors">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/wiki/K-nearest_neighbor_algorithm" class="mw-redirect" title="K-nearest neighbor algorithm"><i>k</i>-nearest neighbor search</a> identifies the top <i>k</i> nearest neighbors to the query.  This technique is commonly used in predictive analytics to estimate or classify a point based on the consensus of its neighbors. <i>k</i>-nearest neighbor graphs are graphs in which every point is connected to its <i>k</i> nearest neighbors.
+</p>
+<h3><span class="mw-headline" id="Approximate_nearest_neighbor">Approximate nearest neighbor</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit&amp;section=15" title="Edit section: Approximate nearest neighbor">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In some applications it may be acceptable to retrieve a "good guess" of the nearest neighbor. In those cases, we can use an algorithm which doesn't guarantee to return the actual nearest neighbor in every case, in return for improved speed or memory savings. Often such an algorithm will find the nearest neighbor in a majority of cases, but this depends strongly on the dataset being queried.
+</p><p>Algorithms that support the approximate nearest neighbor search include <a href="/wiki/Locality-sensitive_hashing#LSH_algorithm_for_nearest_neighbor_search" title="Locality-sensitive hashing">locality-sensitive hashing</a>, <a href="/wiki/Best_bin_first" title="Best bin first">best bin first</a> and <a href="/w/index.php?title=Balanced_box-decomposition_tree&amp;action=edit&amp;redlink=1" class="new" title="Balanced box-decomposition tree (page does not exist)">balanced box-decomposition tree</a> based search.<sup id="cite_ref-21" class="reference"><a href="#cite_note-21">&#91;21&#93;</a></sup>
+</p>
+<h3><span class="mw-headline" id="Nearest_neighbor_distance_ratio">Nearest neighbor distance ratio</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit&amp;section=16" title="Edit section: Nearest neighbor distance ratio">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/w/index.php?title=Nearest_neighbor_distance_ratio&amp;action=edit&amp;redlink=1" class="new" title="Nearest neighbor distance ratio (page does not exist)">Nearest neighbor distance ratio</a> does not apply the threshold on the direct distance from the original point to the challenger neighbor but on a ratio of it depending on the distance to the previous neighbor. It is used in <a href="/wiki/Content-based_image_retrieval" title="Content-based image retrieval">CBIR</a> to retrieve pictures through a "query by example" using the similarity between local features. More generally it is involved in several <a href="/wiki/Pattern_matching" title="Pattern matching">matching</a> problems.
+</p>
+<h3><span class="mw-headline" id="Fixed-radius_near_neighbors">Fixed-radius near neighbors</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit&amp;section=17" title="Edit section: Fixed-radius near neighbors">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/wiki/Fixed-radius_near_neighbors" title="Fixed-radius near neighbors">Fixed-radius near neighbors</a> is the problem where one wants to efficiently find all points given in <a href="/wiki/Euclidean_space" title="Euclidean space">Euclidean space</a> within a given fixed distance from a specified point. The data structure should work on a distance which is fixed however the query point is arbitrary.
+</p>
+<h3><span class="mw-headline" id="All_nearest_neighbors">All nearest neighbors</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit&amp;section=18" title="Edit section: All nearest neighbors">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>For some applications (e.g. <a href="/wiki/Entropy_estimation" title="Entropy estimation">entropy estimation</a>), we may have <i>N</i> data-points and wish to know which is the nearest neighbor <i>for every one of those N points</i>. This could of course be achieved by running a nearest-neighbor search once for every point, but an improved strategy would be an algorithm that exploits the information redundancy between these <i>N</i> queries to produce a more efficient search. As a simple example: when we find the distance from point <i>X</i> to point <i>Y</i>, that also tells us the distance from point <i>Y</i> to point <i>X</i>, so the same calculation can be reused in two different queries.
+</p><p>Given a fixed dimension, a semi-definite positive norm (thereby including every  <a href="/wiki/Lp_space" title="Lp space">L<sup>p</sup> norm</a>), and <i>n</i> points in this space, the nearest neighbour of every point can be found in <i>O</i>(<i>n</i>&#160;log&#160;<i>n</i>) time and the <i>m</i> nearest neighbours of every point can be found in <i>O</i>(<i>mn</i>&#160;log&#160;<i>n</i>) time.<sup id="cite_ref-22" class="reference"><a href="#cite_note-22">&#91;22&#93;</a></sup><sup id="cite_ref-Vaidya_23-0" class="reference"><a href="#cite_note-Vaidya-23">&#91;23&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit&amp;section=19" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="div-col columns column-width" style="-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
+<ul><li><a href="/wiki/Ball_tree" title="Ball tree">Ball tree</a></li>
+<li><a href="/wiki/Closest_pair_of_points_problem" title="Closest pair of points problem">Closest pair of points problem</a></li>
+<li><a href="/wiki/Cluster_analysis" title="Cluster analysis">Cluster analysis</a></li>
+<li><a href="/wiki/Content-based_image_retrieval" title="Content-based image retrieval">Content-based image retrieval</a></li>
+<li><a href="/wiki/Curse_of_dimensionality" title="Curse of dimensionality">Curse of dimensionality</a></li>
+<li><a href="/wiki/Digital_signal_processing" title="Digital signal processing">Digital signal processing</a></li>
+<li><a href="/wiki/Dimension_reduction" class="mw-redirect" title="Dimension reduction">Dimension reduction</a></li>
+<li><a href="/wiki/Fixed-radius_near_neighbors" title="Fixed-radius near neighbors">Fixed-radius near neighbors</a></li>
+<li><a href="/wiki/Fourier_analysis" title="Fourier analysis">Fourier analysis</a></li>
+<li><a href="/wiki/Instance-based_learning" title="Instance-based learning">Instance-based learning</a></li>
+<li><a href="/wiki/K-nearest_neighbor_algorithm" class="mw-redirect" title="K-nearest neighbor algorithm"><i>k</i>-nearest neighbor algorithm</a></li>
+<li><a href="/wiki/Linear_least_squares_(mathematics)" class="mw-redirect" title="Linear least squares (mathematics)">Linear least squares</a></li>
+<li><a href="/wiki/Locality_sensitive_hashing" class="mw-redirect" title="Locality sensitive hashing">Locality sensitive hashing</a></li>
+<li><a href="/wiki/MinHash" title="MinHash">MinHash</a></li>
+<li><a href="/wiki/Multidimensional_analysis" title="Multidimensional analysis">Multidimensional analysis</a></li>
+<li><a href="/wiki/Nearest-neighbor_interpolation" title="Nearest-neighbor interpolation">Nearest-neighbor interpolation</a></li>
+<li><a href="/wiki/Neighbor_joining" title="Neighbor joining">Neighbor joining</a></li>
+<li><a href="/wiki/Principal_component_analysis" title="Principal component analysis">Principal component analysis</a></li>
+<li><a href="/wiki/Range_search" class="mw-redirect" title="Range search">Range search</a></li>
+<li><a href="/wiki/Set_cover_problem" title="Set cover problem">Set cover problem</a></li>
+<li><a href="/wiki/Similarity_learning" title="Similarity learning">Similarity learning</a></li>
+<li><a href="/wiki/Singular_value_decomposition" title="Singular value decomposition">Singular value decomposition</a></li>
+<li><a href="/wiki/Sparse_distributed_memory" title="Sparse distributed memory">Sparse distributed memory</a></li>
+<li><a href="/wiki/Statistical_distance" title="Statistical distance">Statistical distance</a></li>
+<li><a href="/wiki/Time_series" title="Time series">Time series</a></li>
+<li><a href="/wiki/Voronoi_diagram" title="Voronoi diagram">Voronoi diagram</a></li>
+<li><a href="/wiki/Wavelet" title="Wavelet">Wavelet</a></li></ul>
+</div>
+<h2><span class="mw-headline" id="Open_source_implementations">Open source implementations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit&amp;section=20" title="Edit section: Open source implementations">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/Accord.NET" title="Accord.NET">Accord.NET</a> has C# implementation of KNN classifier</li>
+<li><a href="/wiki/ALGLIB" title="ALGLIB">ALGLIB</a> has C# and C++ implementations of nearest neighbor and approximate nearest neighbor algorithms</li>
+<li><a rel="nofollow" class="external text" href="https://www.cs.umd.edu/~mount/ANN/">ANN</a> library (LGPL license) implements exact and approximate NN search in C++</li>
+<li><a rel="nofollow" class="external text" href="https://github.com/spotify/annoy">Annoy</a> (Apache license) is an implementation in C++ with Python binding from <a href="/wiki/Spotify" title="Spotify">Spotify</a></li>
+<li><a rel="nofollow" class="external text" href="https://falconn-lib.org/">FALCONN</a> (MIT license) is an LSH-based implementation in C++ with a Python wrapper</li>
+<li><a rel="nofollow" class="external text" href="https://www.cs.ubc.ca/research/flann/">FLANN</a> library (BSD license) implements special fast approximate NN algorithms for high-dimensional problems</li>
+<li><a rel="nofollow" class="external text" href="http://www.cgal.org/Pkg/SpatialSearchingD">dD Spatial Searching</a> in <a href="/wiki/CGAL" title="CGAL">CGAL</a> – the Computational Geometry Algorithms Library</li>
+<li><a rel="nofollow" class="external text" href="https://github.com/searchivarius/NonMetricSpaceLib">Non-Metric Space Library</a> – An open source similarity search library containing realisations of various Nearest neighbor search methods.</li></ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit&amp;section=21" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Citations">Citations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit&amp;section=22" title="Edit section: Citations">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="reflist" style="list-style-type: decimal;">
+<div class="mw-references-wrap mw-references-columns"><ol class="references">
+<li id="cite_note-Cayton2008-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-Cayton2008_1-0">^</a></b></span> <span class="reference-text"><cite class="citation journal">Cayton, Lawerence (2008). "Fast nearest neighbor retrieval for bregman divergences". <i>Proceedings of the 25th International Conference on Machine Learning</i>: 112–119. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1145%2F1390156.1390171">10.1145/1390156.1390171</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Proceedings+of+the+25th+International+Conference+on+Machine+Learning&amp;rft.atitle=Fast+nearest+neighbor+retrieval+for+bregman+divergences&amp;rft.pages=112-119&amp;rft.date=2008&amp;rft_id=info%3Adoi%2F10.1145%2F1390156.1390171&amp;rft.aulast=Cayton&amp;rft.aufirst=Lawerence&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><style data-mw-deduplicate="TemplateStyles:r879151008">.mw-parser-output cite.citation{font-style:inherit}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration{color:#555}.mw-parser-output .cs1-subscription span,.mw-parser-output .cs1-registration span{border-bottom:1px dotted;cursor:help}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output code.cs1-code{color:inherit;background:inherit;border:inherit;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;font-size:100%}.mw-parser-output .cs1-visible-error{font-size:100%}.mw-parser-output .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration,.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-parser-output .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2em}</style></span>
+</li>
+<li id="cite_note-panSearch-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-panSearch_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-panSearch_2-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation conference">Bewley, A.; Upcroft, B. (2013). <a rel="nofollow" class="external text" href="http://www.araa.asn.au/acra/acra2013/papers/pap148s1-file1.pdf"><i>Advantages of Exploiting Projection Structure for Segmenting Dense 3D Point Clouds</i></a> <span class="cs1-format">(PDF)</span>. Australian Conference on Robotics and Automation.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=conference&amp;rft.btitle=Advantages+of+Exploiting+Projection+Structure+for+Segmenting+Dense+3D+Point+Clouds&amp;rft.date=2013&amp;rft.aulast=Bewley&amp;rft.aufirst=A.&amp;rft.au=Upcroft%2C+B.&amp;rft_id=http%3A%2F%2Fwww.araa.asn.au%2Facra%2Facra2013%2Fpapers%2Fpap148s1-file1.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite class="citation journal">Munim, Ziaul Haque; Haralambides, Hercules (2018). <a rel="nofollow" class="external text" href="https://www.sciencedirect.com/science/article/pii/S2210539517301001">"Competition and cooperation for intermodal container transhipment: A network optimization approach"</a>. <i>Research in Transportation Business &amp; Management</i>. <b>26</b>: 87–99. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1016%2Fj.rtbm.2018.03.004">10.1016/j.rtbm.2018.03.004</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Research+in+Transportation+Business+%26+Management&amp;rft.atitle=Competition+and+cooperation+for+intermodal+container+transhipment%3A+A+network+optimization+approach&amp;rft.volume=26&amp;rft.pages=87-99&amp;rft.date=2018&amp;rft_id=info%3Adoi%2F10.1016%2Fj.rtbm.2018.03.004&amp;rft.aulast=Munim&amp;rft.aufirst=Ziaul+Haque&amp;rft.au=Haralambides%2C+Hercules&amp;rft_id=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS2210539517301001&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><cite class="citation journal">Weber, Roger; Schek, Hans-J.; Blott, Stephen (1998). <a rel="nofollow" class="external text" href="http://www.vldb.org/conf/1998/p194.pdf">"A quantitative analysis and performance study for similarity search methods in high dimensional spaces"</a> <span class="cs1-format">(PDF)</span>. <i>VLDB '98 Proceedings of the 24rd International Conference on Very Large Data Bases</i>: 194–205.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=VLDB+%2798+Proceedings+of+the+24rd+International+Conference+on+Very+Large+Data+Bases&amp;rft.atitle=A+quantitative+analysis+and+performance+study+for+similarity+search+methods+in+high+dimensional+spaces&amp;rft.pages=194-205&amp;rft.date=1998&amp;rft.aulast=Weber&amp;rft.aufirst=Roger&amp;rft.au=Schek%2C+Hans-J.&amp;rft.au=Blott%2C+Stephen&amp;rft_id=http%3A%2F%2Fwww.vldb.org%2Fconf%2F1998%2Fp194.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><cite class="citation web">Andrew Moore. <a rel="nofollow" class="external text" href="http://www.autonlab.com/autonweb/14665/version/2/part/5/data/moore-tutorial.pdf?branch=main&amp;language=en">"An introductory tutorial on KD trees"</a> <span class="cs1-format">(PDF)</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=An+introductory+tutorial+on+KD+trees&amp;rft.au=Andrew+Moore&amp;rft_id=http%3A%2F%2Fwww.autonlab.com%2Fautonweb%2F14665%2Fversion%2F2%2Fpart%2F5%2Fdata%2Fmoore-tutorial.pdf%3Fbranch%3Dmain%26language%3Den&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-Lee1977-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-Lee1977_6-0">^</a></b></span> <span class="reference-text"><cite class="citation journal"><a href="/wiki/Der-Tsai_Lee" title="Der-Tsai Lee">Lee, D. T.</a>; Wong, C. K. (1977). "Worst-case analysis for region and partial region searches in multidimensional binary search trees and balanced quad trees". <i><a href="/wiki/Acta_Informatica" title="Acta Informatica">Acta Informatica</a></i>. <b>9</b> (1): 23–29. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1007%2FBF00263763">10.1007/BF00263763</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Acta+Informatica&amp;rft.atitle=Worst-case+analysis+for+region+and+partial+region+searches+in+multidimensional+binary+search+trees+and+balanced+quad+trees&amp;rft.volume=9&amp;rft.issue=1&amp;rft.pages=23-29&amp;rft.date=1977&amp;rft_id=info%3Adoi%2F10.1007%2FBF00263763&amp;rft.aulast=Lee&amp;rft.aufirst=D.+T.&amp;rft.au=Wong%2C+C.+K.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><cite class="citation conference">Roussopoulos, N.; Kelley, S.; Vincent, F. D. R. (1995). "Nearest neighbor queries". <i>Proceedings of the 1995 ACM SIGMOD international conference on Management of data  – SIGMOD '95</i>. p.&#160;71. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1145%2F223784.223794">10.1145/223784.223794</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0897917316" title="Special:BookSources/0897917316">0897917316</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=conference&amp;rft.atitle=Nearest+neighbor+queries&amp;rft.btitle=Proceedings+of+the+1995+ACM+SIGMOD+international+conference+on+Management+of+data++%E2%80%93+SIGMOD+%2795&amp;rft.pages=71&amp;rft.date=1995&amp;rft_id=info%3Adoi%2F10.1145%2F223784.223794&amp;rft.isbn=0897917316&amp;rft.aulast=Roussopoulos&amp;rft.aufirst=N.&amp;rft.au=Kelley%2C+S.&amp;rft.au=Vincent%2C+F.+D.+R.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><cite class="citation book">Andoni, A.; Indyk, P. (2006-10-01). <a rel="nofollow" class="external text" href="http://ieeexplore.ieee.org/document/4031381/"><i>Near-Optimal Hashing Algorithms for Approximate Nearest Neighbor in High Dimensions</i></a>. <i>2006 47th Annual IEEE Symposium on Foundations of Computer Science (FOCS'06)</i>. pp.&#160;459–468. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>&#160;<span class="cs1-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="//citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.142.3471">10.1.1.142.3471</a></span>. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1109%2FFOCS.2006.49">10.1109/FOCS.2006.49</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-7695-2720-8" title="Special:BookSources/978-0-7695-2720-8">978-0-7695-2720-8</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Near-Optimal+Hashing+Algorithms+for+Approximate+Nearest+Neighbor+in+High+Dimensions&amp;rft.pages=459-468&amp;rft.date=2006-10-01&amp;rft_id=%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fsummary%3Fdoi%3D10.1.1.142.3471&amp;rft_id=info%3Adoi%2F10.1109%2FFOCS.2006.49&amp;rft.isbn=978-0-7695-2720-8&amp;rft.aulast=Andoni&amp;rft.aufirst=A.&amp;rft.au=Indyk%2C+P.&amp;rft_id=http%3A%2F%2Fieeexplore.ieee.org%2Fdocument%2F4031381%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-:0-9"><span class="mw-cite-backlink">^ <a href="#cite_ref-:0_9-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-:0_9-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-:0_9-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><cite class="citation arxiv">Malkov, Yury; Yashunin, Dmitry (2016). "Efficient and robust approximate nearest neighbor search using Hierarchical Navigable Small World graphs". <a href="/wiki/ArXiv" title="ArXiv">arXiv</a>:<span class="cs1-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="//arxiv.org/abs/1603.09320">1603.09320</a></span> [<a rel="nofollow" class="external text" href="//arxiv.org/archive/cs.DS">cs.DS</a>].</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=preprint&amp;rft.jtitle=arXiv&amp;rft.atitle=Efficient+and+robust+approximate+nearest+neighbor+search+using+Hierarchical+Navigable+Small+World+graphs&amp;rft.date=2016&amp;rft_id=info%3Aarxiv%2F1603.09320&amp;rft.aulast=Malkov&amp;rft.aufirst=Yury&amp;rft.au=Yashunin%2C+Dmitry&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://erikbern.com/2018/06/17/new-approximate-nearest-neighbor-benchmarks.html">"New approximate nearest neighbor benchmarks"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=New+approximate+nearest+neighbor+benchmarks&amp;rft_id=https%3A%2F%2Ferikbern.com%2F2018%2F06%2F17%2Fnew-approximate-nearest-neighbor-benchmarks.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://www.benfrederickson.com/approximate-nearest-neighbours-for-recommender-systems/">"Approximate Nearest Neighbours for Recommender Systems"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Approximate+Nearest+Neighbours+for+Recommender+Systems&amp;rft_id=https%3A%2F%2Fwww.benfrederickson.com%2Fapproximate-nearest-neighbours-for-recommender-systems%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><cite class="citation journal">Arya, Sunil; Mount, David (1993). "Approximate Nearest Neighbor Queries in Fixed Dimensions". <i>Proceedings of the Fourth Annual {ACM/SIGACT-SIAM} Symposium on Discrete Algorithms, 25–27 January 1993, Austin, Texas.</i>: 271–280.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Proceedings+of+the+Fourth+Annual+%7BACM%2FSIGACT-SIAM%7D+Symposium+on+Discrete+Algorithms%2C+25%E2%80%9327+January+1993%2C+Austin%2C+Texas.&amp;rft.atitle=Approximate+Nearest+Neighbor+Queries+in+Fixed+Dimensions&amp;rft.pages=271-280&amp;rft.date=1993&amp;rft.aulast=Arya&amp;rft.aufirst=Sunil&amp;rft.au=Mount%2C+David&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-voroNet-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-voroNet_13-0">^</a></b></span> <span class="reference-text"><cite class="citation journal">Olivier, Beaumont; Kermarrec, Anne-Marie; Marchal, Loris; Rivière, Etienne (2006). <a rel="nofollow" class="external text" href="https://hal.inria.fr/inria-00071210/PDF/RR-5833.pdf">"VoroNet: A scalable object network based on Voronoi tessellations"</a> <span class="cs1-format">(PDF)</span>. <i>INRIA</i>. RR-5833 (1): 23–29. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1109%2FIPDPS.2007.370210">10.1109/IPDPS.2007.370210</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=INRIA&amp;rft.atitle=VoroNet%3A+A+scalable+object+network+based+on+Voronoi+tessellations&amp;rft.volume=RR-5833&amp;rft.issue=1&amp;rft.pages=23-29&amp;rft.date=2006&amp;rft_id=info%3Adoi%2F10.1109%2FIPDPS.2007.370210&amp;rft.aulast=Olivier&amp;rft.aufirst=Beaumont&amp;rft.au=Kermarrec%2C+Anne-Marie&amp;rft.au=Marchal%2C+Loris&amp;rft.au=Rivi%C3%A8re%2C+Etienne&amp;rft_id=https%3A%2F%2Fhal.inria.fr%2Finria-00071210%2FPDF%2FRR-5833.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-rayNet-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-rayNet_14-0">^</a></b></span> <span class="reference-text"><cite class="citation book">Olivier, Beaumont; Kermarrec, Anne-Marie; Rivière, Etienne (2007). <i>Peer to Peer Multidimensional Overlays: Approximating Complex Structures</i>. <i>Principles of Distributed Systems</i>. <b>4878</b>. pp.&#160;315–328. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>&#160;<span class="cs1-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="//citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.626.2980">10.1.1.626.2980</a></span>. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1007%2F978-3-540-77096-1_23">10.1007/978-3-540-77096-1_23</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-3-540-77095-4" title="Special:BookSources/978-3-540-77095-4">978-3-540-77095-4</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Peer+to+Peer+Multidimensional+Overlays%3A+Approximating+Complex+Structures&amp;rft.pages=315-328&amp;rft.date=2007&amp;rft_id=%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fsummary%3Fdoi%3D10.1.1.626.2980&amp;rft_id=info%3Adoi%2F10.1007%2F978-3-540-77096-1_23&amp;rft.isbn=978-3-540-77095-4&amp;rft.aulast=Olivier&amp;rft.aufirst=Beaumont&amp;rft.au=Kermarrec%2C+Anne-Marie&amp;rft.au=Rivi%C3%A8re%2C+Etienne&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-msw2014-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-msw2014_15-0">^</a></b></span> <span class="reference-text"><cite class="citation journal">Malkov, Yury; Ponomarenko, Alexander; Krylov, Vladimir; Logvinov, Andrey (2014). "Approximate nearest neighbor algorithm based on navigable small world graphs". <i>Information Systems</i>. <b>45</b>: 61–68. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1016%2Fj.is.2013.10.006">10.1016/j.is.2013.10.006</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Information+Systems&amp;rft.atitle=Approximate+nearest+neighbor+algorithm+based+on+navigable+small+world+graphs&amp;rft.volume=45&amp;rft.pages=61-68&amp;rft.date=2014&amp;rft_id=info%3Adoi%2F10.1016%2Fj.is.2013.10.006&amp;rft.aulast=Malkov&amp;rft.aufirst=Yury&amp;rft.au=Ponomarenko%2C+Alexander&amp;rft.au=Krylov%2C+Vladimir&amp;rft.au=Logvinov%2C+Andrey&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><cite class="citation journal">Toussaint, Godfried (1980). "The relative neighbourhood graph of a finite planar set". <i>Pattern Recognition</i>. <b>12</b> (4): 261–268. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1016%2F0031-3203%2880%2990066-7">10.1016/0031-3203(80)90066-7</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Pattern+Recognition&amp;rft.atitle=The+relative+neighbourhood+graph+of+a+finite+planar+set&amp;rft.volume=12&amp;rft.issue=4&amp;rft.pages=261-268&amp;rft.date=1980&amp;rft_id=info%3Adoi%2F10.1016%2F0031-3203%2880%2990066-7&amp;rft.aulast=Toussaint&amp;rft.aufirst=Godfried&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><cite class="citation web">A. Rajaraman &amp; J. Ullman (2010). <a rel="nofollow" class="external text" href="http://infolab.stanford.edu/~ullman/mmds.html">"Mining of Massive Datasets, Ch. 3"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Mining+of+Massive+Datasets%2C+Ch.+3&amp;rft.date=2010&amp;rft.au=A.+Rajaraman&amp;rft.au=J.+Ullman&amp;rft_id=http%3A%2F%2Finfolab.stanford.edu%2F~ullman%2Fmmds.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><cite class="citation journal">Weber, Roger; Blott, Stephen. <a rel="nofollow" class="external text" href="https://pdfs.semanticscholar.org/83e4/e3281411ffef40654a4b5d29dae48130aefb.pdf">"An Approximation-Based Data Structure for Similarity Search"</a> <span class="cs1-format">(PDF)</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=An+Approximation-Based+Data+Structure+for+Similarity+Search&amp;rft.aulast=Weber&amp;rft.aufirst=Roger&amp;rft.au=Blott%2C+Stephen&amp;rft_id=https%3A%2F%2Fpdfs.semanticscholar.org%2F83e4%2Fe3281411ffef40654a4b5d29dae48130aefb.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><cite class="citation journal">Ramaswamy, Sharadh; Rose, Kenneth (2007). "Adaptive cluster-distance bounding for similarity search in image databases". <i>ICIP</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=ICIP&amp;rft.atitle=Adaptive+cluster-distance+bounding+for+similarity+search+in+image+databases&amp;rft.date=2007&amp;rft.aulast=Ramaswamy&amp;rft.aufirst=Sharadh&amp;rft.au=Rose%2C+Kenneth&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><cite class="citation journal">Ramaswamy, Sharadh; Rose, Kenneth (2010). "Adaptive cluster-distance bounding for high-dimensional indexing". <i>TKDE</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=TKDE&amp;rft.atitle=Adaptive+cluster-distance+bounding+for+high-dimensional+indexing&amp;rft.date=2010&amp;rft.aulast=Ramaswamy&amp;rft.aufirst=Sharadh&amp;rft.au=Rose%2C+Kenneth&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><cite class="citation journal">Arya, S.; <a href="/wiki/David_Mount" title="David Mount">Mount, D. M.</a>; <a href="/wiki/Nathan_Netanyahu" title="Nathan Netanyahu">Netanyahu, N. S.</a>; Silverman, R.; Wu, A. (1998). <a rel="nofollow" class="external text" href="http://www.cse.ust.hk/faculty/arya/pub/JACM.pdf">"An optimal algorithm for approximate nearest neighbor searching"</a> <span class="cs1-format">(PDF)</span>. <i>Journal of the ACM</i>. <b>45</b> (6): 891–923. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>&#160;<span class="cs1-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="//citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.15.3125">10.1.1.15.3125</a></span>. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1145%2F293347.293348">10.1145/293347.293348</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Journal+of+the+ACM&amp;rft.atitle=An+optimal+algorithm+for+approximate+nearest+neighbor+searching&amp;rft.volume=45&amp;rft.issue=6&amp;rft.pages=891-923&amp;rft.date=1998&amp;rft_id=%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fsummary%3Fdoi%3D10.1.1.15.3125&amp;rft_id=info%3Adoi%2F10.1145%2F293347.293348&amp;rft.aulast=Arya&amp;rft.aufirst=S.&amp;rft.au=Mount%2C+D.+M.&amp;rft.au=Netanyahu%2C+N.+S.&amp;rft.au=Silverman%2C+R.&amp;rft.au=Wu%2C+A.&amp;rft_id=http%3A%2F%2Fwww.cse.ust.hk%2Ffaculty%2Farya%2Fpub%2FJACM.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><cite id="CITEREFClarkson1983" class="citation"><a href="/wiki/Kenneth_L._Clarkson" title="Kenneth L. Clarkson">Clarkson, Kenneth L.</a> (1983), "Fast algorithms for the all nearest neighbors problem", <i>24th IEEE Symp. Foundations of Computer Science, (FOCS '83)</i>, pp.&#160;226–232, <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1109%2FSFCS.1983.16">10.1109/SFCS.1983.16</a>, <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-8186-0508-6" title="Special:BookSources/978-0-8186-0508-6">978-0-8186-0508-6</a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Fast+algorithms+for+the+all+nearest+neighbors+problem&amp;rft.btitle=24th+IEEE+Symp.+Foundations+of+Computer+Science%2C+%28FOCS+%2783%29&amp;rft.pages=226-232&amp;rft.date=1983&amp;rft_id=info%3Adoi%2F10.1109%2FSFCS.1983.16&amp;rft.isbn=978-0-8186-0508-6&amp;rft.aulast=Clarkson&amp;rft.aufirst=Kenneth+L.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/>.</span>
+</li>
+<li id="cite_note-Vaidya-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-Vaidya_23-0">^</a></b></span> <span class="reference-text"><cite class="citation journal">Vaidya, P. M. (1989). <a rel="nofollow" class="external text" href="http://www.springerlink.com/content/p4mk2608787r7281/?p=09da9252d36e4a1b8396833710ef08cc&amp;pi=8">"An <i>O</i>(<i>n</i>&#160;log&#160;<i>n</i>) Algorithm for the All-Nearest-Neighbors Problem"</a>. <i><a href="/wiki/Discrete_and_Computational_Geometry" class="mw-redirect" title="Discrete and Computational Geometry">Discrete and Computational Geometry</a></i>. <b>4</b> (1): 101–115. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1007%2FBF02187718">10.1007/BF02187718</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Discrete+and+Computational+Geometry&amp;rft.atitle=An+O%28n+log+n%29+Algorithm+for+the+All-Nearest-Neighbors+Problem&amp;rft.volume=4&amp;rft.issue=1&amp;rft.pages=101-115&amp;rft.date=1989&amp;rft_id=info%3Adoi%2F10.1007%2FBF02187718&amp;rft.aulast=Vaidya&amp;rft.aufirst=P.+M.&amp;rft_id=http%3A%2F%2Fwww.springerlink.com%2Fcontent%2Fp4mk2608787r7281%2F%3Fp%3D09da9252d36e4a1b8396833710ef08cc%26pi%3D8&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+</ol></div></div>
+<h3><span class="mw-headline" id="Sources">Sources</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit&amp;section=23" title="Edit section: Sources">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><cite class="citation journal">Andrews, L. (November 2001). <a rel="nofollow" class="external text" href="http://www.ddj.com/architect/184401449">"A template for the nearest neighbor problem"</a>. <i>C/C++ Users Journal</i>. <b>19</b> (11): 40–49. <a href="/wiki/International_Standard_Serial_Number" title="International Standard Serial Number">ISSN</a>&#160;<a rel="nofollow" class="external text" href="//www.worldcat.org/issn/1075-2838">1075-2838</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=C%2FC%2B%2B+Users+Journal&amp;rft.atitle=A+template+for+the+nearest+neighbor+problem&amp;rft.volume=19&amp;rft.issue=11&amp;rft.pages=40-49&amp;rft.date=2001-11&amp;rft.issn=1075-2838&amp;rft.aulast=Andrews&amp;rft.aufirst=L.&amp;rft_id=http%3A%2F%2Fwww.ddj.com%2Farchitect%2F184401449&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></li>
+<li><cite class="citation journal">Arya, S.; <a href="/wiki/David_Mount" title="David Mount">Mount, D.M.</a>; <a href="/wiki/Nathan_Netanyahu" title="Nathan Netanyahu">Netanyahu, N. S.</a>; <a href="/wiki/Ruth_Silverman" title="Ruth Silverman">Silverman, R.</a>; <a href="/wiki/Angela_Y._Wu" title="Angela Y. Wu">Wu, A. Y.</a> (1998). "An Optimal Algorithm for Approximate Nearest Neighbor Searching in Fixed Dimensions". <i>Journal of the ACM</i>. <b>45</b> (6): 891–923. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>&#160;<span class="cs1-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="//citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.15.3125">10.1.1.15.3125</a></span>. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1145%2F293347.293348">10.1145/293347.293348</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Journal+of+the+ACM&amp;rft.atitle=An+Optimal+Algorithm+for+Approximate+Nearest+Neighbor+Searching+in+Fixed+Dimensions&amp;rft.volume=45&amp;rft.issue=6&amp;rft.pages=891-923&amp;rft.date=1998&amp;rft_id=%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fsummary%3Fdoi%3D10.1.1.15.3125&amp;rft_id=info%3Adoi%2F10.1145%2F293347.293348&amp;rft.aulast=Arya&amp;rft.aufirst=S.&amp;rft.au=Mount%2C+D.M.&amp;rft.au=Netanyahu%2C+N.+S.&amp;rft.au=Silverman%2C+R.&amp;rft.au=Wu%2C+A.+Y.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></li>
+<li><cite class="citation journal">Beyer, K.; Goldstein, J.; Ramakrishnan, R.; Shaft, U. (1999). "When is nearest neighbor meaningful?". <i>Proceedings of the 7th ICDT</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Proceedings+of+the+7th+ICDT&amp;rft.atitle=When+is+nearest+neighbor+meaningful%3F&amp;rft.date=1999&amp;rft.aulast=Beyer&amp;rft.aufirst=K.&amp;rft.au=Goldstein%2C+J.&amp;rft.au=Ramakrishnan%2C+R.&amp;rft.au=Shaft%2C+U.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></li>
+<li><cite class="citation journal">Chen, Chung-Min; Ling, Yibei (2002). "A Sampling-Based Estimator for Top-k Query". <i>ICDE</i>: 617–627.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=ICDE&amp;rft.atitle=A+Sampling-Based+Estimator+for+Top-k+Query&amp;rft.pages=617-627&amp;rft.date=2002&amp;rft.aulast=Chen&amp;rft.aufirst=Chung-Min&amp;rft.au=Ling%2C+Yibei&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></li>
+<li><cite class="citation book"><a href="/wiki/Hanan_Samet" title="Hanan Samet">Samet, H.</a> (2006). <i>Foundations of Multidimensional and Metric Data Structures</i>. Morgan Kaufmann. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-12-369446-1" title="Special:BookSources/978-0-12-369446-1">978-0-12-369446-1</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Foundations+of+Multidimensional+and+Metric+Data+Structures&amp;rft.pub=Morgan+Kaufmann&amp;rft.date=2006&amp;rft.isbn=978-0-12-369446-1&amp;rft.aulast=Samet&amp;rft.aufirst=H.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></li>
+<li><cite class="citation book">Zezula, P.; Amato, G.; Dohnal, V.; Batko, M. (2006). <i>Similarity Search – The Metric Space Approach</i>. Springer. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-387-29146-8" title="Special:BookSources/978-0-387-29146-8">978-0-387-29146-8</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Similarity+Search+%E2%80%93+The+Metric+Space+Approach&amp;rft.pub=Springer&amp;rft.date=2006&amp;rft.isbn=978-0-387-29146-8&amp;rft.aulast=Zezula&amp;rft.aufirst=P.&amp;rft.au=Amato%2C+G.&amp;rft.au=Dohnal%2C+V.&amp;rft.au=Batko%2C+M.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></li></ul>
+<h2><span class="mw-headline" id="Further_reading">Further reading</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit&amp;section=24" title="Edit section: Further reading">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><cite class="citation book">Shasha, Dennis (2004). <i>High Performance Discovery in Time Series</i>. Berlin: Springer. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-387-00857-8" title="Special:BookSources/978-0-387-00857-8">978-0-387-00857-8</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=High+Performance+Discovery+in+Time+Series&amp;rft.place=Berlin&amp;rft.pub=Springer&amp;rft.date=2004&amp;rft.isbn=978-0-387-00857-8&amp;rft.aulast=Shasha&amp;rft.aufirst=Dennis&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ANearest+neighbor+search" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></li></ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit&amp;section=25" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table role="presentation" class="mbox-small plainlinks sistersitebox" style="background-color:#f9f9f9;border:1px solid #aaa;color:#000">
+<tbody><tr>
+<td class="mbox-image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" decoding="async" width="30" height="40" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></td>
+<td class="mbox-text plainlist">Wikimedia Commons has media related to <i><b><a href="https://commons.wikimedia.org/wiki/Category:Nearest_neighbours_search" class="extiw" title="commons:Category:Nearest neighbours search">Nearest neighbours search</a></b></i>.</td></tr></tbody></table>
+<ul><li><a rel="nofollow" class="external text" href="http://simsearch.yury.name/tutorial.html">Nearest Neighbors and Similarity Search</a> – a website dedicated to educational materials, software, literature, researchers, open problems and events related to NN searching. Maintained by Yury Lifshits</li>
+<li><a rel="nofollow" class="external text" href="http://sswiki.tierra-aoi.net">Similarity Search Wiki</a> – a collection of links, people, ideas, keywords, papers, slides, code and data sets on nearest neighbours</li></ul>
+
+<!-- 
+NewPP limit report
+Parsed by mw1269
+Cached time: 20190215000810
+Cache expiry: 2073600
+Dynamic content: false
+CPU time usage: 0.480 seconds
+Real time usage: 0.593 seconds
+Preprocessor visited node count: 1727/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 55270/2097152 bytes
+Template argument size: 669/2097152 bytes
+Highest expansion depth: 9/40
+Expensive parser function count: 4/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 84660/5000000 bytes
+Number of Wikibase entities loaded: 4/400
+Lua time usage: 0.278/10.000 seconds
+Lua memory usage: 4 MB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  447.349      1 -total
+ 68.27%  305.387      1 Template:Reflist
+ 46.29%  207.059     17 Template:Cite_journal
+ 15.16%   67.797      1 Template:Commons_category
+  8.61%   38.534      5 Template:Cite_book
+  6.03%   26.979      1 Template:Div_col
+  4.60%   20.563      4 Template:Cite_web
+  4.38%   19.578      1 Template:Cite_arxiv
+  3.81%   17.050      1 Template:Commons
+  3.80%   16.978      2 Template:Cite_conference
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:7309022-0!canonical!math=5 and timestamp 20190215000810 and revision id 882694234
+ -->
+</div><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Nearest_neighbor_search&amp;oldid=882694234">https://en.wikipedia.org/w/index.php?title=Nearest_neighbor_search&amp;oldid=882694234</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Approximation_algorithms" title="Category:Approximation algorithms">Approximation algorithms</a></li><li><a href="/wiki/Category:Classification_algorithms" title="Category:Classification algorithms">Classification algorithms</a></li><li><a href="/wiki/Category:Data_mining" title="Category:Data mining">Data mining</a></li><li><a href="/wiki/Category:Discrete_geometry" title="Category:Discrete geometry">Discrete geometry</a></li><li><a href="/wiki/Category:Geometric_algorithms" title="Category:Geometric algorithms">Geometric algorithms</a></li><li><a href="/wiki/Category:Machine_learning" title="Category:Machine learning">Machine learning</a></li><li><a href="/wiki/Category:Mathematical_optimization" title="Category:Mathematical optimization">Mathematical optimization</a></li><li><a href="/wiki/Category:Search_algorithms" title="Category:Search algorithms">Search algorithms</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:CS1:_long_volume_value" title="Category:CS1: long volume value">CS1: long volume value</a></li><li><a href="/wiki/Category:Commons_category_link_is_on_Wikidata" title="Category:Commons category link is on Wikidata">Commons category link is on Wikidata</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Nearest+neighbor+search" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Nearest+neighbor+search" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="/wiki/Nearest_neighbor_search" title="View the content page [c]" accesskey="c">Article</a></span></li><li id="ca-talk"><span><a href="/wiki/Talk:Nearest_neighbor_search" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+						<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+						<ul class="menu">
+													</ul>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="/wiki/Nearest_neighbor_search">Read</a></span></li><li id="ca-edit" class="collapsible"><span><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=edit" title="Edit this page [e]" accesskey="e">Edit</a></span></li><li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+						<h3 id="p-cactions-label"><span>More</span></h3>
+						<ul class="menu">
+													</ul>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-interaction" aria-labelledby="p-interaction-label">
+			<h3 id="p-interaction-label">Interaction</h3>
+			<div class="body">
+								<ul>
+					<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Nearest_neighbor_search" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Nearest_neighbor_search" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Nearest_neighbor_search&amp;oldid=882694234" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Nearest_neighbor_search&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q608751" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Nearest_neighbor_search&amp;id=882694234" title="Information on how to cite this page">Cite this page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-coll-print_export" aria-labelledby="p-coll-print_export-label">
+			<h3 id="p-coll-print_export-label">Print/export</h3>
+			<div class="body">
+								<ul>
+					<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Nearest+neighbor+search">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:ElectronPdf&amp;page=Nearest+neighbor+search&amp;action=show-download-screen">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Nearest_neighbor_search&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-wikibase-otherprojects" aria-labelledby="p-wikibase-otherprojects-label">
+			<h3 id="p-wikibase-otherprojects-label">In other projects</h3>
+			<div class="body">
+								<ul>
+					<li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Nearest_neighbours_search" hreflang="en">Wikimedia Commons</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label">
+			<h3 id="p-lang-label">Languages</h3>
+			<div class="body">
+								<ul>
+					<li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D8%A8%D8%AD%D8%AB_%D8%A7%D9%84%D9%86%D9%82%D8%B7%D8%A9_%D8%A7%D9%84%D8%A3%D9%82%D8%B1%D8%A8" title="بحث النقطة الأقرب – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target">العربية</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%AC%D8%B3%D8%AA%D8%AC%D9%88%DB%8C_%D9%86%D8%B2%D8%AF%DB%8C%DA%A9%D8%AA%D8%B1%DB%8C%D9%86_%D9%87%D9%85%D8%B3%D8%A7%DB%8C%D9%87" title="جستجوی نزدیکترین همسایه – Persian" lang="fa" hreflang="fa" class="interlanguage-link-target">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Recherche_des_plus_proches_voisins" title="Recherche des plus proches voisins – French" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EC%B5%9C%EA%B7%BC%EC%A0%91_%EC%9D%B4%EC%9B%83_%ED%83%90%EC%83%89" title="최근접 이웃 탐색 – Korean" lang="ko" hreflang="ko" class="interlanguage-link-target">한국어</a></li><li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/Legk%C3%B6zelebbi_szomsz%C3%A9d_anal%C3%ADzis" title="Legközelebbi szomszéd analízis – Hungarian" lang="hu" hreflang="hu" class="interlanguage-link-target">Magyar</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E6%9C%80%E8%BF%91%E5%82%8D%E6%8E%A2%E7%B4%A2" title="最近傍探索 – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target">日本語</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0_%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0_%D0%B1%D0%BB%D0%B8%D0%B6%D0%B0%D0%B9%D1%88%D0%B5%D0%B3%D0%BE_%D1%81%D0%BE%D1%81%D0%B5%D0%B4%D0%B0" title="Задача поиска ближайшего соседа – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target">Русский</a></li><li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/Pretra%C5%BEivanje_najbli%C5%BEeg_suseda" title="Pretraživanje najbližeg suseda – Serbian" lang="sr" hreflang="sr" class="interlanguage-link-target">Српски / srpski</a></li><li class="interlanguage-link interwiki-sh"><a href="https://sh.wikipedia.org/wiki/Pretra%C5%BEivanje_najbli%C5%BEeg_suseda" title="Pretraživanje najbližeg suseda – Serbo-Croatian" lang="sh" hreflang="sh" class="interlanguage-link-target">Srpskohrvatski / српскохрватски</a></li><li class="interlanguage-link interwiki-th"><a href="https://th.wikipedia.org/wiki/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%84%E0%B9%89%E0%B8%99%E0%B8%AB%E0%B8%B2%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%AA%E0%B8%B8%E0%B8%94" title="การค้นหาเพื่อนบ้านใกล้สุด – Thai" lang="th" hreflang="th" class="interlanguage-link-target">ไทย</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%9F%D0%BE%D1%88%D1%83%D0%BA_%D0%BD%D0%B0%D0%B9%D0%B1%D0%BB%D0%B8%D0%B6%D1%87%D0%BE%D0%B3%D0%BE_%D1%81%D1%83%D1%81%D1%96%D0%B4%D0%B0" title="Пошук найближчого сусіда – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target">Українська</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E6%9C%80%E9%82%BB%E8%BF%91%E6%90%9C%E7%B4%A2" title="最邻近搜索 – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target">中文</a></li>				</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q608751#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> This page was last edited on 10 February 2019, at 19:47<span class="anonymous-show">&#160;(UTC)</span>.</li>
+								<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+								<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+								<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+								<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+								<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+								<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+								<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Nearest_neighbor_search&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+						<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>					</li>
+										<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.480","walltime":"0.593","ppvisitednodes":{"value":1727,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":55270,"limit":2097152},"templateargumentsize":{"value":669,"limit":2097152},"expansiondepth":{"value":9,"limit":40},"expensivefunctioncount":{"value":4,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":84660,"limit":5000000},"entityaccesscount":{"value":4,"limit":400},"timingprofile":["100.00%  447.349      1 -total"," 68.27%  305.387      1 Template:Reflist"," 46.29%  207.059     17 Template:Cite_journal"," 15.16%   67.797      1 Template:Commons_category","  8.61%   38.534      5 Template:Cite_book","  6.03%   26.979      1 Template:Div_col","  4.60%   20.563      4 Template:Cite_web","  4.38%   19.578      1 Template:Cite_arxiv","  3.81%   17.050      1 Template:Commons","  3.80%   16.978      2 Template:Cite_conference"]},"scribunto":{"limitreport-timeusage":{"value":"0.278","limit":"10.000"},"limitreport-memusage":{"value":4198027,"limit":52428800}},"cachereport":{"origin":"mw1269","timestamp":"20190215000810","ttl":2073600,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Nearest neighbor search","url":"https:\/\/en.wikipedia.org\/wiki\/Nearest_neighbor_search","sameAs":"http:\/\/www.wikidata.org\/entity\/Q608751","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q608751","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-10-05T22:30:08Z","dateModified":"2019-02-10T19:47:54Z","headline":"(as a form of proximity search (metric space)) optimization problem of finding the point in a given set that is closest (or most similar) to a given point"}</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":108,"wgHostname":"mw1272"});});</script>
+	</body>
+</html>

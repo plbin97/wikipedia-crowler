@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Quantitative marketing research - Wikipedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Quantitative_marketing_research","wgTitle":"Quantitative marketing research","wgCurRevisionId":861428341,"wgRevisionId":861428341,"wgArticleId":274035,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles lacking in-text citations from January 2010","All articles lacking in-text citations","Market research","Quantitative research","Business intelligence","Quantitative marketing research","Psychometrics","Applied statistics"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Quantitative_marketing_research","wgRelevantArticleId":274035,"wgRequestId":"XGlrFwpAAD8AAHMv9MsAAABA","wgCSPNonce":false,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgMFIsPageContentModelEditable":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgWMESchemaEditAttemptStepOversample":false,"wgPoweredByHHVM":true,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgWikibaseItemId":"Q7268931","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":true,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true,"oresWikiId":"enwiki","oresBaseUrl":"http://ores.discovery.wmnet:8081/","oresApiVersion":3});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready","user":"ready","user.options":"ready","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.toc.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.3d.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.tokens@0tffind",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});RLPAGEMODULES=["site","mediawiki.page.startup","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"];mw.loader.load(RLPAGEMODULES);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.3d.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.toc.styles%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.charinsert-styles&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.33.0-wmf.17"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Quantitative_marketing_research"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Quantitative_marketing_research&amp;action=edit"/>
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Quantitative_marketing_research&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Quantitative_marketing_research"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 9]><script src="/w/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Quantitative_marketing_research rootpage-Quantitative_marketing_research skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div><div class="mw-indicators mw-body-content">
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="en">Quantitative marketing research</h1>			<div id="bodyContent" class="mw-body-content">
+				<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>				<div id="contentSub"></div>
+				<div id="jump-to-nav"></div>				<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+				<a class="mw-jump-link" href="#p-search">Jump to search</a>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><table class="box-More_footnotes plainlinks metadata ambox ambox-style ambox-More_footnotes" role="presentation"><tbody><tr><td class="mbox-image"><div style="width:52px"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png" decoding="async" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/60px-Text_document_with_red_question_mark.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/80px-Text_document_with_red_question_mark.svg.png 2x" data-file-width="48" data-file-height="48" /></div></td><td class="mbox-text"><div class="mbox-text-span">This article includes a <a href="/wiki/Wikipedia:Citing_sources" title="Wikipedia:Citing sources">list of references</a>, but <b>its sources remain unclear</b> because it has <b>insufficient <a href="/wiki/Wikipedia:Citing_sources#Inline_citations" title="Wikipedia:Citing sources">inline citations</a></b>.<span class="hide-when-compact"> Please help to <a href="/wiki/Wikipedia:WikiProject_Fact_and_Reference_Check" class="mw-redirect" title="Wikipedia:WikiProject Fact and Reference Check">improve</a> this article by <a href="/wiki/Wikipedia:When_to_cite" title="Wikipedia:When to cite">introducing</a> more precise citations.</span>  <small class="date-container"><i>(<span class="date">January 2010</span>)</i></small><small class="hide-when-compact"><i> (<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></div></td></tr></tbody></table>
+<p><b>Quantitative marketing research</b> is the application of quantitative research techniques to the field of marketing. It has roots in both the <a href="/wiki/Positivism" title="Positivism">positivist</a> view of the world, and the modern marketing viewpoint that marketing is an interactive process in which both the buyer and seller reach a satisfying agreement on the "<a href="/wiki/Marketing_mix" title="Marketing mix">four Ps</a>" of marketing: Product, Price, Place (location) and Promotion.
+</p><p>As a <a href="/wiki/Social_research" title="Social research">social research</a> method, it typically involves the construction of <a href="/wiki/Questionnaire" title="Questionnaire">questionnaires</a> and <a href="/wiki/Scale_(social_sciences)" title="Scale (social sciences)">scales</a>. People who respond (respondents) are asked to complete the <a href="/wiki/Statistical_survey" class="mw-redirect" title="Statistical survey">survey</a>. <a href="/wiki/Marketing" title="Marketing">Marketers</a> use the information to obtain and understand the needs of individuals in the marketplace, and to create <a href="/wiki/Strategic_planning" title="Strategic planning">strategies</a> and <a href="/wiki/Marketing_plan" title="Marketing plan">marketing plans</a>.
+</p>
+<div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Typical_general_procedure"><span class="tocnumber">1</span> <span class="toctext">Typical general procedure</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Statistical_analysis"><span class="tocnumber">2</span> <span class="toctext">Statistical analysis</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Reliability_and_validity"><span class="tocnumber">2.1</span> <span class="toctext">Reliability and validity</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Types_of_errors"><span class="tocnumber">2.2</span> <span class="toctext">Types of errors</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#See_also"><span class="tocnumber">3</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#References"><span class="tocnumber">4</span> <span class="toctext">References</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Typical_general_procedure">Typical general procedure</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Quantitative_marketing_research&amp;action=edit&amp;section=1" title="Edit section: Typical general procedure">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Simply put, there are five major and important steps involved in the research process:
+</p>
+<ol><li>Defining the problem.</li>
+<li><a href="/wiki/Experimental_design" class="mw-redirect" title="Experimental design">Research design</a>.</li>
+<li><a href="/wiki/Data_collection" title="Data collection">Data collection</a>.</li>
+<li><a href="/wiki/Data_analysis" title="Data analysis">Data analysis</a>.</li>
+<li><a href="/wiki/Report_writing" class="mw-redirect" title="Report writing">Report writing</a> &amp; presentation.</li></ol>
+<p>A brief discussion on these steps is:
+</p>
+<ol><li>Problem audit and problem definition - What is the problem? What are the various aspects of the problem? What information is needed?</li>
+<li>Conceptualization and operationalization - How exactly do we define the concepts involved? How do we translate these concepts into observable and measurable behaviours?</li>
+<li><a href="/wiki/Hypothesis" title="Hypothesis">Hypothesis</a> specification - What claim(s) do we want to test?</li>
+<li>Research design specification - What type of methodology to use? - examples: questionnaire, survey</li>
+<li><a href="/wiki/Questionnaire_construction" title="Questionnaire construction">Question specification</a> - What questions to ask? In what order?</li>
+<li><a href="/wiki/Scale_(social_sciences)" title="Scale (social sciences)">Scale specification</a> - How will preferences be rated?</li>
+<li><a href="/wiki/Sampling_(statistics)" title="Sampling (statistics)">Sampling design</a> specification - What is the total population? What sample size is necessary for this population? What sampling method to use?- examples: <b>Probability Sampling:-</b> (<a href="/wiki/Cluster_sampling" title="Cluster sampling">cluster sampling</a>, <a href="/wiki/Stratified_sampling" title="Stratified sampling">stratified sampling</a>, <a href="/wiki/Simple_random_sampling" class="mw-redirect" title="Simple random sampling">simple random sampling</a>, <a href="/wiki/Multistage_sampling" title="Multistage sampling">multistage sampling</a>, <a href="/wiki/Systematic_sampling" title="Systematic sampling">systematic sampling</a>) &amp; <b><a href="/wiki/Nonprobability_sampling" title="Nonprobability sampling">Nonprobability sampling</a>:-</b> (Convenience Sampling, Judgement Sampling, Purposive Sampling, Quota Sampling, Snowball Sampling, etc. )</li>
+<li>Data collection - Use mail, telephone, internet, mall intercepts</li>
+<li>Codification and re-specification - Make adjustments to the raw data so it is compatible with statistical techniques and with the objectives of the research - examples: assigning numbers, consistency checks, substitutions, deletions, weighting, dummy variables, scale transformations, scale standardization</li>
+<li>Statistical analysis - Perform various descriptive and inferential techniques (see below) on the raw data. Make inferences from the sample to the whole population. Test the results for statistical significance.</li>
+<li>Interpret and integrate findings - What do the results mean? What conclusions can be drawn? How do these findings relate to similar research?</li>
+<li>Write the research report - Report usually has headings such as: 1) executive summary; 2) objectives; 3) methodology; 4) main findings; 5) detailed charts and diagrams. Present the report to the client in a 10-minute presentation. Be prepared for questions.</li></ol>
+<p>The design step may involve a pilot study in order to discover any hidden issues. The codification and analysis steps are typically performed by computer, using <a href="/wiki/List_of_statistical_packages" title="List of statistical packages">statistical software</a>.  The data collection steps, can in some instances be automated, but often require significant manpower to undertake.  Interpretation is a skill mastered only by experience.
+</p>
+<h2><span class="mw-headline" id="Statistical_analysis">Statistical analysis</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Quantitative_marketing_research&amp;action=edit&amp;section=2" title="Edit section: Statistical analysis">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The data acquired for quantitative marketing research can be analysed by almost any of the range of techniques of <a href="/wiki/Statistical_analysis" class="mw-redirect" title="Statistical analysis">statistical analysis</a>, which can be broadly divided into <a href="/wiki/Descriptive_statistics" title="Descriptive statistics">descriptive statistics</a> and <a href="/wiki/Statistical_inference" title="Statistical inference">statistical inference</a>. An important set of techniques is that related to <a href="/wiki/Statistical_survey" class="mw-redirect" title="Statistical survey">statistical surveys</a>. In any instance, an appropriate type of statistical analysis should take account of the various types of error that may arise, as outlined below.
+</p>
+<h3><span class="mw-headline" id="Reliability_and_validity">Reliability and validity</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Quantitative_marketing_research&amp;action=edit&amp;section=3" title="Edit section: Reliability and validity">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Research should be tested for <a href="/wiki/Reliability_(psychometric)" class="mw-redirect" title="Reliability (psychometric)">reliability</a>, generalizability, and <a href="/wiki/Validity_(psychometric)" class="mw-redirect" title="Validity (psychometric)">validity</a>.
+</p><p><b>Generalizability</b> is the ability to make inferences from a sample to the population.
+</p><p><b>Reliability</b> is the extent to which a measure will produce consistent results.
+</p>
+<ul><li><i>Test-retest reliability</i> checks how similar the results are if the research is repeated under similar circumstances. Stability over repeated measures is assessed with the Pearson coefficient.</li>
+<li><i>Alternative forms reliability</i> checks how similar the results are if the research is repeated using different forms.</li>
+<li><i>Internal consistency reliability</i> checks how well the individual measures included in the research are converted into a composite measure. Internal consistency may be assessed by correlating performance on two halves of a test (split-half reliability). The value of the <a href="/wiki/Pearson_product-moment_correlation_coefficient" class="mw-redirect" title="Pearson product-moment correlation coefficient">Pearson product-moment correlation coefficient</a> is adjusted with the <a href="/wiki/Spearman%E2%80%93Brown_prediction_formula" title="Spearman–Brown prediction formula">Spearman–Brown prediction formula</a> to correspond to the correlation between two full-length tests. A commonly used measure is <a href="/wiki/Cronbach%27s_alpha" title="Cronbach&#39;s alpha">Cronbach's α</a>, which is equivalent to the mean of all possible split-half coefficients. Reliability may be improved by increasing the sample size.</li></ul>
+<p><b>Validity</b> asks whether the research measured what it intended to.
+</p>
+<ul><li><i>Content validation</i> (also called face validity) checks how well the content of the research are related to the variables to be studied; it seeks to answer whether the research questions are representative of the variables being researched. It is a demonstration that the items of a test are drawn from the domain being measured.</li>
+<li><i>Criterion validation</i> checks how meaningful the research criteria are relative to other possible criteria. When the criterion is collected later the goal is to establish predictive validity.</li>
+<li><i>Construct validation</i> checks what underlying construct is being measured. There are three variants of construct validity: <i>convergent validity</i> (how well the research relates to other measures of the same construct), <i>discriminant validity</i> (how poorly the research relates to measures of opposing constructs), and <i>nomological validity</i> (how well the research relates to other variables as required by theory).</li>
+<li><i>Internal validation</i>, used primarily in experimental research designs, checks the relation between the dependent and independent variables (i.e. Did the experimental manipulation of the independent variable actually cause the observed results?)</li>
+<li><i>External validation</i> checks whether the experimental results can be generalized.</li></ul>
+<p>Validity implies reliability: A valid measure must be reliable. Reliability does not necessarily imply validity, however: A reliable measure does not imply that it is valid.
+</p>
+<h3><span class="mw-headline" id="Types_of_errors">Types of errors</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Quantitative_marketing_research&amp;action=edit&amp;section=4" title="Edit section: Types of errors">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>Random sampling errors:</b>
+</p>
+<ul><li>sample too small</li>
+<li>sample not representative</li>
+<li>inappropriate sampling method used</li>
+<li><a href="/wiki/Errors_and_residuals_in_statistics" class="mw-redirect" title="Errors and residuals in statistics">random errors</a></li></ul>
+<p><b>Research design errors:</b>
+</p>
+<ul><li>bias introduced</li>
+<li>measurement error</li>
+<li>data analysis error</li>
+<li>sampling frame error</li>
+<li>population definition error</li>
+<li>scaling error</li>
+<li>question construction error</li></ul>
+<p><b>Interviewer errors:</b>
+</p>
+<ul><li>recording errors</li>
+<li>cheating errors</li>
+<li>questioning errors</li>
+<li>respondent selection error</li></ul>
+<p><b>Respondent errors:</b>
+</p>
+<ul><li>non-response error</li>
+<li>inability error</li>
+<li>falsification error</li></ul>
+<p><b>Hypothesis errors:</b>
+</p>
+<ul><li><a href="/wiki/Type_I_and_type_II_errors#Type_I_error" title="Type I and type II errors">type I error</a> (also called alpha error)
+<ul><li>the study results lead to the rejection of the null hypothesis even though it is actually true</li></ul></li>
+<li><a href="/wiki/Type_I_and_type_II_errors#Type_II_error" title="Type I and type II errors">type II error</a> (also called beta error)
+<ul><li>the study results lead to the acceptance (non-rejection) of the null hypothesis even though it is actually false</li></ul></li></ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Quantitative_marketing_research&amp;action=edit&amp;section=5" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><b><a href="/wiki/Qualitative_marketing_research" title="Qualitative marketing research">Qualitative marketing research</a></b></li>
+<li><a href="/wiki/Quantitative_research" title="Quantitative research">Quantitative research</a></li>
+<li><a href="/wiki/Marketing_research" title="Marketing research">Marketing research</a></li>
+<li><a href="/wiki/Master_of_Marketing_Research" title="Master of Marketing Research">Master of Marketing Research</a></li>
+<li><a href="/wiki/Automated_computer_telephone_interviewing" class="mw-redirect" title="Automated computer telephone interviewing">Automated computer telephone interviewing</a></li>
+<li><a href="/wiki/Brand_strength_analysis" title="Brand strength analysis">Brand strength analysis</a></li>
+<li><a href="/wiki/Bureau_of_Labor_Statistics" title="Bureau of Labor Statistics">Bureau of Labor Statistics</a></li>
+<li><a href="/wiki/Choice_Modelling" class="mw-redirect" title="Choice Modelling">Choice Modelling</a></li>
+<li><a href="/wiki/Computer-assisted_telephone_interviewing" title="Computer-assisted telephone interviewing">Computer-assisted telephone interviewing</a></li>
+<li><a href="/wiki/Computer-assisted_personal_interviewing" title="Computer-assisted personal interviewing">Computer-assisted personal interviewing</a></li>
+<li><a href="/wiki/Data_Mining" class="mw-redirect" title="Data Mining">Data Mining</a></li>
+<li><a href="/wiki/DIY_research" title="DIY research">DIY research</a></li>
+<li><a href="/wiki/Enterprise_Feedback_Management" class="mw-redirect" title="Enterprise Feedback Management">Enterprise Feedback Management</a></li>
+<li><a href="/wiki/Maximum_Difference_Preference_Scaling" class="mw-redirect" title="Maximum Difference Preference Scaling">Maximum Difference Preference Scaling</a></li>
+<li><a href="/wiki/NIPO_Software" class="mw-redirect" title="NIPO Software">NIPO Software</a></li>
+<li><a href="/wiki/Official_statistics" title="Official statistics">Official statistics</a></li>
+<li><a href="/wiki/Online_panel" title="Online panel">Online panel</a></li>
+<li><a href="/wiki/Paid_survey" title="Paid survey">Paid survey</a></li>
+<li><a href="/wiki/Qualtrics" title="Qualtrics">Qualtrics</a></li>
+<li><a href="/wiki/Questionnaires" class="mw-redirect" title="Questionnaires">Questionnaires</a></li>
+<li><a href="/wiki/Questionnaire_construction" title="Questionnaire construction">Questionnaire construction</a></li>
+<li><a href="/wiki/Rating_scale" title="Rating scale">Rating scale</a></li>
+<li><a href="/wiki/SPSS" title="SPSS">SPSS</a></li>
+<li><a href="/wiki/Urtak" title="Urtak">Urtak</a></li></ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Quantitative_marketing_research&amp;action=edit&amp;section=6" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+</div>
+<ul><li>Bradburn, Norman M. and Seymour Sudman. <i>Polls and Surveys: Understanding What They Tell Us</i> (1988)</li>
+<li>Converse, Jean M.  <i>Survey Research in the United States: Roots and Emergence 1890-1960</i> (1987), the standard history</li>
+<li><a rel="nofollow" class="external text" href="https://www.questia.com/PM.qst?a=o&amp;d=100501261">Glynn, Carroll J., Susan Herbst, Garrett J. O'Keefe, and Robert Y. Shapiro. <i>Public Opinion</i> (1999)</a> textbook</li>
+<li><a rel="nofollow" class="external text" href="https://www.questia.com/PM.qst?a=o&amp;d=104829752">Oskamp, Stuart and P. Wesley Schultz; <i>Attitudes and Opinions</i> (2004)</a></li>
+<li>James G. Webster, Patricia F. Phalen, Lawrence W. Lichty; <i>Ratings Analysis: The Theory and Practice of Audience Research</i> Lawrence Erlbaum Associates, 2000</li>
+<li><a rel="nofollow" class="external text" href="https://www.questia.com/PM.qst?a=o&amp;d=59669912">Young, Michael L. <i>Dictionary of Polling: The Language of Contemporary Opinion Research</i> (1992)</a></li></ul>
+<div role="navigation" class="navbox" aria-labelledby="Social_survey_research" style="padding:3px"><table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="3"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:Social_surveys" title="Template:Social surveys"><abbr title="View this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Social_surveys" title="Template talk:Social surveys"><abbr title="Discuss this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Social_surveys&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a></li></ul></div><div id="Social_survey_research" style="font-size:114%;margin:0 4em">Social <a href="/wiki/Survey_research" class="mw-redirect" title="Survey research">survey research</a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Data_collection" title="Data collection">Gathering data</a></th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Survey_data_collection" title="Survey data collection">Collection methods</a></li>
+<li><a href="/wiki/Census" title="Census">Census</a></li>
+<li><a href="/wiki/Survey_sampling" title="Survey sampling">Sampling for surveys</a></li>
+<li><a href="/wiki/Sampling_(statistics)" title="Sampling (statistics)">Random sampling</a></li>
+<li><a href="/wiki/Questionnaire" title="Questionnaire">Questionnaire</a></li>
+<li><a href="/wiki/Interview_(research)" title="Interview (research)">Interview</a>
+<ul><li><a href="/wiki/Structured_interview" title="Structured interview">Structured</a></li>
+<li><a href="/wiki/Semi-structured_interview" title="Semi-structured interview">Semi-structured</a></li>
+<li><a href="/wiki/Unstructured_interview" title="Unstructured interview">Unstructured</a></li>
+<li><a href="/wiki/Couple_interview" title="Couple interview">Couple</a></li></ul></li></ul>
+</div></td><td class="navbox-image" rowspan="5" style="width:1px;padding:0px 0px 0px 2px"><div><a href="/wiki/File:WMF_Strategic_Plan_Survey.svg" class="image"><img alt="WMF Strategic Plan Survey.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/69/WMF_Strategic_Plan_Survey.svg/120px-WMF_Strategic_Plan_Survey.svg.png" decoding="async" width="120" height="99" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/69/WMF_Strategic_Plan_Survey.svg/180px-WMF_Strategic_Plan_Survey.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/69/WMF_Strategic_Plan_Survey.svg/240px-WMF_Strategic_Plan_Survey.svg.png 2x" data-file-width="535" data-file-height="440" /></a></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Data_analysis" title="Data analysis">Analyzing data</a></th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Categorical_data" class="mw-redirect" title="Categorical data">Categorical data</a></li>
+<li><a href="/wiki/Contingency_table" title="Contingency table">Contingency table</a></li>
+<li><a href="/wiki/Level_of_measurement" title="Level of measurement">Level of measurement</a></li>
+<li><a href="/wiki/Descriptive_statistics" title="Descriptive statistics">Descriptive statistics</a></li>
+<li><a href="/wiki/Exploratory_data_analysis" title="Exploratory data analysis">Exploratory data analysis</a></li>
+<li><a href="/wiki/Multivariate_statistics" title="Multivariate statistics">Multivariate statistics</a></li>
+<li><a href="/wiki/Psychometrics" title="Psychometrics">Psychometrics</a></li>
+<li><a href="/wiki/Statistical_inference" title="Statistical inference">Statistical inference</a></li>
+<li><a href="/wiki/Statistical_model" title="Statistical model">Statistical models</a>
+<ul><li><a href="/wiki/Graphical_model" title="Graphical model">Graphical</a></li>
+<li><a href="/wiki/Poisson_regression" title="Poisson regression">Log-linear</a></li>
+<li><a href="/wiki/Structural_equation_modeling" title="Structural equation modeling">Structural</a></li></ul></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Applications</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Audience_measurement" title="Audience measurement">Audience measurement</a></li>
+<li><a href="/wiki/Demography" title="Demography">Demography</a></li>
+<li><a href="/wiki/Market_research" title="Market research">Market research</a></li>
+<li><a href="/wiki/Opinion_poll" title="Opinion poll">Opinion poll</a></li>
+<li><a href="/wiki/Public_opinion" title="Public opinion">Public opinion</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Major surveys</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Afrobarometer" title="Afrobarometer">Afrobarometer</a></li>
+<li><a href="/wiki/American_National_Election_Studies" title="American National Election Studies">American National Election Studies</a></li>
+<li><a href="/wiki/Comparative_Study_of_Electoral_Systems" title="Comparative Study of Electoral Systems">Comparative Study of Electoral Systems</a></li>
+<li><a href="/wiki/Eurobarometer" title="Eurobarometer">Eurobarometer</a></li>
+<li><a href="/wiki/European_Social_Survey" title="European Social Survey">European Social Survey</a></li>
+<li><a href="/wiki/European_Values_Study" class="mw-redirect" title="European Values Study">European Values Study</a></li>
+<li><a href="/wiki/Gallup_(company)" title="Gallup (company)">Gallup Poll</a></li>
+<li><a href="/wiki/General_Social_Survey" title="General Social Survey">General Social Survey</a></li>
+<li><a href="/wiki/International_Social_Survey_Programme" title="International Social Survey Programme">International Social Survey</a></li>
+<li><a href="/wiki/Latinobar%C3%B3metro" title="Latinobarómetro">Latinobarómetro</a></li>
+<li><a href="/wiki/List_of_household_surveys_in_the_United_States" title="List of household surveys in the United States">List of household surveys in the United States</a></li>
+<li><a href="/wiki/National_Health_and_Nutrition_Examination_Survey" title="National Health and Nutrition Examination Survey">National Health and Nutrition Examination Survey</a></li>
+<li><a href="/wiki/New_Zealand_Attitudes_and_Values_Study" title="New Zealand Attitudes and Values Study">New Zealand Attitudes and Values Study</a></li>
+<li><a href="/wiki/World_Values_Survey" title="World Values Survey">World Values Survey</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Professional_association" title="Professional association">Associations</a></th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/American_Association_for_Public_Opinion_Research" title="American Association for Public Opinion Research">American Association for Public Opinion Research</a></li>
+<li><a href="/wiki/European_Society_for_Opinion_and_Marketing_Research" title="European Society for Opinion and Marketing Research">European Society for Opinion and Marketing Research</a></li>
+<li><a href="/wiki/International_Statistical_Institute" title="International Statistical Institute">International Statistical Institute</a></li>
+<li><a href="/wiki/Pew_Research_Center" title="Pew Research Center">Pew Research Center</a></li>
+<li><a href="/wiki/World_Association_for_Public_Opinion_Research" title="World Association for Public Opinion Research">World Association for Public Opinion Research</a></li></ul>
+</div></td></tr><tr><td class="navbox-abovebelow hlist" colspan="3"><div>
+<ul><li><a href="/wiki/Category:Research_methods" title="Category:Research methods">Category</a></li>
+<li><a href="/wiki/Wikipedia:WikiProject" title="Wikipedia:WikiProject">Projects</a>
+<ul><li><a href="/wiki/Wikipedia:WikiProject_Business" title="Wikipedia:WikiProject Business">Business</a></li>
+<li><a href="/wiki/Wikipedia:WikiProject_Politics" title="Wikipedia:WikiProject Politics">Politics</a></li>
+<li><a href="/wiki/Wikipedia:WikiProject_Psychology" title="Wikipedia:WikiProject Psychology">Psychology</a></li>
+<li><a href="/wiki/Wikipedia:WikiProject_Sociology" title="Wikipedia:WikiProject Sociology">Sociology</a></li>
+<li><a href="/wiki/Wikipedia:WikiProject_Statistics" title="Wikipedia:WikiProject Statistics">Statistics</a></li></ul></li></ul>
+</div></td></tr></tbody></table></div>
+
+<!-- 
+NewPP limit report
+Parsed by mw1270
+Cached time: 20190203013214
+Cache expiry: 2073600
+Dynamic content: false
+CPU time usage: 0.100 seconds
+Real time usage: 0.145 seconds
+Preprocessor visited node count: 349/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 18830/2097152 bytes
+Template argument size: 213/2097152 bytes
+Highest expansion depth: 12/40
+Expensive parser function count: 1/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+Number of Wikibase entities loaded: 0/400
+Lua time usage: 0.024/10.000 seconds
+Lua memory usage: 1.19 MB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   83.131      1 -total
+ 77.34%   64.296      1 Template:More_footnotes
+ 48.66%   40.450      1 Template:Ambox
+ 16.02%   13.320      1 Template:Social_surveys
+ 12.66%   10.522      1 Template:Navbox
+  6.27%    5.209      1 Template:Reflist
+  5.17%    4.301      2 Template:Yesno-no
+  3.55%    2.952      2 Template:Main_other
+  2.90%    2.412      2 Template:Yesno
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:274035-0!canonical and timestamp 20190203013214 and revision id 861428341
+ -->
+</div><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Quantitative_marketing_research&amp;oldid=861428341">https://en.wikipedia.org/w/index.php?title=Quantitative_marketing_research&amp;oldid=861428341</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Market_research" title="Category:Market research">Market research</a></li><li><a href="/wiki/Category:Quantitative_research" title="Category:Quantitative research">Quantitative research</a></li><li><a href="/wiki/Category:Business_intelligence" title="Category:Business intelligence">Business intelligence</a></li><li><a href="/wiki/Category:Quantitative_marketing_research" title="Category:Quantitative marketing research">Quantitative marketing research</a></li><li><a href="/wiki/Category:Psychometrics" title="Category:Psychometrics">Psychometrics</a></li><li><a href="/wiki/Category:Applied_statistics" title="Category:Applied statistics">Applied statistics</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_lacking_in-text_citations_from_January_2010" title="Category:Articles lacking in-text citations from January 2010">Articles lacking in-text citations from January 2010</a></li><li><a href="/wiki/Category:All_articles_lacking_in-text_citations" title="Category:All articles lacking in-text citations">All articles lacking in-text citations</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Quantitative+marketing+research" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Quantitative+marketing+research" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="/wiki/Quantitative_marketing_research" title="View the content page [c]" accesskey="c">Article</a></span></li><li id="ca-talk"><span><a href="/wiki/Talk:Quantitative_marketing_research" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+						<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+						<ul class="menu">
+													</ul>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="/wiki/Quantitative_marketing_research">Read</a></span></li><li id="ca-edit" class="collapsible"><span><a href="/w/index.php?title=Quantitative_marketing_research&amp;action=edit" title="Edit this page [e]" accesskey="e">Edit</a></span></li><li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Quantitative_marketing_research&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+						<h3 id="p-cactions-label"><span>More</span></h3>
+						<ul class="menu">
+													</ul>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-interaction" aria-labelledby="p-interaction-label">
+			<h3 id="p-interaction-label">Interaction</h3>
+			<div class="body">
+								<ul>
+					<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Quantitative_marketing_research" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Quantitative_marketing_research" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Quantitative_marketing_research&amp;oldid=861428341" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Quantitative_marketing_research&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q7268931" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Quantitative_marketing_research&amp;id=861428341" title="Information on how to cite this page">Cite this page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-coll-print_export" aria-labelledby="p-coll-print_export-label">
+			<h3 id="p-coll-print_export-label">Print/export</h3>
+			<div class="body">
+								<ul>
+					<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Quantitative+marketing+research">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:ElectronPdf&amp;page=Quantitative+marketing+research&amp;action=show-download-screen">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Quantitative_marketing_research&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label">
+			<h3 id="p-lang-label">Languages</h3>
+			<div class="body">
+								<ul>
+					<li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Pesquisa_de_mercado_quantitativa" title="Pesquisa de mercado quantitativa – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target">Português</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E5%AE%9A%E9%87%8F%E5%B8%82%E5%A0%B4%E8%AA%BF%E6%9F%A5" title="定量市場調查 – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target">中文</a></li>				</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q7268931#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> This page was last edited on 27 September 2018, at 10:44<span class="anonymous-show">&#160;(UTC)</span>.</li>
+								<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+								<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+								<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+								<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+								<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+								<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+								<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Quantitative_marketing_research&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+						<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>					</li>
+										<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.100","walltime":"0.145","ppvisitednodes":{"value":349,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":18830,"limit":2097152},"templateargumentsize":{"value":213,"limit":2097152},"expansiondepth":{"value":12,"limit":40},"expensivefunctioncount":{"value":1,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   83.131      1 -total"," 77.34%   64.296      1 Template:More_footnotes"," 48.66%   40.450      1 Template:Ambox"," 16.02%   13.320      1 Template:Social_surveys"," 12.66%   10.522      1 Template:Navbox","  6.27%    5.209      1 Template:Reflist","  5.17%    4.301      2 Template:Yesno-no","  3.55%    2.952      2 Template:Main_other","  2.90%    2.412      2 Template:Yesno"]},"scribunto":{"limitreport-timeusage":{"value":"0.024","limit":"10.000"},"limitreport-memusage":{"value":1246115,"limit":52428800}},"cachereport":{"origin":"mw1270","timestamp":"20190203013214","ttl":2073600,"transientcontent":false}}});mw.config.set({"wgBackendResponseTime":89,"wgHostname":"mw1268"});});</script>
+	</body>
+</html>

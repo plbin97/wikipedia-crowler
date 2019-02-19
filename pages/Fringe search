@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Fringe search - Wikipedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Fringe_search","wgTitle":"Fringe search","wgCurRevisionId":857250865,"wgRevisionId":857250865,"wgArticleId":21595579,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles lacking in-text citations from June 2013","All articles lacking in-text citations","Graph algorithms"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Fringe_search","wgRelevantArticleId":21595579,"wgRequestId":"XGpRagpAAEIAABrv-LcAAABO","wgCSPNonce":false,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgMFIsPageContentModelEditable":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgWMESchemaEditAttemptStepOversample":false,"wgPoweredByHHVM":true,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgWikibaseItemId":"Q5504599","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":true,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true,"oresWikiId":"enwiki","oresBaseUrl":"http://ores.discovery.wmnet:8081/","oresApiVersion":3});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.pygments":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.toc.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.3d.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.tokens@0tffind",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});RLPAGEMODULES=["site","mediawiki.page.startup","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"];mw.loader.load(RLPAGEMODULES);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.3d.styles%7Cext.pygments%2CwikimediaBadges%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.toc.styles%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.charinsert-styles&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.33.0-wmf.17"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Fringe_search"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Fringe_search&amp;action=edit"/>
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Fringe_search&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Fringe_search"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 9]><script src="/w/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Fringe_search rootpage-Fringe_search skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div><div class="mw-indicators mw-body-content">
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="en">Fringe search</h1>			<div id="bodyContent" class="mw-body-content">
+				<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>				<div id="contentSub"></div>
+				<div id="jump-to-nav"></div>				<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+				<a class="mw-jump-link" href="#p-search">Jump to search</a>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><table class="box-No_footnotes plainlinks metadata ambox ambox-style ambox-No_footnotes" role="presentation"><tbody><tr><td class="mbox-image"><div style="width:52px"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png" decoding="async" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/60px-Text_document_with_red_question_mark.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/80px-Text_document_with_red_question_mark.svg.png 2x" data-file-width="48" data-file-height="48" /></div></td><td class="mbox-text"><div class="mbox-text-span">This article includes a <a href="/wiki/Wikipedia:Citing_sources" title="Wikipedia:Citing sources">list of references</a>, related reading or <a href="/wiki/Wikipedia:External_links" title="Wikipedia:External links">external links</a>, <b>but its sources remain unclear because it lacks <a href="/wiki/Wikipedia:Citing_sources#Inline_citations" title="Wikipedia:Citing sources">inline citations</a></b>.<span class="hide-when-compact"> Please help to <a href="/wiki/Wikipedia:WikiProject_Fact_and_Reference_Check" class="mw-redirect" title="Wikipedia:WikiProject Fact and Reference Check">improve</a> this article by <a href="/wiki/Wikipedia:When_to_cite" title="Wikipedia:When to cite">introducing</a> more precise citations.</span>  <small class="date-container"><i>(<span class="date">June 2013</span>)</i></small><small class="hide-when-compact"><i> (<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></div></td></tr></tbody></table>
+<table class="vertical-navbox nowraplinks hlist" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%"><tbody><tr><th style="padding:0.2em 0.4em 0.2em;font-size:145%;line-height:1.2em"><a href="/wiki/Graph_traversal" title="Graph traversal">Graph</a> and <a href="/wiki/Tree_traversal" title="Tree traversal">tree<br />search algorithms</a></th></tr><tr><td style="padding:0 0.1em 0.4em">
+<ul><li><a href="/wiki/Alpha%E2%80%93beta_pruning" title="Alpha–beta pruning">α–β</a></li>
+<li><a href="/wiki/A*_search_algorithm" title="A* search algorithm">A*</a></li>
+<li><a href="/wiki/B*" title="B*">B*</a></li>
+<li><a href="/wiki/Backtracking" title="Backtracking">Backtracking</a></li>
+<li><a href="/wiki/Beam_search" title="Beam search">Beam</a></li>
+<li><a href="/wiki/Bellman%E2%80%93Ford_algorithm" title="Bellman–Ford algorithm">Bellman–Ford</a></li>
+<li><a href="/wiki/Best-first_search" title="Best-first search">Best-first</a></li>
+<li><a href="/wiki/Bidirectional_search" title="Bidirectional search">Bidirectional</a></li>
+<li><a href="/wiki/Bor%C5%AFvka%27s_algorithm" title="Borůvka&#39;s algorithm">Borůvka</a></li>
+<li><a href="/wiki/Branch_and_bound" title="Branch and bound">Branch &amp; bound</a></li>
+<li><a href="/wiki/Breadth-first_search" title="Breadth-first search">BFS</a></li>
+<li><a href="/wiki/British_Museum_algorithm" title="British Museum algorithm">British Museum</a></li>
+<li><a href="/wiki/D*" title="D*">D*</a></li>
+<li><a href="/wiki/Depth-first_search" title="Depth-first search">DFS</a></li>
+<li><a href="/wiki/Dijkstra%27s_algorithm" title="Dijkstra&#39;s algorithm">Dijkstra</a></li>
+<li><a href="/wiki/Edmonds%27_algorithm" title="Edmonds&#39; algorithm">Edmonds</a></li>
+<li><a href="/wiki/Floyd%E2%80%93Warshall_algorithm" title="Floyd–Warshall algorithm">Floyd–Warshall</a></li>
+<li><a class="mw-selflink selflink">Fringe search</a></li>
+<li><a href="/wiki/Hill_climbing" title="Hill climbing">Hill climbing</a></li>
+<li><a href="/wiki/Iterative_deepening_A*" title="Iterative deepening A*">IDA*</a></li>
+<li><a href="/wiki/Iterative_deepening_depth-first_search" title="Iterative deepening depth-first search">Iterative deepening</a></li>
+<li><a href="/wiki/Johnson%27s_algorithm" title="Johnson&#39;s algorithm">Johnson</a></li>
+<li><a href="/wiki/Jump_point_search" title="Jump point search">Jump point</a></li>
+<li><a href="/wiki/Kruskal%27s_algorithm" title="Kruskal&#39;s algorithm">Kruskal</a></li>
+<li><a href="/wiki/Lexicographic_breadth-first_search" title="Lexicographic breadth-first search">Lexicographic BFS</a></li>
+<li><a href="/wiki/Lifelong_Planning_A*" title="Lifelong Planning A*">LPA*</a></li>
+<li><a href="/wiki/Prim%27s_algorithm" title="Prim&#39;s algorithm">Prim</a></li>
+<li><a href="/wiki/SMA*" title="SMA*">SMA*</a></li></ul></td>
+</tr><tr><th style="padding:0.1em">
+Listings</th></tr><tr><td style="padding:0 0.1em 0.4em">
+<ul><li><i><a href="/wiki/Category:Graph_algorithms" title="Category:Graph algorithms">Graph algorithms</a></i></li>
+<li><i><a href="/wiki/Category:Search_algorithms" title="Category:Search algorithms">Search algorithms</a></i></li>
+<li><i><a href="/wiki/List_of_algorithms#Graph_algorithms" title="List of algorithms">List of graph algorithms</a></i></li></ul></td>
+</tr><tr><th style="padding:0.1em">
+Related topics</th></tr><tr><td style="padding:0 0.1em 0.4em">
+<ul><li><a href="/wiki/Dynamic_programming" title="Dynamic programming">Dynamic programming</a></li>
+<li><a href="/wiki/Graph_traversal" title="Graph traversal">Graph traversal</a></li>
+<li><a href="/wiki/Tree_traversal" title="Tree traversal">Tree traversal</a></li>
+<li><a href="/wiki/Search_game" title="Search game">Search games</a></li></ul></td>
+</tr><tr><td style="text-align:right;font-size:115%"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:Graph_search_algorithm" title="Template:Graph search algorithm"><abbr title="View this template">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Graph_search_algorithm" title="Template talk:Graph search algorithm"><abbr title="Discuss this template">t</abbr></a></li><li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Graph_search_algorithm&amp;action=edit"><abbr title="Edit this template">e</abbr></a></li></ul></div></td></tr></tbody></table>
+<p>In <a href="/wiki/Computer_science" title="Computer science">computer science</a>, <b>fringe search</b> is a <a href="/wiki/Graph_search_algorithm" class="mw-redirect" title="Graph search algorithm">graph search algorithm</a> that finds the least-cost path from a given initial <a href="/wiki/Node_(graph_theory)" class="mw-redirect" title="Node (graph theory)">node</a> to one <a href="/wiki/Goal_node" class="mw-redirect" title="Goal node">goal node</a>.
+</p><p>In essence, fringe search is a middle ground between <a href="/wiki/A*" class="mw-redirect" title="A*">A*</a> and the <a href="/wiki/Iterative_deepening_A*" title="Iterative deepening A*">iterative deepening A*</a> variant (IDA*). 
+</p><p>If <i>g</i>(<i>x</i>) is the cost of the search path from the first node to the current, and <i>h</i>(<i>x</i>) is the <a href="/wiki/Heuristic_algorithm" class="mw-redirect" title="Heuristic algorithm">heuristic</a> estimate of the cost from the current node to the goal, then <span class="texhtml"><i>ƒ</i>(<i>x</i>)&#160;=&#160;<i>g</i>(<i>x</i>)&#160;+&#160;<i>h</i>(<i>x</i>)</span>, and <i>h</i>* is the actual path cost to the goal. Consider IDA*, which does a <a href="/wiki/Recursion_(computer_science)" title="Recursion (computer science)">recursive</a> left-to-right <a href="/wiki/Depth-first_search" title="Depth-first search">depth-first search</a> from the root node, stopping the recursion once the goal has been found or the nodes have reached a maximum value <i>ƒ</i>. If no goal is found in the first threshold <i>ƒ</i>, the threshold is then increased and the algorithm searches again. I.E. It iterates on the threshold. 
+</p><p>There are three major inefficiencies with IDA*. First, IDA* will repeat states when there are multiple (sometimes non-optimal) paths to a goal node - this is often solved by keeping a cache of visited states. IDA* thus altered is denoted as memory-enhanced IDA* (ME-IDA*), since it uses some storage. Furthermore, IDA* repeats all previous operations in a search when it iterates in a new threshold, which is necessary to operate with no storage. By storing the leaf nodes of a previous iteration and using them as the starting position of the next, IDA*'s efficiency is significantly improved (otherwise, in the last iteration it would always have to visit every node in the tree). 
+</p><p>Fringe search implements these improvements on IDA* by making use of a data structure that is more or less two <a href="/wiki/List_(computing)" class="mw-redirect" title="List (computing)">lists</a> to iterate over the frontier or fringe of the search tree. One list <i>now</i>, stores the current iteration, and the other list <i>later</i> stores the immediate next iteration. So from the root node of the search tree, <i>now</i> will be the root and <i>later</i> will be empty. Then the algorithm takes one of two actions: If <span class="texhtml"><i>ƒ</i>(head)</span> is greater than the current threshold, remove <i>head</i> from <i>now</i> and append it to the end of <i>later</i>; i.e. save <i>head</i> for the next iteration. Otherwise, if <span class="texhtml"><i>ƒ</i>(head)</span> is less than or equal to the threshold, expand <i>head</i> and discard <i>head</i>, consider its children, adding them to the beginning of <i>now</i>. At the end of an iteration, the threshold is increased, the <i>later</i> list becomes the <i>now</i> list, and <i>later</i> is emptied. 
+</p><p>An important difference here between fringe and A* is that the contents of the lists in fringe do not necessarily have to be sorted - a significant gain over A*, which requires the often expensive maintenance of order in its open list. Unlike A*, however, fringe will have to visit the same nodes repeatedly, but the cost for each such visit is constant compared to the worst-case logarithmic time of sorting the list in&#160;A*.
+</p>
+<div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Pseudocode"><span class="tocnumber">1</span> <span class="toctext">Pseudocode</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Experiments"><span class="tocnumber">2</span> <span class="toctext">Experiments</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#References"><span class="tocnumber">3</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#External_links"><span class="tocnumber">4</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Pseudocode">Pseudocode</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Fringe_search&amp;action=edit&amp;section=1" title="Edit section: Pseudocode">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Implementing both lists in one doubly linked list, where nodes following the current node are the <i>later</i> portion and all else are the <i>now</i> list follows. Using an array of pre-allocated nodes in the list for each node in the grid, access time to nodes in the list is reduced to a constant. Similarly, a marker array allows lookup of a node in the list to be done in constant time. <i>g</i> is stored as a hash-table, and a last marker array is stored for constant-time lookup of whether or not a node has been visited before and if a cache entry is valid.
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="n">init</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">goal</span><span class="p">)</span>
+    <span class="n">fringe</span> <span class="n">F</span> <span class="o">=</span> <span class="n">s</span>
+    <span class="n">cache</span> <span class="n">C</span><span class="p">[</span><span class="n">start</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">null</span><span class="p">)</span>
+    <span class="n">flimit</span> <span class="o">=</span> <span class="n">h</span><span class="p">(</span><span class="n">start</span><span class="p">)</span>
+    <span class="n">found</span> <span class="o">=</span> <span class="nb">false</span>
+
+    <span class="k">while</span> <span class="p">(</span><span class="n">found</span> <span class="o">==</span> <span class="nb">false</span><span class="p">)</span> <span class="n">AND</span> <span class="p">(</span><span class="n">F</span> <span class="n">not</span> <span class="n">empty</span><span class="p">)</span>
+        <span class="n">fmin</span> <span class="o">=</span> <span class="err">∞</span>
+        <span class="k">for</span> <span class="n">node</span> <span class="n">in</span> <span class="n">F</span><span class="p">,</span> <span class="n">from</span> <span class="n">left</span> <span class="n">to</span> <span class="n">right</span>
+            <span class="p">(</span><span class="n">g</span><span class="p">,</span> <span class="n">parent</span><span class="p">)</span> <span class="o">=</span> <span class="n">C</span><span class="p">[</span><span class="n">node</span><span class="p">]</span>
+            <span class="n">f</span> <span class="o">=</span> <span class="n">g</span> <span class="o">+</span> <span class="n">h</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">f</span> <span class="o">&gt;</span> <span class="n">flimit</span>
+                <span class="n">fmin</span> <span class="o">=</span> <span class="n">min</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">fmin</span><span class="p">)</span>
+                <span class="k">continue</span>
+            <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="n">goal</span>
+                <span class="n">found</span> <span class="o">=</span> <span class="nb">true</span>
+                <span class="k">break</span>
+            <span class="k">for</span> <span class="n">child</span> <span class="n">in</span> <span class="n">children</span><span class="p">(</span><span class="n">node</span><span class="p">),</span> <span class="n">from</span> <span class="n">right</span> <span class="n">to</span> <span class="n">left</span>
+                <span class="n">g_child</span> <span class="o">=</span> <span class="n">g</span> <span class="o">+</span> <span class="n">cost</span><span class="p">(</span><span class="n">node</span><span class="p">,</span> <span class="n">child</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">C</span><span class="p">[</span><span class="n">child</span><span class="p">]</span> <span class="o">!=</span> <span class="n">null</span>
+                    <span class="p">(</span><span class="n">g_cached</span><span class="p">,</span> <span class="n">parent</span><span class="p">)</span> <span class="o">=</span> <span class="n">C</span><span class="p">[</span><span class="n">child</span><span class="p">]</span>
+                    <span class="k">if</span> <span class="n">g_child</span> <span class="o">&gt;=</span> <span class="n">g_cached</span>
+                        <span class="k">continue</span>
+                <span class="k">if</span> <span class="n">child</span> <span class="n">in</span> <span class="n">F</span>
+                    <span class="n">remove</span> <span class="n">child</span> <span class="n">from</span> <span class="n">F</span>
+                <span class="n">insert</span> <span class="n">child</span> <span class="n">in</span> <span class="n">F</span> <span class="n">past</span> <span class="n">node</span>
+                <span class="n">C</span><span class="p">[</span><span class="n">child</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">g_child</span><span class="p">,</span> <span class="n">node</span><span class="p">)</span>
+            <span class="n">remove</span> <span class="n">node</span> <span class="n">from</span> <span class="n">F</span>
+        <span class="n">flimit</span> <span class="o">=</span> <span class="n">fmin</span>
+
+    <span class="k">if</span> <span class="n">reachedgoal</span> <span class="o">==</span> <span class="nb">true</span>
+        <span class="n">reverse_path</span><span class="p">(</span><span class="n">goal</span><span class="p">)</span>
+</pre></div>
+<p>Reverse pseudo-code.
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="n">reverse_path</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
+    <span class="p">(</span><span class="n">g</span><span class="p">,</span> <span class="n">parent</span><span class="p">)</span> <span class="o">=</span> <span class="n">C</span><span class="p">[</span><span class="n">node</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">parent</span> <span class="o">!=</span> <span class="n">null</span>
+        <span class="n">reverse_path</span><span class="p">(</span><span class="n">parent</span><span class="p">)</span>
+    <span class="n">print</span> <span class="n">node</span>
+</pre></div>
+<h2><span class="mw-headline" id="Experiments">Experiments</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Fringe_search&amp;action=edit&amp;section=2" title="Edit section: Experiments">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>When tested on grid-based environments typical of computer games including impassable obstacles, fringe outperformed A* by some 10 percent to 40 percent, depending on use of tiles or octiles. Possible further improvements include use of a data structure that lends itself more easily to caches.
+</p>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Fringe_search&amp;action=edit&amp;section=3" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li>Björnsson, Yngvi; Enzenberger, Markus; Holte, Robert C.; Schaeffer, Johnathan. Fringe Search: Beating A* at Pathfinding on Game Maps. Proceedings of the 2005 IEEE Symposium on Computational Intelligence and Games (CIG05). Essex University, Colchester, Essex, UK, 4&#8211;6 April, 2005. IEEE 2005. <a rel="nofollow" class="external free" href="http://www.cs.ualberta.ca/~games/pathfind/publications/cig2005.pdf">http://www.cs.ualberta.ca/~games/pathfind/publications/cig2005.pdf</a></li></ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Fringe_search&amp;action=edit&amp;section=4" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li>Jesús Manuel Mager Hois's implementation of Fringe Search in C <a rel="nofollow" class="external free" href="https://github.com/pywirrarika/fringesearch">https://github.com/pywirrarika/fringesearch</a></li></ul>
+
+<!-- 
+NewPP limit report
+Parsed by mw1327
+Cached time: 20190203054147
+Cache expiry: 2073600
+Dynamic content: false
+CPU time usage: 0.104 seconds
+Real time usage: 0.544 seconds
+Preprocessor visited node count: 253/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 11736/2097152 bytes
+Template argument size: 182/2097152 bytes
+Highest expansion depth: 12/40
+Expensive parser function count: 1/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 5935/5000000 bytes
+Number of Wikibase entities loaded: 0/400
+Lua time usage: 0.031/10.000 seconds
+Lua memory usage: 1.03 MB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   93.820      1 -total
+ 81.30%   76.276      1 Template:Inline_citations
+ 55.84%   52.391      1 Template:Ambox
+ 14.97%   14.046      1 Template:Graph_search_algorithm
+ 11.84%   11.106      1 Template:Sidebar
+  7.33%    6.878      2 Template:Yesno-no
+  3.35%    3.145      3 Template:Math
+  3.25%    3.050      2 Template:Yesno
+  2.87%    2.690      1 Template:Main_other
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:21595579-0!canonical and timestamp 20190203054146 and revision id 857250865
+ -->
+</div><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Fringe_search&amp;oldid=857250865">https://en.wikipedia.org/w/index.php?title=Fringe_search&amp;oldid=857250865</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Graph_algorithms" title="Category:Graph algorithms">Graph algorithms</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_lacking_in-text_citations_from_June_2013" title="Category:Articles lacking in-text citations from June 2013">Articles lacking in-text citations from June 2013</a></li><li><a href="/wiki/Category:All_articles_lacking_in-text_citations" title="Category:All articles lacking in-text citations">All articles lacking in-text citations</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Fringe+search" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Fringe+search" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="/wiki/Fringe_search" title="View the content page [c]" accesskey="c">Article</a></span></li><li id="ca-talk"><span><a href="/wiki/Talk:Fringe_search" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+						<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+						<ul class="menu">
+													</ul>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="/wiki/Fringe_search">Read</a></span></li><li id="ca-edit" class="collapsible"><span><a href="/w/index.php?title=Fringe_search&amp;action=edit" title="Edit this page [e]" accesskey="e">Edit</a></span></li><li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Fringe_search&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+						<h3 id="p-cactions-label"><span>More</span></h3>
+						<ul class="menu">
+													</ul>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-interaction" aria-labelledby="p-interaction-label">
+			<h3 id="p-interaction-label">Interaction</h3>
+			<div class="body">
+								<ul>
+					<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Fringe_search" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Fringe_search" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Fringe_search&amp;oldid=857250865" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Fringe_search&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q5504599" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Fringe_search&amp;id=857250865" title="Information on how to cite this page">Cite this page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-coll-print_export" aria-labelledby="p-coll-print_export-label">
+			<h3 id="p-coll-print_export-label">Print/export</h3>
+			<div class="body">
+								<ul>
+					<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Fringe+search">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:ElectronPdf&amp;page=Fringe+search&amp;action=show-download-screen">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Fringe_search&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label">
+			<h3 id="p-lang-label">Languages</h3>
+			<div class="body">
+								<ul>
+					<li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/B%C3%BAsqueda_por_franjas" title="Búsqueda por franjas – Spanish" lang="es" hreflang="es" class="interlanguage-link-target">Español</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%AC%D8%B3%D8%AA%D8%AC%D9%88_%D9%81%D8%B1%DB%8C%D9%86%DA%AF" title="جستجو فرینگ – Persian" lang="fa" hreflang="fa" class="interlanguage-link-target">فارسی</a></li><li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/%D0%9F%D1%80%D0%B5%D1%82%D1%80%D0%B0%D0%B3%D0%B0_%D1%80%D0%B5%D1%81%D0%B8%D1%86%D0%B0%D0%BC%D0%B0" title="Претрага ресицама – Serbian" lang="sr" hreflang="sr" class="interlanguage-link-target">Српски / srpski</a></li>				</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q5504599#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> This page was last edited on 30 August 2018, at 14:34<span class="anonymous-show">&#160;(UTC)</span>.</li>
+								<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+								<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+								<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+								<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+								<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+								<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+								<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Fringe_search&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+						<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>					</li>
+										<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.104","walltime":"0.544","ppvisitednodes":{"value":253,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":11736,"limit":2097152},"templateargumentsize":{"value":182,"limit":2097152},"expansiondepth":{"value":12,"limit":40},"expensivefunctioncount":{"value":1,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":5935,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   93.820      1 -total"," 81.30%   76.276      1 Template:Inline_citations"," 55.84%   52.391      1 Template:Ambox"," 14.97%   14.046      1 Template:Graph_search_algorithm"," 11.84%   11.106      1 Template:Sidebar","  7.33%    6.878      2 Template:Yesno-no","  3.35%    3.145      3 Template:Math","  3.25%    3.050      2 Template:Yesno","  2.87%    2.690      1 Template:Main_other"]},"scribunto":{"limitreport-timeusage":{"value":"0.031","limit":"10.000"},"limitreport-memusage":{"value":1082202,"limit":52428800}},"cachereport":{"origin":"mw1327","timestamp":"20190203054147","ttl":2073600,"transientcontent":false}}});mw.config.set({"wgBackendResponseTime":107,"wgHostname":"mw1271"});});</script>
+	</body>
+</html>

@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Ternary search tree - Wikipedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Ternary_search_tree","wgTitle":"Ternary search tree","wgCurRevisionId":871191522,"wgRevisionId":871191522,"wgArticleId":3025819,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing unspecified expert attention","Articles needing expert attention from September 2016","All articles needing expert attention","All articles needing examples","Articles needing examples from September 2016","All articles with self-published sources","Articles with self-published sources from May 2015","Wikipedia articles needing clarification from September 2016","Trees (data structures)","Search algorithms"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Ternary_search_tree","wgRelevantArticleId":3025819,"wgRequestId":"XGR89ApAADoAAF45hbkAAABQ","wgCSPNonce":false,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgMFIsPageContentModelEditable":true,"wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgWMESchemaEditAttemptStepOversample":false,"wgPoweredByHHVM":true,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgWikibaseItemId":"Q2859802","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":true,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true,"oresWikiId":"enwiki","oresBaseUrl":"http://ores.discovery.wmnet:8081/","oresApiVersion":3});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.toc.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.3d.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.tokens@0tffind",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.startup","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"];mw.loader.load(RLPAGEMODULES);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.3d.styles%7Cext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.toc.styles%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.charinsert-styles&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.33.0-wmf.16"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Ternary_search_tree"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Ternary_search_tree&amp;action=edit"/>
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Ternary_search_tree&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Ternary_search_tree"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 9]><script src="/w/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Ternary_search_tree rootpage-Ternary_search_tree skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div><div class="mw-indicators mw-body-content">
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="en">Ternary search tree</h1>			<div id="bodyContent" class="mw-body-content">
+				<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>				<div id="contentSub"></div>
+				<div id="jump-to-nav"></div>				<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+				<a class="mw-jump-link" href="#p-search">Jump to search</a>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div role="note" class="hatnote navigation-not-searchable">Not to be confused with <a href="/wiki/Binary_tree" title="Binary tree">Binary tree</a>.</div>
+<table class="infobox" style="width:22em"><tbody><tr><th colspan="2" style="text-align:center;font-size:125%;font-weight:bold">Ternary Search Tree (TST)</th></tr><tr><th scope="row"><a href="/wiki/List_of_data_structures" title="List of data structures">Type</a></th><td>tree</td></tr><tr><th colspan="2" style="text-align:center"><a href="/wiki/Time_complexity" title="Time complexity">Time complexity</a> in <a href="/wiki/Big_O_notation" title="Big O notation">big O notation</a></th></tr><tr><td colspan="2" style="text-align:center"><table class="infobox" style="padding:0;border:none;margin:auto;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent"><tbody><tr><th scope="row" style="white-space:nowrap;">Algorithm</th><td>
+</td><td>
+<b>Average</b></td><td>
+<b>Worst case</b></td></tr><tr><th scope="row" style="white-space:nowrap;">Search</th><td>
+</td><td>
+O(log <i>n</i>)</td><td>
+O(<i>n</i>)</td></tr><tr><th scope="row" style="white-space:nowrap;">Insert</th><td>
+</td><td>
+O(log <i>n</i>)</td><td>
+O(<i>n</i>)</td></tr><tr><th scope="row" style="white-space:nowrap;">Delete</th><td>
+</td><td>
+O(log <i>n</i>)</td><td>
+O(<i>n</i>)</td></tr></tbody></table></td></tr></tbody></table>
+<table class="box-Expert_needed plainlinks metadata ambox ambox-content" role="presentation"><tbody><tr><td class="mbox-image"><div style="width:52px"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png" decoding="async" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/60px-Ambox_important.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/80px-Ambox_important.svg.png 2x" data-file-width="40" data-file-height="40" /></div></td><td class="mbox-text"><div class="mbox-text-span">This article <b>needs attention from an expert on the subject</b>. The specific problem is: <b>"Missing the description of a few but in this case very important operations. Missing the pseudocode of all operations (including the missing ones just mentioned). Pseudocode greatly improves the understanding of the operations. Missing rigorous mathematical analysis of the running time complexities.".</b><span class="hide-when-compact"> <br /><small><i>When placing this tag, consider <a href="/wiki/Template:Expert_needed#Parameters" title="Template:Expert needed">associating this request</a> with a <a href="/wiki/Wikipedia:WikiProject" title="Wikipedia:WikiProject">WikiProject</a>.</i></small></span>  <small class="date-container"><i>(<span class="date">September 2016</span>)</i></small></div></td></tr></tbody></table>
+<p>In <a href="/wiki/Computer_science" title="Computer science">computer science</a>, a <b>ternary search tree</b> is a type of <a href="/wiki/Trie" title="Trie">trie</a> (sometimes called a <i>prefix tree</i>) where nodes are arranged in a manner similar to a <a href="/wiki/Binary_search_tree" title="Binary search tree">binary search tree</a>, but with up to three children rather than the binary tree's limit of two. Like other prefix trees, a ternary search tree can be used as an <a href="/wiki/Associative_map" class="mw-redirect" title="Associative map">associative map</a> structure with the ability for incremental <a href="/wiki/String_search" class="mw-redirect" title="String search">string search</a>. However, ternary search trees are more space efficient compared to standard prefix trees, at the cost of speed. Common applications for ternary search trees include <a href="/wiki/Spell-check" class="mw-redirect" title="Spell-check">spell-checking</a> and <a href="/wiki/Auto-completion" class="mw-redirect" title="Auto-completion">auto-completion</a>.
+</p>
+<div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Description"><span class="tocnumber">1</span> <span class="toctext">Description</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Operations"><span class="tocnumber">2</span> <span class="toctext">Operations</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Insertion"><span class="tocnumber">2.1</span> <span class="toctext">Insertion</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Search"><span class="tocnumber">2.2</span> <span class="toctext">Search</span></a>
+<ul>
+<li class="toclevel-3 tocsection-5"><a href="#Pseudocode"><span class="tocnumber">2.2.1</span> <span class="toctext">Pseudocode</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-6"><a href="#Deletion"><span class="tocnumber">2.3</span> <span class="toctext">Deletion</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Traversal"><span class="tocnumber">2.4</span> <span class="toctext">Traversal</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Partial-match_searching"><span class="tocnumber">2.5</span> <span class="toctext">Partial-match searching</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Near-neighbor_searching"><span class="tocnumber">2.6</span> <span class="toctext">Near-neighbor searching</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Running_time"><span class="tocnumber">3</span> <span class="toctext">Running time</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Comparison_to_other_data_structures"><span class="tocnumber">4</span> <span class="toctext">Comparison to other data structures</span></a>
+<ul>
+<li class="toclevel-2 tocsection-12"><a href="#Tries"><span class="tocnumber">4.1</span> <span class="toctext">Tries</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Hash_maps"><span class="tocnumber">4.2</span> <span class="toctext">Hash maps</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#DAFSAs_(deterministic_acyclic_finite_state_automaton)"><span class="tocnumber">4.3</span> <span class="toctext">DAFSAs (deterministic acyclic finite state automaton)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="#Uses"><span class="tocnumber">5</span> <span class="toctext">Uses</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#External_links"><span class="tocnumber">8</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Description">Description</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Ternary_search_tree&amp;action=edit&amp;section=1" title="Edit section: Description">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Each node of a ternary search tree stores a single <a href="/wiki/Character_(arts)" title="Character (arts)">character</a>, an <a href="/wiki/Abstract_object" class="mw-redirect" title="Abstract object">object</a> (or a <a href="/wiki/Pointer_(computer_programming)" title="Pointer (computer programming)">pointer</a> to an object depending on implementation), and pointers to its three children conventionally named <i>equal kid</i>, <i>lo kid</i> and <i>hi kid</i>, which can also be referred respectively as <i>middle (child)</i>, <i>lower (child)</i> and <i>higher (child)</i>.<sup id="cite_ref-dobbs_1-0" class="reference"><a href="#cite_note-dobbs-1">&#91;1&#93;</a></sup> A node may also have a pointer to its parent node as well as an indicator as to whether or not the node marks the end of a word.<sup id="cite_ref-ostrov_2-0" class="reference"><a href="#cite_note-ostrov-2">&#91;2&#93;</a></sup> The <i>lo kid</i> pointer must point to a node whose character value is <i>less than the current node</i>. The <i>hi kid</i> pointer must point to a node whose character is <i>greater than the current node</i>.<sup id="cite_ref-dobbs_1-1" class="reference"><a href="#cite_note-dobbs-1">&#91;1&#93;</a></sup>The <i>equal kid</i> points to the next character in the word.
+The figure below shows a ternary search tree with the strings "cute","cup","at","as","he","us" and "i":
+</p>
+<pre>          c
+        / | \
+       a  u  h
+       |  |  | \
+       t  t  e  u
+     /  / |   / |
+    s  p  e  i  s
+</pre>
+<p>As with other trie data structures, each node in a ternary search tree represents a prefix of the stored strings. All strings in the middle subtree of a node start with that prefix.
+</p>
+<h2><span class="mw-headline" id="Operations">Operations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Ternary_search_tree&amp;action=edit&amp;section=2" title="Edit section: Operations">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Insertion">Insertion</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Ternary_search_tree&amp;action=edit&amp;section=3" title="Edit section: Insertion">edit</a><span class="mw-editsection-bracket">]</span></span></h3><p><sup class="noprint Inline-Template" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:AUDIENCE" class="mw-redirect" title="Wikipedia:AUDIENCE"><span title="An editor has requested that an example be provided. (September 2016)">example  needed</span></a></i>&#93;</sup>
+</p><p>Inserting a value into a ternary search can be defined recursively much as lookups are defined. This recursive method is continually called on nodes of the tree given a key which gets progressively shorter by pruning characters off the front of the key. If this method reaches a node that has not been created, it creates the node and assigns it the character value of the first character in the key. Whether a new node is created or not, the method checks to see if the first character in the string is greater than or less than the character value in the node and makes a recursive call on the appropriate node as in the lookup operation. If, however, the key's first character is equal to the node's value then the insertion procedure is called on the equal kid and the key's first character is pruned away.<sup id="cite_ref-dobbs_1-2" class="reference"><a href="#cite_note-dobbs-1">&#91;1&#93;</a></sup>  Like <a href="/wiki/Binary_search_tree" title="Binary search tree">binary search trees</a> and other <a href="/wiki/Data_structures" class="mw-redirect" title="Data structures">data structures</a>, ternary search trees can become degenerate depending on the order of the keys.<sup id="cite_ref-wrobel_3-0" class="reference"><a href="#cite_note-wrobel-3">&#91;3&#93;</a></sup><sup class="noprint Inline-Template" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Verifiability#Self-published_sources" title="Wikipedia:Verifiability"><span title="The material near this tag may rely on a self-published source. (May 2015)">self-published source?</span></a></i>&#93;</sup> Inserting keys in alphabetical order is one way to attain the worst possible degenerate tree.<sup id="cite_ref-dobbs_1-3" class="reference"><a href="#cite_note-dobbs-1">&#91;1&#93;</a></sup> Inserting the keys in random order often produces a well-balanced tree.<sup id="cite_ref-dobbs_1-4" class="reference"><a href="#cite_note-dobbs-1">&#91;1&#93;</a></sup>
+</p>
+<h3><span class="mw-headline" id="Search">Search</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Ternary_search_tree&amp;action=edit&amp;section=4" title="Edit section: Search">edit</a><span class="mw-editsection-bracket">]</span></span></h3><p><sup class="noprint Inline-Template" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:AUDIENCE" class="mw-redirect" title="Wikipedia:AUDIENCE"><span title="An editor has requested that an example be provided. (September 2016)">example  needed</span></a></i>&#93;</sup>
+</p><p>To look up a particular node or the data associated with a node, a string key is needed. A lookup procedure begins by checking the root node of the tree and determining which of the following conditions has occurred. If the first character of the string is less than the character in the root node, a recursive lookup can be called on the tree whose root is the lo kid of the current root. Similarly, if the first character is greater than the current node in the tree, then a recursive call can be made to the tree whose root is the hi kid of the current node.<sup id="cite_ref-dobbs_1-5" class="reference"><a href="#cite_note-dobbs-1">&#91;1&#93;</a></sup>
+As a final case, if the first character of the string is equal to the character of the current node then the function returns the node if there are no more characters in the key. If there are more characters in the key then the first character of the key must be removed and a recursive call is made given the equal kid node and the modified key.<sup id="cite_ref-dobbs_1-6" class="reference"><a href="#cite_note-dobbs-1">&#91;1&#93;</a></sup>
+This can also be written in a non-recursive way by using a pointer to the current node and a pointer to the current character of the key.<sup id="cite_ref-dobbs_1-7" class="reference"><a href="#cite_note-dobbs-1">&#91;1&#93;</a></sup>
+</p>
+<h4><span class="mw-headline" id="Pseudocode">Pseudocode</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Ternary_search_tree&amp;action=edit&amp;section=5" title="Edit section: Pseudocode">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<pre><b>function</b> search(<i>string</i> query) {
+    if is_empty(query) {
+        return <b>false</b>;
+    }
+    <b>var</b> <i>node</i> p&#160;:= root;
+    <b>var</b> <i>int</i> idx&#160;:= 0;
+    <b>while</b> p is not null {
+        <b>if</b> query[idx] &lt; p.splitchar {
+            p&#160;:= p.left;
+        } <b>else</b> <b>if</b> query[idx] &gt; p.splitchar {
+            p&#160;:= p.right;
+        } <b>else</b> {
+            <b>if</b> idx == last_valid_index(query) {
+                return <b>true</b>;
+            }
+            idx&#160;:= idx + 1;
+            p&#160;:= p.center;
+        }
+    }
+    return <b>false</b>;
+}
+</pre>
+<h3><span class="mw-headline" id="Deletion">Deletion</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Ternary_search_tree&amp;action=edit&amp;section=6" title="Edit section: Deletion">edit</a><span class="mw-editsection-bracket">]</span></span></h3><p><sup class="noprint Inline-Template" style="margin-left:0.1em; white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Please_clarify" title="Wikipedia:Please clarify"><span title="The text near this tag may need clarification or removal of jargon. (September 2016)">clarification needed</span></a></i>&#93;</sup><sup class="noprint Inline-Template" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:AUDIENCE" class="mw-redirect" title="Wikipedia:AUDIENCE"><span title="An editor has requested that an example be provided. (September 2016)">example  needed</span></a></i>&#93;</sup>
+</p><h3><span class="mw-headline" id="Traversal">Traversal</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Ternary_search_tree&amp;action=edit&amp;section=7" title="Edit section: Traversal">edit</a><span class="mw-editsection-bracket">]</span></span></h3><p><sup class="noprint Inline-Template" style="margin-left:0.1em; white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Please_clarify" title="Wikipedia:Please clarify"><span title="The text near this tag may need clarification or removal of jargon. (September 2016)">clarification needed</span></a></i>&#93;</sup><sup class="noprint Inline-Template" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:AUDIENCE" class="mw-redirect" title="Wikipedia:AUDIENCE"><span title="An editor has requested that an example be provided. (September 2016)">example  needed</span></a></i>&#93;</sup>
+</p><h3><span class="mw-headline" id="Partial-match_searching">Partial-match searching</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Ternary_search_tree&amp;action=edit&amp;section=8" title="Edit section: Partial-match searching">edit</a><span class="mw-editsection-bracket">]</span></span></h3><p><sup class="noprint Inline-Template" style="margin-left:0.1em; white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Please_clarify" title="Wikipedia:Please clarify"><span title="The text near this tag may need clarification or removal of jargon. (September 2016)">clarification needed</span></a></i>&#93;</sup><sup class="noprint Inline-Template" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:AUDIENCE" class="mw-redirect" title="Wikipedia:AUDIENCE"><span title="An editor has requested that an example be provided. (September 2016)">example  needed</span></a></i>&#93;</sup>
+</p><h3><span class="mw-headline" id="Near-neighbor_searching">Near-neighbor searching</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Ternary_search_tree&amp;action=edit&amp;section=9" title="Edit section: Near-neighbor searching">edit</a><span class="mw-editsection-bracket">]</span></span></h3><p><sup class="noprint Inline-Template" style="margin-left:0.1em; white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Please_clarify" title="Wikipedia:Please clarify"><span title="The text near this tag may need clarification or removal of jargon. (September 2016)">clarification needed</span></a></i>&#93;</sup><sup class="noprint Inline-Template" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:AUDIENCE" class="mw-redirect" title="Wikipedia:AUDIENCE"><span title="An editor has requested that an example be provided. (September 2016)">example  needed</span></a></i>&#93;</sup>
+</p><h2><span class="mw-headline" id="Running_time">Running time</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Ternary_search_tree&amp;action=edit&amp;section=10" title="Edit section: Running time">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The running time of ternary search trees varies significantly with the input. Ternary search trees run best when given several <i>similar strings</i>, especially when those strings <i>share a common prefix</i>. Alternatively, ternary search trees are effective when storing a large number of relatively <i>short strings</i> (such as words in a <a href="/wiki/Dictionary" title="Dictionary">dictionary</a>).<sup id="cite_ref-dobbs_1-8" class="reference"><a href="#cite_note-dobbs-1">&#91;1&#93;</a></sup>
+Running times for ternary search trees are similar to <a href="/wiki/Binary_search_trees" class="mw-redirect" title="Binary search trees">binary search trees</a>, in that they typically run in logarithmic time, but can run in linear time in the degenerate (worst) case.
+</p><p>Time complexities for ternary search tree operations:<sup id="cite_ref-dobbs_1-9" class="reference"><a href="#cite_note-dobbs-1">&#91;1&#93;</a></sup>
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th></th>
+<th>Average-case running time</th>
+<th>Worst-case running time
+</th></tr>
+<tr>
+<td>Lookup</td>
+<td>O(log <i>n</i>)</td>
+<td>O(<i>n</i>)
+</td></tr>
+<tr>
+<td>Insertion</td>
+<td>O(log <i>n</i>)</td>
+<td>O(<i>n</i>)
+</td></tr>
+<tr>
+<td>Delete</td>
+<td>O(log <i>n</i>)</td>
+<td>O(<i>n</i>)
+</td></tr></tbody></table>
+<h2><span class="mw-headline" id="Comparison_to_other_data_structures">Comparison to other data structures</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Ternary_search_tree&amp;action=edit&amp;section=11" title="Edit section: Comparison to other data structures">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Tries">Tries</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Ternary_search_tree&amp;action=edit&amp;section=12" title="Edit section: Tries">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>While being slower than other <a href="/wiki/Trie" title="Trie">prefix trees</a>, ternary search trees can be better suited for larger data sets due to their space-efficiency.<sup id="cite_ref-dobbs_1-10" class="reference"><a href="#cite_note-dobbs-1">&#91;1&#93;</a></sup>
+</p>
+<h3><span class="mw-headline" id="Hash_maps">Hash maps</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Ternary_search_tree&amp;action=edit&amp;section=13" title="Edit section: Hash maps">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/wiki/Hashtable" class="mw-redirect" title="Hashtable">Hashtables</a> can also be used in place of ternary search trees for mapping strings to values. However, hash maps also frequently use more memory than ternary search trees (but not as much as tries). Additionally, hash maps are typically slower at reporting a string that is not in the same data structure, because it must compare the entire string rather than just the first few characters. There is some evidence that shows ternary search trees running faster than hash maps.<sup id="cite_ref-dobbs_1-11" class="reference"><a href="#cite_note-dobbs-1">&#91;1&#93;</a></sup> Additionally, hash maps do not allow for many of the uses of ternary search trees, such as <i>near-neighbor lookups</i>.
+</p>
+<h3><span id="DAFSAs_.28deterministic_acyclic_finite_state_automaton.29"></span><span class="mw-headline" id="DAFSAs_(deterministic_acyclic_finite_state_automaton)">DAFSAs (<a href="/wiki/Deterministic_acyclic_finite_state_automaton" title="Deterministic acyclic finite state automaton">deterministic acyclic finite state automaton</a>)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Ternary_search_tree&amp;action=edit&amp;section=14" title="Edit section: DAFSAs (deterministic acyclic finite state automaton)">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>If storing dictionary words is all that is required (i.e., storage of information auxiliary to each word is not required), a minimal deterministic acyclic finite state automaton (DAFSA) would use less space than a trie or a ternary search tree. This is because a DAFSA can compress identical branches from the trie which correspond to the same suffixes (or parts) of different words being stored.
+</p>
+<h2><span class="mw-headline" id="Uses">Uses</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Ternary_search_tree&amp;action=edit&amp;section=15" title="Edit section: Uses">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Ternary search trees can be used to solve many problems in which a large number of strings must be stored and retrieved in an arbitrary order. Some of the most common or most useful of these are below:
+</p>
+<ul><li>Anytime a <a href="/wiki/Trie" title="Trie">trie</a> could be used but a less memory-consuming structure is preferred.<sup id="cite_ref-dobbs_1-12" class="reference"><a href="#cite_note-dobbs-1">&#91;1&#93;</a></sup></li>
+<li>A quick and space-saving data structure for <a href="/wiki/Data_mapping" title="Data mapping">mapping</a> strings to other data.<sup id="cite_ref-wrobel_3-1" class="reference"><a href="#cite_note-wrobel-3">&#91;3&#93;</a></sup></li>
+<li>To implement <a href="/wiki/Auto-completion" class="mw-redirect" title="Auto-completion">auto-completion</a>.<sup id="cite_ref-ostrov_2-1" class="reference"><a href="#cite_note-ostrov-2">&#91;2&#93;</a></sup><sup class="noprint Inline-Template" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Verifiability#Self-published_sources" title="Wikipedia:Verifiability"><span title="The material near this tag may rely on a self-published source. (May 2015)">self-published source?</span></a></i>&#93;</sup></li>
+<li>As a <a href="/wiki/Spell_check" class="mw-redirect" title="Spell check">spell check</a>.<sup id="cite_ref-wally_4-0" class="reference"><a href="#cite_note-wally-4">&#91;4&#93;</a></sup></li>
+<li><a href="/wiki/Nearest_neighbor_search" title="Nearest neighbor search">Near-neighbor searching</a> (of which spell-checking is a special case).<sup id="cite_ref-dobbs_1-13" class="reference"><a href="#cite_note-dobbs-1">&#91;1&#93;</a></sup></li>
+<li>As a <a href="/wiki/Database" title="Database">database</a> especially when indexing by several non-key fields is desirable.<sup id="cite_ref-wally_4-1" class="reference"><a href="#cite_note-wally-4">&#91;4&#93;</a></sup></li>
+<li>In place of a <a href="/wiki/Hash_table" title="Hash table">hash table</a>.<sup id="cite_ref-wally_4-2" class="reference"><a href="#cite_note-wally-4">&#91;4&#93;</a></sup></li></ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Ternary_search_tree&amp;action=edit&amp;section=16" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/Three-way_radix_quicksort" class="mw-redirect" title="Three-way radix quicksort">Three-way radix quicksort</a></li>
+<li><a href="/wiki/Trie" title="Trie">Trie</a></li>
+<li><a href="/wiki/Binary_search_tree" title="Binary search tree">Binary search tree </a></li>
+<li><a href="/wiki/Hashtable" class="mw-redirect" title="Hashtable">Hashtable</a></li></ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Ternary_search_tree&amp;action=edit&amp;section=17" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-dobbs-1"><span class="mw-cite-backlink">^ <a href="#cite_ref-dobbs_1-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-dobbs_1-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-dobbs_1-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-dobbs_1-3"><sup><i><b>d</b></i></sup></a> <a href="#cite_ref-dobbs_1-4"><sup><i><b>e</b></i></sup></a> <a href="#cite_ref-dobbs_1-5"><sup><i><b>f</b></i></sup></a> <a href="#cite_ref-dobbs_1-6"><sup><i><b>g</b></i></sup></a> <a href="#cite_ref-dobbs_1-7"><sup><i><b>h</b></i></sup></a> <a href="#cite_ref-dobbs_1-8"><sup><i><b>i</b></i></sup></a> <a href="#cite_ref-dobbs_1-9"><sup><i><b>j</b></i></sup></a> <a href="#cite_ref-dobbs_1-10"><sup><i><b>k</b></i></sup></a> <a href="#cite_ref-dobbs_1-11"><sup><i><b>l</b></i></sup></a> <a href="#cite_ref-dobbs_1-12"><sup><i><b>m</b></i></sup></a> <a href="#cite_ref-dobbs_1-13"><sup><i><b>n</b></i></sup></a></span> <span class="reference-text"><cite class="citation journal"><a rel="nofollow" class="external text" href="http://www.drdobbs.com/database/184410528">"Ternary Search Trees"</a>. <i><a href="/wiki/Dr._Dobbs" class="mw-redirect" title="Dr. Dobbs">Dr. Dobbs</a></i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Dr.+Dobbs&amp;rft.atitle=Ternary+Search+Trees&amp;rft_id=http%3A%2F%2Fwww.drdobbs.com%2Fdatabase%2F184410528&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ATernary+search+tree" class="Z3988"></span><style data-mw-deduplicate="TemplateStyles:r879151008">.mw-parser-output cite.citation{font-style:inherit}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration{color:#555}.mw-parser-output .cs1-subscription span,.mw-parser-output .cs1-registration span{border-bottom:1px dotted;cursor:help}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output code.cs1-code{color:inherit;background:inherit;border:inherit;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;font-size:100%}.mw-parser-output .cs1-visible-error{font-size:100%}.mw-parser-output .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration,.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-parser-output .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2em}</style></span>
+</li>
+<li id="cite_note-ostrov-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-ostrov_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-ostrov_2-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation web">Ostrovsky, Igor. <a rel="nofollow" class="external text" href="http://igoro.com/archive/efficient-auto-complete-with-a-ternary-search-tree/">"Efficient auto-complete with a ternary search tree"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Efficient+auto-complete+with+a+ternary+search+tree&amp;rft.aulast=Ostrovsky&amp;rft.aufirst=Igor&amp;rft_id=http%3A%2F%2Figoro.com%2Farchive%2Fefficient-auto-complete-with-a-ternary-search-tree%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ATernary+search+tree" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-wrobel-3"><span class="mw-cite-backlink">^ <a href="#cite_ref-wrobel_3-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-wrobel_3-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation web">Wrobel, Lukasz. <a rel="nofollow" class="external text" href="http://lukaszwrobel.pl/blog/ternary-search-tree">"Ternary Search Tree"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Ternary+Search+Tree&amp;rft.aulast=Wrobel&amp;rft.aufirst=Lukasz&amp;rft_id=http%3A%2F%2Flukaszwrobel.pl%2Fblog%2Fternary-search-tree&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ATernary+search+tree" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-wally-4"><span class="mw-cite-backlink">^ <a href="#cite_ref-wally_4-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-wally_4-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-wally_4-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><cite class="citation web">Flint, Wally. <a rel="nofollow" class="external text" href="http://www.javaworld.com/javaworld/jw-02-2001/jw-0216-ternary.html">"Plant your data in a ternary search tree"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Plant+your+data+in+a+ternary+search+tree&amp;rft.aulast=Flint&amp;rft.aufirst=Wally&amp;rft_id=http%3A%2F%2Fwww.javaworld.com%2Fjavaworld%2Fjw-02-2001%2Fjw-0216-ternary.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ATernary+search+tree" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+</ol></div></div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Ternary_search_tree&amp;action=edit&amp;section=18" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a rel="nofollow" class="external text" href="http://www.cs.princeton.edu/~rs/strings/">Ternary Search Trees </a> page with papers (by Jon Bentley and Robert Sedgewick) about ternary search trees and algorithms for "sorting and searching strings"</li>
+<li><a rel="nofollow" class="external text" href="https://www.youtube.com/watch?v=CIGyewO7868/">Ternary Search Tries</a> – a video by Robert Sedgewick</li>
+<li><a rel="nofollow" class="external text" href="http://algs4.cs.princeton.edu/52trie/TST.java.html">TST.java.html</a> Implementation in Java of a TST by Robert Sedgewick and Kevin Wayne</li></ul>
+<div role="navigation" class="navbox" aria-labelledby="Tree_data_structures" style="padding:3px"><table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:CS_trees" title="Template:CS trees"><abbr title="View this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:CS_trees" title="Template talk:CS trees"><abbr title="Discuss this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:CS_trees&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a></li></ul></div><div id="Tree_data_structures" style="font-size:114%;margin:0 4em"><a href="/wiki/Tree_(data_structure)" title="Tree (data structure)">Tree data structures</a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Search_tree" title="Search tree">Search trees</a><br />(<a href="/wiki/Set_(abstract_data_type)" title="Set (abstract data type)">dynamic sets</a>/<a href="/wiki/Associative_array" title="Associative array">associative arrays</a>)</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/2%E2%80%933_tree" title="2–3 tree">2–3</a></li>
+<li><a href="/wiki/2%E2%80%933%E2%80%934_tree" title="2–3–4 tree">2–3–4</a></li>
+<li><a href="/wiki/AA_tree" title="AA tree">AA</a></li>
+<li><a href="/wiki/(a,b)-tree" title="(a,b)-tree">(a,b)</a></li>
+<li><a href="/wiki/AVL_tree" title="AVL tree">AVL</a></li>
+<li><a href="/wiki/B-tree" title="B-tree">B</a></li>
+<li><a href="/wiki/B%2B_tree" title="B+ tree">B+</a></li>
+<li><a href="/wiki/B*-tree" class="mw-redirect" title="B*-tree">B*</a></li>
+<li><a href="/wiki/Bx-tree" title="Bx-tree">B<sup>x</sup></a></li>
+<li>(<a href="/wiki/Optimal_binary_search_tree" title="Optimal binary search tree">Optimal</a>)&#160;<a href="/wiki/Binary_search_tree" title="Binary search tree">Binary search</a></li>
+<li><a href="/wiki/Dancing_tree" title="Dancing tree">Dancing</a></li>
+<li><a href="/wiki/HTree" title="HTree">HTree</a></li>
+<li><a href="/wiki/Interval_tree" title="Interval tree">Interval</a></li>
+<li><a href="/wiki/Order_statistic_tree" title="Order statistic tree">Order statistic</a></li>
+<li>(<a href="/wiki/Left-leaning_red%E2%80%93black_tree" title="Left-leaning red–black tree">Left-leaning</a>)&#160;<a href="/wiki/Red%E2%80%93black_tree" title="Red–black tree">Red-black</a></li>
+<li><a href="/wiki/Scapegoat_tree" title="Scapegoat tree">Scapegoat</a></li>
+<li><a href="/wiki/Splay_tree" title="Splay tree">Splay</a></li>
+<li><a href="/wiki/T-tree" title="T-tree">T</a></li>
+<li><a href="/wiki/Treap" title="Treap">Treap</a></li>
+<li><a href="/wiki/UB-tree" title="UB-tree">UB</a></li>
+<li><a href="/wiki/Weight-balanced_tree" title="Weight-balanced tree">Weight-balanced</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Heap_(data_structure)" title="Heap (data structure)">Heaps</a></th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Binary_heap" title="Binary heap">Binary</a></li>
+<li><a href="/wiki/Binomial_heap" title="Binomial heap">Binomial</a></li>
+<li><a href="/wiki/Brodal_queue" title="Brodal queue">Brodal</a></li>
+<li><a href="/wiki/Fibonacci_heap" title="Fibonacci heap">Fibonacci</a></li>
+<li><a href="/wiki/Leftist_tree" title="Leftist tree">Leftist</a></li>
+<li><a href="/wiki/Pairing_heap" title="Pairing heap">Pairing</a></li>
+<li><a href="/wiki/Skew_heap" title="Skew heap">Skew</a></li>
+<li><a href="/wiki/Van_Emde_Boas_tree" title="Van Emde Boas tree">Van Emde Boas</a></li>
+<li><a href="/wiki/Weak_heap" title="Weak heap">Weak</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Trie" title="Trie">Tries</a></th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Ctrie" title="Ctrie">Ctrie</a></li>
+<li><a href="/wiki/C-trie" title="C-trie">C-trie (compressed ADT)</a></li>
+<li><a href="/wiki/Hash_tree_(persistent_data_structure)" title="Hash tree (persistent data structure)">Hash</a></li>
+<li><a href="/wiki/Radix_tree" title="Radix tree">Radix</a></li>
+<li><a href="/wiki/Suffix_tree" title="Suffix tree">Suffix</a></li>
+<li><a class="mw-selflink selflink">Ternary search</a></li>
+<li><a href="/wiki/X-fast_trie" title="X-fast trie">X-fast</a></li>
+<li><a href="/wiki/Y-fast_trie" title="Y-fast trie">Y-fast</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Spatial_index" class="mw-redirect" title="Spatial index">Spatial</a> data partitioning trees</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Ball_tree" title="Ball tree">Ball</a></li>
+<li><a href="/wiki/BK-tree" title="BK-tree">BK</a></li>
+<li><a href="/wiki/BSP_tree" class="mw-redirect" title="BSP tree">BSP</a></li>
+<li><a href="/wiki/Cartesian_tree" title="Cartesian tree">Cartesian</a></li>
+<li><a href="/wiki/Hilbert_R-tree" title="Hilbert R-tree">Hilbert R</a></li>
+<li><a href="/wiki/K-d_tree" title="K-d tree"><i>k</i>-d</a> (<a href="/wiki/Implicit_k-d_tree" title="Implicit k-d tree">implicit <i>k</i>-d</a>)</li>
+<li><a href="/wiki/M-tree" title="M-tree">M</a></li>
+<li><a href="/wiki/Metric_tree" title="Metric tree">Metric</a></li>
+<li><a href="/wiki/MVP_tree" class="mw-redirect" title="MVP tree">MVP</a></li>
+<li><a href="/wiki/Octree" title="Octree">Octree</a></li>
+<li><a href="/wiki/Priority_R-tree" title="Priority R-tree">Priority R</a></li>
+<li><a href="/wiki/Quadtree" title="Quadtree">Quad</a></li>
+<li><a href="/wiki/R-tree" title="R-tree">R</a></li>
+<li><a href="/wiki/R%2B_tree" title="R+ tree">R+</a></li>
+<li><a href="/wiki/R*_tree" title="R* tree">R*</a></li>
+<li><a href="/wiki/Segment_tree" title="Segment tree">Segment</a></li>
+<li><a href="/wiki/Vantage-point_tree" title="Vantage-point tree">VP</a></li>
+<li><a href="/wiki/X-tree" title="X-tree">X</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other trees</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Cover_tree" title="Cover tree">Cover</a></li>
+<li><a href="/wiki/Exponential_tree" title="Exponential tree">Exponential</a></li>
+<li><a href="/wiki/Fenwick_tree" title="Fenwick tree">Fenwick</a></li>
+<li><a href="/wiki/Finger_tree" title="Finger tree">Finger</a></li>
+<li><a href="/wiki/Fractal_tree_index" title="Fractal tree index">Fractal tree index</a></li>
+<li><a href="/wiki/Fusion_tree" title="Fusion tree">Fusion</a></li>
+<li><a href="/wiki/Hash_calendar" title="Hash calendar">Hash calendar</a></li>
+<li><a href="/wiki/IDistance" title="IDistance">iDistance</a></li>
+<li><a href="/wiki/K-ary_tree" title="K-ary tree">K-ary</a></li>
+<li><a href="/wiki/Left-child_right-sibling_binary_tree" title="Left-child right-sibling binary tree">Left-child right-sibling</a></li>
+<li><a href="/wiki/Link/cut_tree" title="Link/cut tree">Link/cut</a></li>
+<li><a href="/wiki/Log-structured_merge-tree" title="Log-structured merge-tree">Log-structured merge</a></li>
+<li><a href="/wiki/Merkle_tree" title="Merkle tree">Merkle</a></li>
+<li><a href="/wiki/PQ_tree" title="PQ tree">PQ</a></li>
+<li><a href="/wiki/Range_tree" title="Range tree">Range</a></li>
+<li><a href="/wiki/SPQR_tree" title="SPQR tree">SPQR</a></li>
+<li><a href="/wiki/Top_tree" title="Top tree">Top</a></li></ul>
+</div></td></tr></tbody></table></div>
+
+<!-- 
+NewPP limit report
+Parsed by mw1328
+Cached time: 20190211200715
+Cache expiry: 2073600
+Dynamic content: false
+CPU time usage: 0.320 seconds
+Real time usage: 0.451 seconds
+Preprocessor visited node count: 2297/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 50326/2097152 bytes
+Template argument size: 7188/2097152 bytes
+Highest expansion depth: 11/40
+Expensive parser function count: 4/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 13740/5000000 bytes
+Number of Wikibase entities loaded: 0/400
+Lua time usage: 0.174/10.000 seconds
+Lua memory usage: 3.51 MB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  391.298      1 -total
+ 24.08%   94.211      1 Template:Reflist
+ 16.25%   63.605      1 Template:Cite_journal
+ 15.87%   62.113      8 Template:Fix
+ 15.08%   58.991     12 Template:Delink
+ 14.70%   57.531      6 Template:Examples
+ 14.06%   55.001      1 Template:Expert-subject
+ 13.58%   53.145      1 Template:Infobox_data_structure
+ 13.36%   52.280      4 Template:Clarify
+ 12.65%   49.484      1 Template:Infobox
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:3025819-0!canonical and timestamp 20190211200715 and revision id 871191522
+ -->
+</div><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Ternary_search_tree&amp;oldid=871191522">https://en.wikipedia.org/w/index.php?title=Ternary_search_tree&amp;oldid=871191522</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Trees_(data_structures)" title="Category:Trees (data structures)">Trees (data structures)</a></li><li><a href="/wiki/Category:Search_algorithms" title="Category:Search algorithms">Search algorithms</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_needing_unspecified_expert_attention" title="Category:Articles needing unspecified expert attention">Articles needing unspecified expert attention</a></li><li><a href="/wiki/Category:Articles_needing_expert_attention_from_September_2016" title="Category:Articles needing expert attention from September 2016">Articles needing expert attention from September 2016</a></li><li><a href="/wiki/Category:All_articles_needing_expert_attention" title="Category:All articles needing expert attention">All articles needing expert attention</a></li><li><a href="/wiki/Category:All_articles_needing_examples" title="Category:All articles needing examples">All articles needing examples</a></li><li><a href="/wiki/Category:Articles_needing_examples_from_September_2016" title="Category:Articles needing examples from September 2016">Articles needing examples from September 2016</a></li><li><a href="/wiki/Category:All_articles_with_self-published_sources" title="Category:All articles with self-published sources">All articles with self-published sources</a></li><li><a href="/wiki/Category:Articles_with_self-published_sources_from_May_2015" title="Category:Articles with self-published sources from May 2015">Articles with self-published sources from May 2015</a></li><li><a href="/wiki/Category:Wikipedia_articles_needing_clarification_from_September_2016" title="Category:Wikipedia articles needing clarification from September 2016">Wikipedia articles needing clarification from September 2016</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Ternary+search+tree" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Ternary+search+tree" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="/wiki/Ternary_search_tree" title="View the content page [c]" accesskey="c">Article</a></span></li><li id="ca-talk"><span><a href="/wiki/Talk:Ternary_search_tree" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+						<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+						<ul class="menu">
+													</ul>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="/wiki/Ternary_search_tree">Read</a></span></li><li id="ca-edit" class="collapsible"><span><a href="/w/index.php?title=Ternary_search_tree&amp;action=edit" title="Edit this page [e]" accesskey="e">Edit</a></span></li><li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Ternary_search_tree&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+						<h3 id="p-cactions-label"><span>More</span></h3>
+						<ul class="menu">
+													</ul>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-interaction" aria-labelledby="p-interaction-label">
+			<h3 id="p-interaction-label">Interaction</h3>
+			<div class="body">
+								<ul>
+					<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Ternary_search_tree" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Ternary_search_tree" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Ternary_search_tree&amp;oldid=871191522" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Ternary_search_tree&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q2859802" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Ternary_search_tree&amp;id=871191522" title="Information on how to cite this page">Cite this page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-coll-print_export" aria-labelledby="p-coll-print_export-label">
+			<h3 id="p-coll-print_export-label">Print/export</h3>
+			<div class="body">
+								<ul>
+					<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Ternary+search+tree">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:ElectronPdf&amp;page=Ternary+search+tree&amp;action=show-download-screen">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Ternary_search_tree&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label">
+			<h3 id="p-lang-label">Languages</h3>
+			<div class="body">
+								<ul>
+					<li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%AF%D8%B1%D8%AE%D8%AA_%D8%AC%D8%B3%D8%AA%D8%AC%D9%88%DB%8C_%D8%B3%D9%87%E2%80%8C%D8%AA%D8%A7%DB%8C%DB%8C" title="درخت جستجوی سه‌تایی – Persian" lang="fa" hreflang="fa" class="interlanguage-link-target">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Arbre_ternaire_de_recherche" title="Arbre ternaire de recherche – French" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E4%B8%89%E5%88%86%E6%8E%A2%E7%B4%A2%E6%9C%A8" title="三分探索木 – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target">日本語</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Drzewo_tr%C3%B3jkowe" title="Drzewo trójkowe – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/%C3%81rvore_tern%C3%A1ria_de_busca" title="Árvore ternária de busca – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target">Português</a></li><li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/Tercijarna_stabla_pretrage" title="Tercijarna stabla pretrage – Serbian" lang="sr" hreflang="sr" class="interlanguage-link-target">Српски / srpski</a></li><li class="interlanguage-link interwiki-th"><a href="https://th.wikipedia.org/wiki/%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%84%E0%B9%89%E0%B8%99%E0%B8%AB%E0%B8%B2%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%A0%E0%B8%B2%E0%B8%84" title="ต้นไม้ค้นหาไตรภาค – Thai" lang="th" hreflang="th" class="interlanguage-link-target">ไทย</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E4%B8%89%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91" title="三叉搜索树 – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target">中文</a></li>				</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q2859802#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> This page was last edited on 29 November 2018, at 15:18<span class="anonymous-show">&#160;(UTC)</span>.</li>
+								<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+								<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+								<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+								<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+								<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+								<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+								<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Ternary_search_tree&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+						<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>					</li>
+										<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.320","walltime":"0.451","ppvisitednodes":{"value":2297,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":50326,"limit":2097152},"templateargumentsize":{"value":7188,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":4,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":13740,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  391.298      1 -total"," 24.08%   94.211      1 Template:Reflist"," 16.25%   63.605      1 Template:Cite_journal"," 15.87%   62.113      8 Template:Fix"," 15.08%   58.991     12 Template:Delink"," 14.70%   57.531      6 Template:Examples"," 14.06%   55.001      1 Template:Expert-subject"," 13.58%   53.145      1 Template:Infobox_data_structure"," 13.36%   52.280      4 Template:Clarify"," 12.65%   49.484      1 Template:Infobox"]},"scribunto":{"limitreport-timeusage":{"value":"0.174","limit":"10.000"},"limitreport-memusage":{"value":3677338,"limit":52428800}},"cachereport":{"origin":"mw1328","timestamp":"20190211200715","ttl":2073600,"transientcontent":false}}});mw.config.set({"wgBackendResponseTime":124,"wgHostname":"mw1263"});});</script>
+	</body>
+</html>

@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Extended Boolean model - Wikipedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Extended_Boolean_model","wgTitle":"Extended Boolean model","wgCurRevisionId":799696563,"wgRevisionId":799696563,"wgArticleId":25271852,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Information retrieval techniques"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Extended_Boolean_model","wgRelevantArticleId":25271852,"wgRequestId":"XGsCmwpAICAAAAyCDjIAAAAN","wgCSPNonce":false,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgMFIsPageContentModelEditable":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgWMESchemaEditAttemptStepOversample":false,"wgPoweredByHHVM":true,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgWikibaseItemId":"Q796230","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":true,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true,"oresWikiId":"enwiki","oresBaseUrl":"http://ores.discovery.wmnet:8081/","oresApiVersion":3});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.math.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.toc.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.3d.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.tokens@0tffind",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});RLPAGEMODULES=["ext.cite.ux-enhancements","ext.math.scripts","site","mediawiki.page.startup","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"];mw.loader.load(RLPAGEMODULES);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.3d.styles%7Cext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.toc.styles%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.charinsert-styles&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.33.0-wmf.17"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Extended_Boolean_model"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Extended_Boolean_model&amp;action=edit"/>
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Extended_Boolean_model&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Extended_Boolean_model"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 9]><script src="/w/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Extended_Boolean_model rootpage-Extended_Boolean_model skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div><div class="mw-indicators mw-body-content">
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="en">Extended Boolean model</h1>			<div id="bodyContent" class="mw-body-content">
+				<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>				<div id="contentSub"></div>
+				<div id="jump-to-nav"></div>				<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+				<a class="mw-jump-link" href="#p-search">Jump to search</a>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p>The <b>Extended Boolean model</b> was described in a Communications of the ACM article appearing in 1983, by Gerard Salton, Edward A. Fox, and Harry Wu. The goal of the Extended Boolean model is to overcome the drawbacks of the Boolean model that has been used in <a href="/wiki/Information_retrieval" title="Information retrieval">information retrieval</a>. The Boolean model doesn't consider term weights in queries, and the result set of a Boolean query is often either too small or too big. The idea of the extended model is to make use of partial matching and term weights as in the vector space model. It combines the characteristics of the <a href="/wiki/Vector_Space_Model" class="mw-redirect" title="Vector Space Model">Vector Space Model</a> with the properties of <a href="/wiki/Boolean_algebra_(logic)" class="mw-redirect" title="Boolean algebra (logic)">Boolean algebra</a> and ranks the similarity between queries and documents. This way a document may be somewhat relevant if it matches some of the queried terms and will be returned as a result, whereas in the <a href="/wiki/Standard_Boolean_model" class="mw-redirect" title="Standard Boolean model">Standard Boolean model</a> it wasn't.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup>
+</p><p>Thus, the extended Boolean model can be considered as a generalization of both the Boolean and vector space models; those two are special cases if suitable settings and definitions are employed. Further, research has shown effectiveness improves relative to that for Boolean query processing.  Other research has shown that <a href="/wiki/Relevance_feedback" title="Relevance feedback">relevance feedback</a> and <a href="/wiki/Query_expansion" title="Query expansion">query expansion</a> can be integrated with extended Boolean query processing.
+</p>
+<div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Definitions"><span class="tocnumber">1</span> <span class="toctext">Definitions</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#The_2_Dimensions_Example"><span class="tocnumber">2</span> <span class="toctext">The 2 Dimensions Example</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Generalizing_the_idea_and_P-norms"><span class="tocnumber">3</span> <span class="toctext">Generalizing the idea and P-norms</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Examples"><span class="tocnumber">4</span> <span class="toctext">Examples</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Improvements_over_the_Standard_Boolean_Model"><span class="tocnumber">5</span> <span class="toctext">Improvements over the Standard Boolean Model</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Further_reading"><span class="tocnumber">6</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#References"><span class="tocnumber">8</span> <span class="toctext">References</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Definitions">Definitions</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extended_Boolean_model&amp;action=edit&amp;section=1" title="Edit section: Definitions">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In the <b>Extended Boolean model</b>, a document is represented as a vector (similarly to in the vector model). Each <i>i</i> <a href="/wiki/Dimension_(vector_space)" title="Dimension (vector space)">dimension</a> corresponds to a separate term associated with the document.
+</p><p>The weight of term <span class="texhtml"><i>K<sub>x</sub></i></span> associated with document <span class="texhtml"><i>d<sub>j</sub></i></span> is measured by its normalized <a href="/wiki/Term_frequency" class="mw-redirect" title="Term frequency">Term frequency</a> and can be defined as:
+</p><p><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle w_{x,j}=f_{x,j}*{\frac {Idf_{x}}{max_{i}Idf_{i}}}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>w</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>x</mi>
+            <mo>,</mo>
+            <mi>j</mi>
+          </mrow>
+        </msub>
+        <mo>=</mo>
+        <msub>
+          <mi>f</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>x</mi>
+            <mo>,</mo>
+            <mi>j</mi>
+          </mrow>
+        </msub>
+        <mo>&#x2217;<!-- ∗ --></mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac>
+            <mrow>
+              <mi>I</mi>
+              <mi>d</mi>
+              <msub>
+                <mi>f</mi>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mi>x</mi>
+                </mrow>
+              </msub>
+            </mrow>
+            <mrow>
+              <mi>m</mi>
+              <mi>a</mi>
+              <msub>
+                <mi>x</mi>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mi>i</mi>
+                </mrow>
+              </msub>
+              <mi>I</mi>
+              <mi>d</mi>
+              <msub>
+                <mi>f</mi>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mi>i</mi>
+                </mrow>
+              </msub>
+            </mrow>
+          </mfrac>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle w_{x,j}=f_{x,j}*{\frac {Idf_{x}}{max_{i}Idf_{i}}}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/bd5408ba53adfc94705ab3c22e40c075de6ec2e8" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -2.338ex; width:23.273ex; height:5.843ex;" alt="{\displaystyle w_{x,j}=f_{x,j}*{\frac {Idf_{x}}{max_{i}Idf_{i}}}}"/></span>
+</p><p>where <span class="texhtml"><i>Idf<sub>x</sub></i></span> is <a href="/wiki/Inverse_document_frequency" class="mw-redirect" title="Inverse document frequency">inverse document frequency</a>.
+</p><p>The weight vector associated with document <span class="texhtml"><i>d<sub>j</sub></i></span> can be represented as:
+</p><p><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \mathbf {v} _{d_{j}}=[w_{1,j},w_{2,j},\ldots ,w_{i,j}]}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi mathvariant="bold">v</mi>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <msub>
+              <mi>d</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi>j</mi>
+              </mrow>
+            </msub>
+          </mrow>
+        </msub>
+        <mo>=</mo>
+        <mo stretchy="false">[</mo>
+        <msub>
+          <mi>w</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>1</mn>
+            <mo>,</mo>
+            <mi>j</mi>
+          </mrow>
+        </msub>
+        <mo>,</mo>
+        <msub>
+          <mi>w</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>2</mn>
+            <mo>,</mo>
+            <mi>j</mi>
+          </mrow>
+        </msub>
+        <mo>,</mo>
+        <mo>&#x2026;<!-- … --></mo>
+        <mo>,</mo>
+        <msub>
+          <mi>w</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>i</mi>
+            <mo>,</mo>
+            <mi>j</mi>
+          </mrow>
+        </msub>
+        <mo stretchy="false">]</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \mathbf {v} _{d_{j}}=[w_{1,j},w_{2,j},\ldots ,w_{i,j}]}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7630d41a2858849a4a1998c1a7bf46c90a18d7cc" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -1.171ex; width:25.122ex; height:3.176ex;" alt="{\displaystyle \mathbf {v} _{d_{j}}=[w_{1,j},w_{2,j},\ldots ,w_{i,j}]}"/></span>
+</p>
+<h2><span class="mw-headline" id="The_2_Dimensions_Example">The 2 Dimensions Example</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extended_Boolean_model&amp;action=edit&amp;section=2" title="Edit section: The 2 Dimensions Example">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r856303569">@media all and (max-width:720px){.mw-parser-output .tmulti>.thumbinner{width:100%!important;max-width:none!important}.mw-parser-output .tmulti .tsingle{float:none!important;max-width:none!important;width:100%!important;text-align:center}}</style><div class="thumb tmulti tright"><div class="thumbinner" style="width:308px;max-width:308px"><div class="tsingle" style="float:left;margin:1px;width:152px;max-width:152px"><div class="thumbimage"><a href="/wiki/File:2D_Extended_Boolean_model_OR_example.png" class="image"><img alt="Figure 1" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/2D_Extended_Boolean_model_OR_example.png/150px-2D_Extended_Boolean_model_OR_example.png" decoding="async" width="150" height="182" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/2D_Extended_Boolean_model_OR_example.png/225px-2D_Extended_Boolean_model_OR_example.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/2D_Extended_Boolean_model_OR_example.png/300px-2D_Extended_Boolean_model_OR_example.png 2x" data-file-width="416" data-file-height="505" /></a></div><div class="thumbcaption" style="clear:left"><b>Figure 1:</b> The similarities of <span class="texhtml"><i>q</i> = (<i>K<sub>x</sub></i> &#8744; <i>K<sub>y</sub></i>)</span> with documents <span class="texhtml"><i>d<sub>j</sub></i></span> and <span class="texhtml"><i>d</i><sub><i>j</i>+1</sub></span>.</div></div><div class="tsingle" style="float:left;margin:1px;width:152px;max-width:152px"><div class="thumbimage"><a href="/wiki/File:2D_Extended_Boolean_model_AND_example.png" class="image"><img alt="Figure 2" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/7b/2D_Extended_Boolean_model_AND_example.png/150px-2D_Extended_Boolean_model_AND_example.png" decoding="async" width="150" height="182" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/7b/2D_Extended_Boolean_model_AND_example.png/225px-2D_Extended_Boolean_model_AND_example.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/7b/2D_Extended_Boolean_model_AND_example.png/300px-2D_Extended_Boolean_model_AND_example.png 2x" data-file-width="416" data-file-height="505" /></a></div><div class="thumbcaption" style="clear:left"><b>Figure 2:</b> The similarities of <span class="texhtml"><i>q</i> = (<i>K<sub>x</sub></i> &#8743; <i>K<sub>y</sub></i>)</span> with documents <span class="texhtml"><i>d<sub>j</sub></i></span> and <span class="texhtml"><i>d</i><sub><i>j</i>+1</sub></span>.</div></div><div style="clear:left"></div></div></div>
+<p>Considering the space composed of two terms <span class="texhtml"><i>K<sub>x</sub></i></span> and <span class="texhtml"><i>K<sub>y</sub></i></span> only, the corresponding term weights are <span class="texhtml"><i>w</i><sub>1</sub></span> and <span class="texhtml"><i>w</i><sub>2</sub></span>.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">&#91;2&#93;</a></sup>  Thus, for query <span class="texhtml"><i>q<sub>or</sub></i> = (<i>K<sub>x</sub></i> &#8744; <i>K<sub>y</sub></i>)</span>, we can calculate the similarity with the following formula:
+</p><p><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle sim(q_{or},d)={\sqrt {\frac {w_{1}^{2}+w_{2}^{2}}{2}}}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>s</mi>
+        <mi>i</mi>
+        <mi>m</mi>
+        <mo stretchy="false">(</mo>
+        <msub>
+          <mi>q</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>o</mi>
+            <mi>r</mi>
+          </mrow>
+        </msub>
+        <mo>,</mo>
+        <mi>d</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <msqrt>
+            <mfrac>
+              <mrow>
+                <msubsup>
+                  <mi>w</mi>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mn>1</mn>
+                  </mrow>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mn>2</mn>
+                  </mrow>
+                </msubsup>
+                <mo>+</mo>
+                <msubsup>
+                  <mi>w</mi>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mn>2</mn>
+                  </mrow>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mn>2</mn>
+                  </mrow>
+                </msubsup>
+              </mrow>
+              <mn>2</mn>
+            </mfrac>
+          </msqrt>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle sim(q_{or},d)={\sqrt {\frac {w_{1}^{2}+w_{2}^{2}}{2}}}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d43143073b16a7cf4ffdd78b302a57d9c47375c8" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -2.671ex; width:25.336ex; height:7.676ex;" alt="{\displaystyle sim(q_{or},d)={\sqrt {\frac {w_{1}^{2}+w_{2}^{2}}{2}}}}"/></span>
+</p><p>For query <span class="texhtml"><i>q<sub>and</sub></i> = (<i>K<sub>x</sub></i> &#8743; <i>K<sub>y</sub></i>)</span>, we can use:
+</p><p><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle sim(q_{and},d)=1-{\sqrt {\frac {(1-w_{1})^{2}+(1-w_{2})^{2}}{2}}}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>s</mi>
+        <mi>i</mi>
+        <mi>m</mi>
+        <mo stretchy="false">(</mo>
+        <msub>
+          <mi>q</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>a</mi>
+            <mi>n</mi>
+            <mi>d</mi>
+          </mrow>
+        </msub>
+        <mo>,</mo>
+        <mi>d</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mn>1</mn>
+        <mo>&#x2212;<!-- − --></mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <msqrt>
+            <mfrac>
+              <mrow>
+                <mo stretchy="false">(</mo>
+                <mn>1</mn>
+                <mo>&#x2212;<!-- − --></mo>
+                <msub>
+                  <mi>w</mi>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mn>1</mn>
+                  </mrow>
+                </msub>
+                <msup>
+                  <mo stretchy="false">)</mo>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mn>2</mn>
+                  </mrow>
+                </msup>
+                <mo>+</mo>
+                <mo stretchy="false">(</mo>
+                <mn>1</mn>
+                <mo>&#x2212;<!-- − --></mo>
+                <msub>
+                  <mi>w</mi>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mn>2</mn>
+                  </mrow>
+                </msub>
+                <msup>
+                  <mo stretchy="false">)</mo>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mn>2</mn>
+                  </mrow>
+                </msup>
+              </mrow>
+              <mn>2</mn>
+            </mfrac>
+          </msqrt>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle sim(q_{and},d)=1-{\sqrt {\frac {(1-w_{1})^{2}+(1-w_{2})^{2}}{2}}}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fe63d319f08c15fcba94aed2b30d37ba8df70a5e" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -2.838ex; width:44.248ex; height:7.676ex;" alt="{\displaystyle sim(q_{and},d)=1-{\sqrt {\frac {(1-w_{1})^{2}+(1-w_{2})^{2}}{2}}}}"/></span>
+</p>
+<h2><span class="mw-headline" id="Generalizing_the_idea_and_P-norms">Generalizing the idea and P-norms</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extended_Boolean_model&amp;action=edit&amp;section=3" title="Edit section: Generalizing the idea and P-norms">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>We can generalize the previous 2D extended Boolean model example to higher t-dimensional space using Euclidean distances.
+</p><p>This can be done using <a href="/wiki/P-norm" class="mw-redirect" title="P-norm">P-norms</a> which extends the notion of distance to include p-distances, where <span class="texhtml">1 &#8804; <i>p</i> &#8804; &#8734;</span> is a new parameter.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup>
+</p>
+<ul><li>A generalized conjunctive query is given by:</li></ul>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle q_{or}=k_{1}\lor ^{p}k_{2}\lor ^{p}....\lor ^{p}k_{t}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>q</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>o</mi>
+            <mi>r</mi>
+          </mrow>
+        </msub>
+        <mo>=</mo>
+        <msub>
+          <mi>k</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <msup>
+          <mo>&#x2228;<!-- ∨ --></mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>p</mi>
+          </mrow>
+        </msup>
+        <msub>
+          <mi>k</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>2</mn>
+          </mrow>
+        </msub>
+        <msup>
+          <mo>&#x2228;<!-- ∨ --></mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>p</mi>
+          </mrow>
+        </msup>
+        <mo>.</mo>
+        <mo>.</mo>
+        <mo>.</mo>
+        <mo>.</mo>
+        <msup>
+          <mo>&#x2228;<!-- ∨ --></mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>p</mi>
+          </mrow>
+        </msup>
+        <msub>
+          <mi>k</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>t</mi>
+          </mrow>
+        </msub>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle q_{or}=k_{1}\lor ^{p}k_{2}\lor ^{p}....\lor ^{p}k_{t}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/11033bad1682a156478ac32ea9eadefe76110d94" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:25.987ex; height:2.676ex;" alt="{\displaystyle q_{or}=k_{1}\lor ^{p}k_{2}\lor ^{p}....\lor ^{p}k_{t}}"/></span></dd></dl>
+<ul><li>The similarity of <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle q_{or}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>q</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>o</mi>
+            <mi>r</mi>
+          </mrow>
+        </msub>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle q_{or}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d46e4f9f5de28a588c6878eb9520196fd4252774" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:2.808ex; height:2.009ex;" alt="{\displaystyle q_{or}}"/></span> and <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle d_{j}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>d</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>j</mi>
+          </mrow>
+        </msub>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle d_{j}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3fa3426b07cfa37c76382ddbecfb4c880889657f" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -1.005ex; width:2.119ex; height:2.843ex;" alt="d_{j}"/></span> can be defined as:</li></ul>
+<p><b>:<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle sim(q_{or},d_{j})={\sqrt[{p}]{\frac {w_{1}^{p}+w_{2}^{p}+....+w_{t}^{p}}{t}}}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>s</mi>
+        <mi>i</mi>
+        <mi>m</mi>
+        <mo stretchy="false">(</mo>
+        <msub>
+          <mi>q</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>o</mi>
+            <mi>r</mi>
+          </mrow>
+        </msub>
+        <mo>,</mo>
+        <msub>
+          <mi>d</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>j</mi>
+          </mrow>
+        </msub>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mroot>
+            <mfrac>
+              <mrow>
+                <msubsup>
+                  <mi>w</mi>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mn>1</mn>
+                  </mrow>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi>p</mi>
+                  </mrow>
+                </msubsup>
+                <mo>+</mo>
+                <msubsup>
+                  <mi>w</mi>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mn>2</mn>
+                  </mrow>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi>p</mi>
+                  </mrow>
+                </msubsup>
+                <mo>+</mo>
+                <mo>.</mo>
+                <mo>.</mo>
+                <mo>.</mo>
+                <mo>.</mo>
+                <mo>+</mo>
+                <msubsup>
+                  <mi>w</mi>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi>t</mi>
+                  </mrow>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi>p</mi>
+                  </mrow>
+                </msubsup>
+              </mrow>
+              <mi>t</mi>
+            </mfrac>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi>p</mi>
+            </mrow>
+          </mroot>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle sim(q_{or},d_{j})={\sqrt[{p}]{\frac {w_{1}^{p}+w_{2}^{p}+....+w_{t}^{p}}{t}}}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4ee6fd28a0b708483aa6ff23a382886234751498" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -2.671ex; width:36.724ex; height:7.509ex;" alt="{\displaystyle sim(q_{or},d_{j})={\sqrt[{p}]{\frac {w_{1}^{p}+w_{2}^{p}+....+w_{t}^{p}}{t}}}}"/></span></b>
+</p>
+<ul><li>A generalized disjunctive query is given by:</li></ul>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle q_{and}=k_{1}\land ^{p}k_{2}\land ^{p}....\land ^{p}k_{t}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>q</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>a</mi>
+            <mi>n</mi>
+            <mi>d</mi>
+          </mrow>
+        </msub>
+        <mo>=</mo>
+        <msub>
+          <mi>k</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <msup>
+          <mo>&#x2227;<!-- ∧ --></mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>p</mi>
+          </mrow>
+        </msup>
+        <msub>
+          <mi>k</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>2</mn>
+          </mrow>
+        </msub>
+        <msup>
+          <mo>&#x2227;<!-- ∧ --></mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>p</mi>
+          </mrow>
+        </msup>
+        <mo>.</mo>
+        <mo>.</mo>
+        <mo>.</mo>
+        <mo>.</mo>
+        <msup>
+          <mo>&#x2227;<!-- ∧ --></mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>p</mi>
+          </mrow>
+        </msup>
+        <msub>
+          <mi>k</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>t</mi>
+          </mrow>
+        </msub>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle q_{and}=k_{1}\land ^{p}k_{2}\land ^{p}....\land ^{p}k_{t}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/1edde48ddd886c9e68111ceb93da7904ba4fecf9" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:27.164ex; height:2.676ex;" alt="{\displaystyle q_{and}=k_{1}\land ^{p}k_{2}\land ^{p}....\land ^{p}k_{t}}"/></span></dd></dl>
+<ul><li>The similarity of <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle q_{and}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>q</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>a</mi>
+            <mi>n</mi>
+            <mi>d</mi>
+          </mrow>
+        </msub>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle q_{and}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/aeccb42a89d5e07183d68e79b49e386c7fb3c607" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:3.985ex; height:2.009ex;" alt="{\displaystyle q_{and}}"/></span> and <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle d_{j}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>d</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>j</mi>
+          </mrow>
+        </msub>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle d_{j}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3fa3426b07cfa37c76382ddbecfb4c880889657f" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -1.005ex; width:2.119ex; height:2.843ex;" alt="d_{j}"/></span> can be defined as:</li></ul>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle sim(q_{and},d_{j})=1-{\sqrt[{p}]{\frac {(1-w_{1})^{p}+(1-w_{2})^{p}+....+(1-w_{t})^{p}}{t}}}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>s</mi>
+        <mi>i</mi>
+        <mi>m</mi>
+        <mo stretchy="false">(</mo>
+        <msub>
+          <mi>q</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>a</mi>
+            <mi>n</mi>
+            <mi>d</mi>
+          </mrow>
+        </msub>
+        <mo>,</mo>
+        <msub>
+          <mi>d</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>j</mi>
+          </mrow>
+        </msub>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mn>1</mn>
+        <mo>&#x2212;<!-- − --></mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mroot>
+            <mfrac>
+              <mrow>
+                <mo stretchy="false">(</mo>
+                <mn>1</mn>
+                <mo>&#x2212;<!-- − --></mo>
+                <msub>
+                  <mi>w</mi>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mn>1</mn>
+                  </mrow>
+                </msub>
+                <msup>
+                  <mo stretchy="false">)</mo>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi>p</mi>
+                  </mrow>
+                </msup>
+                <mo>+</mo>
+                <mo stretchy="false">(</mo>
+                <mn>1</mn>
+                <mo>&#x2212;<!-- − --></mo>
+                <msub>
+                  <mi>w</mi>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mn>2</mn>
+                  </mrow>
+                </msub>
+                <msup>
+                  <mo stretchy="false">)</mo>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi>p</mi>
+                  </mrow>
+                </msup>
+                <mo>+</mo>
+                <mo>.</mo>
+                <mo>.</mo>
+                <mo>.</mo>
+                <mo>.</mo>
+                <mo>+</mo>
+                <mo stretchy="false">(</mo>
+                <mn>1</mn>
+                <mo>&#x2212;<!-- − --></mo>
+                <msub>
+                  <mi>w</mi>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi>t</mi>
+                  </mrow>
+                </msub>
+                <msup>
+                  <mo stretchy="false">)</mo>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi>p</mi>
+                  </mrow>
+                </msup>
+              </mrow>
+              <mi>t</mi>
+            </mfrac>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi>p</mi>
+            </mrow>
+          </mroot>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle sim(q_{and},d_{j})=1-{\sqrt[{p}]{\frac {(1-w_{1})^{p}+(1-w_{2})^{p}+....+(1-w_{t})^{p}}{t}}}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e8a46594acad810a7ec2e9e62a712b694fb18916" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -2.838ex; width:62.274ex; height:7.676ex;" alt="{\displaystyle sim(q_{and},d_{j})=1-{\sqrt[{p}]{\frac {(1-w_{1})^{p}+(1-w_{2})^{p}+....+(1-w_{t})^{p}}{t}}}}"/></span></dd></dl>
+<h2><span class="mw-headline" id="Examples">Examples</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extended_Boolean_model&amp;action=edit&amp;section=4" title="Edit section: Examples">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Consider the query <span class="texhtml"><i>q</i> = (<i>K</i><sub>1</sub> &#8743; <i>K</i><sub>2</sub>) &#8744; <i>K</i><sub>3</sub></span>. The similarity between query <span class="texhtml"><i>q</i></span> and document <span class="texhtml"><i>d</i></span> can be computed using the formula:
+</p><p><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle sim(q,d)={\sqrt[{p}]{\frac {(1-{\sqrt[{p}]{({\frac {(1-w_{1})^{p}+(1-w_{2})^{p}}{2}}}}))^{p}+w_{3}^{p}}{2}}}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>s</mi>
+        <mi>i</mi>
+        <mi>m</mi>
+        <mo stretchy="false">(</mo>
+        <mi>q</mi>
+        <mo>,</mo>
+        <mi>d</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mroot>
+            <mfrac>
+              <mrow>
+                <mo stretchy="false">(</mo>
+                <mn>1</mn>
+                <mo>&#x2212;<!-- − --></mo>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mroot>
+                    <mrow>
+                      <mo stretchy="false">(</mo>
+                      <mrow class="MJX-TeXAtom-ORD">
+                        <mfrac>
+                          <mrow>
+                            <mo stretchy="false">(</mo>
+                            <mn>1</mn>
+                            <mo>&#x2212;<!-- − --></mo>
+                            <msub>
+                              <mi>w</mi>
+                              <mrow class="MJX-TeXAtom-ORD">
+                                <mn>1</mn>
+                              </mrow>
+                            </msub>
+                            <msup>
+                              <mo stretchy="false">)</mo>
+                              <mrow class="MJX-TeXAtom-ORD">
+                                <mi>p</mi>
+                              </mrow>
+                            </msup>
+                            <mo>+</mo>
+                            <mo stretchy="false">(</mo>
+                            <mn>1</mn>
+                            <mo>&#x2212;<!-- − --></mo>
+                            <msub>
+                              <mi>w</mi>
+                              <mrow class="MJX-TeXAtom-ORD">
+                                <mn>2</mn>
+                              </mrow>
+                            </msub>
+                            <msup>
+                              <mo stretchy="false">)</mo>
+                              <mrow class="MJX-TeXAtom-ORD">
+                                <mi>p</mi>
+                              </mrow>
+                            </msup>
+                          </mrow>
+                          <mn>2</mn>
+                        </mfrac>
+                      </mrow>
+                    </mrow>
+                    <mrow class="MJX-TeXAtom-ORD">
+                      <mi>p</mi>
+                    </mrow>
+                  </mroot>
+                </mrow>
+                <mo stretchy="false">)</mo>
+                <msup>
+                  <mo stretchy="false">)</mo>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi>p</mi>
+                  </mrow>
+                </msup>
+                <mo>+</mo>
+                <msubsup>
+                  <mi>w</mi>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mn>3</mn>
+                  </mrow>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi>p</mi>
+                  </mrow>
+                </msubsup>
+              </mrow>
+              <mn>2</mn>
+            </mfrac>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi>p</mi>
+            </mrow>
+          </mroot>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle sim(q,d)={\sqrt[{p}]{\frac {(1-{\sqrt[{p}]{({\frac {(1-w_{1})^{p}+(1-w_{2})^{p}}{2}}}}))^{p}+w_{3}^{p}}{2}}}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/74b3d2b11ee65d16df85d7d45087259d37a10215" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -1.838ex; width:46.581ex; height:8.343ex;" alt="{\displaystyle sim(q,d)={\sqrt[{p}]{\frac {(1-{\sqrt[{p}]{({\frac {(1-w_{1})^{p}+(1-w_{2})^{p}}{2}}}}))^{p}+w_{3}^{p}}{2}}}}"/></span>
+</p>
+<h2><span class="mw-headline" id="Improvements_over_the_Standard_Boolean_Model">Improvements over the Standard Boolean Model</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extended_Boolean_model&amp;action=edit&amp;section=5" title="Edit section: Improvements over the Standard Boolean Model">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Lee and Fox<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">&#91;4&#93;</a></sup> compared the Standard and Extended Boolean models with three test collections, CISI, CACM and INSPEC.
+Using P-norms they obtained an average precision improvement of 79%, 106% and 210% over the Standard model, for the CISI, CACM and INSPEC collections, respectively.<br />
+The P-norm model is computationally expensive because of the number of exponentiation operations that it requires but it achieves much better results than the Standard model and even <a href="/wiki/Fuzzy_retrieval" title="Fuzzy retrieval">Fuzzy retrieval</a> techniques. The <a href="/wiki/Standard_Boolean_model" class="mw-redirect" title="Standard Boolean model">Standard Boolean model</a> is still the most efficient.
+</p>
+<h2><span class="mw-headline" id="Further_reading">Further reading</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extended_Boolean_model&amp;action=edit&amp;section=6" title="Edit section: Further reading">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a rel="nofollow" class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.58.1997">Adaptive Feedback Methods in an Extended Boolean Model  by Dr.Jongpill Choi</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.sciencedirect.com/science?_ob=ArticleURL&amp;_udi=B6VC8-454T5MS-2&amp;_user=513551&amp;_rdoc=1&amp;_fmt=&amp;_orig=search&amp;_sort=d&amp;_docanchor=&amp;view=c&amp;_searchStrId=1117914301&amp;_rerunOrigin=google&amp;_acct=C000025338&amp;_version=1&amp;_urlVersion=0&amp;_userid=513551&amp;md5=4eab0da46bfe361afa883e48f2060feb">Interpolation of the extended Boolean retrieval model </a></li>
+<li><cite id="CITEREFFoxBetrabetKoushikLee1992" class="citation">Fox, E.; Betrabet, S.; Koushik, M.; Lee, W. (1992), <a rel="nofollow" class="external text" href="https://www.scribd.com/doc/13742235/Information-Retrieval-Data-Structures-Algorithms-William-B-Frakes"><i>Information Retrieval: Algorithms and Data structures; Extended Boolean model</i></a>, Prentice-Hall, Inc.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Information+Retrieval%3A+Algorithms+and+Data+structures%3B+Extended+Boolean+model&amp;rft.pub=Prentice-Hall%2C+Inc.&amp;rft.date=1992&amp;rft.aulast=Fox&amp;rft.aufirst=E.&amp;rft.au=Betrabet%2C+S.&amp;rft.au=Koushik%2C+M.&amp;rft.au=Lee%2C+W.&amp;rft_id=https%3A%2F%2Fwww.scribd.com%2Fdoc%2F13742235%2FInformation-Retrieval-Data-Structures-Algorithms-William-B-Frakes&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AExtended+Boolean+model" class="Z3988"></span><style data-mw-deduplicate="TemplateStyles:r879151008">.mw-parser-output cite.citation{font-style:inherit}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration{color:#555}.mw-parser-output .cs1-subscription span,.mw-parser-output .cs1-registration span{border-bottom:1px dotted;cursor:help}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output code.cs1-code{color:inherit;background:inherit;border:inherit;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;font-size:100%}.mw-parser-output .cs1-visible-error{font-size:100%}.mw-parser-output .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration,.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-parser-output .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2em}</style></li>
+<li><cite id="CITEREFSkorkovskáIrcing2009" class="citation">Skorkovská, Lucie; Ircing, Pavel (2009), <a rel="nofollow" class="external text" href="http://www.springerlink.com/content/tk1t141253257613/"><i>Experiments with Automatic Query Formulation in the Extended Boolean Model</i></a>, Springer Berlin / Heidelberg</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Experiments+with+Automatic+Query+Formulation+in+the+Extended+Boolean+Model&amp;rft.pub=Springer+Berlin+%2F+Heidelberg&amp;rft.date=2009&amp;rft.aulast=Skorkovsk%C3%A1&amp;rft.aufirst=Lucie&amp;rft.au=Ircing%2C+Pavel&amp;rft_id=http%3A%2F%2Fwww.springerlink.com%2Fcontent%2Ftk1t141253257613%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AExtended+Boolean+model" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></li></ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extended_Boolean_model&amp;action=edit&amp;section=7" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/Information_retrieval" title="Information retrieval">Information retrieval</a></li></ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extended_Boolean_model&amp;action=edit&amp;section=8" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">	
+<cite id="CITEREFSaltonFoxWu1983" class="citation">Salton, Gerard; Fox, Edward A.; Wu, Harry (1983), <a rel="nofollow" class="external text" href="http://portal.acm.org/citation.cfm?id=358466"><i>Extended Boolean information retrieval</i></a>, Communications of the ACM, Volume 26,  Issue 11</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Extended+Boolean+information+retrieval&amp;rft.pub=Communications+of+the+ACM%2C+Volume+26%2C++Issue+11&amp;rft.date=1983&amp;rft.aulast=Salton&amp;rft.aufirst=Gerard&amp;rft.au=Fox%2C+Edward+A.&amp;rft.au=Wu%2C+Harry&amp;rft_id=http%3A%2F%2Fportal.acm.org%2Fcitation.cfm%3Fid%3D358466&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AExtended+Boolean+model" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.cs.cityu.edu.hk/~cs5286/Lectures/Lwang.ppt">Lusheng Wang</a></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite id="CITEREFGarcia" class="citation">Garcia, Dr. E., <a rel="nofollow" class="external text" href="http://www.miislita.com/term-vector/term-vector-6-boolean-model.html"><i>The Extended Boolean Model - Weighted Queries: Term Weights, p-Norm Queries and Multiconcept Types. Boolean OR Extended? AND that is the Query</i></a></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Extended+Boolean+Model+-+Weighted+Queries%3A+Term+Weights%2C+p-Norm+Queries+and+Multiconcept+Types.+Boolean+OR+Extended%3F+AND+that+is+the+Query&amp;rft.aulast=Garcia&amp;rft.aufirst=Dr.+E.&amp;rft_id=http%3A%2F%2Fwww.miislita.com%2Fterm-vector%2Fterm-vector-6-boolean-model.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AExtended+Boolean+model" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><cite id="CITEREFLeeFox1988" class="citation">Lee, W. C.; Fox, E. A. (1988), <a rel="nofollow" class="external text" href="http://eprints.cs.vt.edu/archive/00000112/01/TR-88-27.pdf"><i>Experimental Comparison of Schemes for Interpreting Boolean Queries</i></a> <span class="cs1-format">(PDF)</span></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Experimental+Comparison+of+Schemes+for+Interpreting+Boolean+Queries&amp;rft.date=1988&amp;rft.aulast=Lee&amp;rft.aufirst=W.+C.&amp;rft.au=Fox%2C+E.+A.&amp;rft_id=http%3A%2F%2Feprints.cs.vt.edu%2Farchive%2F00000112%2F01%2FTR-88-27.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AExtended+Boolean+model" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+</ol></div></div>
+
+<!-- 
+NewPP limit report
+Parsed by mw1332
+Cached time: 20190203064558
+Cache expiry: 2073600
+Dynamic content: false
+CPU time usage: 0.192 seconds
+Real time usage: 0.273 seconds
+Preprocessor visited node count: 690/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 15462/2097152 bytes
+Template argument size: 642/2097152 bytes
+Highest expansion depth: 7/40
+Expensive parser function count: 0/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 13724/5000000 bytes
+Number of Wikibase entities loaded: 0/400
+Lua time usage: 0.096/10.000 seconds
+Lua memory usage: 2.39 MB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  173.416      1 -total
+ 62.59%  108.549      5 Template:Citation
+ 20.40%   35.377      1 Template:Multiple_image
+ 20.26%   35.131      1 Template:Reflist
+  4.98%    8.631     20 Template:Math
+  1.76%    3.060      1 Template:Main_other
+  1.48%    2.563      5 Template:=
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:25271852-0!canonical!math=5 and timestamp 20190203064558 and revision id 799696563
+ -->
+</div><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Extended_Boolean_model&amp;oldid=799696563">https://en.wikipedia.org/w/index.php?title=Extended_Boolean_model&amp;oldid=799696563</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Information_retrieval_techniques" title="Category:Information retrieval techniques">Information retrieval techniques</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Extended+Boolean+model" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Extended+Boolean+model" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="/wiki/Extended_Boolean_model" title="View the content page [c]" accesskey="c">Article</a></span></li><li id="ca-talk"><span><a href="/wiki/Talk:Extended_Boolean_model" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+						<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+						<ul class="menu">
+													</ul>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="/wiki/Extended_Boolean_model">Read</a></span></li><li id="ca-edit" class="collapsible"><span><a href="/w/index.php?title=Extended_Boolean_model&amp;action=edit" title="Edit this page [e]" accesskey="e">Edit</a></span></li><li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Extended_Boolean_model&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+						<h3 id="p-cactions-label"><span>More</span></h3>
+						<ul class="menu">
+													</ul>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-interaction" aria-labelledby="p-interaction-label">
+			<h3 id="p-interaction-label">Interaction</h3>
+			<div class="body">
+								<ul>
+					<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Extended_Boolean_model" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Extended_Boolean_model" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Extended_Boolean_model&amp;oldid=799696563" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Extended_Boolean_model&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q796230" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Extended_Boolean_model&amp;id=799696563" title="Information on how to cite this page">Cite this page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-coll-print_export" aria-labelledby="p-coll-print_export-label">
+			<h3 id="p-coll-print_export-label">Print/export</h3>
+			<div class="body">
+								<ul>
+					<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Extended+Boolean+model">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:ElectronPdf&amp;page=Extended+Boolean+model&amp;action=show-download-screen">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Extended_Boolean_model&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label">
+			<h3 id="p-lang-label">Languages</h3>
+			<div class="body">
+								<ul>
+					<li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Model_Boole%C3%A0_Est%C3%A8s" title="Model Booleà Estès – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target">Català</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Erweitertes_Boolesches_Retrieval" title="Erweitertes Boolesches Retrieval – German" lang="de" hreflang="de" class="interlanguage-link-target">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Modelo_Booleano_Extendido" title="Modelo Booleano Extendido – Spanish" lang="es" hreflang="es" class="interlanguage-link-target">Español</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Modello_booleano_esteso" title="Modello booleano esteso – Italian" lang="it" hreflang="it" class="interlanguage-link-target">Italiano</a></li>				</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q796230#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> This page was last edited on 9 September 2017, at 08:38<span class="anonymous-show">&#160;(UTC)</span>.</li>
+								<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+								<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+								<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+								<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+								<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+								<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+								<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Extended_Boolean_model&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+						<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>					</li>
+										<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.192","walltime":"0.273","ppvisitednodes":{"value":690,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":15462,"limit":2097152},"templateargumentsize":{"value":642,"limit":2097152},"expansiondepth":{"value":7,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":13724,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  173.416      1 -total"," 62.59%  108.549      5 Template:Citation"," 20.40%   35.377      1 Template:Multiple_image"," 20.26%   35.131      1 Template:Reflist","  4.98%    8.631     20 Template:Math","  1.76%    3.060      1 Template:Main_other","  1.48%    2.563      5 Template:="]},"scribunto":{"limitreport-timeusage":{"value":"0.096","limit":"10.000"},"limitreport-memusage":{"value":2508888,"limit":52428800}},"cachereport":{"origin":"mw1332","timestamp":"20190203064558","ttl":2073600,"transientcontent":false}}});mw.config.set({"wgBackendResponseTime":97,"wgHostname":"mw1330"});});</script>
+	</body>
+</html>

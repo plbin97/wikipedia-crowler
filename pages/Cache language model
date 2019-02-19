@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Cache language model - Wikipedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Cache_language_model","wgTitle":"Cache language model","wgCurRevisionId":846506437,"wgRevisionId":846506437,"wgArticleId":31139924,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from September 2011","Language modeling","Computational linguistics","Natural language processing","Speech processing","Speech recognition","Machine translation"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Cache_language_model","wgRelevantArticleId":31139924,"wgRequestId":"XGtjXgpAICIAAIdRt9UAAACE","wgCSPNonce":false,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgMFIsPageContentModelEditable":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgWMESchemaEditAttemptStepOversample":false,"wgPoweredByHHVM":true,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgWikibaseItemId":"Q5015979","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":true,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true,"oresWikiId":"enwiki","oresBaseUrl":"http://ores.discovery.wmnet:8081/","oresApiVersion":3});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.3d.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.tokens@0tffind",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.startup","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"];mw.loader.load(RLPAGEMODULES);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.3d.styles%7Cext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.charinsert-styles&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.33.0-wmf.17"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Cache_language_model"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Cache_language_model&amp;action=edit"/>
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Cache_language_model&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Cache_language_model"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 9]><script src="/w/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Cache_language_model rootpage-Cache_language_model skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div><div class="mw-indicators mw-body-content">
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="en">Cache language model</h1>			<div id="bodyContent" class="mw-body-content">
+				<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>				<div id="contentSub"></div>
+				<div id="jump-to-nav"></div>				<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+				<a class="mw-jump-link" href="#p-search">Jump to search</a>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p>A <b>cache language model</b> is a type of statistical <a href="/wiki/Language_model" title="Language model">language model</a>. These occur in the <a href="/wiki/Natural_language_processing" title="Natural language processing">natural language processing</a> subfield of <a href="/wiki/Computer_science" title="Computer science">computer science</a> and assign <a href="/wiki/Probability" title="Probability">probabilities</a> to given sequences of words by means of a <a href="/wiki/Probability_distribution" title="Probability distribution">probability distribution</a>. Statistical language models are key components of  <a href="/wiki/Speech_recognition" title="Speech recognition">speech recognition</a> systems and of many <a href="/wiki/Machine_translation" title="Machine translation">machine translation</a> systems: they tell such systems which possible output word sequences are probable and which are improbable. The particular characteristic of a cache language model is that it contains a <a href="/wiki/Cache_(computing)" title="Cache (computing)">cache component</a> and assigns relatively high probabilities to words or word sequences that occur elsewhere in a given text. The primary, but by no means sole, use of cache language models is in speech recognition systems.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (September 2011)">citation needed</span></a></i>&#93;</sup>
+</p><p>To understand why it is a good idea for a statistical language model to contain a cache component one might consider someone who is dictating a letter about elephants to a speech recognition system. Standard (non-cache) <a href="/wiki/N-gram" title="N-gram">N-gram</a> language models will assign a very low probability to the word "elephant" because it is a very rare word in <a href="/wiki/English_language" title="English language">English</a>. If the speech recognition system does not contain a cache component the person dictating the letter may be annoyed: each time the word "elephant" is spoken another sequence of words with a higher probability according to the N-gram language model may be recognized (e.g., "tell a plan"). These erroneous sequences will have to be deleted manually and replaced in the text by "elephant" each time "elephant" is spoken. If the system has a cache language model, "elephant" will still probably be misrecognized the first time it is spoken and will have to be entered into the text manually; however, from this point on the system is aware that "elephant" is likely to occur again – the estimated probability of occurrence of "elephant" has been increased, making it more likely that if it is spoken it will be recognized correctly. Once "elephant" has occurred several times the system is likely to recognize it correctly every time it is spoken until the letter has been completely dictated. This increase in the probability assigned to the occurrence of "elephant" is an example of a consequence of <a href="/wiki/Machine_learning" title="Machine learning">machine learning</a> and more specifically of <a href="/wiki/Pattern_recognition" title="Pattern recognition">pattern recognition</a>.
+</p><p>There exist variants of the cache language model in which not only single words but also multi-word sequences that have occurred previously are assigned higher probabilities (e.g., if "San Francisco" occurred near the beginning of the text subsequent instances of it would be assigned a higher probability).
+</p><p>The cache language model was first proposed in a paper published in 1990,<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup> after which the <a href="/wiki/IBM" title="IBM">IBM</a> speech-recognition group experimented with the concept. The group found that implementation of a form of cache language model yielded a 24% drop in <a href="/wiki/Word_error_rate" title="Word error rate">word-error rates</a> once the first few hundred words of a document had been dictated.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">&#91;2&#93;</a></sup> A detailed survey of language modeling techniques concluded that the cache language model was one of the few new language modeling techniques that yielded improvements over the standard N-gram approach: "Our caching results show that caching is by far the most useful technique for perplexity reduction at small and medium <a href="/wiki/Training_set" class="mw-redirect" title="Training set">training data</a> sizes".<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup>
+</p><p>The development of the cache language model has generated considerable interest among those concerned with <a href="/wiki/Computational_linguistics" title="Computational linguistics">computational linguistics</a> in general and <a href="/wiki/Statistical_natural_language_processing" class="mw-redirect" title="Statistical natural language processing">statistical natural language processing</a> in particular: recently there has been interest in applying the cache language model in the field of statistical machine translation.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">&#91;4&#93;</a></sup>
+</p><p>The success of the cache language model in improving word prediction rests on the human tendency to use words in a "bursty" fashion: when one is discussing a certain topic in a certain context the frequency with which one uses certain words will be quite different from their frequencies when one is discussing other topics in other contexts. The traditional N-gram language models, which rely entirely on information from a very small number (four, three, or two) of words preceding the word to which a probability is to be assigned, do not adequately model this "burstiness".
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Cache_language_model&amp;action=edit&amp;section=1" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/Artificial_intelligence" title="Artificial intelligence">Artificial intelligence</a></li>
+<li><a href="/wiki/History_of_natural_language_processing" title="History of natural language processing">History of natural language processing</a></li>
+<li><a href="/wiki/History_of_machine_translation" title="History of machine translation">History of machine translation</a></li>
+<li><a href="/wiki/Speech_recognition" title="Speech recognition">Speech recognition</a></li>
+<li><a href="/wiki/Statistical_machine_translation" title="Statistical machine translation">Statistical machine translation</a></li></ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Cache_language_model&amp;action=edit&amp;section=2" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation journal">Kuhn, R.; <a href="/w/index.php?title=Renato_de_Mori&amp;action=edit&amp;redlink=1" class="new" title="Renato de Mori (page does not exist)">De Mori, R.</a> (June 1990). <a rel="nofollow" class="external text" href="http://visgraph.cs.ust.hk/biometrics/Papers/Voice/pami1990-06-01.pdf">"A Cache-Based Natural Language Model for Speech Recognition"</a> <span class="cs1-format">(PDF)</span>. <i><a href="/wiki/IEEE_Transactions_on_Pattern_Analysis_and_Machine_Intelligence" title="IEEE Transactions on Pattern Analysis and Machine Intelligence">IEEE Transactions on Pattern Analysis and Machine Intelligence</a></i>. <b>12</b> (6): 570–583. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1109%2F34.56193">10.1109/34.56193</a>. <a href="/wiki/International_Standard_Serial_Number" title="International Standard Serial Number">ISSN</a>&#160;<a rel="nofollow" class="external text" href="//www.worldcat.org/issn/1939-3539">1939-3539</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=IEEE+Transactions+on+Pattern+Analysis+and+Machine+Intelligence&amp;rft.atitle=A+Cache-Based+Natural+Language+Model+for+Speech+Recognition&amp;rft.volume=12&amp;rft.issue=6&amp;rft.pages=570-583&amp;rft.date=1990-06&amp;rft_id=info%3Adoi%2F10.1109%2F34.56193&amp;rft.issn=1939-3539&amp;rft.aulast=Kuhn&amp;rft.aufirst=R.&amp;rft.au=De+Mori%2C+R.&amp;rft_id=http%3A%2F%2Fvisgraph.cs.ust.hk%2Fbiometrics%2FPapers%2FVoice%2Fpami1990-06-01.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACache+language+model" class="Z3988"></span><style data-mw-deduplicate="TemplateStyles:r879151008">.mw-parser-output cite.citation{font-style:inherit}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration{color:#555}.mw-parser-output .cs1-subscription span,.mw-parser-output .cs1-registration span{border-bottom:1px dotted;cursor:help}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output code.cs1-code{color:inherit;background:inherit;border:inherit;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;font-size:100%}.mw-parser-output .cs1-visible-error{font-size:100%}.mw-parser-output .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration,.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-parser-output .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2em}</style> (<a rel="nofollow" class="external text" href="https://www.computer.org/csdl/trans/tp/1990/06/i0570-abs.html">Abstract</a>)</span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><cite class="citation journal">F. Jelinek; B. Merialdo; S. Roukos &amp; M. Strauss (1991). <a rel="nofollow" class="external text" href="https://web.archive.org/web/20060614121245/http://acl.ldc.upenn.edu/H/H91/H91-1057.pdf">"A Dynamic Language Model for Speech Recognition"</a> <span class="cs1-format">(PDF)</span>. <i>The Journal of the Acoustical Society of America</i>. <b>98</b> (2). <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.3115%2F112405.112464">10.3115/112405.112464</a>. Archived from <a rel="nofollow" class="external text" href="http://acl.ldc.upenn.edu/H/H91/H91-1057.pdf">the original</a> <span class="cs1-format">(PDF)</span> on June 14, 2006.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=The+Journal+of+the+Acoustical+Society+of+America&amp;rft.atitle=A+Dynamic+Language+Model+for+Speech+Recognition&amp;rft.volume=98&amp;rft.issue=2&amp;rft.date=1991&amp;rft_id=info%3Adoi%2F10.3115%2F112405.112464&amp;rft.au=F.+Jelinek&amp;rft.au=B.+Merialdo&amp;rft.au=S.+Roukos&amp;rft.au=M.+Strauss&amp;rft_id=http%3A%2F%2Facl.ldc.upenn.edu%2FH%2FH91%2FH91-1057.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACache+language+model" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/> Conference: Speech and Natural Language, Proceedings of a Workshop held at Pacific Grove, California, USA, February 19–22, 1999.</span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite class="citation book">Joshua T. Goodman (2001). <a rel="nofollow" class="external text" href="https://arxiv.org/pdf/cs/0108005.pdf"><i>A Bit of Progress in Language Modeling: Extended Version</i></a> <span class="cs1-format">(PDF)</span>. Redmond, WA (US): Microsoft Research. <a href="/wiki/ArXiv" title="ArXiv">arXiv</a>:<span class="cs1-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="//arxiv.org/abs/cs/0108005v1">cs/0108005v1</a></span>. <a href="/wiki/Bibcode" title="Bibcode">Bibcode</a>:<a rel="nofollow" class="external text" href="http://adsabs.harvard.edu/abs/2001cs........8005G">2001cs........8005G</a>. Technical report MSR-TR-2001-72.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=A+Bit+of+Progress+in+Language+Modeling%3A+Extended+Version&amp;rft.place=Redmond%2C+WA+%28US%29&amp;rft.pub=Microsoft+Research&amp;rft.date=2001&amp;rft_id=info%3Aarxiv%2Fcs%2F0108005v1&amp;rft_id=info%3Abibcode%2F2001cs........8005G&amp;rft.au=Joshua+T.+Goodman&amp;rft_id=https%3A%2F%2Farxiv.org%2Fpdf%2Fcs%2F0108005.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACache+language+model" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><cite class="citation conference">Tiedemann, Jorg (2010). <a rel="nofollow" class="external text" href="http://www.aclweb.org/anthology/W/W10/W10-2602.pdf"><i>Context Adaptation in Statistical Machine Translation Using Models with Exponentially Decaying Cache</i></a> <span class="cs1-format">(PDF)</span>. Proceedings of the 2010 Workshop on Domain Adaptation for Natural Language Processing, ACL 2010,. Uppsala, Sweden: Association for Computational Linguistics. pp.&#160;8–15.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=conference&amp;rft.btitle=Context+Adaptation+in+Statistical+Machine+Translation+Using+Models+with+Exponentially+Decaying+Cache&amp;rft.place=Uppsala%2C+Sweden&amp;rft.pages=8-15&amp;rft.pub=Association+for+Computational+Linguistics&amp;rft.date=2010&amp;rft.au=Tiedemann%2C+Jorg&amp;rft_id=http%3A%2F%2Fwww.aclweb.org%2Fanthology%2FW%2FW10%2FW10-2602.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACache+language+model" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+</ol></div></div>
+<h2><span class="mw-headline" id="Further_reading">Further reading</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Cache_language_model&amp;action=edit&amp;section=3" title="Edit section: Further reading">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><cite class="citation book"><a href="/wiki/Frederick_Jelinek" title="Frederick Jelinek">Jelinek, Frederick</a> (1997). <a rel="nofollow" class="external text" href="http://mitpress.mit.edu/catalog/item/default.asp?ttype=2&amp;tid=7447"><i>Statistical Methods for Speech Recognition</i></a>. <a href="/wiki/The_MIT_Press" class="mw-redirect" title="The MIT Press">The MIT Press</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-262-10066-5" title="Special:BookSources/0-262-10066-5">0-262-10066-5</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Statistical+Methods+for+Speech+Recognition&amp;rft.pub=The+MIT+Press&amp;rft.date=1997&amp;rft.isbn=0-262-10066-5&amp;rft.aulast=Jelinek&amp;rft.aufirst=Frederick&amp;rft_id=http%3A%2F%2Fmitpress.mit.edu%2Fcatalog%2Fitem%2Fdefault.asp%3Fttype%3D2%26tid%3D7447&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACache+language+model" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></li></ul>
+
+<!-- 
+NewPP limit report
+Parsed by mw1253
+Cached time: 20190203062334
+Cache expiry: 2073600
+Dynamic content: false
+CPU time usage: 0.252 seconds
+Real time usage: 0.341 seconds
+Preprocessor visited node count: 433/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 12441/2097152 bytes
+Template argument size: 586/2097152 bytes
+Highest expansion depth: 11/40
+Expensive parser function count: 5/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 15431/5000000 bytes
+Number of Wikibase entities loaded: 4/400
+Lua time usage: 0.175/10.000 seconds
+Lua memory usage: 3.04 MB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  310.418      1 -total
+ 68.87%  213.776      1 Template:Reflist
+ 48.27%  149.849      2 Template:Cite_journal
+ 27.82%   86.343      1 Template:Citation_needed
+ 20.51%   63.673      1 Template:Fix
+ 13.87%   43.062      2 Template:Category_handler
+ 11.47%   35.615      2 Template:Cite_book
+  5.38%   16.709      1 Template:Delink
+  3.89%   12.081      1 Template:Cite_conference
+  1.22%    3.785      1 Template:Main_other
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:31139924-0!canonical and timestamp 20190203062333 and revision id 846506437
+ -->
+</div><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Cache_language_model&amp;oldid=846506437">https://en.wikipedia.org/w/index.php?title=Cache_language_model&amp;oldid=846506437</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Language_modeling" title="Category:Language modeling">Language modeling</a></li><li><a href="/wiki/Category:Computational_linguistics" title="Category:Computational linguistics">Computational linguistics</a></li><li><a href="/wiki/Category:Natural_language_processing" title="Category:Natural language processing">Natural language processing</a></li><li><a href="/wiki/Category:Speech_processing" title="Category:Speech processing">Speech processing</a></li><li><a href="/wiki/Category:Speech_recognition" title="Category:Speech recognition">Speech recognition</a></li><li><a href="/wiki/Category:Machine_translation" title="Category:Machine translation">Machine translation</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_September_2011" title="Category:Articles with unsourced statements from September 2011">Articles with unsourced statements from September 2011</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Cache+language+model" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Cache+language+model" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="/wiki/Cache_language_model" title="View the content page [c]" accesskey="c">Article</a></span></li><li id="ca-talk"><span><a href="/wiki/Talk:Cache_language_model" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+						<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+						<ul class="menu">
+													</ul>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="/wiki/Cache_language_model">Read</a></span></li><li id="ca-edit" class="collapsible"><span><a href="/w/index.php?title=Cache_language_model&amp;action=edit" title="Edit this page [e]" accesskey="e">Edit</a></span></li><li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Cache_language_model&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+						<h3 id="p-cactions-label"><span>More</span></h3>
+						<ul class="menu">
+													</ul>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-interaction" aria-labelledby="p-interaction-label">
+			<h3 id="p-interaction-label">Interaction</h3>
+			<div class="body">
+								<ul>
+					<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Cache_language_model" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Cache_language_model" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Cache_language_model&amp;oldid=846506437" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Cache_language_model&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q5015979" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Cache_language_model&amp;id=846506437" title="Information on how to cite this page">Cite this page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-coll-print_export" aria-labelledby="p-coll-print_export-label">
+			<h3 id="p-coll-print_export-label">Print/export</h3>
+			<div class="body">
+								<ul>
+					<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Cache+language+model">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:ElectronPdf&amp;page=Cache+language+model&amp;action=show-download-screen">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Cache_language_model&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label">
+			<h3 id="p-lang-label">Languages</h3>
+			<div class="body">
+								<ul>
+									</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-add wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q5015979#sitelinks-wikipedia" title="Add interlanguage links" class="wbc-editpage">Add links</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> This page was last edited on 19 June 2018, at 05:27<span class="anonymous-show">&#160;(UTC)</span>.</li>
+								<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+								<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+								<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+								<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+								<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+								<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+								<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Cache_language_model&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+						<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>					</li>
+										<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.252","walltime":"0.341","ppvisitednodes":{"value":433,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":12441,"limit":2097152},"templateargumentsize":{"value":586,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":5,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":15431,"limit":5000000},"entityaccesscount":{"value":4,"limit":400},"timingprofile":["100.00%  310.418      1 -total"," 68.87%  213.776      1 Template:Reflist"," 48.27%  149.849      2 Template:Cite_journal"," 27.82%   86.343      1 Template:Citation_needed"," 20.51%   63.673      1 Template:Fix"," 13.87%   43.062      2 Template:Category_handler"," 11.47%   35.615      2 Template:Cite_book","  5.38%   16.709      1 Template:Delink","  3.89%   12.081      1 Template:Cite_conference","  1.22%    3.785      1 Template:Main_other"]},"scribunto":{"limitreport-timeusage":{"value":"0.175","limit":"10.000"},"limitreport-memusage":{"value":3186022,"limit":52428800}},"cachereport":{"origin":"mw1253","timestamp":"20190203062334","ttl":2073600,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Cache language model","url":"https:\/\/en.wikipedia.org\/wiki\/Cache_language_model","sameAs":"http:\/\/www.wikidata.org\/entity\/Q5015979","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q5015979","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2011-03-10T07:03:54Z","dateModified":"2018-06-19T05:27:26Z"}</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":127,"wgHostname":"mw1332"});});</script>
+	</body>
+</html>

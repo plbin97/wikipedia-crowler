@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Stochastic optimization - Wikipedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Stochastic_optimization","wgTitle":"Stochastic optimization","wgCurRevisionId":882184218,"wgRevisionId":882184218,"wgArticleId":7325543,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Monte Carlo methods","Stochastic optimization"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Stochastic_optimization","wgRelevantArticleId":7325543,"wgRequestId":"XGBseApAICkAAGPveJMAAAAQ","wgCSPNonce":false,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgMFIsPageContentModelEditable":true,"wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgWMESchemaEditAttemptStepOversample":false,"wgPoweredByHHVM":true,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgWikibaseItemId":"Q1747770","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":true,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true,"oresWikiId":"enwiki","oresBaseUrl":"http://ores.discovery.wmnet:8081/","oresApiVersion":3});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.toc.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.3d.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.tokens@0tffind",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.startup","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"];mw.loader.load(RLPAGEMODULES);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.3d.styles%7Cext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.toc.styles%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.charinsert-styles&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.33.0-wmf.16"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Stochastic_optimization"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Stochastic_optimization&amp;action=edit"/>
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Stochastic_optimization&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Stochastic_optimization"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 9]><script src="/w/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Stochastic_optimization rootpage-Stochastic_optimization skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div><div class="mw-indicators mw-body-content">
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="en">Stochastic optimization</h1>			<div id="bodyContent" class="mw-body-content">
+				<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>				<div id="contentSub"></div>
+				<div id="jump-to-nav"></div>				<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+				<a class="mw-jump-link" href="#p-search">Jump to search</a>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div role="note" class="hatnote navigation-not-searchable">This article is about <a href="/wiki/Iterative_method" title="Iterative method">iterative methods</a>. For the modeling (and optimization) of decisions under uncertainty, see <a href="/wiki/Stochastic_programming" title="Stochastic programming">stochastic programming</a>. For the context of control theory, see <a href="/wiki/Stochastic_control" title="Stochastic control">stochastic control</a>.</div>
+<p><b>Stochastic optimization</b> (<b>SO</b>) methods are <a href="/wiki/Optimization_(mathematics)" class="mw-redirect" title="Optimization (mathematics)">optimization</a> <a href="/wiki/Iterative_method" title="Iterative method">methods</a> that generate and use <a href="/wiki/Random_variable" title="Random variable">random variables</a>. For stochastic problems, the random variables appear in the formulation of the optimization problem itself, which involves random <a href="/wiki/Objective_function" class="mw-redirect" title="Objective function">objective functions</a> or random constraints. Stochastic optimization methods also include methods with random iterates. Some stochastic optimization methods use random iterates to solve stochastic problems, combining both meanings of stochastic optimization.<sup id="cite_ref-spall2003_1-0" class="reference"><a href="#cite_note-spall2003-1">&#91;1&#93;</a></sup>
+Stochastic optimization methods generalize <a href="/wiki/Deterministic_system_(mathematics)" class="mw-redirect" title="Deterministic system (mathematics)">deterministic</a> methods for deterministic problems.
+</p>
+<div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Methods_for_stochastic_functions"><span class="tocnumber">1</span> <span class="toctext">Methods for stochastic functions</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Randomized_search_methods"><span class="tocnumber">2</span> <span class="toctext">Randomized search methods</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#See_also"><span class="tocnumber">3</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#References"><span class="tocnumber">4</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Further_reading"><span class="tocnumber">5</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#External_links"><span class="tocnumber">6</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Methods_for_stochastic_functions">Methods for stochastic functions</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Stochastic_optimization&amp;action=edit&amp;section=1" title="Edit section: Methods for stochastic functions">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Partly random input data arise in such areas as real-time estimation and control, simulation-based optimization where <a href="/wiki/Monte_Carlo_method" title="Monte Carlo method">Monte Carlo simulations</a> are run as estimates of an actual system,<sup id="cite_ref-fu2002_2-0" class="reference"><a href="#cite_note-fu2002-2">&#91;2&#93;</a></sup> 
+<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup> and problems where there is experimental (random) error in the measurements of the criterion.  In such cases, knowledge that the function values are contaminated by random "noise" leads naturally to algorithms that use <a href="/wiki/Statistics" title="Statistics">statistical inference</a> tools to estimate the "true" values of the function and/or make statistically optimal decisions about the next steps.  Methods of this class include:
+</p>
+<ul><li><a href="/wiki/Stochastic_approximation" title="Stochastic approximation">stochastic approximation</a> (SA), by <a href="/wiki/Herbert_Robbins" title="Herbert Robbins">Robbins</a> and Monro (1951)<sup id="cite_ref-RM1951_4-0" class="reference"><a href="#cite_note-RM1951-4">&#91;4&#93;</a></sup></li>
+<li><a href="/wiki/Stochastic_gradient_descent" title="Stochastic gradient descent">stochastic gradient descent</a></li>
+<li><a href="/wiki/Finite-difference_stochastic_approximation" class="mw-redirect" title="Finite-difference stochastic approximation">finite-difference SA</a> by Kiefer and Wolfowitz (1952)<sup id="cite_ref-KW1952_5-0" class="reference"><a href="#cite_note-KW1952-5">&#91;5&#93;</a></sup></li>
+<li><a href="/wiki/Simultaneous_perturbation_stochastic_approximation" title="Simultaneous perturbation stochastic approximation">simultaneous perturbation SA</a> by Spall (1992)<sup id="cite_ref-spall1992_6-0" class="reference"><a href="#cite_note-spall1992-6">&#91;6&#93;</a></sup></li>
+<li><a href="/wiki/Scenario_optimization" title="Scenario optimization">scenario optimization</a></li></ul>
+<h2><span class="mw-headline" id="Randomized_search_methods">Randomized search methods</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Stochastic_optimization&amp;action=edit&amp;section=2" title="Edit section: Randomized search methods">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div role="note" class="hatnote navigation-not-searchable">See also: <a href="/wiki/Metaheuristic" title="Metaheuristic">Metaheuristic</a></div>
+<p>On the other hand, even when the <a href="/wiki/Data_set" title="Data set">data set</a> consists of precise measurements, some methods  introduce randomness into the search-process to accelerate progress.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">&#91;7&#93;</a></sup> Such randomness can also make the method less sensitive to modeling errors.  Further, the injected randomness may enable the method to escape a local optimum and eventually to approach a global optimum.   Indeed, this <a href="/wiki/Randomized_algorithm" title="Randomized algorithm">randomization</a> principle is known to be a simple and effective way to obtain algorithms with <i>almost certain</i> good performance uniformly across many data sets, for many sorts of problems.  Stochastic optimization methods of this kind include:
+</p>
+<ul><li><a href="/wiki/Simulated_annealing" title="Simulated annealing">simulated annealing</a> by S. Kirkpatrick, C. D. Gelatt and M. P. Vecchi (1983)<sup id="cite_ref-kirk1983_8-0" class="reference"><a href="#cite_note-kirk1983-8">&#91;8&#93;</a></sup></li>
+<li><a href="/wiki/Quantum_annealing" title="Quantum annealing">quantum annealing</a></li>
+<li><a href="/w/index.php?title=Probability_Collectives&amp;action=edit&amp;redlink=1" class="new" title="Probability Collectives (page does not exist)">Probability Collectives</a> by D.H. Wolpert, S.R. Bieniawski and D.G. Rajnarayan (2011)<sup id="cite_ref-wolp2011_9-0" class="reference"><a href="#cite_note-wolp2011-9">&#91;9&#93;</a></sup></li>
+<li><a href="/wiki/Reactive_Search_Optimization" class="mw-redirect" title="Reactive Search Optimization">reactive search optimization (RSO)</a> by <a href="/wiki/Roberto_Battiti" title="Roberto Battiti">Roberto Battiti</a>, G. Tecchiolli (1994),<sup id="cite_ref-BattitiTecchiolli94_10-0" class="reference"><a href="#cite_note-BattitiTecchiolli94-10">&#91;10&#93;</a></sup> recently reviewed in the reference book <sup id="cite_ref-BattitiBrunatoMascia2008_11-0" class="reference"><a href="#cite_note-BattitiBrunatoMascia2008-11">&#91;11&#93;</a></sup></li>
+<li><a href="/wiki/Cross-entropy_method" title="Cross-entropy method">cross-entropy method</a> by Rubinstein and Kroese (2004)<sup id="cite_ref-rubkro_12-0" class="reference"><a href="#cite_note-rubkro-12">&#91;12&#93;</a></sup></li>
+<li><a href="/wiki/Random_search" title="Random search">random search</a> by <a href="/wiki/Anatoly_Zhigljavsky" title="Anatoly Zhigljavsky">Anatoly Zhigljavsky</a> (1991)<sup id="cite_ref-zhigl1991_13-0" class="reference"><a href="#cite_note-zhigl1991-13">&#91;13&#93;</a></sup></li>
+<li>Informational search <sup id="cite_ref-14" class="reference"><a href="#cite_note-14">&#91;14&#93;</a></sup></li>
+<li><a href="/wiki/Stochastic_tunneling" title="Stochastic tunneling">stochastic tunneling</a><sup id="cite_ref-wenz1999_15-0" class="reference"><a href="#cite_note-wenz1999-15">&#91;15&#93;</a></sup></li>
+<li><a href="/wiki/Parallel_tempering" title="Parallel tempering">parallel tempering</a> a.k.a. replica exchange<sup id="cite_ref-mari1992_16-0" class="reference"><a href="#cite_note-mari1992-16">&#91;16&#93;</a></sup></li>
+<li><a href="/wiki/Stochastic_hill_climbing" title="Stochastic hill climbing">stochastic hill climbing</a></li>
+<li><a href="/wiki/Swarm_intelligence" title="Swarm intelligence">swarm algorithms</a></li>
+<li><a href="/wiki/Evolutionary_algorithms" class="mw-redirect" title="Evolutionary algorithms">evolutionary algorithms</a>
+<ul><li><a href="/wiki/Genetic_algorithms" class="mw-redirect" title="Genetic algorithms">genetic algorithms</a> by Holland (1975)<sup id="cite_ref-gold1991_17-0" class="reference"><a href="#cite_note-gold1991-17">&#91;17&#93;</a></sup></li>
+<li><a href="/wiki/Evolution_strategies" class="mw-redirect" title="Evolution strategies">evolution strategies</a></li></ul></li>
+<li>cascade object optimization &amp; modification algorithm (2016)<sup id="cite_ref-18" class="reference"><a href="#cite_note-18">&#91;18&#93;</a></sup></li></ul>
+<p>In contrast, some authors have argued that randomization can only improve a deterministic algorithm if the deterministic algorithm was poorly designed in the first place.<sup id="cite_ref-19" class="reference"><a href="#cite_note-19">&#91;19&#93;</a></sup> 
+<a href="/wiki/Fred_W._Glover" title="Fred W. Glover">Fred W. Glover</a> <sup id="cite_ref-20" class="reference"><a href="#cite_note-20">&#91;20&#93;</a></sup> argues that reliance on random elements may prevent the development of more intelligent and better deterministic components. The way in which results of stochastic optimization algorithms are usually presented (e.g., presenting only the average, or even the best, out of N runs without any mention of the spread), may also result in a positive bias towards randomness.
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Stochastic_optimization&amp;action=edit&amp;section=3" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/Global_optimization" title="Global optimization">Global optimization</a></li>
+<li><a href="/wiki/Machine_learning" title="Machine learning">Machine learning</a></li>
+<li><a href="/wiki/Scenario_optimization" title="Scenario optimization">Scenario optimization</a></li>
+<li><a href="/wiki/Gaussian_process" title="Gaussian process">Gaussian process</a></li>
+<li><a href="/wiki/State_Space_Model" class="mw-redirect" title="State Space Model">State Space Model</a></li>
+<li><a href="/wiki/Model_predictive_control" title="Model predictive control">Model predictive control</a></li>
+<li><a href="/wiki/Nonlinear_programming" title="Nonlinear programming">Nonlinear programming</a></li>
+<li><a href="/wiki/Entropic_value_at_risk" title="Entropic value at risk">Entropic value at risk</a></li></ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Stochastic_optimization&amp;action=edit&amp;section=4" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist columns references-column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-spall2003-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-spall2003_1-0">^</a></b></span> <span class="reference-text">
+<cite class="citation book">Spall, J. C. (2003). <a rel="nofollow" class="external text" href="http://www.jhuapl.edu/ISSO"><i>Introduction to Stochastic Search and Optimization</i></a>. Wiley. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-471-33052-3" title="Special:BookSources/978-0-471-33052-3">978-0-471-33052-3</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Introduction+to+Stochastic+Search+and+Optimization&amp;rft.pub=Wiley&amp;rft.date=2003&amp;rft.isbn=978-0-471-33052-3&amp;rft.au=Spall%2C+J.+C.&amp;rft_id=http%3A%2F%2Fwww.jhuapl.edu%2FISSO&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AStochastic+optimization" class="Z3988"></span><style data-mw-deduplicate="TemplateStyles:r879151008">.mw-parser-output cite.citation{font-style:inherit}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration{color:#555}.mw-parser-output .cs1-subscription span,.mw-parser-output .cs1-registration span{border-bottom:1px dotted;cursor:help}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output code.cs1-code{color:inherit;background:inherit;border:inherit;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;font-size:100%}.mw-parser-output .cs1-visible-error{font-size:100%}.mw-parser-output .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration,.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-parser-output .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2em}</style></span>
+</li>
+<li id="cite_note-fu2002-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-fu2002_2-0">^</a></b></span> <span class="reference-text">
+<cite class="citation journal">Fu, M. C. (2002). "Optimization for Simulation: Theory vs. Practice". <i>INFORMS Journal on Computing</i>. <b>14</b> (3): 192–227. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1287%2Fijoc.14.3.192.113">10.1287/ijoc.14.3.192.113</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=INFORMS+Journal+on+Computing&amp;rft.atitle=Optimization+for+Simulation%3A+Theory+vs.+Practice&amp;rft.volume=14&amp;rft.issue=3&amp;rft.pages=192-227&amp;rft.date=2002&amp;rft_id=info%3Adoi%2F10.1287%2Fijoc.14.3.192.113&amp;rft.au=Fu%2C+M.+C.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AStochastic+optimization" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">M.C. Campi and S. Garatti. <i>The Exact Feasibility of Randomized Solutions of Uncertain Convex Programs.</i> SIAM J. on Optimization, 19, no.3: 1211&#8211;1230, 2008.<a rel="nofollow" class="external autonumber" href="http://epubs.siam.org/siopt/resource/1/sjope8/v19/i3/p1211_s1">[1]</a></span>
+</li>
+<li id="cite_note-RM1951-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-RM1951_4-0">^</a></b></span> <span class="reference-text">
+<cite class="citation journal">Robbins, H.; Monro, S. (1951). "A Stochastic Approximation Method". <i>Annals of Mathematical Statistics</i>. <b>22</b> (3): 400–407. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1214%2Faoms%2F1177729586">10.1214/aoms/1177729586</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Annals+of+Mathematical+Statistics&amp;rft.atitle=A+Stochastic+Approximation+Method&amp;rft.volume=22&amp;rft.issue=3&amp;rft.pages=400-407&amp;rft.date=1951&amp;rft_id=info%3Adoi%2F10.1214%2Faoms%2F1177729586&amp;rft.au=Robbins%2C+H.&amp;rft.au=Monro%2C+S.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AStochastic+optimization" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-KW1952-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-KW1952_5-0">^</a></b></span> <span class="reference-text"><cite class="citation journal"><a href="/wiki/Jack_Kiefer_(mathematician)" class="mw-redirect" title="Jack Kiefer (mathematician)">J. Kiefer</a>; J. Wolfowitz (1952). "Stochastic Estimation of the Maximum of a Regression Function". <i>Annals of Mathematical Statistics</i>. <b>23</b> (3): 462–466. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1214%2Faoms%2F1177729392">10.1214/aoms/1177729392</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Annals+of+Mathematical+Statistics&amp;rft.atitle=Stochastic+Estimation+of+the+Maximum+of+a+Regression+Function&amp;rft.volume=23&amp;rft.issue=3&amp;rft.pages=462-466&amp;rft.date=1952&amp;rft_id=info%3Adoi%2F10.1214%2Faoms%2F1177729392&amp;rft.au=J.+Kiefer&amp;rft.au=J.+Wolfowitz&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AStochastic+optimization" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-spall1992-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-spall1992_6-0">^</a></b></span> <span class="reference-text">
+<cite class="citation journal">Spall, J. C. (1992). <a rel="nofollow" class="external text" href="http://www.jhuapl.edu/SPSA">"Multivariate Stochastic Approximation Using a Simultaneous Perturbation Gradient Approximation"</a>. <i>IEEE Transactions on Automatic Control</i>. <b>37</b> (3): 332–341. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>&#160;<span class="cs1-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="//citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.19.4562">10.1.1.19.4562</a></span>. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1109%2F9.119632">10.1109/9.119632</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=IEEE+Transactions+on+Automatic+Control&amp;rft.atitle=Multivariate+Stochastic+Approximation+Using+a+Simultaneous+Perturbation+Gradient+Approximation&amp;rft.volume=37&amp;rft.issue=3&amp;rft.pages=332-341&amp;rft.date=1992&amp;rft_id=%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fsummary%3Fdoi%3D10.1.1.19.4562&amp;rft_id=info%3Adoi%2F10.1109%2F9.119632&amp;rft.au=Spall%2C+J.+C.&amp;rft_id=http%3A%2F%2Fwww.jhuapl.edu%2FSPSA&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AStochastic+optimization" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text">Holger H. Hoos and Thomas Stützle, <i><a rel="nofollow" class="external text" href="http://www.sls-book.net/">Stochastic Local Search: Foundations and Applications</a></i>, <a href="/wiki/Morgan_Kaufmann" class="mw-redirect" title="Morgan Kaufmann">Morgan Kaufmann</a> / <a href="/wiki/Elsevier" title="Elsevier">Elsevier</a>, 2004.</span>
+</li>
+<li id="cite_note-kirk1983-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-kirk1983_8-0">^</a></b></span> <span class="reference-text">
+<cite class="citation journal">S. Kirkpatrick; C. D. Gelatt; M. P. Vecchi (1983). <a rel="nofollow" class="external text" href="http://citeseer.ist.psu.edu/kirkpatrick83optimization.html">"Optimization by Simulated Annealing"</a>. <i>Science</i>. <b>220</b> (4598): 671–680. <a href="/wiki/Bibcode" title="Bibcode">Bibcode</a>:<a rel="nofollow" class="external text" href="http://adsabs.harvard.edu/abs/1983Sci...220..671K">1983Sci...220..671K</a>. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>&#160;<span class="cs1-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="//citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.123.7607">10.1.1.123.7607</a></span>. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1126%2Fscience.220.4598.671">10.1126/science.220.4598.671</a>. <a href="/wiki/PubMed_Identifier" class="mw-redirect" title="PubMed Identifier">PMID</a>&#160;<a rel="nofollow" class="external text" href="//www.ncbi.nlm.nih.gov/pubmed/17813860">17813860</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Science&amp;rft.atitle=Optimization+by+Simulated+Annealing&amp;rft.volume=220&amp;rft.issue=4598&amp;rft.pages=671-680&amp;rft.date=1983&amp;rft_id=%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fsummary%3Fdoi%3D10.1.1.123.7607&amp;rft_id=info%3Apmid%2F17813860&amp;rft_id=info%3Adoi%2F10.1126%2Fscience.220.4598.671&amp;rft_id=info%3Abibcode%2F1983Sci...220..671K&amp;rft.au=S.+Kirkpatrick&amp;rft.au=C.+D.+Gelatt&amp;rft.au=M.+P.+Vecchi&amp;rft_id=http%3A%2F%2Fciteseer.ist.psu.edu%2Fkirkpatrick83optimization.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AStochastic+optimization" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-wolp2011-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-wolp2011_9-0">^</a></b></span> <span class="reference-text">
+<cite class="citation journal">D.H. Wolpert; S.R. Bieniawski; D.G. Rajnarayan (2011).  C.R. Rao; V. Govindaraju, ed. <a rel="nofollow" class="external text" href="http://www.santafe.edu/research/working-papers/abstract/f752fdb9c2b41e4e04947d7531421d61/">"Probability Collectives in Optimization"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Probability+Collectives+in+Optimization&amp;rft.date=2011&amp;rft.au=D.H.+Wolpert&amp;rft.au=S.R.+Bieniawski&amp;rft.au=D.G.+Rajnarayan&amp;rft_id=http%3A%2F%2Fwww.santafe.edu%2Fresearch%2Fworking-papers%2Fabstract%2Ff752fdb9c2b41e4e04947d7531421d61%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AStochastic+optimization" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-BattitiTecchiolli94-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-BattitiTecchiolli94_10-0">^</a></b></span> <span class="reference-text">
+<cite class="citation journal">Battiti, Roberto; Gianpietro Tecchiolli (1994). <a rel="nofollow" class="external text" href="http://rtm.science.unitn.it/~battiti/archive/TheReactiveTabuSearch.PDF">"The reactive tabu search"</a> <span class="cs1-format">(PDF)</span>. <i>ORSA Journal on Computing</i>. <b>6</b> (2): 126–140. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1287%2Fijoc.6.2.126">10.1287/ijoc.6.2.126</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=ORSA+Journal+on+Computing&amp;rft.atitle=The+reactive+tabu+search&amp;rft.volume=6&amp;rft.issue=2&amp;rft.pages=126-140&amp;rft.date=1994&amp;rft_id=info%3Adoi%2F10.1287%2Fijoc.6.2.126&amp;rft.aulast=Battiti&amp;rft.aufirst=Roberto&amp;rft.au=Gianpietro+Tecchiolli&amp;rft_id=http%3A%2F%2Frtm.science.unitn.it%2F~battiti%2Farchive%2FTheReactiveTabuSearch.PDF&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AStochastic+optimization" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-BattitiBrunatoMascia2008-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-BattitiBrunatoMascia2008_11-0">^</a></b></span> <span class="reference-text">
+<cite class="citation book">Battiti, Roberto; Mauro Brunato; Franco Mascia (2008). <i>Reactive Search and Intelligent Optimization</i>. <a href="/wiki/Springer_Verlag" class="mw-redirect" title="Springer Verlag">Springer Verlag</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-387-09623-0" title="Special:BookSources/978-0-387-09623-0">978-0-387-09623-0</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Reactive+Search+and+Intelligent+Optimization&amp;rft.pub=Springer+Verlag&amp;rft.date=2008&amp;rft.isbn=978-0-387-09623-0&amp;rft.aulast=Battiti&amp;rft.aufirst=Roberto&amp;rft.au=Mauro+Brunato&amp;rft.au=Franco+Mascia&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AStochastic+optimization" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-rubkro-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-rubkro_12-0">^</a></b></span> <span class="reference-text">
+<cite class="citation book">Rubinstein, R. Y.; Kroese, D. P. (2004). <i>The Cross-Entropy Method</i>. Springer-Verlag. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-387-21240-1" title="Special:BookSources/978-0-387-21240-1">978-0-387-21240-1</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Cross-Entropy+Method&amp;rft.pub=Springer-Verlag&amp;rft.date=2004&amp;rft.isbn=978-0-387-21240-1&amp;rft.au=Rubinstein%2C+R.+Y.&amp;rft.au=Kroese%2C+D.+P.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AStochastic+optimization" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-zhigl1991-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-zhigl1991_13-0">^</a></b></span> <span class="reference-text">
+<cite class="citation book">Zhigljavsky, A. A. (1991). <i>Theory of Global Random Search</i>. Kluwer Academic. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-7923-1122-5" title="Special:BookSources/978-0-7923-1122-5">978-0-7923-1122-5</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Theory+of+Global+Random+Search&amp;rft.pub=Kluwer+Academic&amp;rft.date=1991&amp;rft.isbn=978-0-7923-1122-5&amp;rft.au=Zhigljavsky%2C+A.+A.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AStochastic+optimization" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><cite class="citation journal">Kagan E. and Ben-Gal I. (2014). <a rel="nofollow" class="external text" href="http://www.eng.tau.ac.il/~bengal/GTA.pdf">"A Group-Testing Algorithm with Online Informational Learning"</a> <span class="cs1-format">(PDF)</span>. IIE Transactions, 46:2, 164-184.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=A+Group-Testing+Algorithm+with+Online+Informational+Learning&amp;rft.date=2014&amp;rft.au=Kagan+E.+and+Ben-Gal+I.&amp;rft_id=http%3A%2F%2Fwww.eng.tau.ac.il%2F~bengal%2FGTA.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AStochastic+optimization" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-wenz1999-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-wenz1999_15-0">^</a></b></span> <span class="reference-text">
+<cite class="citation journal">W. Wenzel; K. Hamacher (1999). "Stochastic tunneling approach for global optimization of complex potential energy landscapes". <i>Phys. Rev. Lett</i>. <b>82</b> (15): 3003. <a href="/wiki/ArXiv" title="ArXiv">arXiv</a>:<span class="cs1-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="//arxiv.org/abs/physics/9903008">physics/9903008</a></span>. <a href="/wiki/Bibcode" title="Bibcode">Bibcode</a>:<a rel="nofollow" class="external text" href="http://adsabs.harvard.edu/abs/1999PhRvL..82.3003W">1999PhRvL..82.3003W</a>. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1103%2FPhysRevLett.82.3003">10.1103/PhysRevLett.82.3003</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Phys.+Rev.+Lett.&amp;rft.atitle=Stochastic+tunneling+approach+for+global+optimization+of+complex+potential+energy+landscapes&amp;rft.volume=82&amp;rft.issue=15&amp;rft.pages=3003&amp;rft.date=1999&amp;rft_id=info%3Aarxiv%2Fphysics%2F9903008&amp;rft_id=info%3Adoi%2F10.1103%2FPhysRevLett.82.3003&amp;rft_id=info%3Abibcode%2F1999PhRvL..82.3003W&amp;rft.au=W.+Wenzel&amp;rft.au=K.+Hamacher&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AStochastic+optimization" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-mari1992-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-mari1992_16-0">^</a></b></span> <span class="reference-text">
+<cite class="citation journal">E. Marinari; G. Parisi (1992). "Simulated tempering: A new monte carlo scheme". <i>Europhys. Lett</i>. <b>19</b> (6): 451–458. <a href="/wiki/ArXiv" title="ArXiv">arXiv</a>:<span class="cs1-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="//arxiv.org/abs/hep-lat/9205018">hep-lat/9205018</a></span>. <a href="/wiki/Bibcode" title="Bibcode">Bibcode</a>:<a rel="nofollow" class="external text" href="http://adsabs.harvard.edu/abs/1992EL.....19..451M">1992EL.....19..451M</a>. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1209%2F0295-5075%2F19%2F6%2F002">10.1209/0295-5075/19/6/002</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Europhys.+Lett.&amp;rft.atitle=Simulated+tempering%3A+A+new+monte+carlo+scheme&amp;rft.volume=19&amp;rft.issue=6&amp;rft.pages=451-458&amp;rft.date=1992&amp;rft_id=info%3Aarxiv%2Fhep-lat%2F9205018&amp;rft_id=info%3Adoi%2F10.1209%2F0295-5075%2F19%2F6%2F002&amp;rft_id=info%3Abibcode%2F1992EL.....19..451M&amp;rft.au=E.+Marinari&amp;rft.au=G.+Parisi&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AStochastic+optimization" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-gold1991-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-gold1991_17-0">^</a></b></span> <span class="reference-text">
+<cite class="citation book">Goldberg, D. E. (1989). <a rel="nofollow" class="external text" href="https://web.archive.org/web/20060719133933/http://www-illigal.ge.uiuc.edu/"><i>Genetic Algorithms in Search, Optimization, and Machine Learning</i></a>. Addison-Wesley. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-201-15767-3" title="Special:BookSources/978-0-201-15767-3">978-0-201-15767-3</a>. Archived from <a rel="nofollow" class="external text" href="http://www-illigal.ge.uiuc.edu">the original</a> on 2006-07-19.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Genetic+Algorithms+in+Search%2C+Optimization%2C+and+Machine+Learning&amp;rft.pub=Addison-Wesley&amp;rft.date=1989&amp;rft.isbn=978-0-201-15767-3&amp;rft.au=Goldberg%2C+D.+E.&amp;rft_id=http%3A%2F%2Fwww-illigal.ge.uiuc.edu&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AStochastic+optimization" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text">
+<cite class="citation journal">Tavridovich, S. A. (2017). <a rel="nofollow" class="external text" href="http://journal-s.org/index.php/ijas/article/view/10121/pdf">"COOMA: an object-oriented stochastic optimization algorithm"</a>. <i>International Journal of Advanced Studies</i>. <b>7</b> (2): 26–47. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.12731%2F2227-930x-2017-2-26-47">10.12731/2227-930x-2017-2-26-47</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=International+Journal+of+Advanced+Studies&amp;rft.atitle=COOMA%3A+an+object-oriented+stochastic+optimization+algorithm&amp;rft.volume=7&amp;rft.issue=2&amp;rft.pages=26-47&amp;rft.date=2017&amp;rft_id=info%3Adoi%2F10.12731%2F2227-930x-2017-2-26-47&amp;rft.au=Tavridovich%2C+S.+A.&amp;rft_id=http%3A%2F%2Fjournal-s.org%2Findex.php%2Fijas%2Farticle%2Fview%2F10121%2Fpdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AStochastic+optimization" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://lesswrong.com/lw/vp/worse_than_random/">http://lesswrong.com/lw/vp/worse_than_random/</a></span>
+</li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text">
+<cite class="citation journal">Glover, F. (2007). "Tabu search—uncharted domains". <i>Annals of Operations Research</i>. <b>149</b>: 89–98. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>&#160;<span class="cs1-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="//citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.417.8223">10.1.1.417.8223</a></span>. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1007%2Fs10479-006-0113-9">10.1007/s10479-006-0113-9</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Annals+of+Operations+Research&amp;rft.atitle=Tabu+search%E2%80%94uncharted+domains&amp;rft.volume=149&amp;rft.pages=89-98&amp;rft.date=2007&amp;rft_id=%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fsummary%3Fdoi%3D10.1.1.417.8223&amp;rft_id=info%3Adoi%2F10.1007%2Fs10479-006-0113-9&amp;rft.au=Glover%2C+F.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AStochastic+optimization" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></span>
+</li>
+</ol></div>
+<h2><span class="mw-headline" id="Further_reading">Further reading</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Stochastic_optimization&amp;action=edit&amp;section=5" title="Edit section: Further reading">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li>Michalewicz, Z. and Fogel, D. B. (2000), <i><a rel="nofollow" class="external text" href="https://books.google.com/books?id=MpKqCAAAQBAJ&amp;printsec=frontcover#v=onepage&amp;q=%22stochastic%22&amp;f=false">How to Solve It: Modern Heuristics</a></i>, Springer-Verlag, New York.</li>
+<li>"<a rel="nofollow" class="external text" href="https://arxiv.org/pdf/1709.09840.pdf">PSA: A novel optimization algorithm based on survival rules of porcellio scaber</a>", Y. Zhang and S. Li</li></ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Stochastic_optimization&amp;action=edit&amp;section=6" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a rel="nofollow" class="external text" href="http://stoprog.org/">COSP</a></li></ul>
+
+<!-- 
+NewPP limit report
+Parsed by mw1288
+Cached time: 20190207110930
+Cache expiry: 2073600
+Dynamic content: false
+CPU time usage: 0.280 seconds
+Real time usage: 0.347 seconds
+Preprocessor visited node count: 888/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 30707/2097152 bytes
+Template argument size: 119/2097152 bytes
+Highest expansion depth: 7/40
+Expensive parser function count: 4/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 54310/5000000 bytes
+Number of Wikibase entities loaded: 4/400
+Lua time usage: 0.182/10.000 seconds
+Lua memory usage: 4.39 MB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  309.484      1 -total
+ 78.36%  242.519      1 Template:Reflist
+ 34.36%  106.343     11 Template:Cite_journal
+ 29.82%   92.297      5 Template:Cite_book
+ 15.54%   48.097      1 Template:About
+  2.25%    6.973      1 Template:Cite_paper
+  2.09%    6.463      1 Template:See_also
+  1.13%    3.501      1 Template:Main_other
+  0.62%    1.909      1 Template:Column-width
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:7325543-0!canonical and timestamp 20190207110930 and revision id 882184218
+ -->
+</div><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Stochastic_optimization&amp;oldid=882184218">https://en.wikipedia.org/w/index.php?title=Stochastic_optimization&amp;oldid=882184218</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Monte_Carlo_methods" title="Category:Monte Carlo methods">Monte Carlo methods</a></li><li><a href="/wiki/Category:Stochastic_optimization" title="Category:Stochastic optimization">Stochastic optimization</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Stochastic+optimization" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Stochastic+optimization" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="/wiki/Stochastic_optimization" title="View the content page [c]" accesskey="c">Article</a></span></li><li id="ca-talk"><span><a href="/wiki/Talk:Stochastic_optimization" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+						<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+						<ul class="menu">
+													</ul>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="/wiki/Stochastic_optimization">Read</a></span></li><li id="ca-edit" class="collapsible"><span><a href="/w/index.php?title=Stochastic_optimization&amp;action=edit" title="Edit this page [e]" accesskey="e">Edit</a></span></li><li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Stochastic_optimization&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+						<h3 id="p-cactions-label"><span>More</span></h3>
+						<ul class="menu">
+													</ul>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-interaction" aria-labelledby="p-interaction-label">
+			<h3 id="p-interaction-label">Interaction</h3>
+			<div class="body">
+								<ul>
+					<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Stochastic_optimization" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Stochastic_optimization" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Stochastic_optimization&amp;oldid=882184218" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Stochastic_optimization&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q1747770" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Stochastic_optimization&amp;id=882184218" title="Information on how to cite this page">Cite this page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-coll-print_export" aria-labelledby="p-coll-print_export-label">
+			<h3 id="p-coll-print_export-label">Print/export</h3>
+			<div class="body">
+								<ul>
+					<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Stochastic+optimization">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:ElectronPdf&amp;page=Stochastic+optimization&amp;action=show-download-screen">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Stochastic_optimization&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label">
+			<h3 id="p-lang-label">Languages</h3>
+			<div class="body">
+								<ul>
+					<li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Ottimizzazione_stocastica" title="Ottimizzazione stocastica – Italian" lang="it" hreflang="it" class="interlanguage-link-target">Italiano</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%BE%D1%85%D0%B0%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F" title="Стохастическая оптимизация – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target">Русский</a></li><li class="interlanguage-link interwiki-th"><a href="https://th.wikipedia.org/wiki/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AB%E0%B8%B2%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%B0%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B9%80%E0%B8%9F%E0%B9%89%E0%B8%99%E0%B8%AA%E0%B8%B8%E0%B9%88%E0%B8%A1" title="การหาค่าเหมาะที่สุดแบบเฟ้นสุ่ม – Thai" lang="th" hreflang="th" class="interlanguage-link-target">ไทย</a></li>				</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q1747770#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> This page was last edited on 7 February 2019, at 11:09<span class="anonymous-show">&#160;(UTC)</span>.</li>
+								<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+								<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+								<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+								<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+								<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+								<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+								<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Stochastic_optimization&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+						<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>					</li>
+										<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.280","walltime":"0.347","ppvisitednodes":{"value":888,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":30707,"limit":2097152},"templateargumentsize":{"value":119,"limit":2097152},"expansiondepth":{"value":7,"limit":40},"expensivefunctioncount":{"value":4,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":54310,"limit":5000000},"entityaccesscount":{"value":4,"limit":400},"timingprofile":["100.00%  309.484      1 -total"," 78.36%  242.519      1 Template:Reflist"," 34.36%  106.343     11 Template:Cite_journal"," 29.82%   92.297      5 Template:Cite_book"," 15.54%   48.097      1 Template:About","  2.25%    6.973      1 Template:Cite_paper","  2.09%    6.463      1 Template:See_also","  1.13%    3.501      1 Template:Main_other","  0.62%    1.909      1 Template:Column-width"]},"scribunto":{"limitreport-timeusage":{"value":"0.182","limit":"10.000"},"limitreport-memusage":{"value":4607119,"limit":52428800}},"cachereport":{"origin":"mw1288","timestamp":"20190207110930","ttl":2073600,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Stochastic optimization","url":"https:\/\/en.wikipedia.org\/wiki\/Stochastic_optimization","sameAs":"http:\/\/www.wikidata.org\/entity\/Q1747770","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q1747770","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-10-06T21:21:21Z","dateModified":"2019-02-07T11:09:30Z"}</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":103,"wgHostname":"mw1320"});});</script>
+	</body>
+</html>

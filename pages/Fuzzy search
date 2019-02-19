@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Approximate string matching - Wikipedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Approximate_string_matching","wgTitle":"Approximate string matching","wgCurRevisionId":848665769,"wgRevisionId":848665769,"wgArticleId":3537993,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["String matching algorithms","Pattern matching","Dynamic programming"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Approximate_string_matching","wgRelevantArticleId":3537993,"wgRequestId":"XGsQggpAIDEAABVvkDIAAABH","wgCSPNonce":false,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Fuzzy_search","wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgMFIsPageContentModelEditable":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgWMESchemaEditAttemptStepOversample":false,"wgPoweredByHHVM":true,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgInternalRedirectTargetUrl":"/wiki/Approximate_string_matching","wgWikibaseItemId":"Q1798621","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":true,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true,"oresWikiId":"enwiki","oresBaseUrl":"http://ores.discovery.wmnet:8081/","oresApiVersion":3});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.math.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.toc.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.3d.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.tokens@0tffind",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});RLPAGEMODULES=["mediawiki.action.view.redirect","ext.math.scripts","site","mediawiki.page.startup","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"];mw.loader.load(RLPAGEMODULES);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.3d.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.toc.styles%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.charinsert-styles&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.33.0-wmf.17"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/6/69/Did_you_mean_andr%C3%A9_emotions.png"/>
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Approximate_string_matching"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Approximate_string_matching&amp;action=edit"/>
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Approximate_string_matching&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Approximate_string_matching"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 9]><script src="/w/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Approximate_string_matching rootpage-Approximate_string_matching skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div><div class="mw-indicators mw-body-content">
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="en">Approximate string matching</h1>			<div id="bodyContent" class="mw-body-content">
+				<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>				<div id="contentSub"><span class="mw-redirectedfrom">&#160;&#160;(Redirected from <a href="/w/index.php?title=Fuzzy_search&amp;redirect=no" class="mw-redirect" title="Fuzzy search">Fuzzy search</a>)</span></div>
+				<div id="jump-to-nav"></div>				<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+				<a class="mw-jump-link" href="#p-search">Jump to search</a>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div class="thumb tright"><div class="thumbinner" style="width:302px;"><a href="/wiki/File:Did_you_mean_andr%C3%A9_emotions.png" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/69/Did_you_mean_andr%C3%A9_emotions.png/300px-Did_you_mean_andr%C3%A9_emotions.png" decoding="async" width="300" height="121" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/69/Did_you_mean_andr%C3%A9_emotions.png/450px-Did_you_mean_andr%C3%A9_emotions.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/69/Did_you_mean_andr%C3%A9_emotions.png/600px-Did_you_mean_andr%C3%A9_emotions.png 2x" data-file-width="794" data-file-height="319" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Did_you_mean_andr%C3%A9_emotions.png" class="internal" title="Enlarge"></a></div>Fuzzy Mediawiki search for "<i>angry emoticon</i>": "Did you mean: <i>andré emotions</i>"</div></div></div>
+<p>In <a href="/wiki/Computer_science" title="Computer science">computer science</a>, <b>approximate string matching</b> (often colloquially referred to as <b>fuzzy string searching</b>) is the technique of finding  <a href="/wiki/String_(computing)" class="mw-redirect" title="String (computing)">strings</a> that match a <a href="/wiki/Pattern" title="Pattern">pattern</a> approximately (rather than exactly). The problem of approximate string matching is typically divided into two sub-problems: finding approximate <a href="/wiki/Substring" title="Substring">substring</a> matches inside a given string and finding dictionary strings that match the pattern approximately.
+</p>
+<div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Overview"><span class="tocnumber">1</span> <span class="toctext">Overview</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Problem_formulation_and_algorithms"><span class="tocnumber">2</span> <span class="toctext">Problem formulation and algorithms</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#On-line_versus_off-line"><span class="tocnumber">3</span> <span class="toctext">On-line versus off-line</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Applications"><span class="tocnumber">4</span> <span class="toctext">Applications</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#External_links"><span class="tocnumber">7</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Overview">Overview</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Approximate_string_matching&amp;action=edit&amp;section=1" title="Edit section: Overview">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The closeness of a match is measured in terms of the number of primitive operations necessary to convert the string into an exact match. This number is called the <a href="/wiki/Edit_distance" title="Edit distance">edit distance</a> between the string and the pattern. The usual primitive operations are:<sup class="reference plainlinks nourlexpansion" id="ref_CRMN01"><a class="external autonumber" href="//en.wikipedia.org/wiki/Approximate_string_matching#endnote_CRMN01">[1]</a></sup>
+</p>
+<ul><li>insertion: <i>cot</i> → <i>co<b>a</b>t</i></li>
+<li>deletion:  <i>co<b>a</b>t</i> → <i>cot</i></li>
+<li>substitution: <i>co<b>a</b>t</i> → <i>co<b>s</b>t</i></li></ul>
+<p>These three operations may be generalized as forms of substitution by adding a NULL character (here symbolized by *) wherever a character has been deleted or inserted:
+</p>
+<ul><li>insertion: <i>co<b>*</b>t</i> → <i>co<b>a</b>t</i></li>
+<li>deletion:  <i>co<b>a</b>t</i> → <i>co<b>*</b>t</i></li>
+<li>substitution:  <i>co<b>a</b>t</i> → <i>co<b>s</b>t</i></li></ul>
+<p>Some approximate matchers also treat <i>transposition</i>, in which the positions of two letters in the string are swapped, to be a primitive operation.<sup class="reference plainlinks nourlexpansion" id="ref_CRMN01"><a class="external autonumber" href="//en.wikipedia.org/wiki/Approximate_string_matching#endnote_CRMN01">[2]</a></sup>
+</p>
+<ul><li>transposition:  <i>co<b>st</b></i> → <i>co<b>ts</b></i></li></ul>
+<p>Different approximate matchers impose different constraints. Some matchers use a single global unweighted cost, that is, the total number of primitive operations necessary to convert the match to the pattern. For example, if the pattern is <i>coil</i>, <i>foil</i> differs by one substitution, <i>coils</i> by one insertion, <i>oil</i> by one deletion, and <i>foal</i> by two substitutions. If all operations count as a single unit of cost and the limit is set to one, <i>foil</i>, <i>coils</i>, and <i>oil</i> will count as matches while <i>foal</i> will not.
+</p><p>Other matchers specify the number of operations of each type separately, while still others set a total cost but allow different weights to be assigned to different operations. Some matchers permit separate assignments of limits and weights to individual groups in the pattern.
+</p>
+<h2><span class="mw-headline" id="Problem_formulation_and_algorithms">Problem formulation and algorithms</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Approximate_string_matching&amp;action=edit&amp;section=2" title="Edit section: Problem formulation and algorithms">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>One possible definition of the approximate string matching problem is the following: Given a pattern string <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle P=p_{1}p_{2}...p_{m}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>P</mi>
+        <mo>=</mo>
+        <msub>
+          <mi>p</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <msub>
+          <mi>p</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>2</mn>
+          </mrow>
+        </msub>
+        <mo>.</mo>
+        <mo>.</mo>
+        <mo>.</mo>
+        <msub>
+          <mi>p</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>m</mi>
+          </mrow>
+        </msub>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle P=p_{1}p_{2}...p_{m}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/86a21bd1165f93e2866b6393d9787cd698f1e653" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:15.237ex; height:2.509ex;" alt="P = p_1p_2...p_m"/></span> and a text string <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle T=t_{1}t_{2}\dots t_{n}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>T</mi>
+        <mo>=</mo>
+        <msub>
+          <mi>t</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <msub>
+          <mi>t</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>2</mn>
+          </mrow>
+        </msub>
+        <mo>&#x2026;<!-- … --></mo>
+        <msub>
+          <mi>t</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>n</mi>
+          </mrow>
+        </msub>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle T=t_{1}t_{2}\dots t_{n}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/422d5187c98baecc59315619190e5c1f4bead8b3" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:14.078ex; height:2.509ex;" alt="T = t_1t_2\dots t_n"/></span>, find a substring <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle T_{j',j}=t_{j'}\dots t_{j}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>T</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <msup>
+              <mi>j</mi>
+              <mo>&#x2032;</mo>
+            </msup>
+            <mo>,</mo>
+            <mi>j</mi>
+          </mrow>
+        </msub>
+        <mo>=</mo>
+        <msub>
+          <mi>t</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <msup>
+              <mi>j</mi>
+              <mo>&#x2032;</mo>
+            </msup>
+          </mrow>
+        </msub>
+        <mo>&#x2026;<!-- … --></mo>
+        <msub>
+          <mi>t</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>j</mi>
+          </mrow>
+        </msub>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle T_{j',j}=t_{j'}\dots t_{j}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/48b8c009b75731354911e58a5d3dcd9f26a5a510" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -1.171ex; width:14.56ex; height:3.009ex;" alt="T_{j&#039;,j} = t_{j&#039;}\dots t_j"/></span> in <i>T</i>, which, of all substrings of <i>T</i>, has the smallest edit distance to the pattern <i>P</i>.
+</p><p>A brute-force approach would be to compute the edit distance to P for all substrings of T, and then choose the substring with the minimum distance. However, this algorithm would have the running time <a href="/wiki/Big_O_notation" title="Big O notation"><i>O</i></a>(<i>n</i><sup>3</sup>&#160;<i>m</i>).
+</p><p>A better solution, which was proposed by Sellers<sup class="reference plainlinks nourlexpansion" id="ref_Sel80"><a class="external autonumber" href="//en.wikipedia.org/wiki/Approximate_string_matching#endnote_Sel80">[3]</a></sup>, relies on <a href="/wiki/Dynamic_programming" title="Dynamic programming">dynamic programming</a>. It uses an alternative formulation of the problem: for each position <i>j</i> in the text <i>T</i> and each position <i>i</i> in the pattern <i>P</i>, compute the minimum edit distance between the <i>i</i> first characters of the pattern, <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle P_{i}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>P</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>i</mi>
+          </mrow>
+        </msub>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle P_{i}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3ba1396129f7be3c7f828a571b6649e6807d10d3" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:2.292ex; height:2.509ex;" alt="P_{i}"/></span>, and any substring <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle T_{j',j}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>T</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <msup>
+              <mi>j</mi>
+              <mo>&#x2032;</mo>
+            </msup>
+            <mo>,</mo>
+            <mi>j</mi>
+          </mrow>
+        </msub>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle T_{j',j}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b2617ed20e6279c2966aa477a087c0f07d8e8c97" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -1.171ex; width:3.934ex; height:3.009ex;" alt="T_{j&#039;,j}"/></span> of <i>T</i> that ends at position <i>j</i>.
+</p><p>For each position <i>j</i> in the text <i>T</i>, and each position <i>i</i> in the pattern <i>P</i>, go through all substrings of <i>T</i> ending at position <i>j</i>, and determine which one of them has the minimal
+edit distance to the <i>i</i> first characters of the pattern <i>P</i>. Write this minimal distance as <i>E</i>(<i>i</i>,&#160;<i>j</i>). After computing <i>E</i>(<i>i</i>,&#160;<i>j</i>) for all <i>i</i> and <i>j</i>, we can easily find a solution to the original problem: it is the substring for which <i>E</i>(<i>m</i>,&#160;<i>j</i>) is minimal (<i>m</i> being the length of the pattern <i>P</i>.)
+</p><p>Computing <i>E</i>(<i>m</i>,&#160;<i>j</i>) is very similar to computing the edit distance between two strings. In fact, we can use the <a href="/wiki/Levenshtein_distance#Computing_Levenshtein_distance" title="Levenshtein distance">Levenshtein distance computing algorithm</a> for <i>E</i>(<i>m</i>,&#160;<i>j</i>), the only difference being that we must initialize the first row with zeros, and save the path of computation, that is, whether we used <i>E</i>(<i>i</i>&#160;&#8722;&#160;1,<i>j</i>), E(<i>i</i>,<i>j</i>&#160;&#8722;&#160;1) or <i>E</i>(<i>i</i>&#160;&#8722;&#160;1,<i>j</i>&#160;&#8722;&#160;1) in computing <i>E</i>(<i>i</i>,&#160;<i>j</i>). 
+</p><p>In the array containing the <i>E</i>(<i>x</i>,&#160;<i>y</i>) values, we then choose the minimal value in the last row, let it be <i>E</i>(<i>x</i><sub>2</sub>,&#160;<i>y</i><sub>2</sub>), and follow the path of computation backwards, back to the row number 0. If the field we arrived at was <i>E</i>(0,&#160;<i>y</i><sub>1</sub>), then <i>T</i>[<i>y</i><sub>1</sub>&#160;+&#160;1]&#160;...&#160;<i>T</i>[<i>y</i><sub>2</sub>] is a substring of T with the minimal edit distance to the pattern <i>P</i>.
+</p><p>Computing the <i>E</i>(<i>x</i>,&#160;<i>y</i>) array takes <a href="/wiki/Big_O_notation" title="Big O notation"><i>O</i></a>(<i>mn</i>) time with the dynamic programming algorithm, while the backwards-working phase takes <a href="/wiki/Big_O_notation" title="Big O notation"><i>O</i></a>(<i>n</i>&#160;+&#160;<i>m</i>) time.
+</p><p>Another new idea recent years is the similarity join. When matching database relates to a large scale of data, the <a href="/wiki/Big_O_notation" title="Big O notation"><i>O</i></a>(<i>mn</i>) time with the dynamic programming algorithm cannot work within a limited time. So, the idea is not to compute the similarity of all pair of strings or using some method to reduce the searching time, like hashing. Widely used algorithms are based on filter-verification, LSH, Trie, greedy and so on, which include some approximation algorithms. And most of them are designed to fit some framework (such as Map-Reduce) to compute concurrently.
+</p>
+<h2><span class="mw-headline" id="On-line_versus_off-line">On-line versus off-line</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Approximate_string_matching&amp;action=edit&amp;section=3" title="Edit section: On-line versus off-line">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Traditionally, approximate string matching algorithms are classified into two categories: on-line and off-line. With on-line algorithms the pattern can be processed before searching but the text cannot.  In other words, on-line techniques do searching without an index. Early algorithms for on-line approximate matching were suggested by Wagner and Fisher<sup class="reference plainlinks nourlexpansion" id="ref_WF74"><a class="external autonumber" href="//en.wikipedia.org/wiki/Approximate_string_matching#endnote_WF74">[4]</a></sup> and by Sellers<sup class="reference plainlinks nourlexpansion" id="ref_Sel80"><a class="external autonumber" href="//en.wikipedia.org/wiki/Approximate_string_matching#endnote_Sel80">[5]</a></sup>. Both algorithms are based on <a href="/wiki/Dynamic_programming" title="Dynamic programming">dynamic programming</a>  but solve different problems. Sellers' algorithm searches approximately for a substring in a text while the algorithm of Wagner and Fisher calculates <a href="/wiki/Levenshtein_distance" title="Levenshtein distance">Levenshtein distance</a>, being appropriate for dictionary fuzzy search only. 
+</p><p>On-line searching techniques have been repeatedly improved. Perhaps the most 
+famous improvement is the <a href="/wiki/Bitap_algorithm" title="Bitap algorithm">bitap algorithm</a> (also known as the shift-or and shift-and algorithm), which is very efficient for relatively short pattern strings. The Bitap algorithm is the heart of the <a href="/wiki/Unix" title="Unix">Unix</a> searching <a href="/wiki/Programming_tool" title="Programming tool">utility</a> <a href="/wiki/Agrep" title="Agrep">agrep</a>. A review of on-line searching algorithms was done by G. Navarro.<sup class="reference plainlinks nourlexpansion" id="ref_Nav01"><a class="external autonumber" href="//en.wikipedia.org/wiki/Approximate_string_matching#endnote_Nav01">[6]</a></sup>
+</p><p>Although very fast on-line techniques exist, their performance on large data is unacceptable. 
+Text preprocessing or <a href="/wiki/Index_(search_engine)" class="mw-redirect" title="Index (search engine)">indexing</a> makes searching dramatically faster.
+Today, a variety of indexing algorithms have been presented. Among them are <a href="/wiki/Suffix_tree" title="Suffix tree">suffix trees</a><sup class="reference plainlinks nourlexpansion" id="ref_Gus97"><a class="external autonumber" href="//en.wikipedia.org/wiki/Approximate_string_matching#endnote_Gus97">[7]</a></sup>, <a href="/wiki/Metric_tree" title="Metric tree">metric trees</a><sup class="reference plainlinks nourlexpansion" id="ref_NB98"><a class="external autonumber" href="//en.wikipedia.org/wiki/Approximate_string_matching#endnote_NB98">[8]</a></sup> and <a href="/wiki/N-gram" title="N-gram">n-gram</a> methods.<sup class="reference plainlinks nourlexpansion" id="ref_NBST01"><a class="external autonumber" href="//en.wikipedia.org/wiki/Approximate_string_matching#endnote_NBST01">[9]</a></sup><sup class="reference plainlinks nourlexpansion" id="ref_Zob95"><a class="external autonumber" href="//en.wikipedia.org/wiki/Approximate_string_matching#endnote_Zob95">[10]</a></sup> 
+A detailed survey of indexing techniques that allows one to find an arbitrary substring in a text is given by Navarro <i>et al.</i><sup class="reference plainlinks nourlexpansion" id="ref_NBST01"><a class="external autonumber" href="//en.wikipedia.org/wiki/Approximate_string_matching#endnote_NBST01">[11]</a></sup> A computational survey of dictionary methods (i.e., methods that permit finding all dictionary words that approximately match a search pattern) is given by Boytsov<sup class="reference plainlinks nourlexpansion" id="ref_B11"><a class="external autonumber" href="//en.wikipedia.org/wiki/Approximate_string_matching#endnote_B11">[12]</a></sup>.
+</p>
+<h2><span class="mw-headline" id="Applications">Applications</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Approximate_string_matching&amp;action=edit&amp;section=4" title="Edit section: Applications">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The most common application of approximate matchers until recently has been <a href="/wiki/Spell_checking" class="mw-redirect" title="Spell checking">spell checking</a>.<sup class="reference plainlinks nourlexpansion" id="ref_Gus97"><a class="external autonumber" href="//en.wikipedia.org/wiki/Approximate_string_matching#endnote_Gus97">[13]</a></sup> With the availability of large amounts of DNA data, matching of <a href="/wiki/Nucleotide" title="Nucleotide">nucleotide</a> sequences has become an important application.<sup class="reference plainlinks nourlexpansion" id="ref_CRMN01"><a class="external autonumber" href="//en.wikipedia.org/wiki/Approximate_string_matching#endnote_CRMN01">[14]</a></sup> Approximate matching is also used in <a href="/wiki/Spam_filtering" class="mw-redirect" title="Spam filtering">spam filtering</a>.<sup class="reference plainlinks nourlexpansion" id="ref_Gus97"><a class="external autonumber" href="//en.wikipedia.org/wiki/Approximate_string_matching#endnote_Gus97">[15]</a></sup> String matching cannot be used for most binary data, such as images and music.  They require different algorithms, such as <a href="/wiki/Acoustic_fingerprint" title="Acoustic fingerprint">acoustic fingerprinting</a>.
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Approximate_string_matching&amp;action=edit&amp;section=5" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/Concept_search" title="Concept search">Concept search</a></li>
+<li><a href="/wiki/Jaro%E2%80%93Winkler_distance" title="Jaro–Winkler distance">Jaro–Winkler distance</a></li>
+<li><a href="/wiki/Levenshtein_distance" title="Levenshtein distance">Levenshtein distance</a></li>
+<li><a href="/wiki/Locality-sensitive_hashing" title="Locality-sensitive hashing">Locality-sensitive hashing</a></li>
+<li><a href="/wiki/Metaphone" title="Metaphone">Metaphone</a></li>
+<li><a href="/wiki/Needleman%E2%80%93Wunsch_algorithm" title="Needleman–Wunsch algorithm">Needleman–Wunsch algorithm</a></li>
+<li><a href="/wiki/Plagiarism_detection" title="Plagiarism detection">Plagiarism detection</a></li>
+<li><a href="/wiki/Regular_expressions" class="mw-redirect" title="Regular expressions">Regular expressions</a> for fuzzy and non-fuzzy matching</li>
+<li><a href="/wiki/Smith%E2%80%93Waterman_algorithm" title="Smith–Waterman algorithm">Smith–Waterman algorithm</a></li>
+<li><a href="/wiki/Soundex" title="Soundex">Soundex</a></li>
+<li><a href="/wiki/String_metric" title="String metric">String metric</a></li></ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Approximate_string_matching&amp;action=edit&amp;section=6" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+</div>
+<style data-mw-deduplicate="TemplateStyles:r853264625">.mw-parser-output .refbegin{font-size:90%;margin-bottom:0.5em}.mw-parser-output .refbegin-hanging-indents>ul{list-style-type:none;margin-left:0}.mw-parser-output .refbegin-hanging-indents>ul>li,.mw-parser-output .refbegin-hanging-indents>dl>dd{margin-left:0;padding-left:3.2em;text-indent:-3.2em;list-style:none}.mw-parser-output .refbegin-100{font-size:100%}</style><div class="refbegin" style="">
+<ul><li><span class="citation wikicite" id="endnote_BN96"><b><a href="#ref_BN96">^</a></b></span>  <cite class="citation conference">Baeza-Yates, R.; Navarro, G. (June 1996). "A faster algorithm for approximate string matching".  In Dan Hirchsberg; Gene Myers. <i>Combinatorial Pattern Matching (CPM'96), LNCS 1075</i>. Irvine, CA. pp.&#160;1–23.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=conference&amp;rft.atitle=A+faster+algorithm+for+approximate+string+matching&amp;rft.btitle=Combinatorial+Pattern+Matching+%28CPM%2796%29%2C+LNCS+1075&amp;rft.place=Irvine%2C+CA&amp;rft.pages=1-23&amp;rft.date=1996-06&amp;rft.aulast=Baeza-Yates&amp;rft.aufirst=R.&amp;rft.au=Navarro%2C+G.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApproximate+string+matching" class="Z3988"></span><style data-mw-deduplicate="TemplateStyles:r879151008">.mw-parser-output cite.citation{font-style:inherit}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration{color:#555}.mw-parser-output .cs1-subscription span,.mw-parser-output .cs1-registration span{border-bottom:1px dotted;cursor:help}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output code.cs1-code{color:inherit;background:inherit;border:inherit;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;font-size:100%}.mw-parser-output .cs1-visible-error{font-size:100%}.mw-parser-output .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration,.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-parser-output .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2em}</style></li>
+<li><span class="citation wikicite" id="endnote_NB98"><b><a href="#ref_NB98">^</a></b></span>  <cite class="citation conference">Baeza-Yates, R.; Navarro, G. <a rel="nofollow" class="external text" href="http://www.dcc.uchile.cl/~gnavarro/ps/spire98.2.pdf">"Fast Approximate String Matching in a Dictionary"</a> <span class="cs1-format">(PDF)</span>. <i>Proc. SPIRE'98</i>. IEEE CS Press. pp.&#160;14–22.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=conference&amp;rft.atitle=Fast+Approximate+String+Matching+in+a+Dictionary&amp;rft.btitle=Proc.+SPIRE%2798&amp;rft.pages=14-22&amp;rft.pub=IEEE+CS+Press&amp;rft.aulast=Baeza-Yates&amp;rft.aufirst=R.&amp;rft.au=Navarro%2C+G.&amp;rft_id=http%3A%2F%2Fwww.dcc.uchile.cl%2F~gnavarro%2Fps%2Fspire98.2.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApproximate+string+matching" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></li>
+<li><span class="citation wikicite" id="endnote_B11"><b><a href="#ref_B11">^</a></b></span>  <cite class="citation journal">Boytsov, Leonid (2011). "Indexing methods for approximate dictionary searching: Comparative analysis". <i>Jea Acm</i>. <b>16</b> (1): 1–91. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1145%2F1963190.1963191">10.1145/1963190.1963191</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Jea+Acm&amp;rft.atitle=Indexing+methods+for+approximate+dictionary+searching%3A+Comparative+analysis&amp;rft.volume=16&amp;rft.issue=1&amp;rft.pages=1-91&amp;rft.date=2011&amp;rft_id=info%3Adoi%2F10.1145%2F1963190.1963191&amp;rft.aulast=Boytsov&amp;rft.aufirst=Leonid&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApproximate+string+matching" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></li>
+<li><span class="citation wikicite" id="endnote_CRMN01"><b><a href="#ref_CRMN01">^</a></b></span> <cite class="citation book"><a href="/wiki/Thomas_Cormen" class="mw-redirect" title="Thomas Cormen">Cormen, Thomas</a>; Leiserson, Rivest (2001). <i>Introduction to Algorithms</i> (2nd ed.). MIT Press. pp.&#160;364–7. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-262-03293-7" title="Special:BookSources/0-262-03293-7">0-262-03293-7</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Introduction+to+Algorithms&amp;rft.pages=364-7&amp;rft.edition=2nd&amp;rft.pub=MIT+Press&amp;rft.date=2001&amp;rft.isbn=0-262-03293-7&amp;rft.aulast=Cormen&amp;rft.aufirst=Thomas&amp;rft.au=Leiserson%2C+Rivest&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApproximate+string+matching" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></li>
+<li><span class="citation wikicite" id="endnote_GLL01"><b><a href="#ref_GLL01">^</a></b></span> <cite class="citation book">Galil, Zvi; Apostolico, Alberto (1997). <i>Pattern matching algorithms</i>. Oxford [Oxfordshire]: Oxford University Press. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-19-511367-5" title="Special:BookSources/0-19-511367-5">0-19-511367-5</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Pattern+matching+algorithms&amp;rft.place=Oxford+%5BOxfordshire%5D&amp;rft.pub=Oxford+University+Press&amp;rft.date=1997&amp;rft.isbn=0-19-511367-5&amp;rft.aulast=Galil&amp;rft.aufirst=Zvi&amp;rft.au=Apostolico%2C+Alberto&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApproximate+string+matching" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></li>
+<li><span class="citation wikicite" id="endnote_Gus97"><b><a href="#ref_Gus97">^</a></b></span> <cite class="citation book">Gusfield, Dan (1997). <i>Algorithms on strings, trees, and sequences: computer science and computational biology</i>. Cambridge, UK: Cambridge University Press. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-521-58519-8" title="Special:BookSources/0-521-58519-8">0-521-58519-8</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Algorithms+on+strings%2C+trees%2C+and+sequences%3A+computer+science+and+computational+biology&amp;rft.place=Cambridge%2C+UK&amp;rft.pub=Cambridge+University+Press&amp;rft.date=1997&amp;rft.isbn=0-521-58519-8&amp;rft.aulast=Gusfield&amp;rft.aufirst=Dan&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApproximate+string+matching" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></li>
+<li><span class="citation wikicite" id="endnote_M99"><b><a href="#ref_M99">^</a></b></span>  <cite class="citation journal">Myers, G. (May 1999). "A fast bit-vector algorithm for approximate string matching based on dynamic programming". <i>Journal of the ACM</i>. <b>46</b> (3): 395–415. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1145%2F316542.316550">10.1145/316542.316550</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Journal+of+the+ACM&amp;rft.atitle=A+fast+bit-vector+algorithm+for+approximate+string+matching+based+on+dynamic+programming&amp;rft.volume=46&amp;rft.issue=3&amp;rft.pages=395-415&amp;rft.date=1999-05&amp;rft_id=info%3Adoi%2F10.1145%2F316542.316550&amp;rft.aulast=Myers&amp;rft.aufirst=G.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApproximate+string+matching" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></li>
+<li><span class="citation wikicite" id="endnote_Nav01"><b><a href="#ref_Nav01">^</a></b></span>  <cite class="citation journal">Navarro, Gonzalo (2001). "A guided tour to approximate string matching". <i>ACM Computing Surveys</i>. <b>33</b> (1): 31–88. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>&#160;<span class="cs1-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="//citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.96.7225">10.1.1.96.7225</a></span>. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1145%2F375360.375365">10.1145/375360.375365</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=ACM+Computing+Surveys&amp;rft.atitle=A+guided+tour+to+approximate+string+matching&amp;rft.volume=33&amp;rft.issue=1&amp;rft.pages=31-88&amp;rft.date=2001&amp;rft_id=%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fsummary%3Fdoi%3D10.1.1.96.7225&amp;rft_id=info%3Adoi%2F10.1145%2F375360.375365&amp;rft.aulast=Navarro&amp;rft.aufirst=Gonzalo&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApproximate+string+matching" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></li>
+<li><span class="citation wikicite" id="endnote_NBST01"><b><a href="#ref_NBST01">^</a></b></span>  <cite class="citation journal">Navarro, Gonzalo; Baeza-Yates, Ricardo; Sutinen, Erkki; Tarhio, Jorma (2001). <a rel="nofollow" class="external text" href="http://www.dcc.uchile.cl/~gnavarro/ps/deb01.pdf">"Indexing Methods for Approximate String Matching"</a> <span class="cs1-format">(PDF)</span>. <i>IEEE Data Engineering Bulletin</i>. <b>24</b> (4): 19–27.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=IEEE+Data+Engineering+Bulletin&amp;rft.atitle=Indexing+Methods+for+Approximate+String+Matching&amp;rft.volume=24&amp;rft.issue=4&amp;rft.pages=19-27&amp;rft.date=2001&amp;rft.aulast=Navarro&amp;rft.aufirst=Gonzalo&amp;rft.au=Baeza-Yates%2C+Ricardo&amp;rft.au=Sutinen%2C+Erkki&amp;rft.au=Tarhio%2C+Jorma&amp;rft_id=http%3A%2F%2Fwww.dcc.uchile.cl%2F~gnavarro%2Fps%2Fdeb01.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApproximate+string+matching" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></li>
+<li><span class="citation wikicite" id="endnote_Sel80"><b><a href="#ref_Sel80">^</a></b></span>  <cite class="citation journal">Sellers, Peter H. (1980). "The Theory and Computation of Evolutionary Distances: Pattern Recognition". <i>Journal of Algorithms</i>. <b>1</b> (4): 359–73. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1016%2F0196-6774%2880%2990016-4">10.1016/0196-6774(80)90016-4</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Journal+of+Algorithms&amp;rft.atitle=The+Theory+and+Computation+of+Evolutionary+Distances%3A+Pattern+Recognition&amp;rft.volume=1&amp;rft.issue=4&amp;rft.pages=359-73&amp;rft.date=1980&amp;rft_id=info%3Adoi%2F10.1016%2F0196-6774%2880%2990016-4&amp;rft.aulast=Sellers&amp;rft.aufirst=Peter+H.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApproximate+string+matching" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></li>
+<li><span class="citation wikicite" id="endnote_SKN01"><b><a href="#ref_SKN01">^</a></b></span> <cite class="citation book">Skiena, Steve (1998). <i>Algorithm Design Manual</i> (1st ed.). Springer. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-387-94860-7" title="Special:BookSources/978-0-387-94860-7">978-0-387-94860-7</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Algorithm+Design+Manual&amp;rft.edition=1st&amp;rft.pub=Springer&amp;rft.date=1998&amp;rft.isbn=978-0-387-94860-7&amp;rft.aulast=Skiena&amp;rft.aufirst=Steve&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApproximate+string+matching" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></li>
+<li><span class="citation wikicite" id="endnote_Ukk85"><b><a href="#ref_Ukk85">^</a></b></span>  <cite class="citation journal">Ukkonen, E. (1985). "Algorithms for approximate string matching". <i>Information and Control</i>. <b>64</b>: 100–18. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1016%2FS0019-9958%2885%2980046-2">10.1016/S0019-9958(85)80046-2</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Information+and+Control&amp;rft.atitle=Algorithms+for+approximate+string+matching&amp;rft.volume=64&amp;rft.pages=100-18&amp;rft.date=1985&amp;rft_id=info%3Adoi%2F10.1016%2FS0019-9958%2885%2980046-2&amp;rft.aulast=Ukkonen&amp;rft.aufirst=E.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApproximate+string+matching" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></li>
+<li><span class="citation wikicite" id="endnote_WF74"><b><a href="#ref_WF74">^</a></b></span>  <cite class="citation journal">Wagner, R.; Fischer, M. (1974). <a rel="nofollow" class="external text" href="http://portal.acm.org/citation.cfm?id=321811">"The string-to-string correction problem"</a>. <i>Journal of the ACM</i>. <b>21</b>: 168–73. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1145%2F321796.321811">10.1145/321796.321811</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Journal+of+the+ACM&amp;rft.atitle=The+string-to-string+correction+problem&amp;rft.volume=21&amp;rft.pages=168-73&amp;rft.date=1974&amp;rft_id=info%3Adoi%2F10.1145%2F321796.321811&amp;rft.aulast=Wagner&amp;rft.aufirst=R.&amp;rft.au=Fischer%2C+M.&amp;rft_id=http%3A%2F%2Fportal.acm.org%2Fcitation.cfm%3Fid%3D321811&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApproximate+string+matching" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></li>
+<li><span class="citation wikicite" id="endnote_Zob95"><b><a href="#ref_Zob95">^</a></b></span>  <cite class="citation journal">Zobel, Justin; Dart, Philip (1995). "Finding approximate matches in large lexicons". <i>Software-Practice &amp; Experience</i>. <b>25</b> (3): 331–345. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1002%2Fspe.4380250307">10.1002/spe.4380250307</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Software-Practice+%26+Experience&amp;rft.atitle=Finding+approximate+matches+in+large+lexicons&amp;rft.volume=25&amp;rft.issue=3&amp;rft.pages=331-345&amp;rft.date=1995&amp;rft_id=info%3Adoi%2F10.1002%2Fspe.4380250307&amp;rft.aulast=Zobel&amp;rft.aufirst=Justin&amp;rft.au=Dart%2C+Philip&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApproximate+string+matching" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r879151008"/></li></ul>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Approximate_string_matching&amp;action=edit&amp;section=7" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a rel="nofollow" class="external text" href="http://flamingo.ics.uci.edu">Flamingo Project</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.cse.unsw.edu.au/~weiw/project/simjoin.html">Efficient Similarity Query Processing Project</a> with recent advances in approximate string matching based on an edit distance threshold.</li>
+<li><a rel="nofollow" class="external text" href="http://rockymadden.com/stringmetric/">StringMetric project</a> a <a href="/wiki/Scala_programming_language" class="mw-redirect" title="Scala programming language">Scala</a> library of string metrics and phonetic algorithms</li>
+<li><a rel="nofollow" class="external text" href="https://github.com/NaturalNode/natural">Natural project</a> a <a href="/wiki/JavaScript" title="JavaScript">JavaScript</a> natural language processing library which includes implementations of popular string metrics</li></ul>
+<p><br />
+</p>
+<div role="navigation" class="navbox" aria-labelledby="Strings" style="padding:3px"><table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:Strings" title="Template:Strings"><abbr title="View this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Strings" title="Template talk:Strings"><abbr title="Discuss this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Strings&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a></li></ul></div><div id="Strings" style="font-size:114%;margin:0 4em"><a href="/wiki/String_(computer_science)" title="String (computer science)">Strings</a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/String_metric" title="String metric">String metric</a></th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a class="mw-selflink selflink">Approximate string matching</a></li>
+<li><a href="/wiki/Bitap_algorithm" title="Bitap algorithm">Bitap algorithm</a></li>
+<li><a href="/wiki/Damerau%E2%80%93Levenshtein_distance" title="Damerau–Levenshtein distance">Damerau–Levenshtein distance</a></li>
+<li><a href="/wiki/Edit_distance" title="Edit distance">Edit distance</a></li>
+<li><a href="/wiki/Hamming_distance" title="Hamming distance">Hamming distance</a></li>
+<li><a href="/wiki/Jaro%E2%80%93Winkler_distance" title="Jaro–Winkler distance">Jaro–Winkler distance</a></li>
+<li><a href="/wiki/Lee_distance" title="Lee distance">Lee distance</a></li>
+<li><a href="/wiki/Levenshtein_automaton" title="Levenshtein automaton">Levenshtein automaton</a></li>
+<li><a href="/wiki/Levenshtein_distance" title="Levenshtein distance">Levenshtein distance</a></li>
+<li><a href="/wiki/Wagner%E2%80%93Fischer_algorithm" title="Wagner–Fischer algorithm">Wagner–Fischer algorithm </a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/String-searching_algorithm" title="String-searching algorithm">String-searching algorithm</a></th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Apostolico%E2%80%93Giancarlo_algorithm" title="Apostolico–Giancarlo algorithm">Apostolico–Giancarlo algorithm</a></li>
+<li><a href="/wiki/Boyer%E2%80%93Moore_string-search_algorithm" title="Boyer–Moore string-search algorithm">Boyer–Moore string-search algorithm</a></li>
+<li><a href="/wiki/Boyer%E2%80%93Moore%E2%80%93Horspool_algorithm" title="Boyer–Moore–Horspool algorithm">Boyer–Moore–Horspool algorithm</a></li>
+<li><a href="/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm" title="Knuth–Morris–Pratt algorithm">Knuth–Morris–Pratt algorithm</a></li>
+<li><a href="/wiki/Rabin%E2%80%93Karp_algorithm" title="Rabin–Karp algorithm">Rabin–Karp string search algorithm</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Multiple string searching</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Aho%E2%80%93Corasick_algorithm" title="Aho–Corasick algorithm">Aho–Corasick</a></li>
+<li><a href="/wiki/Commentz-Walter_algorithm" title="Commentz-Walter algorithm">Commentz-Walter algorithm</a></li>
+<li><a href="/wiki/Rabin%E2%80%93Karp_algorithm" title="Rabin–Karp algorithm">Rabin–Karp</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Regular_expression" title="Regular expression">Regular expression</a></th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Comparison_of_regular_expression_engines" title="Comparison of regular expression engines">Comparison of regular expression engines</a></li>
+<li><a href="/wiki/Regular_tree_grammar" title="Regular tree grammar">Regular tree grammar</a></li>
+<li><a href="/wiki/Thompson%27s_construction" title="Thompson&#39;s construction">Thompson's construction</a></li>
+<li><a href="/wiki/Nondeterministic_finite_automaton" title="Nondeterministic finite automaton">Nondeterministic finite automaton</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Sequence_alignment" title="Sequence alignment">Sequence alignment</a></th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Hirschberg%27s_algorithm" title="Hirschberg&#39;s algorithm">Hirschberg's algorithm</a></li>
+<li><a href="/wiki/Needleman%E2%80%93Wunsch_algorithm" title="Needleman–Wunsch algorithm">Needleman–Wunsch algorithm</a></li>
+<li><a href="/wiki/Smith%E2%80%93Waterman_algorithm" title="Smith–Waterman algorithm">Smith–Waterman algorithm</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Category:String_data_structures" title="Category:String data structures">Data structures</a></th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Deterministic_acyclic_finite_state_automaton" title="Deterministic acyclic finite state automaton">DAFSA</a></li>
+<li><a href="/wiki/Suffix_array" title="Suffix array">Suffix array</a></li>
+<li><a href="/wiki/Suffix_automaton" title="Suffix automaton">Suffix automaton</a></li>
+<li><a href="/wiki/Suffix_tree" title="Suffix tree">Suffix tree</a></li>
+<li><a href="/wiki/Generalized_suffix_tree" title="Generalized suffix tree">Generalized suffix tree</a></li>
+<li><a href="/wiki/Rope_(data_structure)" title="Rope (data structure)">Rope</a></li>
+<li><a href="/wiki/Ternary_search_tree" title="Ternary search tree">Ternary search tree</a></li>
+<li><a href="/wiki/Trie" title="Trie">Trie</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Parsing" title="Parsing">Parsing</a></li>
+<li><a href="/wiki/Pattern_matching" title="Pattern matching">Pattern matching</a></li>
+<li><a href="/wiki/Compressed_pattern_matching" title="Compressed pattern matching">Compressed pattern matching</a></li>
+<li><a href="/wiki/Longest_common_subsequence" class="mw-redirect" title="Longest common subsequence">Longest common subsequence</a></li>
+<li><a href="/wiki/Longest_common_substring" class="mw-redirect" title="Longest common substring">Longest common substring</a></li>
+<li><a href="/wiki/Sequential_pattern_mining" title="Sequential pattern mining">Sequential pattern mining</a></li>
+<li><a href="/wiki/Category:String_sorting_algorithms" title="Category:String sorting algorithms">Sorting</a></li></ul>
+</div></td></tr></tbody></table></div>
+
+<!-- 
+NewPP limit report
+Parsed by mw1273
+Cached time: 20190203023736
+Cache expiry: 2073600
+Dynamic content: false
+CPU time usage: 0.240 seconds
+Real time usage: 0.327 seconds
+Preprocessor visited node count: 1123/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 40537/2097152 bytes
+Template argument size: 373/2097152 bytes
+Highest expansion depth: 7/40
+Expensive parser function count: 2/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 26852/5000000 bytes
+Number of Wikibase entities loaded: 2/400
+Lua time usage: 0.130/10.000 seconds
+Lua memory usage: 3.43 MB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  227.004      1 -total
+ 32.84%   74.556      2 Template:Cite_conference
+ 29.14%   66.151      8 Template:Cite_journal
+  9.20%   20.878      1 Template:Reflist
+  8.87%   20.137      4 Template:Cite_book
+  7.22%   16.386      1 Template:Strings
+  5.83%   13.236      1 Template:Refbegin
+  5.80%   13.155      1 Template:Navbox
+  2.96%    6.723     15 Template:Ref
+  1.61%    3.652      1 Template:Main_other
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:3537993-0!canonical!math=5 and timestamp 20190203023735 and revision id 848665769
+ -->
+</div><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Approximate_string_matching&amp;oldid=848665769">https://en.wikipedia.org/w/index.php?title=Approximate_string_matching&amp;oldid=848665769</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:String_matching_algorithms" title="Category:String matching algorithms">String matching algorithms</a></li><li><a href="/wiki/Category:Pattern_matching" title="Category:Pattern matching">Pattern matching</a></li><li><a href="/wiki/Category:Dynamic_programming" title="Category:Dynamic programming">Dynamic programming</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Approximate+string+matching" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Approximate+string+matching" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="/wiki/Approximate_string_matching" title="View the content page [c]" accesskey="c">Article</a></span></li><li id="ca-talk"><span><a href="/wiki/Talk:Approximate_string_matching" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+						<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+						<ul class="menu">
+													</ul>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="/wiki/Approximate_string_matching">Read</a></span></li><li id="ca-edit" class="collapsible"><span><a href="/w/index.php?title=Approximate_string_matching&amp;action=edit" title="Edit this page [e]" accesskey="e">Edit</a></span></li><li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Approximate_string_matching&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+						<h3 id="p-cactions-label"><span>More</span></h3>
+						<ul class="menu">
+													</ul>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-interaction" aria-labelledby="p-interaction-label">
+			<h3 id="p-interaction-label">Interaction</h3>
+			<div class="body">
+								<ul>
+					<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Approximate_string_matching" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Approximate_string_matching" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Approximate_string_matching&amp;oldid=848665769" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Approximate_string_matching&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q1798621" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Approximate_string_matching&amp;id=848665769" title="Information on how to cite this page">Cite this page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-coll-print_export" aria-labelledby="p-coll-print_export-label">
+			<h3 id="p-coll-print_export-label">Print/export</h3>
+			<div class="body">
+								<ul>
+					<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Approximate+string+matching">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:ElectronPdf&amp;page=Approximate+string+matching&amp;action=show-download-screen">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Approximate_string_matching&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label">
+			<h3 id="p-lang-label">Languages</h3>
+			<div class="body">
+								<ul>
+					<li class="interlanguage-link interwiki-af"><a href="https://af.wikipedia.org/wiki/Wasige_stringpassing" title="Wasige stringpassing – Afrikaans" lang="af" hreflang="af" class="interlanguage-link-target">Afrikaans</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Unscharfe_Suche" title="Unscharfe Suche – German" lang="de" hreflang="de" class="interlanguage-link-target">Deutsch</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Recherche_approximative" title="Recherche approximative – French" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li><li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/%D0%9F%D1%80%D0%B8%D0%B1%D0%BB%D0%B8%D0%B6%D0%BD%D0%BE_%D0%BF%D0%BE%D0%BA%D0%BB%D0%B0%D0%BF%D0%B0%D1%9A%D0%B5_%D0%BD%D0%B8%D1%81%D0%BA%D0%B5" title="Приближно поклапање ниске – Serbian" lang="sr" hreflang="sr" class="interlanguage-link-target">Српски / srpski</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BF%91%E4%BC%BC%E5%8C%B9%E9%85%8D" title="字符串近似匹配 – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target">中文</a></li>				</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q1798621#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> This page was last edited on 3 July 2018, at 13:17<span class="anonymous-show">&#160;(UTC)</span>.</li>
+								<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+								<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+								<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+								<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+								<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+								<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+								<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Approximate_string_matching&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+						<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>					</li>
+										<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.240","walltime":"0.327","ppvisitednodes":{"value":1123,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":40537,"limit":2097152},"templateargumentsize":{"value":373,"limit":2097152},"expansiondepth":{"value":7,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":26852,"limit":5000000},"entityaccesscount":{"value":2,"limit":400},"timingprofile":["100.00%  227.004      1 -total"," 32.84%   74.556      2 Template:Cite_conference"," 29.14%   66.151      8 Template:Cite_journal","  9.20%   20.878      1 Template:Reflist","  8.87%   20.137      4 Template:Cite_book","  7.22%   16.386      1 Template:Strings","  5.83%   13.236      1 Template:Refbegin","  5.80%   13.155      1 Template:Navbox","  2.96%    6.723     15 Template:Ref","  1.61%    3.652      1 Template:Main_other"]},"scribunto":{"limitreport-timeusage":{"value":"0.130","limit":"10.000"},"limitreport-memusage":{"value":3599546,"limit":52428800}},"cachereport":{"origin":"mw1273","timestamp":"20190203023736","ttl":2073600,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Approximate string matching","url":"https:\/\/en.wikipedia.org\/wiki\/Approximate_string_matching","sameAs":"http:\/\/www.wikidata.org\/entity\/Q1798621","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q1798621","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-12-27T10:55:39Z","dateModified":"2018-07-03T13:17:26Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/6\/69\/Did_you_mean_andr%C3%A9_emotions.png"}</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":127,"wgHostname":"mw1328"});});</script>
+	</body>
+</html>

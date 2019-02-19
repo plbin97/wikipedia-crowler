@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Mathematics of Operations Research - Wikipedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Mathematics_of_Operations_Research","wgTitle":"Mathematics of Operations Research","wgCurRevisionId":840685118,"wgRevisionId":840685118,"wgArticleId":14598196,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Webarchive template wayback links","Articles with outdated impact factors from 2016","Publications established in 1976","Game theory","Operations research","Systems journals","Mathematics journals","INFORMS academic journals"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Mathematics_of_Operations_Research","wgRelevantArticleId":14598196,"wgRequestId":"XGbXfQpAICoAAJFMF6oAAAAH","wgCSPNonce":false,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgMFIsPageContentModelEditable":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgWMESchemaEditAttemptStepOversample":false,"wgPoweredByHHVM":true,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgWikibaseItemId":"Q4231910","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":true,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true,"oresWikiId":"enwiki","oresBaseUrl":"http://ores.discovery.wmnet:8081/","oresApiVersion":3});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.toc.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.3d.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.tokens@0tffind",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.startup","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"];mw.loader.load(RLPAGEMODULES);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.3d.styles%7Cext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.toc.styles%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.charinsert-styles&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.33.0-wmf.17"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Mathematics_of_Operations_Research"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Mathematics_of_Operations_Research&amp;action=edit"/>
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Mathematics_of_Operations_Research&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Mathematics_of_Operations_Research"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 9]><script src="/w/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Mathematics_of_Operations_Research rootpage-Mathematics_of_Operations_Research skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div><div class="mw-indicators mw-body-content">
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="en"><i>Mathematics of Operations Research</i></h1>			<div id="bodyContent" class="mw-body-content">
+				<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>				<div id="contentSub"></div>
+				<div id="jump-to-nav"></div>				<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+				<a class="mw-jump-link" href="#p-search">Jump to search</a>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><table class="infobox hproduct" style="width:22em"><caption style="font-size:130%;"><i><span class="fn">Mathematics of Operations Research</span></i> <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.jtitle=Mathematics+of+Operations+Research&amp;rft.stitle=Math.+Oper.+Res.&amp;rft.issn=0364-765X&amp;rft_id=http%3A%2F%2Fwww.informs.org%2FPubs%2FMOR">&#160;</span></caption><tbody><tr><th scope="row"><a href="/wiki/Outline_of_academic_disciplines" title="Outline of academic disciplines">Discipline</a></th><td class="category" style="text-align:left;"><a href="/wiki/Mathematics" title="Mathematics">Mathematics</a></td></tr><tr><th scope="row">Language</th><td style="text-align:left;">English</td></tr><tr><th scope="row">Edited&#160;by</th><td style="text-align:left;">J. G. "Jim" Dai</td></tr><tr><th colspan="2" style="text-align:center;background:#dfc;">Publication details</th></tr><tr><th scope="row"><div style="padding:0.1em 0;line-height:1.2em;">Publication history</div></th><td style="text-align:left;">Feb. 1976-present<sup id="cite_ref-Stats_1-0" class="reference"><a href="#cite_note-Stats-1">&#91;1&#93;</a></sup></td></tr><tr><th scope="row">Publisher</th><td style="text-align:left;"><div style="padding:0.1em 0;line-height:1.2em;"><a href="/wiki/Institute_for_Operations_Research_and_the_Management_Sciences" title="Institute for Operations Research and the Management Sciences">Institute for Operations Research and the Management Sciences</a> (INFORMS) </div></td></tr><tr><th scope="row">Frequency</th><td style="text-align:left;">Quarterly</td></tr><tr><th scope="row"><div style="padding:0.1em 0;line-height:1.2em;"><a href="/wiki/Impact_factor" title="Impact factor"><span class="wrap">Impact factor</span></a><br /><span style="font-weight:normal">(2016)</span></div></th><td style="text-align:left;">1.157</td></tr><tr><th colspan="2" style="text-align:center;background:#dfc;">Standard abbreviations<br /><span class="infobox-journal-search" style="display:none;"><a rel="nofollow" class="external text" href="https://marcinwrochna.github.io/abbrevIso/?search=Mathematics_of_Operations_Research">ISO 4</a> (<a rel="nofollow" class="external text" href="http://www.issn.org/services/online-services/access-to-the-ltwa/">alt</a>)&#160;<b>&#183;</b>&#32;<a href="/wiki/Wikipedia:WikiProject_Academic_Journals/Bluebook_journals" title="Wikipedia:WikiProject Academic Journals/Bluebook journals">Bluebook</a> (<a rel="nofollow" class="external text" href="https://lib.law.washington.edu/cilp/abbrev.html">alt1</a>&#160;<b>&#183;</b>&#32;<a rel="nofollow" class="external text" href="http://personal.psu.edu/dhk3/research/Bluebook/T-13.htm">alt2</a>)<br /><a rel="nofollow" class="external text" href="https://www.ncbi.nlm.nih.gov/nlmcatalog?term=0364-765X%5BISSN%5D">NLM</a> (<a rel="nofollow" class="external text" href="https://www.ncbi.nlm.nih.gov/nlmcatalog?term=Mathematics+of+Operations+Research%5BJournal%5D">alt</a>)&#160;<b>&#183;</b>&#32;<a rel="nofollow" class="external text" href="https://mathscinet.ams.org/msnhtml/serials.pdf">MathSciNet</a> (<a rel="nofollow" class="external text" href="https://mathscinet.ams.org/mathscinet/search/journals.html?journalName=0364-765X&amp;Submit=Search">alt</a> <img alt="Paid subscription required" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png" decoding="async" title="Paid subscription required" width="9" height="14" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/14px-Lock-red-alt-2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/18px-Lock-red-alt-2.svg.png 2x" data-file-width="597" data-file-height="947" />)</span></th></tr><tr><th scope="row"><div style="padding:0.1em 0;line-height:1.2em;"><a href="/wiki/ISO_4" title="ISO 4">ISO 4</a></div></th><td class="identifier" style="text-align:left;"><i>Math. Oper. Res.</i></td></tr><tr><th colspan="2" style="text-align:center;background:#dfc;">Indexing<span class="infobox-journal-search" style="display:none;"><br /><a rel="nofollow" class="external text" href="http://miar.ub.edu/issn/0364-765X">MIAR</a></span></th></tr><tr><th scope="row"><span class="type"><a href="/wiki/CODEN" title="CODEN">CODEN</a></span></th><td style="text-align:left;">MOREDQ</td></tr><tr><th scope="row"><span class="type"><a href="/wiki/International_Standard_Serial_Number" title="International Standard Serial Number">ISSN</a></span></th><td style="text-align:left;"><span class="value"><a rel="nofollow" class="external text" href="https://www.worldcat.org/search?fq=x0:jrnl&amp;q=n2:0364-765X">0364-765X</a></span>&#160;(print)<br /><a rel="nofollow" class="external text" href="https://www.worldcat.org/search?fq=x0:jrnl&amp;q=n2:1526-5471">1526-5471</a>&#160;(web)<br /></td></tr><tr><th scope="row"><span class="type"><a href="/wiki/Library_of_Congress_Control_Number" title="Library of Congress Control Number">LCCN</a></span></th><td style="text-align:left;"><a rel="nofollow" class="external text" href="https://lccn.loc.gov/76647217">76647217</a></td></tr><tr><th scope="row"><span class="type"><a href="/wiki/OCLC" title="OCLC">OCLC</a>&#160;no.</span></th><td style="text-align:left;"><a rel="nofollow" class="external text" href="https://www.worldcat.org/oclc/692909490">692909490</a></td></tr><tr><th colspan="2" style="text-align:center;background:#dfc;">Links</th></tr><tr><td colspan="2" style="text-align:center;text-align:left;">
+<ul><li><a rel="nofollow" class="external text" href="http://www.informs.org/Pubs/MOR">Journal homepage</a></li></ul>
+</td></tr></tbody></table>
+<p><i><b>Mathematics of Operations Research</b></i> is a <a href="/wiki/Peer_review" title="Peer review">peer-reviewed</a> <a href="/wiki/Scientific_journal" title="Scientific journal">scientific journal</a> first published in February 1976. It focuses on areas of mathematics relevant to the field of <a href="/wiki/Operations_research" title="Operations research">operations research</a> such as <a href="/wiki/Continuous_optimization" title="Continuous optimization">continuous optimization</a>, <a href="/wiki/Discrete_optimization" title="Discrete optimization">discrete optimization</a>, <a href="/wiki/Game_theory" title="Game theory">game theory</a>, <a href="/wiki/Machine_learning" title="Machine learning">machine learning</a>, simulation methodology, and <a href="/wiki/Stochastic_models" class="mw-redirect" title="Stochastic models">stochastic models</a>. The journal is published quarterly by <a href="/wiki/INFORMS" class="mw-redirect" title="INFORMS">INFORMS</a> (Institute for Operations Research and the Management Sciences), which also publishes other journals including <i><a href="/wiki/Operations_Research_(journal)" title="Operations Research (journal)">Operations Research</a></i> and <i><a href="/wiki/Management_Science_(journal)" title="Management Science (journal)">Management Science</a></i>. <i>Mathematics of Operations Research</i> is indexed by the <i><a href="/wiki/Journal_Citation_Reports" title="Journal Citation Reports">Journal Citation Reports</a></i>.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">&#91;2&#93;</a></sup> In 2014, it moved to "Issues in Advance", which publishes the articles online as they become available. The <a href="/wiki/H-index" title="H-index">H-index</a> of the journal is 50.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup>
+</p>
+<div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Notable_papers"><span class="tocnumber">2</span> <span class="toctext">Notable papers</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#References"><span class="tocnumber">3</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#External_links"><span class="tocnumber">4</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Mathematics_of_Operations_Research&amp;action=edit&amp;section=1" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The first issue of <i>Mathematics of Operations Research</i> was published in February 1976. The founding editor was then-professor at Stanford University, <a href="/w/index.php?title=Arthur_F._Veinott_Jr.&amp;action=edit&amp;redlink=1" class="new" title="Arthur F. Veinott Jr. (page does not exist)">Arthur F. Veinott Jr.</a> He then served as editor-in-chief until 1980, when the position was taken over by Stephen M. Robinson, who held the position until 1986. <a href="/wiki/Erhan_Cinlar" class="mw-redirect" title="Erhan Cinlar">Erhan Cinlar</a> served from 1987 to 1992, and was followed by <a href="/wiki/Jan_Karel_Lenstra" title="Jan Karel Lenstra">Jan Karel Lenstra</a> (1993-1998). Next was <a href="/wiki/G%C3%A9rard_Cornu%C3%A9jols" title="Gérard Cornuéjols">Gérard Cornuéjols</a> (1999-2003) and <a href="/wiki/Nimrod_Megiddo" title="Nimrod Megiddo">Nimrod Megiddo</a> (2004-2009). Finally came Uri Rothblum (2009-2012) and the current editor-in-chief Jim Dai (2012–present).<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">&#91;4&#93;</a></sup>
+</p><p>The journal's three initial areas were <a href="/wiki/Game_theory" title="Game theory">game theory</a>, stochastic systems, and mathematical programming, edited by <a href="/wiki/Robert_Aumann" title="Robert Aumann">Robert Aumann</a>, <a href="/w/index.php?title=Donald_Iglehart&amp;action=edit&amp;redlink=1" class="new" title="Donald Iglehart (page does not exist)">Donald Iglehart</a>, and <a href="/wiki/R._Tyrrell_Rockafellar" title="R. Tyrrell Rockafellar">R. Tyrrell Rockafellar</a>, respectively.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">&#91;5&#93;</a></sup> Currently, the journal has four areas: <a href="/wiki/Continuous_optimization" title="Continuous optimization">continuous optimization</a>, <a href="/wiki/Discrete_optimization" title="Discrete optimization">discrete optimization</a>, <a href="/wiki/Stochastic_models" class="mw-redirect" title="Stochastic models">stochastic models</a>, and game theory. They are edited by <a href="/w/index.php?title=Marc_Teboulle&amp;action=edit&amp;redlink=1" class="new" title="Marc Teboulle (page does not exist)">Marc Teboulle</a>, <a href="/w/index.php?title=Jens_Vygen&amp;action=edit&amp;redlink=1" class="new" title="Jens Vygen (page does not exist)">Jens Vygen</a>, <a href="/w/index.php?title=Adam_Shwartz&amp;action=edit&amp;redlink=1" class="new" title="Adam Shwartz (page does not exist)">Adam Shwartz</a>, and <a href="/w/index.php?title=Bernhard_von_Stengel&amp;action=edit&amp;redlink=1" class="new" title="Bernhard von Stengel (page does not exist)">Bernhard von Stengel</a>, respectively.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">&#91;6&#93;</a></sup>
+</p><p><i>Mathematics of Operations Research</i> has hosted articles written by four Nobel Prize-winning authors: Robert Aumann (Economics, 2005), Roger B. Myerson (Economics, 2007), Alvin E. Roth (Economics, 2012), and Lloyd S. Shapley (Economics 2012).<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">&#91;7&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Notable_papers">Notable papers</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Mathematics_of_Operations_Research&amp;action=edit&amp;section=2" title="Edit section: Notable papers">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The following papers have been cited most frequently:<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">&#91;8&#93;</a></sup>
+</p><p>1. <a href="/wiki/Roger_B._Myerson" class="mw-redirect" title="Roger B. Myerson">Roger B. Myerson</a>, “<a rel="nofollow" class="external text" href="http://pubsonline.informs.org/doi/abs/10.1287/moor.6.1.58">Optimal Auction Design</a>”, Mathematics of Operations Research 1981, vol 6:1, 58-73
+</p><p>2. A. Ben-Tal and <a href="/wiki/Arkadi_Nemirovski" title="Arkadi Nemirovski">Arkadi Nemirovski</a>, “<a rel="nofollow" class="external text" href="http://pubsonline.informs.org/doi/abs/10.1287/moor.23.4.769">Robust Convex Optimization</a>”, Mathematics of Operations Research 1998, vol 23:4, 769-805
+</p><p>3. M. R. Garey, D. S. Johnson, and Ravi Sethi, “<a rel="nofollow" class="external text" href="http://pubsonline.informs.org/doi/abs/10.1287/moor.1.2.117">The Complexity of Flowshop and Jobshop Scheduling</a>”, Mathematics of Operations Research 1976, vol 1:2, 117-129
+</p>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Mathematics_of_Operations_Research&amp;action=edit&amp;section=3" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-Stats-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-Stats_1-0">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://pubsonline.informs.org/page/moor/stats-history">"Mathematics of Operations Research: Stats &amp; History"</a>. INFORMS<span class="reference-accessdate">. Retrieved <span class="nowrap">21 November</span> 2013</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Mathematics+of+Operations+Research%3A+Stats+%26+History&amp;rft.pub=INFORMS&amp;rft_id=http%3A%2F%2Fpubsonline.informs.org%2Fpage%2Fmoor%2Fstats-history&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMathematics+of+Operations+Research" class="Z3988"></span><style data-mw-deduplicate="TemplateStyles:r879151008">.mw-parser-output cite.citation{font-style:inherit}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration{color:#555}.mw-parser-output .cs1-subscription span,.mw-parser-output .cs1-registration span{border-bottom:1px dotted;cursor:help}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png")no-repeat;background-position:right .1em center}.mw-parser-output code.cs1-code{color:inherit;background:inherit;border:inherit;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;font-size:100%}.mw-parser-output .cs1-visible-error{font-size:100%}.mw-parser-output .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration,.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-parser-output .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2em}</style></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://stang.sc.mahidol.ac.th/internal/if2004/pdf/OPER.pdf">Journal Citation Reports Year 2004 Science Edition</a> <a rel="nofollow" class="external text" href="https://web.archive.org/web/20120211173900/http://stang.sc.mahidol.ac.th/internal/if2004/pdf/OPER.pdf">Archived</a> 2012-02-11 at the <a href="/wiki/Wayback_Machine" title="Wayback Machine">Wayback Machine</a></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">"Mathematics of Operations Research". SCIMAGO.</span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text">“Mathematics of Operations Research: Stats and History”. Informs</span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">"Front Matter." Mathematics of Operations Research 1.1 (1976): n. pag. JSTOR. Web. 27 Apr. 2015.</span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text">"Front Matter." Mathematics of Operations Research 40.2 (2015): n. pag. JSTOR. Web. 30 Apr. 2015.</span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text">“Mathematics of Operations Research: Stats and History”.</span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text">“Mathematics of Operations Research: Most Cited Articles”. Informs</span>
+</li>
+</ol></div></div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Mathematics_of_Operations_Research&amp;action=edit&amp;section=4" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><span class="official-website"><span class="url"><a rel="nofollow" class="external text" href="http://www.informs.org/Pubs/MOR">Official website</a></span></span></li></ul>
+
+<!-- 
+NewPP limit report
+Parsed by mw1265
+Cached time: 20190212010344
+Cache expiry: 2073600
+Dynamic content: false
+CPU time usage: 0.220 seconds
+Real time usage: 0.334 seconds
+Preprocessor visited node count: 1215/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 20877/2097152 bytes
+Template argument size: 2066/2097152 bytes
+Highest expansion depth: 15/40
+Expensive parser function count: 2/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 5239/5000000 bytes
+Number of Wikibase entities loaded: 1/400
+Lua time usage: 0.102/10.000 seconds
+Lua memory usage: 2.74 MB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  304.898      1 -total
+ 56.57%  172.483      1 Template:Infobox_Journal
+ 30.56%   93.188      1 Template:Reflist
+ 27.90%   85.081      1 Template:Infobox
+ 22.73%   69.317      1 Template:Cite_web
+ 20.06%   61.161      1 Template:Namespace_detect
+ 10.87%   33.139      1 Template:Official_website
+  6.59%   20.105      1 Template:Infobox_journal/ISSN-eISSN
+  6.33%   19.289      1 Template:Infobox_journal/ISO_4_check
+  5.42%   16.514      2 Template:ISSN_link
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:14598196-0!canonical and timestamp 20190212010344 and revision id 840685118
+ -->
+</div><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Mathematics_of_Operations_Research&amp;oldid=840685118">https://en.wikipedia.org/w/index.php?title=Mathematics_of_Operations_Research&amp;oldid=840685118</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Publications_established_in_1976" title="Category:Publications established in 1976">Publications established in 1976</a></li><li><a href="/wiki/Category:Game_theory" title="Category:Game theory">Game theory</a></li><li><a href="/wiki/Category:Operations_research" title="Category:Operations research">Operations research</a></li><li><a href="/wiki/Category:Systems_journals" title="Category:Systems journals">Systems journals</a></li><li><a href="/wiki/Category:Mathematics_journals" title="Category:Mathematics journals">Mathematics journals</a></li><li><a href="/wiki/Category:INFORMS_academic_journals" title="Category:INFORMS academic journals">INFORMS academic journals</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Webarchive_template_wayback_links" title="Category:Webarchive template wayback links">Webarchive template wayback links</a></li><li><a href="/wiki/Category:Articles_with_outdated_impact_factors_from_2016" title="Category:Articles with outdated impact factors from 2016">Articles with outdated impact factors from 2016</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Mathematics+of+Operations+Research" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Mathematics+of+Operations+Research" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="/wiki/Mathematics_of_Operations_Research" title="View the content page [c]" accesskey="c">Article</a></span></li><li id="ca-talk"><span><a href="/wiki/Talk:Mathematics_of_Operations_Research" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+						<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+						<ul class="menu">
+													</ul>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="/wiki/Mathematics_of_Operations_Research">Read</a></span></li><li id="ca-edit" class="collapsible"><span><a href="/w/index.php?title=Mathematics_of_Operations_Research&amp;action=edit" title="Edit this page [e]" accesskey="e">Edit</a></span></li><li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Mathematics_of_Operations_Research&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+						<h3 id="p-cactions-label"><span>More</span></h3>
+						<ul class="menu">
+													</ul>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-interaction" aria-labelledby="p-interaction-label">
+			<h3 id="p-interaction-label">Interaction</h3>
+			<div class="body">
+								<ul>
+					<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Mathematics_of_Operations_Research" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Mathematics_of_Operations_Research" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Mathematics_of_Operations_Research&amp;oldid=840685118" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Mathematics_of_Operations_Research&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q4231910" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Mathematics_of_Operations_Research&amp;id=840685118" title="Information on how to cite this page">Cite this page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-coll-print_export" aria-labelledby="p-coll-print_export-label">
+			<h3 id="p-coll-print_export-label">Print/export</h3>
+			<div class="body">
+								<ul>
+					<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Mathematics+of+Operations+Research">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:ElectronPdf&amp;page=Mathematics+of+Operations+Research&amp;action=show-download-screen">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Mathematics_of_Operations_Research&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label">
+			<h3 id="p-lang-label">Languages</h3>
+			<div class="body">
+								<ul>
+					<li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Mathematics_of_Operations_Research" title="Mathematics of Operations Research – German" lang="de" hreflang="de" class="interlanguage-link-target">Deutsch</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Mathematics_of_Operations_Research" title="Mathematics of Operations Research – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target">Nederlands</a></li>				</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q4231910#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> This page was last edited on 11 May 2018, at 13:41<span class="anonymous-show">&#160;(UTC)</span>.</li>
+								<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+								<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+								<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+								<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+								<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+								<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+								<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Mathematics_of_Operations_Research&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+						<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>					</li>
+										<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.220","walltime":"0.334","ppvisitednodes":{"value":1215,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":20877,"limit":2097152},"templateargumentsize":{"value":2066,"limit":2097152},"expansiondepth":{"value":15,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":5239,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  304.898      1 -total"," 56.57%  172.483      1 Template:Infobox_Journal"," 30.56%   93.188      1 Template:Reflist"," 27.90%   85.081      1 Template:Infobox"," 22.73%   69.317      1 Template:Cite_web"," 20.06%   61.161      1 Template:Namespace_detect"," 10.87%   33.139      1 Template:Official_website","  6.59%   20.105      1 Template:Infobox_journal/ISSN-eISSN","  6.33%   19.289      1 Template:Infobox_journal/ISO_4_check","  5.42%   16.514      2 Template:ISSN_link"]},"scribunto":{"limitreport-timeusage":{"value":"0.102","limit":"10.000"},"limitreport-memusage":{"value":2875518,"limit":52428800}},"cachereport":{"origin":"mw1265","timestamp":"20190212010344","ttl":2073600,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Mathematics of Operations Research","url":"https:\/\/en.wikipedia.org\/wiki\/Mathematics_of_Operations_Research","sameAs":"http:\/\/www.wikidata.org\/entity\/Q4231910","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q4231910","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2007-12-07T06:54:02Z","dateModified":"2018-05-11T13:41:00Z","headline":"journal"}</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":133,"wgHostname":"mw1321"});});</script>
+	</body>
+</html>
